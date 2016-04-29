@@ -1,0 +1,71 @@
+/**
+ * Colors
+ */
+$black:                   #333;
+$blue:                    #575E96;
+$white:                   #fff;
+$gray:                    #999;
+$light-gray:              #f2f2f2;
+$lime:                    #CDDC39;
+$dark-gray:               #383838;
+$orange:                  #FF9800;
+$pink:                    #E91E63;
+
+$brand-primary:           #DBB780;
+$brand-success:           #8BCCA1;
+$brand-info:              #6A458E;
+$brand-warning:           #F4DC76;
+$brand-danger:            #EA0B00;
+
+$facebook-blue:           #3B5998;
+$google-plus-red:         #DC4E41;
+$twitter-blue:            #55ACEE;
+
+
+/**
+ *  Body
+ */
+$body-bg:                 #f3f6fa;
+$text:                    #555;
+
+
+/**
+ * Font-Awesome
+ */
+$fa-font-path:            "//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts";
+
+
+/**
+ *  Buttons
+ */
+$btn-border-radius-base:  0;
+$btn-border-radius-small: 0;
+$btn-border-radius-large: 0;
+$btn-default-color:       $black;
+$btn-default-bg:          transparent;
+$btn-default-border:      $brand-primary;
+
+
+/**
+ * Components
+ */
+$border-radius-base:      0;
+
+$box-shadow-small:        2px;
+$box-shadow-base:         3px;
+$box-shadow-large:        4px;
+
+$breadcrumb-active-color: darken($white, 20%);
+$breadcrumb-bg:           $brand-primary;
+$breadcrumb-color:        $white;
+$breadcrumb-padding-vertical: 10px;
+
+$well-bg:                 $white;
+$well-border:             transparent;
+
+/**
+ *  Navbar
+ */
+$navbar-height:           60px;
+$navbar-default-color:    #777;
+$navbar-default-bg:       $white;

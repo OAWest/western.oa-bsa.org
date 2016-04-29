@@ -1,0 +1,22 @@
+/**
+ * Home page
+ */
+main.index {
+  .container {
+    .row {
+      &.highlight {
+        margin: ($padding-base-vertical * 4) 0;
+
+        .well {
+          height: 300px;
+          text-align: center;
+
+          .visual {
+            height: 85px;
+            margin: $padding-base-vertical auto;
+          }
+        }
+      }
+    }
+  }
+}

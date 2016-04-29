@@ -1,0 +1,23 @@
+{
+  "name": "local.western.oa-bsa.org",
+  "description": "Western Region, Order of the Arrow, Boy Scouts of America",
+  "main": "",
+  "authors": [
+    "Brian Love <blove@webucator.com>"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.1",
+    "bourbon": "^4.2.7"
+  }
+}

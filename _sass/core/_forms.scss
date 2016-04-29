@@ -1,0 +1,14 @@
+/**
+ * Forms
+ */
+.form-control {
+  background-color: transparent !important;
+}
+
+.btn.btn-submit {
+  margin: ($padding-base-vertical * 3) 0;
+
+  @media (min-width: $screen-sm-min) {
+    margin: ($padding-large-vertical * 3) 0;
+  }
+}

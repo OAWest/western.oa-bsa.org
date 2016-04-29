@@ -1,0 +1,24 @@
+{
+  "name": "local.western.oa-bsa.org",
+  "version": "1.0.0",
+  "description": "Western Region, Order of the Arrow, Boy Scouts of America",
+  "scripts": {
+    "grunt": "grunt"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": "true",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-ts": "^5.5.0-beta.2",
+    "grunt-tslint": "^3.1.0",
+    "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}

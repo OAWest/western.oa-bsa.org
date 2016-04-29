@@ -1,0 +1,14 @@
+/**
+ * Bootstrap buttons
+ */
+.btn {
+  &.btn-default {
+    border-width: 2px;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: $white;
+    }
+  }
+}

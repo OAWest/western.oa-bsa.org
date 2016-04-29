@@ -1,0 +1,32 @@
+{
+  main: [
+    {
+      url: "/",
+      text: "Home"
+    },
+    {
+      url: "/calendar",
+      text: "Calendar"
+    },
+    {
+      url: "/leadership",
+      text: "Leadership"
+    },
+    {
+      url: "/program",
+      text: "Program"
+    },
+    {
+      url: "/resources",
+      text: "Resources"
+    },
+    {
+      url: "/sections",
+      text: "Sections"
+    },
+    {
+      url: "https://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",
+      text: "Trading Post"
+    }
+  ]
+}

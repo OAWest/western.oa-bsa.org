@@ -1,0 +1,85 @@
+/**
+ * Banner
+ */
+header.banner {
+  position: relative;
+  color: white;
+  cursor: default;
+  height: 100%;
+  width: 100%;
+  padding: ($padding-base-vertical * 8) 0;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-attachment: scroll;
+    background-color: #645862;
+    background: url("/images/banners/overlay.png") repeat top left;
+    z-index: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include retina-image($filename: '/images/banners/mountains', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 0;
+  }
+
+  .inner {
+    position: relative;
+    background: rgba(52, 27, 43, 0.5);
+    color: white;
+    display: inline-block;
+    padding: ($padding-base-vertical * 4) ($padding-base-horizontal * 4);
+    margin: ($padding-base-vertical * 2) ($padding-base-horizontal * 2);
+    text-align: center;
+    z-index: 2;
+
+    header {
+      display: inline-block;
+      border-bottom: solid 2px;
+      border-top: solid 2px;
+      margin: 0 0 2em;
+      padding: 3px 0;
+
+      h2 {
+        border-bottom: solid 2px;
+        border-top: solid 2px;
+        font-size: 2.5em;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        margin: 0;
+        position: relative;
+        text-transform: uppercase;
+        padding: ($padding-base-vertical * 2) 0;
+      }
+    }
+
+    p {
+      letter-spacing: 0.1em;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: inherit;
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    footer {
+      margin: 2em 0 0;
+    }
+  }
+}

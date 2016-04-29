@@ -1,0 +1,19 @@
+/**
+ * NLS
+ */
+.logo-nls {
+  @include retina-image($filename: '/images/logos/national-leadership-seminar', $background-size: 85px 88px, $extension: 'png', $retina-suffix: '@2x');
+  background-repeat: none;
+  height: 88px;
+  width: 85px;
+}
+
+/**
+ * Western Region
+ */
+.logo-western-region-white {
+  @include retina-image($filename: '/images/logos/western-region-white', $background-size: 326px 200px, $extension: 'png', $retina-suffix: '@2x');
+  background-repeat: none;
+  height: 200px;
+  width: 326px;
+}

@@ -1,0 +1,8 @@
+.baseDir.js
+.sass-cache
+.tscache
+.jekyll-metadata
+_site
+bower_components
+js/lib
+node_modules

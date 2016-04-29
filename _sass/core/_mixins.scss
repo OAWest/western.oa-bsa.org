@@ -1,0 +1,21 @@
+/**
+ *  Vertical Centering
+ */
+@mixin vcenter-block {
+    height:100%;
+    width:100%;
+    text-align: center;
+
+    &::before {
+        content: " ";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+    > .vcenter {
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
