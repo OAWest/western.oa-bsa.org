@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Welcome to the new Western Region OA Website"
+date:   2016-04-29 15:30:41 -0600
+description: "We just updated our website. Learn how we built it and join us!"
+categories: updates
+author: brian_love
+---
+Welcome to our new website. It's a fresh design that is mobile friendly. You can read more about how we built it and the technologies that we chose to use.
+
+We had 3 primary goals for our new website:
+1. New responsive design
+2. High speed performance
+3. Simple Git colloboration
+
+Here is what we ended up with.
+
+# Jekyll
+
+We use a static content website builder that is blog-aware named Jekyll. It's a funny name, but it's super powerful. Our website is precompiled on each team member's computer using Node + Ruby + Jekyll. This means that our site is super fast. All the web server does is serve you static files. There's no login, no database, and nothing to hack.
+
+We use HTML or Markdown for our website templates. This means that anyone can edit our website using a text editor. No complicated and cumbersome WYSIWYG editor.
+
+# GitHub
+
+Our website is powered by GitHub. In fact, anyone can fork our public GitHub repository. Want to help us? Just fork us and send a pull request.
+
+# Npm + Bower + Grunt
+
+We use the node package manager (npm) and bower for our dependency management. It helps to ensure that all developers are using the same source code for libraries that our website uses, such as Bootstrap, jQuery, Angular, etc. Then we use the Grunt task manager to put it all together. It handles compiling our TypeScript to JavaScript and our Sass to CSS as well as building our final site. It sounds complicated, but it makes our lives a lot easier.
+
+# Help
+
+Interested in learning more and helping us out? We'd love to have you join the team.

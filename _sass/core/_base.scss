@@ -10,6 +10,17 @@ body {
 
 
 /**
+ * Font
+ */
+body, input, select, textarea {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 1.75em;
+}
+
+
+/**
  *  AngularJS Cloaking
  */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
@@ -50,11 +61,11 @@ a {
   -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  color: #3fb1a3;
   text-decoration: none;
   border-bottom: dotted 1px;
 
   &:hover {
+    text-decoration: none;
     border-bottom-color: transparent;
   }
 }

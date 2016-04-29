@@ -21,7 +21,7 @@ unpublished: false
 
 # Plugins
 #whitelist: []
-#gems:      [jekyll-paginate]
+gems: [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
@@ -41,11 +41,12 @@ baseurl: "" # does not include hostname
 url: "http://western.oa-bsa.org"
 
 # Outputting
-permalink:     /:title.html
+permalink: /:title.html
 paginate: 10
 paginate_path: /page:num
-timezone:      null
-
+timezone: null
+reading_time: true
+words_per_minute: 200
 quiet:    false
 defaults: []
 
@@ -75,10 +76,13 @@ kramdown:
 
 include: ['_pages']
 
-# Site settings
+# Site Information
 title: Western Region, Order of the Arrow, BSA
-email: webmaster@western.oa-bsa.org
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Official website of the Western Region, Order of the Arrow, Boy Scouts of America
-twitter_username: jekyllrb
-github_username:  jekyll
+email:
+  webmaster: webmaster@western.oa-bsa.org
+url:
+  facebook: https://www.facebook.com/oawest
+  google_plus: https://plus.google.com/111522187744944747027#111522187744944747027
+  twitter: https://twitter.com/oawest

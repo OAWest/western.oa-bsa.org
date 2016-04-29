@@ -2,21 +2,89 @@
  * Home page
  */
 main.index {
-  .container {
-    .row {
-      &.highlight {
-        margin: ($padding-base-vertical * 4) 0;
+  section.highlights {
+    margin: ($padding-base-vertical * 8) 0;
+    text-align: center;
 
-        .well {
-          height: 300px;
+    .container {
+      .row {
+        &.actions {
           text-align: center;
+          margin: $padding-base-vertical 0;
+        }
 
-          .visual {
-            height: 85px;
-            margin: $padding-base-vertical auto;
+        h4 {
+          height: ($line-height-computed * 3);
+          margin: ($padding-base-vertical * 2) 0;
+        }
+
+        .visual {
+          margin: $padding-base-vertical auto;
+
+          .logo-nls {
+            display: inline-block;
+          }
+
+          .chief {
+            height: 200px;
+            width: 138px;
           }
         }
       }
+    }
+  }
+
+  section.posts {
+    margin: ($padding-base-vertical * 8) 0;
+
+    .container {
+      .row {
+        .panel.post {
+          background: $white;
+
+          .panel-heading {
+            padding: ($padding-base-vertical * 4) ($padding-base-horizontal * 4) 0;
+            text-transform: uppercase;
+            color: $gray;
+            font-weight: 400;
+            font-size: floor($font-size-base * 0.8);
+
+            a {
+              color: $gray;
+              border-color: transparent;
+            }
+
+            .post-date {
+
+            }
+
+            .post-author {
+
+            }
+
+            .post-reading-time {
+              float: right;
+            }
+          }
+
+          .panel-body {
+            padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+          }
+
+          .panel-footer {
+            padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    section.highlights {
+      margin: ($padding-base-vertical * 12) 0;
+    }
+    section.posts {
+      margin: ($padding-base-vertical * 12) 0;
     }
   }
 }

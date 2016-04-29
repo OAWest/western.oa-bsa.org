@@ -3,48 +3,119 @@ layout: default
 ---
 {% include banner.html %}
 <main class="index">
-  <div class="container">
-    <div class="row highlight">
-      <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-        <div class="well">
+  <section class="highlights">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
           <h4>NLS &amp; NLATS</h4>
-          <div class="logo-nls visual"></div>
+          <div class="visual">
+            <div class="logo-nls"></div>
+          </div>
           <p>The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
+          <h4>2016 Western Region Chief Joe Garcia</h4>
+          <div class="visual">
+            <img src="/images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" class="chief">
+          </div>
+          <p>Joe is from the Grand Canyon Council in Phoenix, AZ. He is an Eagle Scout and Vigil Honor member of Wipala Wiki Lodge.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
+          <h4>Calendar</h4>
+          <div class="visual">
+            <i class="fa fa-calendar fa-4x"></i>
+          </div>
+          <p>Get the latest scoop on events in the region.</p>
+        </div>
+      </div>
+      <div class="row actions">
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
           <a href="/programs/nls" class="btn btn-default">Learn More</a>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-        <div class="well">
-          <h4>2016 Western Region Chief</h4>
-          <img src="/images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" class="visual">
-          <p>Joe Garcia</p>
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
           <a href="/leadership/chief" class="btn btn-default">Meet Joe</a>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-        <div class="well">
-          <h4>Calendar</h4>
-          <i class="fa fa-calendar fa-4x visual"></i>
-          <p>Get the latest scoop on events in the region.</p>
+        <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
           <a href="/calendar" class="btn btn-default">Region Calendar</a>
         </div>
       </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <ul class="post-list">
-            {% for post in site.posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-            </li>
+  </section>
+  <section class="posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          {% for post in paginator.posts %}
+            <div class="panel post">
+              <div class="panel-heading">
+                <span class="post-date date">
+                  <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+                  </time>
+                </span>
+                {% assign author = site.data.authors[post.author] %}
+                {% if author %}
+                  <span class="post-author">by
+                    {% if author.url %}
+                      <a href="{{ author.url }}" target="_blank">
+                    {% endif %}
+                    {{ author.name }}
+                    {% if author.url %}
+                      </a>
+                    {% endif %}
+                  </span>
+                {% endif %}
+                {% if site.reading_time %}
+                  <span class="post-reading-time">
+                    <i class="fa fa-clock-o"></i>
+                    {% include read-time-index.html %}
+                  </span>
+                {% endif %}
+              </div>
+              <div class="panel-body">
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                {{ post.excerpt }}
+              </div>
+            </div>
           {% endfor %}
-        </ul>
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+          {% include pagination.html %}
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+  <section class="announcements">
+    <div class="container-fluid">
+      <div class="row announcement-visual">
+        <div class="col-xs-12">
+          <a href="//www.oa-bsa.org/pages/category/category/next-2016" target="_blank">
+            <div class="announcement announcement-2016-04-29-NEXT"></div>
+          </a>
+        </div>
+      </div>
+      <div class="row announcement-text">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <h2>NEXT: 2016</h2>
+          <p class="lead">This summer, OA youth leaders and key adults from across the nation will gather at Indiana University for the 2016 national event, <strong>NEXT: A New Century</strong>.</p>
+          <a href="//www.oa-bsa.org/pages/category/category/next-2016" class="btn btn-lg btn-default">Learn More</a>
+        </div>
+      </div>
+      <div class="row announcement-visual">
+        <div class="col-xs-12">
+          <a href="//event.oa-bsa.org/events/jambo2017/" target="_blank">
+            <div class="announcement announcement-2016-04-29-Operation-Arrow"></div>
+          </a>
+        </div>
+      </div>
+      <div class="row announcement-text">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <h2>Operation Arrow</h2>
+          <p class="lead">Over 750 youth Arrowmen will serve on one of three primary OA program areas at the 2017 National Scout Jamboree: the Service Corps, the Trek Guides and the Indian Village.</p>
+          <a href="//event.oa-bsa.org/events/jambo2017/" class="btn btn-lg btn-default">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>

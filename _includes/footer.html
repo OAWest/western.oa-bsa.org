@@ -1,38 +1,69 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2 leadership">
+        <h4>Leadership</h4>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="/leadership/chief">Region Chief</a></li>
+            <li><a href="/leadership/region-chairman">Region Chairman</a></li>
+            <li><a href="/leadership/region-staff-advisor">Region Staff Advisor</a></li>
+            <li><a href="/leadership/section-chiefs">Section Chiefs</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2 training">
+        <h4>Training</h4>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="/program/training/nls">National Leadership Seminar (NLS)</a></li>
+            <li><a href="/program/training/nlats">National Lodge Advisor Training Seminar (NLATS)</a></li>
+            <li><a href="/program/training/dylc">Developing Youth Leaders Conference (DYLC)</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2 events">
+        <h4>Events</h4>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="/program/events/gathering">Region Gathering</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2 resources">
+        <h4>Resources</h4>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="/resources/jte">Journey To Excellence (JTE)</a></li>
+            <li><a href="/resources/maps">Maps</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2 about-us">
+        <h4>About Us</h4>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="/about-us/profile">Region Profile</a></li>
+            <li><a href="/about-us/contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-xs-12 social">
+        <a href="{{ site.url.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="{{ site.url.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 description">
+         {{ site.description }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 copyright">
+        &copy; {{ site.time | date: "%Y" }}
+      </div>
+    </div>
   </div>
-
 </footer>

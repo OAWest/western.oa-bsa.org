@@ -9,6 +9,7 @@ header.banner {
   width: 100%;
   padding: ($padding-base-vertical * 8) 0;
   text-align: center;
+  overflow: hidden;
 
   &::before {
     content: "";

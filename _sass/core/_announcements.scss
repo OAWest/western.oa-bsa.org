@@ -1,0 +1,59 @@
+/**
+ * Announcements
+ */
+.announcements {
+  .container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .row {
+
+      &.announcement-visual {
+        .announcement {
+          background-color: $white;
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 200px;
+        }
+      }
+
+      &.announcement-text {
+        text-align: center;
+        padding: ($padding-base-vertical * 8) 0;
+        box-shadow: inset 0px $box-shadow-base $box-shadow-base (-$box-shadow-base) $gray, inset 0px (-$box-shadow-base) $box-shadow-base (-$box-shadow-base) $gray;
+
+        &:last-child {
+          box-shadow: inset 0px $box-shadow-base $box-shadow-base (-$box-shadow-base) $gray;
+        }
+
+        .lead {
+          font-size: $font-size-h4;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .container-fluid {
+      .row {
+        &.announcement-text {
+          padding: ($padding-base-vertical * 10) 0;
+        }
+      }
+    }
+  }
+}
+
+
+/**
+ * Announcements
+ */
+.announcement-2016-04-29-NEXT {
+  @include retina-image($filename: '/images/announcements/2016-04-29-NEXT', $background-size: 958px 200px, $extension: 'jpg', $retina-suffix: '@2x');
+}
+.announcement-2016-04-29-Operation-Arrow {
+  @include retina-image($filename: '/images/announcements/2016-04-29-Operation-Arrow', $background-size: 960px 200px, $extension: 'jpg', $retina-suffix: '@2x');
+}

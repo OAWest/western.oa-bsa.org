@@ -10,6 +10,9 @@
 -------------------------------------------------------------------------------
 */
 
+/*import fonts*/
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,500,900");
+
 /*import core libraries and sass code */
 @import
   "core/variables",
@@ -17,12 +20,14 @@
   "../bower_components/font-awesome/scss/font-awesome",
   "../bower_components/bourbon/app/assets/stylesheets/bourbon",
   "core/mixins",
+  "core/announcements",
   "core/base",
-  "core/logos",
+  "core/banner",
   "core/buttons",
+  "core/footer",
   "core/forms",
-  "core/navbar",
-  "core/banner"
+  "core/logos",
+  "core/navbar"
 ;
 
 /*
