@@ -1,0 +1,33 @@
+---
+layout: post
+title: Web Team
+joomla_id: 42
+joomla_url: web-team
+date: 2012-09-16 22:17:11.000000000 -06:00
+---
+<table border="0" cellspacing="0" cellpadding="0" style="width: 300px;">
+<tbody>
+<tr>
+<td><b>Youth Webmaster</b></td>
+<td><a href="index.php?option=com_contact&amp;view=contact&amp;catid=14:contact&amp;id=25-zackary-crosley&amp;Itemid=217">Zack Crosley</a></td>
+</tr>
+<tr>
+<td><b>Web Adviser</b></td>
+<td><a href="index.php?option=com_contact&amp;view=contact&amp;catid=14:contact&amp;id=5-bruce-mayfield&amp;Itemid=217">Bruce Mayfield</a></td>
+</tr>
+<tr>
+<td><b>Administrative Support</b></td>
+<td><a href="index.php?option=com_contact&amp;view=contact&amp;catid=14:contact&amp;id=9-ken-hayashi&amp;Itemid=217">Ken Hayashi</a></td>
+</tr>
+<tr>
+<td><b>Technology Support</b></td>
+<td><a href="index.php?option=com_contact&amp;view=contact&amp;catid=4:uncategorised&amp;id=39-ben-bodenmiller">Ben Bodenmiller</a></td>
+</tr>
+<tr>
+<td><b>Technology Support</b></td>
+<td><a href="index.php?option=com_contact&amp;view=contact&amp;catid=14:contact&amp;id=14-rob-rosamond&amp;Itemid=217">Rob Rosamond</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>We appreciate your feedback. Please send corrections, additions, and/or suggestions to the Web Coordinator or Web Adviser.</p>

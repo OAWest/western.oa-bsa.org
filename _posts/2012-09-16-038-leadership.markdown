@@ -1,0 +1,18 @@
+---
+layout: post
+title: Region Leadership
+joomla_id: 38
+joomla_url: leadership
+date: 2012-09-16 22:06:12.000000000 -06:00
+---
+<p><span class="title">Region Key 3</span>
+</p>
+<p><strong>Region Chief</strong> - <a href="http://www.western.oa-bsa.org/leadership/chief">Joe Garcia - Meet the Chief</a>
+</p>
+<p>The region chief is the youth leader of the region elected by the section chiefs from that region at the national planning meeting. He must be under 21 years of age during the entire term of office and will serve until a successor is elected. The election is held following the election of the national chief and national vice-chief.</p>
+<p><strong>Region Chairman</strong> - <a href="/leadership/region-chairman">Toby Capps</a>
+</p>
+<p>The volunteer leader in the region is the region Order of the Arrow chairman. Appointed annually by the region director, he is responsible for administering and monitoring the program regionally, with a special emphasis placed on his role as adviser to the region chief.</p>
+<p><strong>Region Staff Adviser</strong> - <a href="leadership/region-staff-adviser">Steve Sawyer</a>
+</p>
+<p>The region staff adviser is appointed by the region director. He represents the region director in all Order of the Arrow operations within the region. His duties include regular communication and counsel with the region chairman and region chief.</p>

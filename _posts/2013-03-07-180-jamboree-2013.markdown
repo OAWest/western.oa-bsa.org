@@ -1,0 +1,9 @@
+---
+layout: post
+title: Jamboree 2013
+joomla_id: 180
+joomla_url: jamboree-2013
+date: 2013-03-07 17:49:13.000000000 -07:00
+---
+<p><img src="images/project2013/Go Big Go Wild.jpg" alt="" align="right" width="206" height="365" />Have you signed up for the Jamboree staff yet? There are still spots available to attend as OA staff! Order of the Arrow staff at Jamboree get to attend at a reduced price and get to enjoy some of the Jamboree events before the event even opens! If you haven't signed up for the Jamboree yet, go to&nbsp;<a href="https://summit.scouting.org/en/Jamboree2013/Pages/Staff.aspx">register today</a>! You will be glad you did!</p>
+<p>If you have already registered, head over to <a href="http://facebook.com/oawest">our Facebook page</a> and tell us where you will be working to put on one of the best events scouting can offer!</p>

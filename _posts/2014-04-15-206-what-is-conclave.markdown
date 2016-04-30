@@ -1,0 +1,22 @@
+---
+layout: post
+title: What is Conclave?
+joomla_id: 206
+joomla_url: what-is-conclave
+date: 2014-04-15 23:34:04.000000000 -06:00
+---
+<h2>&nbsp;What is Conclave?</h2>
+<h6>Written by Zach Herzog, Contributor</h6>
+<p>&nbsp;</p>
+<p>Arrowmen all over the Western Region are looking forward to this year’s conclave season— which will take place in various sections during April, May, September, and October—as a chance for section members to reunite and reaffirm their bonds of brotherhood through various activities.</p>
+<p>Conclave is an event put on by the leadership of the section for all of the lodges in the area to enjoy. With a set theme for the year, the section chief, vice chief, and secretary work with the conclave vice chiefs (CVCs) that are nominated by each lodge to produce an outstanding program of leadership, service, and training.</p>
+<p>Each section has some of its own conclave traditions, but all conclaves share the same elements that make conclave one of the best experiences in the Order of the Arrow:</p>
+<ol>
+	<li><strong>1. Shows</strong>—Perhaps one of the best parts of conclave. With all sorts of awesome conclave themes all across the region, the shows connect the theme to the training while also setting the tone for the weekend. Section Chief Chris Zantek of Section W-1N shared that in his section, “before the shows begin, the section's five lodges are battling on who can yell the loudest.” Zantek believes that the shows really unite the Conclave. “Our section's shows [committee] put on a fantastic program that inspires and empowers arrowmen to put aside rivalries and join together in the bonds of brotherhood,” said Zantek.</li>
+	<li><strong>2. Training</strong>—Section leaders offer many premier and outstanding training sessions at conclaves. This year, Section W-3N is introducing a new style of interactive training. “It is a new model that focuses on training arrowmen to a more specialized level on a specific topic and is entirely activity based,” said former Section Vice Chief, Zackary Crosley. In addition to the unique sessions only available to the arrowmen in each area, Conclave also offers Lodges the chance to participate in the nationally mandated Conclave Training Initiative—a national program that helps further our order.</li>
+	<li><strong>3. Ceremonies</strong>—There are great opportunities at conclaves for lodge ceremonies teams to get help and support from others across the section. Many sections offer ceremony evaluations to give teams feedback from experts and coaches in different lodges. Section W-5S is expanding its ceremonies evaluations this year. Former Section Chief Dillon Giles explained, “In the past the only ceremony that was offered for evaluation was the pre-ordeal. This year not only will we have the Pre-Ordeal, but also Brotherhood and Vigil evaluations.”</li>
+	<li><strong>4. Activities</strong>—Conclaves across the region are known for featuring some crazy fun events. In Section W-6W, the Dunk Tank and Lodgeball are a few of the participant’s favorite activities. Former Section Chief Vianney Careaga also mentioned the Lodge Chief Olympics as one of the section’s best activities. Describing the event, Careaga said, “Lodge chiefs participate in fun activities to see which chief is truly the best; activities range from eating sardines, chugging bottles of sodas, doing cart wheels, and sometimes dressing up in weird attire.”</li>
+	<li><strong>5. Brotherhood</strong>—Community and friendship are the very ties that bind each of us in the Order together. As our founder E. Urner Goodman said, “The Order of the Arrow is a 'thing of the spirit'.” This spirit can only be experienced by signing-up and diving in to all of the local events in your area.</li>
+</ol>
+<p>By signing up for Conclave, Arrowmen across the region are sure to experience all these features and more! Check out the list below to find out when your conclave is, and contact your local section chief for more information!</p>
+<p><strong>April 4-6</strong><br /> Section W-5S<br /><strong>April 11-13</strong><br /> Section W-6E<br /><strong>April 25-27</strong><br /> Section W-1N<br /> Section W-2N<br /> Section W-3S<br /> Section W-5N<br /><strong>May 16-18</strong><br /> Section W-2S<br /><strong>September 5-7</strong><br /> Section W-1S<br /> Section W-6P<br /> Section W-3N<br /><strong>September 19-21</strong><br /> Section W-1E<br /> Section W-4N<br /><strong>October 10-12</strong><br /> Section W-4S<br /><strong>October 17-19</strong><br /> Section W-6W&nbsp;</p>

@@ -1,0 +1,33 @@
+---
+layout: post
+title: OA Trail Crew
+joomla_id: 155
+joomla_url: oa-trail-crew
+date: 2012-09-17 01:24:02.000000000 -06:00
+---
+<p><a href="http://adventure.oa-bsa.org/index.php?p=trailcrew" target="_blank"><img src="images/philmont.gif" border="0" align="right" alt="Philmont Logo - Click for more info on OA Trail Crew"></a>The Order of the Arrow is offering you an opportunity to join other Arrowmen 
+  in cheerful service and the formation of lasting brotherhood on the trails of 
+  Philmont Scout Ranch. Under the direction of the Philmont Conservation Department, 
+  experienced Philmont staff members with strong Order of the Arrow backgrounds 
+  will lead participants on the two week trail crew and trek. </p>
+<p>The program is a fourteen day experience. The first week focuses on trail construction 
+  and maintenance under the guidance of Philmont trail crew foremen. The second 
+  week is a seven day backpacking trek that is designed by the participants. The 
+  program is not simply building trail and hiking though, the OA Trail Crew is 
+  ultimately a journey that challenges Scouts mentally, physically, and spiritually.</p>
+<p>Trail building is tough. The worksite experience is full of long, strenuous 
+  days requiring a great deal of physical effort. Participants are expected to 
+  work with great diligence as the trail that is being built is designed to last 
+  over 75 years and protect the beautiful landscape of Philmont Scout Ranch. Other 
+  than trail building techniques, Scouts will strengthen their leadership skills, 
+  learn advanced wilderness and low-impact camping skills, observe and participate 
+  in group wilderness safety, good judgment, and motivation activities, and receive 
+  special OA instruction.</p>
+<p>The project's mission is to maintain, reinforce, and enhance the purpose of 
+  the Order of the Arrow by using Scout camping traditions. Participants are expected 
+  to use their experience to benefit their troop, chapter, lodge and council programs. 
+  Camping is a method of Scouting that enhances and builds stronger programs and 
+  people.</p>
+<p>For more information on the OA Trail Crew, see the <a href="http://adventure.oa-bsa.org/index.php?p=trailcrew" target="_blank">OA 
+  Trail Crew Information Site</a>.</p>
+<p>To read a couple feature stories of one Western Region Arrowmen's experiences, <a HREF="program/opportunities/trailcrew_feature1.php">click here</a> or <a HREF="program/opportunities/trailcrew_feature2.php">click here</a>.</p>

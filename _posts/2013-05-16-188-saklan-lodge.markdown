@@ -1,0 +1,9 @@
+---
+layout: post
+title: Saklan Lodge
+joomla_id: 188
+joomla_url: saklan-lodge
+date: 2013-05-16 20:31:15.000000000 -06:00
+---
+<p><img src="images/esselenflap.png" alt="" width="328" align="right" /><br /><img src="images/images.jpg" alt="" align="right" /></p>
+<p>The Newest OA Lodge has just been named &nbsp;here in the Western Region! The Miwok and Esselen Lodges in Section W3S have just merged to form the new Lodge Saklan, named for their totem the Banana Slug! &nbsp;Currently no Lodge Flap has been released, but we all across the Region look forward to seeing the creation patch of our newest lodge!&nbsp;Congradulations to our newest Lodge, and we all look forward to seeing you represented at Jamboree this year!</p>

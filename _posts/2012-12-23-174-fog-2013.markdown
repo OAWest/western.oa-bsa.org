@@ -1,0 +1,17 @@
+---
+layout: post
+title: FOG 2013
+joomla_id: 174
+joomla_url: fog-2013
+date: 2012-12-23 00:36:54.000000000 -07:00
+---
+<p>Brothers of the Western Region,<a href="resources/sections"><img src="images/FOG.jpg" alt="" align="right" width="134" height="174" /></a></p>
+<p>Did you know that the&nbsp;<a class="doclink" href="index.php?option=com_docman&amp;task=doc_download&amp;gid=40&amp;Itemid=262">Field Officers Guide 2013</a> has been updated for 2013? &nbsp;The changes that have been made to the document are as follows:</p>
+<ul>
+<li>The appendices have been updated and renumbered due to the removal of Appendix 5 Summary of Insurance Plans</li>
+<li>The material about accident &amp; sickness liability insurance in chapters 2 and 4 have been updated</li>
+<li>Changes have been made to the section conclave report and the sample conclave final financial statement.</li>
+</ul>
+<p>Check out these important changes on the <a href="resources/sections">Resources for Section</a> page.</p>
+<p>Yours in the WWW,</p>
+<p>Western Region</p>

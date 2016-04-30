@@ -1,0 +1,10 @@
+---
+layout: post
+title: Contact Us
+joomla_id: 161
+joomla_url: contact-us
+date: 2012-09-18 06:05:39.000000000 -06:00
+---
+<?php
+include('/home/western/public_html/contact_files/index.php');
+?>

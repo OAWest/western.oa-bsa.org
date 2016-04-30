@@ -1,0 +1,8 @@
+---
+layout: post
+title: November 2012 NLS
+joomla_id: 166
+joomla_url: november-2012-nls
+date: 2012-10-04 18:35:27.000000000 -06:00
+---
+<p>&nbsp;&nbsp;</p>

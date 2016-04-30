@@ -1,0 +1,420 @@
+---
+layout: post
+title: Sections
+joomla_id: 139
+joomla_url: sections
+date: 2012-09-16 23:21:49.000000000 -06:00
+---
+<?php
+    $pass = "2.72caBin";
+    $user = "western_local";
+    $server = "localhost";
+
+    if(isset($_GET['lodge']))
+    {
+        $db = mysql_connect($server, $user, $pass);
+        mysql_select_db("western_joomla", $db) or die(mysql_errno() . ": " . mysql_error() . "<br>");
+                   
+        $sql =  "SELECT * FROM lodges
+                 WHERE `council_number`='" . $_GET['lodge'] . "'
+                ";
+                
+        if ($result=mysql_query($sql)) 
+        {
+            if ($lodge=mysql_fetch_array($result))
+            {
+            echo "
+                <h2 class=\"section\" align=\"center\">" . $lodge["lodge_name"] . " Lodge</h2>
+                <h3 align=\"center\">" . $lodge["council_name"] . " Council (#" . $lodge["council_number"] . ")</h3>
+                <table align=\"center\" cellpadding='20'>
+                    <tr><td>";
+                        
+                        
+                        if( file_exists("/home/western/public_html/images/lodges/flaps/" . $lodge["council_number"] . ".gif"))
+                            echo "<image src=\"images/lodges/flaps/" . $lodge["council_number"] . ".gif\">";
+                        else
+                            echo "<image src=\"images/lodges/flaps/blankflap.gif\">";
+                        echo "<p align=\"center\" style=\"font-weight: bold;\"><a href=\"sections/?section=W-" . $lodge["area_number"] . $lodge["section_name"] . "\">Back to Section W-" . $lodge["area_number"] . $lodge["section_name"] . " Map</a></p>";
+                            
+            echo "
+                    </td><td>";
+//              Website
+                    echo "<p><b>Website: </b><ul>";
+                    if(is_null( $lodge["lodgeweb"] ) )
+                        echo "<li><i>none</i></li>";
+                    else
+                        echo "<li><a href=\"http://" . $lodge["lodgeweb"] . "\" target=\"_blank\">" . $lodge["lodgeweb"] . "</a></li>";
+                    echo "</ul>";  
+                    
+//              Section
+                    echo "<p><b>Section: </b><ul>";
+                    echo "<li><a href=\"sections/?section=W-" . $lodge["area_number"] . $lodge["section_name"] . "\">W-" . $lodge["area_number"] . $lodge["section_name"] . "</a></li>";
+                    echo "</ul>";        
+                      
+//              Location
+                    echo "<p><b>Location: </b><ul>";
+                    echo "<li>" . $lodge["location"] . "</li>";
+                    echo "</ul>";  
+                    
+//              Headquarters
+                    echo "<p><b>Headquarters: </b><ul>";
+                    echo "<li>" . $lodge["council_city"] . ", " . $lodge["council_state"] . "</li>";
+                    echo "</ul>";
+                    
+//              Leaderships
+                    echo "<p><b>Leadership: </b><ul>";
+                    $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+                                WHERE members.id=positions.member_id
+						  AND `org`='" . $lodge["council_number"] . "' AND `position`='Lodge Chief'
+                            ";
+                    if ($result=mysql_query($sql)) 
+                    {
+                        while ($member=mysql_fetch_array($result))
+                        {
+                            echo "<li><b>Chief: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                        }
+                    }
+                    else
+                        die("Database Error: $sql");
+                    $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+                                WHERE members.id=positions.member_id
+						  AND `org`='" . $lodge["council_number"] . "' AND `position`='Lodge Adviser'
+                            ";
+                    if ($result=mysql_query($sql)) 
+                    {
+                        while ($member=mysql_fetch_array($result))
+                        {
+                            echo "<li><b>Adviser: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                        }
+                    }
+                    else
+                        die("Database Error: $sql"); 
+                
+                    $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+                                WHERE members.id=positions.member_id
+						  AND `org`='" . $lodge["council_number"] . "' AND `position`='Lodge Staff Adviser'
+                            ";
+                    if ($result=mysql_query($sql)) 
+                    {
+                        while ($member=mysql_fetch_array($result))
+                        {
+                            echo "<li><b>Staff Adviser: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                        }
+                    }
+                    else
+                        die("Database Error: $sql"); 
+
+                    $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+                                WHERE members.id=positions.member_id
+						  AND `org`='" . $lodge["council_number"] . "' AND `position`='Scout Executive'
+                            ";
+                    if ($result=mysql_query($sql)) 
+                    {
+                        while ($member=mysql_fetch_array($result))
+                        {
+                            echo "<li><b>Scout Executive: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                        }
+                    }
+                    else
+                        die("Database Error: $sql"); 
+
+                        
+                    echo "</ul>";
+            echo "</td></tr>
+				<tr><td colspan=2>
+				<br><b>Corrections?  Updates?</b>  Send them to <a href=\"/about-us/contact-us/9-ken-hayashi\">Western Region Administration</a>.
+				</td></tr>
+			</table>";
+
+
+            }
+        }
+    }
+    else if(isset($_GET['section']))
+    {
+        $area = $_GET['section'][2];
+        $section = $_GET['section'][3];
+                
+        echo "
+            <h2 class=\"section\" align=\"center\" size=\"\">Section W-" . $area . $section . "</h2>
+            <table align=\"center\" cellpadding='20'>
+                <tr>
+                    <td>
+                        <image src=\"images/sections/maps/Section%20W-" . $area . $section . ".gif\">
+                        <br />
+                        <p align=\"center\" style=\"font-weight: bold;\"><a href=\"sections/\">Back to Region Map</a></p>
+                    </td>
+                    <td>";
+                    
+                    $db = mysql_connect($server, $user, $pass);
+                    mysql_select_db("western_joomla", $db) or die(mysql_errno() . ": " . mysql_error() . "<br>");
+                   
+                    $sql =  "SELECT * FROM sections
+                                WHERE `area`='$area' AND `section`='$section'
+                            ";
+//              Website
+                    if ($result=mysql_query($sql)) 
+                    {
+                        if ($sectionData=mysql_fetch_array($result))
+                        {
+                            echo "<p><b>Website: </b><ul>";
+                            if(is_null( $sectionData["sectionweb"] ) )
+                                echo "<li><i>none</i></li>";
+                            else
+                                echo "<li><a href=\"http://" . $sectionData["sectionweb"] . "/\" target=\"_blank\">" . $sectionData["sectionweb"] . "</a><br>";
+							if(! is_null($sectionData["sectionfacebook"])) print "<a href=\"".$sectionData["sectionfacebook"]."\" target=\"_blank\"><img src=\"images/social/facebook.png\" alt=\"Facebook\"></a> &nbsp;";
+							if(! is_null($sectionData["sectiontwitter"])) print "<a href=\"".$sectionData["sectiontwitter"]."\" target=\"_blank\"><img src=\"images/social/twitter.png\" alt=\"Twitter\"></a>";
+							print "</li>";
+                        }
+                        echo "</ul></p>";
+                    }
+                    else
+                        die("Database Error: $sql");
+//              Name
+                    if(! is_null($sectionData["sectionname"]))
+                    {
+                            echo "<p><b>Name: </b><ul>";
+                            echo "<li><i>" . $sectionData["sectionname"] . "</i></li>";
+                            echo "</ul></p>";
+                    }
+                    
+//              Lodges:
+                    $sql =  "SELECT * FROM lodges
+                                WHERE `area_number`='$area' AND `section_name`='$section' ORDER BY `lodge_name`
+                            ";
+                    if ($result=mysql_query($sql)) 
+                    {
+                        echo "<p><b>Lodges:</b>".nl2br(chr(10));
+                        while ($lodge=mysql_fetch_array($result))
+                        {
+                            if( file_exists("/home/western/public_html/images/sections/maps/key/" . $lodge["council_number"] . ".gif"))
+                                echo "<img src='/images/sections/maps/key/" . $lodge["council_number"] . ".gif'> ";
+                            echo "<a href=\"sections/?lodge=" . $lodge["council_number"] . "\">" . $lodge["lodge_name"] . "</a>".nl2br(chr(10));
+                        }
+                        echo nl2br(chr(10))."</p>";
+                    }
+                    else
+                        die("Database Error: $sql");  
+                                            
+//              Section Officers        
+                    echo "<p><b>Officers:</b><ul>";
+                    
+                    // Section Chief
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+                                WHERE members.id=positions.member_id
+						  AND org='".$_GET['section']."' AND `position`='Section Chief'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Chief: </b>";
+								if ($member["contact_id"] > 0) print "<a href='/about-us/contact-us/" . $member['contact_id'] . "-" . $member['alias'] . "'>";
+								print $member["firstname"]." ".$member["lastname"];
+								if ($member["contact_id"] > 0) print "</a>";
+								echo "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql"); 
+                    // Section Vice Chief
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+          	                      WHERE members.id=positions.member_id
+							  AND org='".$_GET['section']."' AND `position`='Section Vice Chief'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Vice Chief: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql");
+                     // Section Secretary
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+	                                WHERE members.id=positions.member_id
+							  AND org='".$_GET['section']."' AND `position`='Section Secretary'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Secretary: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql"); 
+                        echo "</ul></p>";
+                        
+//              Section Advisers        
+                    echo "<p><b>Advisers:</b><ul>";
+                    
+                    // Section Adviser
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+          	                      WHERE members.id=positions.member_id
+							  AND org='".$_GET['section']."' AND `position`='Section Adviser'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Adviser: </b>";
+								if ($member["contact_id"] > 0) print "<a href='/about-us/contact-us/" . $member['contact_id'] . "-" . $member['alias'] . "'>";
+								print $member["firstname"]." ".$member["lastname"];
+								if ($member["contact_id"] > 0) print "</a>";
+								echo "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql"); 
+                    // Section Associate Advisers
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+          	                      WHERE members.id=positions.member_id
+							  AND org='".$_GET['section']."' AND `position`='Section Associate Adviser'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Associate: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql"); 
+
+                    // Section Staff Adviser
+                        $sql =  "SELECT * FROM positions, members
+				LEFT JOIN joomla_contact_details contact ON contact.id=members.contact_id
+          	                      WHERE members.id=positions.member_id
+							  AND org='".$_GET['section']."' AND `position`='Section Staff Adviser'
+                                ";
+                        if ($result=mysql_query($sql)) 
+                        {
+                            while ($member=mysql_fetch_array($result))
+                            {
+                                echo "<li><b>Staff Adv: </b>" . $member["firstname"] . " " . $member["lastname"] . "</li>";
+                            }
+                        }
+                        else
+                            die("Database Error: $sql");                         
+                        
+                    echo "</ul></p>";
+ 
+                    
+        echo "
+                    </td>
+                </tr>
+				<tr><td colspan=2>
+				<br><b>Corrections?  Updates?</b>  Send them to <a href=\"/about-us/contact-us/9-ken-hayashi\">Western Region Administration</a>.
+				</td></tr>
+            </table>
+        ";
+        
+    }
+    else if(isset($_GET['area']))
+    {
+ 		$area=$_GET['area'];
+		print "<h2 class=\"section\" align=\"center\" size=\"\">Area " . $area . "</h2>
+            <table align=\"center\" cellpadding='20'>
+                <tr>
+                    <td>
+                        <image src=\"images/sections/maps/Area%20" . $area . ".gif\">
+                        <br />
+                        <p align=\"center\" style=\"font-weight: bold;\"><a href=\"sections/\">Back to Region Map</a></p>
+                    </td>
+                    <td><p><b>Sections:</b></p>";
+			if ($area==1) print "<li><a href=sections?section=W-1E>Section W-1E</a></li>
+								<li><a href=sections?section=W-1N>Section W-1N</a></li>
+								<li><a href=sections?section=W-1S>Section W-1S</a></li>";
+			elseif ($area==2) print "<li><a href=sections?section=W-2N>Section W-2N</a></li>
+								<li><a href=sections?section=W-2S>Section W-2S</a></li>";
+			elseif ($area==3) print "<li><a href=sections?section=W-3N>Section W-3N</a></li>
+								<li><a href=sections?section=W-3S>Section W-3S</a></li>";
+			elseif ($area==4) print "<li><a href=sections?section=W-4N>Section W-4N</a></li>
+								<li><a href=sections?section=W-4S>Section W-4S</a></li>";
+			elseif ($area==5) print "<li><a href=sections?section=W-5N>Section W-5N</a></li>
+								<li><a href=sections?section=W-5S>Section W-5S</a></li>";
+			elseif ($area==6) print "<li><a href=sections?section=W-6E>Section W-6E</a></li>
+								<li><a href=sections?section=W-6P>Section W-6P</a></li>
+								<li><a href=sections?section=W-6W>Section W-6W</a></li>";
+
+				print "</td>
+			</tr>
+		</table>";
+
+    }
+    else
+    {
+
+        echo "
+            <center><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"559\" height=\"371\">
+                <tr>
+                    <td width=\"438\" height=\"371\">
+                        <img src=\"images/sections/maps/regionmap_2014.gif\" width=\"438\" height=\"371\" border=\"0\" alt=\"\" usemap=\"#sections\">
+                    </td>
+                    <td width=\"121\" height=\"371\" style=\"font-size: 8pt; line-height: 10pt; background-image: url('images/sections/maps/keybackground_2011.gif');\">
+                        <a href=/sections?area=1>Area 1</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-1E\"><img src=\"images/sections/maps/key/1E.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-1E</a>".nl2br(chr(10))."
+						&nbsp;&nbsp;<a href=\"sections/?section=W-1N\"><img src=\"images/sections/maps/key/1N.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-1N</a>".nl2br(chr(10))."
+                        &nbsp;&nbsp;<a href=\"sections/?section=W-1S\"><img src=\"images/sections/maps/key/1S.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-1S</a>".nl2br(chr(10))."
+
+                        <img src=\"images/clear.gif\" height=\"5\" width=\"10\" align=\"texttop\" border=\"0\">".nl2br(chr(10))."<a href=/sections?area=2>Area 2</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-2N\"><img src=\"images/sections/maps/key/2N.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-2N</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-2S\"><img src=\"images/sections/maps/key/2S.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-2S</a>".nl2br(chr(10))."
+                        &nbsp;&nbsp;<a href=\"sections/?section=W-2W\"><img src=\"images/sections/maps/key/2W.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-2W</a>".nl2br(chr(10))."
+
+                        <img src=\"images/clear.gif\" height=\"5\" width=\"10\" align=\"texttop\" border=\"0\">".nl2br(chr(10))."<a href=/sections?area=3>Area 3</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-3N\"><img src=\"images/sections/maps/key/3N.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-3N</a>".nl2br(chr(10))."
+                        &nbsp;&nbsp;<a href=\"sections/?section=W-3S\"><img src=\"images/sections/maps/key/3S.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-3S</a>".nl2br(chr(10))."
+
+                        <img src=\"images/clear.gif\" height=\"5\" width=\"10\" align=\"texttop\" border=\"0\">".nl2br(chr(10))."<a href=/sections?area=4>Area 4</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-4N\"><img src=\"images/sections/maps/key/4N.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-4N</a>".nl2br(chr(10))."
+                        &nbsp;&nbsp;<a href=\"sections/?section=W-4S\"><img src=\"images/sections/maps/key/4S.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-4S</a>".nl2br(chr(10))."
+
+                        <img src=\"images/clear.gif\" height=\"5\" width=\"10\" align=\"texttop\" border=\"0\">".nl2br(chr(10))."<a href=/sections?area=6>Area 6</a>".nl2br(chr(10))."
+				    	&nbsp;&nbsp;<a href=\"sections/?section=W-6E\"><img src=\"images/sections/maps/key/6E.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-6E</a>".nl2br(chr(10))."
+						&nbsp;&nbsp;<a href=\"sections/?section=W-6P\"><img src=\"images/sections/maps/key/6P.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-6P</a>".nl2br(chr(10))."
+                        &nbsp;&nbsp;<a href=\"sections/?section=W-6W\"><img src=\"images/sections/maps/key/6W.gif\" height=\"13\" width=\"13\" align=\"texttop\" border=\"0\"><img src=\"images/clear.gif\" height=\"13\" width=\"5\" align=\"texttop\" border=\"0\">Section W-6W</a>".nl2br(chr(10))."
+                    </td>
+                </tr>
+            </table></center>
+                        
+		<!--map id=\"sections\" name=\"sections\">
+<area shape=\"poly\" alt=\"\" coords=\"100,173,71,242,117,316,100,332,18,289,27,213,68,173,100,173\" href=\"/sections/?section=W-6P\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"167,52,166,52,167,51,166,51,166,51,165,50,166,50,146,47,146,48,146,48,146,49,147,51,148,51,148,51,148,52,149,53,148,54,148,55,147,55,146,55,146,56,145,56,145,55,145,54,145,54,146,52,144,51,142,52,144,52,144,54,143,54,141,52,141,54,142,55,143,56,144,56,145,56,146,57,144,59,145,60,146,61,146,63,147,63,147,64,148,63,148,62,147,60,147,59,147,59,147,61,146,62,146,59,146,58,147,58,146,57,146,56,147,57,148,58,148,59,148,61,149,62,149,63,148,64,148,65,147,66,147,67,147,68,147,69,147,70,147,71,147,72,147,73,148,73,145,73,146,72,146,72,146,71,146,70,147,68,145,69,146,69,146,67,149,67,146,67,146,66,146,66,146,65,146,64,145,64,145,64,145,65,145,65,144,65,144,66,144,65,145,63,144,62,145,62,145,61,144,61,144,61,144,60,143,60,143,61,142,61,141,60,140,59,139,60,139,60,137,59,133,58,131,57,130,56,127,54,126,54,125,53,125,54,125,55,124,56,124,56,124,60,124,61,125,62,126,63,126,67,126,69,126,70,126,71,126,73,126,75,126,76,127,75,128,75,128,76,129,77,127,77,127,77,127,78,127,80,129,80,129,80,128,81,128,81,128,83,127,83,127,81,126,82,126,84,126,85,125,86,126,86,127,87,128,87,129,85,154,89,154,87,155,87,155,85,155,84,155,84,155,83,154,81,155,81,155,80,156,79,155,79,156,78,156,79,156,78,157,78,157,77,157,77,157,76,157,75,156,75,156,74,157,73,157,73,158,72,159,72,159,71,160,71,160,70,161,68,161,68,161,68,161,68,161,68,161,68,160,67,160,65,161,65,161,64,163,63,163,62,162,60,163,58,165,57,166,57,167,57,166,56,166,55,167,54,167,52\" href=\"/sections/?section=W-1N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"112,93,111,93,108,92,106,90,101,85,100,86,99,88,98,89,94,87,94,85,91,87,90,84,89,81,87,68,84,59,83,55,80,54,78,55,72,54,70,54,69,54,69,53,63,52,63,53,62,53,60,53,58,55,56,57,55,58,54,59,52,59,51,61,52,63,54,66,56,66,56,70,54,70,54,68,53,68,47,70,49,72,49,74,51,75,55,76,57,74,58,78,55,79,55,80,54,80,52,79,51,81,48,84,50,87,49,88,51,91,54,91,55,92,55,93,55,95,58,94,60,96,63,95,62,97,62,99,58,103,56,105,54,105,51,107,48,108,41,110,32,115,25,114,21,111,20,109,17,109,19,112,23,115,31,117,44,111,51,109,54,107,58,106,65,101,70,95,70,94,69,94,74,87,75,86,75,87,73,88,73,92,74,91,73,92,73,93,77,91,78,90,79,88,78,87,82,87,86,89,89,88,91,88,93,88,100,91,101,92,103,95,106,97,107,98,111,100,115,99,115,96,114,94,112,93\" href=\"/sections/?section=W-1N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"155,285,157,286,157,286,157,291,159,292,160,292,160,292,159,289,161,287,163,288,163,288,165,289,164,287,163,287,163,286,162,286,162,283,162,283,166,284,168,271,168,271,168,262,171,262,172,260,198,262,156,214,155,215,155,219,154,220,154,221,154,223,156,225,157,227,158,228,158,229,157,230,159,230,159,232,160,232,162,234,162,237,162,238,165,241,165,243,165,245,165,249,164,252,164,256,161,255,148,254,140,253,127,251,128,253,129,254,129,255,130,256,131,257,131,258,131,259,131,260,133,260,134,261,133,263,133,263,133,265,133,266,132,267,132,267,133,269,135,270,137,270,140,271,142,272,144,272,145,273,146,274,147,274,147,274,147,274,148,277,149,280,149,282,150,283,152,285,153,285,153,285,154,286,155,285\" href=\"/sections/?section=W-4N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"320,179,319,163,303,163,303,166,285,166,285,159,284,158,283,158,281,156,278,151,278,149,277,148,270,149,270,150,268,150,268,159,262,159,261,169,261,169,261,169,260,169,260,169,256,169,255,167,255,166,255,164,256,163,256,162,252,162,252,164,251,165,250,164,251,165,250,166,250,169,248,169,248,168,240,168,228,167,228,169,226,169,224,182,225,182,225,182,223,200,223,200,223,200,221,219,208,218,207,228,196,226,195,245,218,248,216,259,217,263,218,266,222,266,225,265,228,264,227,260,229,259,231,259,232,257,235,257,237,254,237,251,238,246,258,246,260,245,262,243,276,243,277,241,278,243,283,243,283,186,283,186,285,186,317,186,317,179,320,179\" href=\"/sections/?section=W-2S\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"375,140,377,140,377,135,376,135,376,132,375,126,373,127,369,129,366,130,365,122,355,122,354,109,341,109,342,110,339,104,339,70,331,66,318,63,215,57,215,74,225,91,231,91,226,110,234,112,244,134,262,129,264,137,274,137,274,137,274,148,277,148,277,148,278,149,278,152,279,153,280,154,281,156,283,158,285,159,285,166,303,166,303,163,319,163,319,163,320,163,320,179,317,179,317,186,310,186,310,186,307,185,312,196,322,195,323,204,346,201,346,208,366,208,369,206,369,206,368,185,361,185,361,182,368,182,368,179,368,179,368,173,374,173,374,168,367,168,366,154,376,153,375,140\" href=\"/sections/?section=W-5N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"355,284,353,284,353,278,353,278,353,278,353,278,353,278,353,248,313,247,311,243,311,241,301,240,301,236,301,235,301,234,300,232,299,233,298,233,296,235,295,234,293,234,292,234,291,233,288,233,286,233,283,233,283,243,278,243,277,241,276,243,270,243,270,256,283,272,283,291,283,291,283,291,283,333,293,333,293,327,313,326,317,329,321,333,322,334,322,334,324,336,326,337,329,339,330,339,331,339,330,323,330,323,330,322,331,323,330,323,330,323,353,322,353,289,355,289,355,284\" href=\"/sections/?section=W-6E\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"283,316,283,273,270,256,270,243,262,243,261,244,258,246,238,246,237,249,237,252,236,255,235,257,234,257,229,259,228,260,228,260,227,260,227,263,224,265,219,266,217,263,216,258,217,248,195,245,196,231,183,229,182,244,210,275,208,297,211,297,211,297,211,297,211,297,210,298,210,299,210,300,209,301,208,301,207,303,208,304,208,305,208,306,210,308,210,309,211,310,211,311,209,312,206,313,206,315,226,322,226,322,256,333,283,333,283,316\" href=\"/sections/?section=W-6W\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"166,299,170,306,170,309,170,311,172,314,207,313,209,312,211,311,211,309,209,308,208,307,208,306,208,304,208,303,207,303,208,302,208,301,208,301,208,301,209,300,210,300,210,299,210,298,210,298,210,298,211,297,208,297,210,275,198,262,172,260,171,262,169,262,167,279,166,284,162,283,162,286,163,286,163,287,164,287,165,290,165,290,165,289,163,289,162,289,160,292,162,296,165,299,165,299,166,299,166,299,166,299,166,299\" href=\"/sections/?section=W-4S\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"165,243,165,241,162,238,162,237,162,235,162,234,161,233,160,232,159,232,159,230,159,230,157,230,157,230,158,229,158,228,157,227,156,225,154,223,154,221,153,220,153,219,153,219,151,219,149,217,144,217,142,218,138,220,137,218,135,219,132,218,130,221,130,221,130,225,130,225,130,225,130,225,128,225,125,225,125,224,123,223,122,222,121,222,122,224,122,226,123,229,123,229,122,229,122,230,123,230,122,230,122,231,122,231,122,230,122,229,122,229,121,227,120,226,120,225,120,225,120,223,119,223,119,223,119,224,118,224,119,225,119,225,118,225,118,226,118,229,119,231,118,231,118,232,119,235,120,237,121,238,122,238,122,238,123,238,124,239,124,240,124,240,124,242,123,242,123,243,123,245,125,247,125,249,127,251,140,253,148,254,161,255,164,256,164,252,165,249,165,245,165,243\" href=\"/sections/?section=W-3S\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"164,142,165,142,166,134,167,134,168,130,169,130,170,124,167,124,168,123,166,122,166,122,166,121,162,121,163,115,163,115,162,113,162,112,162,111,163,110,163,110,162,108,163,106,165,104,164,103,163,101,162,100,163,95,153,93,154,89,130,85,130,87,129,87,128,86,127,86,127,86,127,86,126,92,124,99,123,104,123,104,123,104,122,106,121,108,118,120,114,129,110,137,110,141,109,146,110,149,111,151,115,152,115,152,115,152,115,152,115,152,120,153,120,154,119,155,118,156,118,157,117,160,117,163,119,164,119,166,119,166,120,167,121,169,124,170,124,168,127,167,128,166,129,165,129,166,130,166,130,169,143,171,143,173,146,173,146,171,158,173,160,160,168,161,170,149,163,148,164,142\" href=\"/sections/?section=W-1S\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"232,94,231,93,230,94,229,94,228,93,228,92,227,93,227,92,225,90,226,89,224,88,224,87,222,85,222,84,220,83,219,81,218,80,218,80,218,79,218,78,216,74,215,71,217,56,189,53,167,50,167,50,167,51,167,51,168,51,168,52,168,52,168,53,168,55,167,56,168,57,167,57,165,57,164,57,164,60,164,61,164,62,164,63,162,64,162,65,161,65,161,67,162,68,162,68,162,69,161,70,161,71,160,72,159,72,158,73,157,74,157,74,157,75,158,75,158,76,158,77,158,77,158,78,157,78,157,79,156,80,156,81,155,81,156,83,156,84,156,84,156,85,156,86,155,87,156,89,154,89,154,93,163,95,162,100,162,100,164,102,165,104,163,106,163,108,162,111,162,112,163,116,162,121,166,122,166,122,168,123,167,124,170,124,169,130,179,131,179,130,185,131,186,129,186,128,187,127,188,126,189,125,193,125,194,126,195,127,195,128,197,128,197,126,198,124,200,122,202,120,202,118,203,116,205,113,207,108,207,107,205,104,205,103,205,103,205,103,205,103,205,102,205,102,205,102,206,102,206,102,206,102,206,102,207,102,213,112,213,112,214,112,216,112,220,112,222,112,222,112,222,112,223,112,223,113,224,113,224,113,225,113,226,113,226,111,227,112,228,110,228,109,229,109,228,107,229,106,230,106,230,104,230,103,230,102,229,102,230,101,230,100,231,98,231,96,232,94\" href=\"/sections/?section=W-1E\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"244,133,234,114,225,112,224,113,224,113,222,113,220,112,211,112,205,102,203,104,203,104,206,107,201,116,198,121,195,128,192,128,192,126,191,125,187,125,186,126,185,127,183,131,177,130,177,131,169,130,165,130,165,134,164,134,163,142,162,142,161,148,167,149,166,161,181,162,200,164,217,165,217,165,217,165,225,166,225,169,228,169,228,167,233,167,239,168,239,168,240,168,247,168,247,168,247,168,247,168,248,168,248,169,250,169,250,168,250,167,250,166,250,165,250,164,251,164,252,164,253,162,256,162,256,163,255,164,256,164,256,167,256,167,256,167,256,169,260,169,260,169,261,169,261,169,261,169,262,160,262,159,268,159,268,150,270,150,270,149,274,148,274,138,264,137,263,131\" href=\"/sections/?section=W-2N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"225,169,225,167,158,160,156,173,144,172,144,173,141,173,141,173,141,171,129,169,128,168,128,166,127,166,125,167,123,168,123,168,122,169,123,170,122,170,120,169,119,169,118,167,117,167,117,167,117,164,116,163,115,159,116,157,116,156,117,155,118,153,109,151,111,160,110,164,108,170,105,174,104,177,106,182,108,193,107,196,108,199,108,201,107,202,108,203,113,212,113,214,115,214,114,215,114,217,114,217,113,219,114,218,116,220,117,221,119,223,119,222,120,220,120,220,120,218,121,218,121,218,122,219,121,220,120,221,120,221,120,221,121,222,122,222,122,222,122,223,125,225,125,225,126,225,130,225,130,225,130,225,130,225,130,223,130,222,130,221,130,221,130,221,130,221,130,221,131,220,131,219,132,218,133,219,135,219,137,219,137,219,138,219,142,219,142,218,144,217,149,217,149,217,149,217,149,218,150,219,152,219,153,220,154,221,154,220,155,219,155,215,156,214,182,244,183,229,196,231,196,226,207,228,208,218,221,219,223,200,226,169,225,169\" href=\"/sections/?section=W-3N\" title=\"\" />
+<area shape=\"poly\" alt=\"\" coords=\"283,187,307,187,310,194,312,198,320,197,322,204,345,202,346,208,366,209,367,249,311,248,309,241,302,241,300,232,296,234,294,235,289,234,284,232,282,230\" href=\"http://western.oa-bsa.org/sections/?section=W-5S\" title=\"\" />
+<area shape=\"default\" nohref=\"nohref\" alt=\"\" />
+</map-->
+
+
+<map id=\"sections\" name=\"sections\"><area shape=\"poly\" alt=\"Section W-1N\" title=\"\" coords=\"84,54,92,80,115,93,111,98,89,86,80,89,73,94,50,109,29,115,21,104,21,100,28,104,33,109,63,96,50,86,48,80,49,58,61,50,73,51,75,52\" href=\"sections/?section=W-1N\" target=\"\" /><area shape=\"poly\" alt=\"Section W-1N\" title=\"\" coords=\"150,45,169,48,157,90,127,85,126,52,139,56,142,53\" href=\"sections/?section=W-1N\" target=\"\" /><area shape=\"poly\" alt=\"Section W-1S\" title=\"\" coords=\"110,181,107,168,113,158,111,137,114,125,124,101,129,85,157,90,156,92,165,94,167,100,165,105,164,119,171,121,166,144,166,145,171,146,171,157,163,157,161,169,146,169,144,168,132,165,132,163,127,166,123,165,118,180\" href=\"sections/?section=W-1S\" target=\"\" /><area shape=\"poly\" alt=\"Section W-1E\" title=\"\" coords=\"217,54,169,50,156,92,166,94,167,99,165,108,164,120,171,120,166,144,171,147,171,157,220,163,223,131,220,122,226,119,229,108,232,90,223,83,218,72,216,68,217,54\" href=\"sections/?section=W-1E\" target=\"\" /><area shape=\"poly\" alt=\"Section W-2W\" title=\"\" coords=\"262,126,265,127,264,135,275,135,275,147,279,146,281,152,285,156,285,162,304,162,319,160,319,173,315,173,315,178,315,181,283,182,283,237,262,235,257,239,237,239,236,247,230,256,220,259,219,240,197,239,198,224,200,222,211,223,211,214,223,214,229,164,220,163,223,132,220,121,224,118,225,118,228,111,234,110,244,129,245,129\" href=\"sections/?section=W-2W\" target=\"\" /><area shape=\"poly\" alt=\"Section W-2N\" title=\"\" coords=\"318,60,320,65,330,65,333,68,339,69,341,107,353,108,354,119,364,120,366,127,373,124,376,135,376,149,364,151,367,163,372,165,373,169,366,170,367,176,366,178,360,179,360,181,367,181,367,202,347,203,345,195,332,197,328,199,323,198,322,190,320,190,314,192,310,185,309,181,316,180,315,173,320,174,319,159,302,162,285,162,285,154,278,145,275,147,275,134,265,134,264,128,261,126,244,129,234,111,227,110,233,91,222,80,214,66,217,55,217,55\" href=\"sections/?section=W-2N\" target=\"\" /><area shape=\"poly\" alt=\"Section W-2S\" title=\"\" coords=\"367,203,367,242,316,243,311,237,301,235,300,227,282,228,282,182,307,181,313,191,315,192,320,190,321,190,324,199,333,197,344,195,347,203\" href=\"sections/?section=W-2S\" target=\"\" /><area shape=\"poly\" alt=\"Section W-3N\" title=\"\" coords=\"112,181,119,179,123,165,128,166,132,163,132,165,146,169,161,169,163,157,170,157,229,164,223,214,211,214,211,223,198,222,197,226,186,225,186,239,177,229,168,228,164,228,159,220,152,213,143,215,135,214,133,219,130,221,126,219,126,215,123,213,125,219,117,213,119,210,112,201,112,182\" href=\"sections/?section=W-3N\" target=\"\" /><area shape=\"poly\" alt=\"Section W-3S\" title=\"\" coords=\"132,247,125,236,129,234,125,231,122,225,123,218,125,218,123,213,125,214,127,220,131,221,135,220,135,214,142,215,153,214,164,228,169,239,170,249,168,249\" href=\"sections/?section=W-3S\" target=\"\" /><area shape=\"poly\" alt=\"Section W-4N\" title=\"\" coords=\"138,264,133,255,132,247,170,250,169,239,163,228,176,229,204,257,176,256,172,258,170,278,165,275,164,280,166,281,163,284,163,286,161,286,160,281,156,280,151,275,150,269,141,265,138,264\" href=\"sections/?section=W-4N\" target=\"\" /><area shape=\"poly\" alt=\"Section W-4S\" title=\"\" coords=\"171,293,162,284,166,281,163,278,165,275,170,279,172,256,176,255,201,256,212,269,211,290,213,291,213,293,177,291,173,289\" href=\"sections/?section=W-4S\" target=\"\" /><area shape=\"poly\" alt=\"Section W-6P\" title=\"\" coords=\"76,158,102,173,72,215,81,279,121,309,100,332,78,306,40,283,15,290,27,258,38,252,32,233,21,203,39,196,50,199,56,193,53,177,63,165\" href=\"sections/?section=W-6P\" target=\"\" /><area shape=\"poly\" alt=\"Section W-6W\" title=\"\" coords=\"175,308,171,293,173,289,178,292,212,293,213,290,210,289,212,268,202,255,186,239,186,224,197,225,197,238,219,240,220,259,226,260,231,257,230,253,238,250,239,242,259,240,263,237,275,237,273,245,270,248,271,260,274,260,274,266,283,266,284,307,289,306,291,310,291,318,293,318,294,326,256,326,208,308,209,306,175,307\" href=\"sections/?section=W-6W\" target=\"\" /><area shape=\"poly\" alt=\"Section W-6E\" title=\"\" coords=\"331,332,312,318,291,318,291,316,290,316,289,308,288,304,283,305,282,266,273,266,273,259,271,260,269,246,272,244,275,236,283,236,283,227,300,227,301,234,310,237,316,242,352,243,352,315,330,315\" href=\"sections/?section=W-6E\" target=\"\" /></map>
+
+
+        ";
+
+    }
+?>
+
+<map id="sections" name="sections"><area shape="poly" alt="Section W-1N" title="" coords="84,54,92,80,115,93,111,98,89,86,80,89,73,94,50,109,29,115,21,104,21,100,28,104,33,109,63,96,50,86,48,80,49,58,61,50,73,51,75,52" href="sections/?section=W-1N" target="" /><area shape="poly" alt="Section W-1N" title="" coords="150,45,169,48,157,90,127,85,126,52,139,56,142,53" href="sections/?section=W-1N" target="" /><area shape="poly" alt="Section W-1S" title="" coords="110,181,107,168,113,158,111,137,114,125,124,101,129,85,157,90,156,92,165,94,167,100,165,105,164,119,171,121,166,144,166,145,171,146,171,157,163,157,161,169,146,169,144,168,132,165,132,163,127,166,123,165,118,180" href="sections/?section=W-1S" target="" /><area shape="poly" alt="Section W-1E" title="" coords="217,54,169,50,156,92,166,94,167,99,165,108,164,120,171,120,166,144,171,147,171,157,220,163,223,131,220,122,226,119,229,108,232,90,223,83,218,72,216,68,217,54" href="sections/?section=W-1E" target="" /><area shape="poly" alt="Section W-2W" title="" coords="262,126,265,127,264,135,275,135,275,147,279,146,281,152,285,156,285,162,304,162,319,160,319,173,315,173,315,178,315,181,283,182,283,237,262,235,257,239,237,239,236,247,230,256,220,259,219,240,197,239,198,224,200,222,211,223,211,214,223,214,229,164,220,163,223,132,220,121,224,118,225,118,228,111,234,110,244,129,245,129" href="sections/?section=W-2W" target="" /><area shape="poly" alt="Section W-2N" title="" coords="318,60,320,65,330,65,333,68,339,69,341,107,353,108,354,119,364,120,366,127,373,124,376,135,376,149,364,151,367,163,372,165,373,169,366,170,367,176,366,178,360,179,360,181,367,181,367,202,347,203,345,195,332,197,328,199,323,198,322,190,320,190,314,192,310,185,309,181,316,180,315,173,320,174,319,159,302,162,285,162,285,154,278,145,275,147,275,134,265,134,264,128,261,126,244,129,234,111,227,110,233,91,222,80,214,66,217,55,217,55" href="sections/?section=W-2N" target="" /><area shape="poly" alt="Section W-2S" title="" coords="367,203,367,242,316,243,311,237,301,235,300,227,282,228,282,182,307,181,313,191,315,192,320,190,321,190,324,199,333,197,344,195,347,203" href="sections/?section=W-2S" target="" /><area shape="poly" alt="Section W-3N" title="" coords="112,181,119,179,123,165,128,166,132,163,132,165,146,169,161,169,163,157,170,157,229,164,223,214,211,214,211,223,198,222,197,226,186,225,186,239,177,229,168,228,164,228,159,220,152,213,143,215,135,214,133,219,130,221,126,219,126,215,123,213,125,219,117,213,119,210,112,201,112,182" href="sections/?section=W-3N" target="" /><area shape="poly" alt="Section W-3S" title="" coords="132,247,125,236,129,234,125,231,122,225,123,218,125,218,123,213,125,214,127,220,131,221,135,220,135,214,142,215,153,214,164,228,169,239,170,249,168,249" href="sections/?section=W-3S" target="" /><area shape="poly" alt="Section W-4N" title="" coords="138,264,133,255,132,247,170,250,169,239,163,228,176,229,204,257,176,256,172,258,170,278,165,275,164,280,166,281,163,284,163,286,161,286,160,281,156,280,151,275,150,269,141,265,138,264" href="sections/?section=W-4N" target="" /><area shape="poly" alt="Section W-4S" title="" coords="171,293,162,284,166,281,163,278,165,275,170,279,172,256,176,255,201,256,212,269,211,290,213,291,213,293,177,291,173,289" href="sections/?section=W-4S" target="" /><area shape="poly" alt="Section W-6P" title="" coords="76,158,102,173,72,215,81,279,121,309,100,332,78,306,40,283,15,290,27,258,38,252,32,233,21,203,39,196,50,199,56,193,53,177,63,165" href="sections/?section=W-6P" target="" /><area shape="poly" alt="Section W-6W" title="" coords="175,308,171,293,173,289,178,292,212,293,213,290,210,289,212,268,202,255,186,239,186,224,197,225,197,238,219,240,220,259,226,260,231,257,230,253,238,250,239,242,259,240,263,237,275,237,273,245,270,248,271,260,274,260,274,266,283,266,284,307,289,306,291,310,291,318,293,318,294,326,256,326,208,308,209,306,175,307" href="sections/?section=W-6W" target="" /><area shape="poly" alt="Section W-6E" title="" coords="331,332,312,318,291,318,291,316,290,316,289,308,288,304,283,305,282,266,273,266,273,259,271,260,269,246,272,244,275,236,283,236,283,227,300,227,301,234,310,237,316,242,352,243,352,315,330,315" href="sections/?section=W-6E" target="" /></map>

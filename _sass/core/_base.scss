@@ -89,6 +89,32 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /**
+ * Pagination
+ */
+.pagination {
+  margin: ($padding-base-vertical * 10) ($padding-base-horizontal * 4);
+  text-align: center;
+  display: block;
+  text-align: center;
+
+  ul {
+    margin: 0 auto;
+    list-style: none;
+  }
+
+  li {
+    padding-left: $padding-base-horizontal;
+    padding-right: $padding-base-horizontal;
+    list-style-type: none;
+    display: inline;
+  }
+
+  .current-page {
+    font-weight: 600;
+  }
+}
+
+/**
  * Paragraphs
  */
 strong, b {
