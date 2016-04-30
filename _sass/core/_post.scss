@@ -1,0 +1,61 @@
+/**
+ * A single post
+ */
+main.post {
+  margin: ($padding-base-vertical * 8) 0;
+
+  .container {
+    .row {
+      .panel.post {
+        background: $white;
+
+        .panel-heading {
+          padding: ($padding-base-vertical * 4) ($padding-base-horizontal * 4) 0;
+          text-transform: uppercase;
+          color: $gray;
+          font-weight: 400;
+          font-size: floor($font-size-base * 0.8);
+
+          a {
+            color: $gray;
+            border-color: transparent;
+          }
+
+          .post-date {
+
+          }
+
+          .post-author {
+
+          }
+
+          .post-reading-time {
+            display: block;
+          }
+        }
+
+        .panel-body {
+          padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+        }
+
+        .panel-footer {
+          padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+        }
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .container {
+      .row {
+        .panel.post {
+          .panel-heading {
+            .post-reading-time {
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}

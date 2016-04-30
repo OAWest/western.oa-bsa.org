@@ -1,0 +1,22 @@
+/**
+ * A single post
+ */
+main.page {
+  margin: ($padding-base-vertical * 8) 0;
+
+  .container {
+    .row {
+      .panel.post {
+        background: $white;
+
+        .panel-body {
+          padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+        }
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+}

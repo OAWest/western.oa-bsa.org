@@ -37,7 +37,7 @@ sass:
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "" # does not include hostname
+baseurl: "/" # does not include hostname
 url: "http://western.oa-bsa.org"
 
 # Outputting
@@ -48,7 +48,19 @@ timezone: null
 reading_time: true
 words_per_minute: 200
 quiet:    false
-defaults: []
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 # Markdown Processors
 rdiscount:
@@ -82,7 +94,7 @@ description: >
   Official website of the Western Region, Order of the Arrow, Boy Scouts of America
 email:
   webmaster: webmaster@western.oa-bsa.org
-url:
+social:
   facebook: https://www.facebook.com/oawest
   google_plus: https://plus.google.com/111522187744944747027#111522187744944747027
   twitter: https://twitter.com/oawest

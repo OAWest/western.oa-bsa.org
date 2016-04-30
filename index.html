@@ -2,6 +2,7 @@
 layout: default
 ---
 {% include banner.html %}
+
 <main class="index">
   <section class="highlights">
     <div class="container">
@@ -16,7 +17,7 @@ layout: default
         <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
           <h4>2016 Western Region Chief Joe Garcia</h4>
           <div class="visual">
-            <img src="/images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" class="chief">
+            <img src="{{ site.baseurl }}images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" class="chief">
           </div>
           <p>Joe is from the Grand Canyon Council in Phoenix, AZ. He is an Eagle Scout and Vigil Honor member of Wipala Wiki Lodge.</p>
         </div>
@@ -30,13 +31,13 @@ layout: default
       </div>
       <div class="row actions">
         <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-          <a href="/programs/nls" class="btn btn-default">Learn More</a>
+          <a href="{{ site.baseurl }}programs/nls" class="btn btn-default">Learn More</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-          <a href="/leadership/chief" class="btn btn-default">Meet Joe</a>
+          <a href="{{ site.baseurl }}leadership/chief" class="btn btn-default">Meet Joe</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-6">
-          <a href="/calendar" class="btn btn-default">Region Calendar</a>
+          <a href="{{ site.baseurl }}calendar" class="btn btn-default">Region Calendar</a>
         </div>
       </div>
     </div>
@@ -50,7 +51,7 @@ layout: default
               <div class="panel-heading">
                 <span class="post-date date">
                   <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
                   </time>
                 </span>
                 {% assign author = site.data.authors[post.author] %}

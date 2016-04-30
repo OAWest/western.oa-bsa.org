@@ -1,0 +1,23 @@
+chairman:
+  first_name: "Toby"
+  last_name: "Capps"
+  email: "chairman@western.oa-bsa.org"
+  profile: ""
+chief:
+  first_name: "Joe"
+  last_name: "Garcia"
+  email: "chief@western.oa-bsa.org"
+  profile: >
+    Joe is from the Grand Canyon Council in Phoenix, AZ. He is an Eagle Scout
+    and Vigil Honor member of Wipala Wiki Lodge. Joe has previously served as
+    the section chief of W-6W and two terms as lodge chief. Joe is a recipient
+    of the Founder’s Award and is a James E. West Fellow. Joe is a graduate
+    of Peoria High School and plans to attend the American Musical and
+    Dramatic Arts Academy or Northern Arizona University this fall. In his
+    free time, Joe enjoys doing impressions, performing with his improv group,
+    as well as reading and following politics.
+staff_adviser:
+  first_name: "Steve"
+  last_name: "Sawyer"
+  email: "staffadviser@western.oa-bsa.org"
+  profile: ""
