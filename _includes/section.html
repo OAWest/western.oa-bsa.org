@@ -1,0 +1,107 @@
+<h1>
+  Section W-{{ section.area }}{{ section.section }}
+  {% if section.name and section.name.size %}
+    - {{ section.name }}
+  {% endif %}
+</h1>
+<div class="section">
+  <div class="row leadership">
+    <div class="col-xs-12 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Youth Leadership
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Section Chief
+            {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 %}
+              {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
+            {% else %}
+              <em>To be determined</em>
+            {% endif %}
+          </li>
+          <li class="list-group-item">
+            Section Vice Chief
+            {% if section.leadership.vice_chief.first_name.size > 0 and section.leadership.vice_chief.last_name.size > 0 %}
+              {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}
+            {% else %}
+              <em>To be determined</em>
+            {% endif %}
+          </li>
+          <li class="list-group-item">
+            Section Secretary
+            {% if section.leadership.secretary.first_name.size > 0 and section.leadership.secretary.last_name.size > 0 %}
+              {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}
+            {% else %}
+              <em>To be determined</em>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Adult Leadership
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Section Adviser
+            {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 %}
+              {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
+              {% if section.leadership.adviser.email.size > 0 %}
+                <a href="mailto:{{ section.leadership.adviser.email }}" class="btn btn-sm btn-default email">Email Me</a>
+              {% endif %}
+            {% else %}
+              <em>To be determined</em>
+            {% endif %}
+          </li>
+          {% for associate in section.leadership.associates %}
+            <li class="list-group-item">
+              Section Associate Adviser {{ associate.first_name }} {{ associate.last_name }}
+            </li>
+          {% endfor %}
+          <li class="list-group-item">
+            Section Staff Adviser
+            {% if section.leadership.staff_adviser.first_name.size > 0 and section.leadership.staff_adviser.last_name.size > 0 %}
+              {{ section.leadership.staff_adviser.first_name }} {{ section.leadership.staff_adviser.last_name }}
+            {% else %}
+              <em>To be determined</em>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+  <div class="row online">
+    {% if section.website %}
+      <div class="col-xs-12 {% if section.facebook and section.twitter %}col-sm-4{% elsif section.facebook or section.twitter %}col-sm-6{% endif %}">
+        <a href="{{ section.website }}" class="btn btn-lg btn-default">
+          <i class="fa fa-laptop"></i>
+          Visit our Website
+        </a>
+      </div>
+    {% endif %}
+    {% if section.facebook %}
+      <div class="col-xs-12 {% if section.website and section.twitter %}col-sm-4{% elsif section.website or section.twitter %}col-sm-6{% endif %}">
+        <a href="{{ section.facebook }}" class="btn btn-lg btn-default">
+          <i class="fa fa-facebook"></i>
+          Follow us on Facebook
+        </a>
+      </div>
+    {% endif %}
+    {% if section.twitter %}
+      <div class="col-xs-12 {% if section.website and section.facebook %}col-sm-4{% elsif section.website or section.facebook %}col-sm-6{% endif %}">
+        <a href="{{ section.twitter }}" class="btn btn-lg btn-default">
+          <i class="fa fa-twitter"></i>
+          Follow us on Twitter
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>

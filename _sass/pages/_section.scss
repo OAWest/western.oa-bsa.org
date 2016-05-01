@@ -1,0 +1,33 @@
+/**
+ * A section page
+ */
+.page-content {
+  .section {
+    .row.leadership {
+      .panel {
+        .list-group {
+          .list-group-item {
+            @include clearfix();
+
+            .btn.email {
+              float: right;
+            }
+          }
+        }
+      }
+    }
+    .row.online {
+      text-align: center;
+
+      .btn {
+        display: block;
+
+        .fa {
+          font-size: $font-size-h2;
+          display: block;
+          margin: ($padding-base-vertical * 2) auto;
+        }
+      }
+    }
+  }
+}

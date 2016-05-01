@@ -44,6 +44,14 @@ a {
 
 
 /**
+ * Buttons
+ */
+.btn {
+  @include transition(background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease);
+}
+
+
+/**
  * Font
  */
 body, input, select, textarea {
@@ -81,10 +89,25 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /**
- * Buttons
+ * List groups
  */
-.btn {
-  @include transition(background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease);
+.list-group {
+  > .list-group-item {
+    > .fa.fa-chevron-right {
+      float: right;
+      padding-top: 5px;
+    }
+  }
+}
+
+/**
+ * Loading indicator
+ */
+section.loading {
+  min-height: 100%;
+  text-align: center;
+  font-size: $font-size-h1;
+  @include vcenter-block();
 }
 
 
@@ -123,15 +146,4 @@ strong, b {
 
 p, ul, ol, dl, table, blockquote {
   margin: 0 0 2em 0;
-}
-
-
-/**
- * Loading indicator
- */
-section.loading {
-  min-height: 100%;
-  text-align: center;
-  font-size: $font-size-h1;
-  @include vcenter-block();
 }

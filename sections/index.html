@@ -7,8 +7,12 @@ description: "The Western Region is composed of many sections, each with their o
 <h1>Western Region Sections</h1>
 
 <div class="list-group">
-  {% for section in site.data.sections %}
-    <a href="{{ site.baseurl }}sections/{{section.area}}-{{section.section}}" class="list-group-item">{{section.area}}-{{section.section}}</a>
+  {% for key in site.data.sections %}
+    {% assign section = key[1] %}
+    <a href="{{ site.baseurl }}sections/{{section.area}}{{section.section}}" class="list-group-item">
+      <i class="fa fa-chevron-right"></i>
+      Section W-{{section.area}}{{section.section}}
+    </a>
   {% endfor %}
 </div>
 
