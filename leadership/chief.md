@@ -7,7 +7,7 @@ description: "Meet the Western Region Chief."
 # {{ site.time | date: "%Y" }} Western Region Chief {{site.data.leadership.chief.first_name}} {{site.data.leadership.chief.last_name}}
 
 <div class="text-center">
-  <img src="/images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" style="height: 200px; width: 138px;" class="img-thumbnail">
+  <img src="{{ site.baseurl }}images/leadership/chief.jpg" srcset="/images/leadership/chief.jpg 2x" style="height: 200px; width: 138px;" class="img-thumbnail">
 </div>
 
 {% if site.data.leadership.chief.profile.size > 0 %}

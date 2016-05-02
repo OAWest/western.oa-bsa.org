@@ -1,0 +1,22 @@
+/**
+ * Region Training page
+ */
+.page-content {
+  .training {
+    .row {
+      .nls, .nlats, .dylc {
+        text-align: center;
+
+        .visual {
+          margin: $padding-base-vertical auto;
+          display: block;
+          text-align: center;
+
+          .logo-nls, .logo-nlats, .logo-dylc {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

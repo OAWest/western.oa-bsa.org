@@ -12,16 +12,16 @@ The region leadership consists of the key 3: the Region Chief, the Region Chairm
 
 The region chief is the youth leader of the region elected by the section chiefs from that region at the national planning meeting. He must be under 21 years of age during the entire term of office and will serve until a successor is elected. The election is held following the election of the national chief and national vice-chief.
 
-<a href="/leadership/chief" class="btn btn-default">Meet the Chief</a>
+<a href="{{ site.baseurl }}leadership/chief" class="btn btn-default">Meet the Chief</a>
 
 ### Region Chairman {{site.data.leadership.chairman.first_name}} {{site.data.leadership.chairman.last_name}}
 
 The volunteer leader in the region is the region Order of the Arrow chairman. Appointed annually by the region director, he is responsible for administering and monitoring the program regionally, with a special emphasis placed on his role as adviser to the region chief.
 
-<a href="/leadership/region-chairman" class="btn btn-default">Meet the Chairman</a>
+<a href="{{ site.baseurl }}leadership/region-chairman" class="btn btn-default">Meet the Chairman</a>
 
 ### Region Staff Adviser {{site.data.leadership.staff_adviser.first_name}} {{site.data.leadership.staff_adviser.last_name}}
 
 The region staff adviser is appointed by the region director. He represents the region director in all Order of the Arrow operations within the region. His duties include regular communication and counsel with the region chairman and region chief.
 
-<a href="/leadership/region-staff-adviser" class="btn btn-default">Meet the Staff Adviser</a>
+<a href="{{ site.baseurl }}leadership/region-staff-adviser" class="btn btn-default">Meet the Staff Adviser</a>

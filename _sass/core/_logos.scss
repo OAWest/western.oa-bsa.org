@@ -1,11 +1,21 @@
 /**
+ * NLATS
+ */
+.logo-nlats {
+  @include retina-image($filename: '/images/logos/national-lodge-adviser-training-seminar', $background-size: 90px 85px, $extension: 'png', $retina-suffix: '@2x');
+  background-repeat: none;
+  height: 85px;
+  width: 90px;
+}
+
+/**
  * NLS
  */
 .logo-nls {
-  @include retina-image($filename: '/images/logos/national-leadership-seminar', $background-size: 85px 88px, $extension: 'png', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/logos/national-leadership-seminar', $background-size: 88px 85px, $extension: 'png', $retina-suffix: '@2x');
   background-repeat: none;
-  height: 88px;
-  width: 85px;
+  height: 85px;
+  width: 88px;
 }
 
 /**

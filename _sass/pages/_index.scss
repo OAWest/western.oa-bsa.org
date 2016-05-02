@@ -8,11 +8,6 @@ main.index {
 
     .container {
       .row {
-        &.actions {
-          text-align: center;
-          margin: $padding-base-vertical 0;
-        }
-
         h4 {
           height: ($line-height-computed * 3);
           margin: ($padding-base-vertical * 2) 0;
@@ -20,9 +15,11 @@ main.index {
 
         .visual {
           margin: $padding-base-vertical auto;
+          display: block;
+          text-align: center;
 
-          .logo-nls {
-            display: inline-block;
+          .logo-nls, .logo-nlats {
+            margin: 0 auto;
           }
 
           .chief {
