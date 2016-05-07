@@ -1,27 +1,27 @@
 {
   main: [
     {
-      url: "/",
+      url: "",
       text: "Home"
     },
     {
-      url: "/calendar",
+      url: "calendar",
       text: "Calendar"
     },
     {
-      url: "/leadership",
+      url: "leadership",
       text: "Leadership"
     },
     {
-      url: "/program",
+      url: "program",
       text: "Program"
     },
     {
-      url: "/resources",
+      url: "resources",
       text: "Resources"
     },
     {
-      url: "/sections",
+      url: "sections",
       text: "Sections"
     },
     {

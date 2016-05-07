@@ -1,0 +1,5 @@
+{% if site.baseurl.size > 0 %}
+  <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+{% else %}
+   <link rel="stylesheet" href="{{ "/css/main.css" }}">
+{% endif %}

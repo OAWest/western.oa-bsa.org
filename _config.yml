@@ -31,17 +31,17 @@ excerpt_separator: "\n\n"
 
 # Sass
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 
 # Serving
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/" # does not include hostname
+baseurl: "/"
 url: "http://western.oa-bsa.org"
 
 # Outputting
-permalink: /:title.html
+permalink: date
 paginate: 10
 paginate_path: /page:num
 timezone: null
