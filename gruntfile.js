@@ -24,11 +24,6 @@ module.exports = function(grunt) {
         ]
       }
     },
-    exec: {
-      jekyll: {
-        cmd: "jekyll build --trace"
-      }
-    },
     ts: {
       app: {
         files: [{
@@ -58,36 +53,20 @@ module.exports = function(grunt) {
       ts: {
         files: ["_typescript/src/**/*.ts"],
         tasks: ["ts", "tslint"]
-      },
-      jekyll: {
-        files: [
-          "_drafts/**/*",
-          "_includes/**/*",
-          "_layouts/**/*",
-          "_posts/**/*",
-          "css/**/*",
-          "js/**/*",
-          "_config.yml",
-          "*.html",
-          "*.md"
-        ],
-        tasks: [
-          "exec:jekyll"
-        ]
       }
     }
   });
 
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.loadNpmTasks("grunt-exec");
+  //grunt.loadNpmTasks("grunt-exec");
   grunt.loadNpmTasks("grunt-ts");
   grunt.loadNpmTasks("grunt-tslint");
 
-  grunt.registerTask("build", [
+  /*grunt.registerTask("build", [
     "copy",
     "exec:jekyll"
-  ]);
+  ]);*/
 
   grunt.registerTask("default", [
     "copy",

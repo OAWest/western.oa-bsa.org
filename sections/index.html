@@ -9,10 +9,10 @@ description: "The Western Region is composed of many sections, each with their o
 <div class="list-group">
   {% for key in site.data.sections %}
     {% assign section = key[1] %}
-    <a href="{{section.area}}{{section.section}}" class="list-group-item">
+    <a href="{{ section.area }}{{ section.section }}" class="list-group-item">
       <i class="fa fa-chevron-right"></i>
-      Section W-{{section.area}}{{section.section}}
-      <small class="hidden-xs"> - led by {{section.leadership.chief.first_name}} {{section.leadership.chief.last_name}}</small>
+      Section W-{{ section.area }}{{ section.section }}
+      <small class="hidden-xs"> - led by {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</small>
     </a>
   {% endfor %}
 </div>
