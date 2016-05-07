@@ -45,7 +45,7 @@ Next, install the node and bower dependencies for the website via:
 
 It's easy to help us keep the website up to date:
 
-* Go to our Githubrepository (github.com/OAWest/western.oa-bsa.org)
+* Go to our Github repository [github.com/OAWest/western.oa-bsa.org](github.com/OAWest/western.oa-bsa.org)
 * Browse to the file with the error. Not sure where the file is? The files are mostly in either markdown (.md) or html (.html), and the file location should match the path the file in the URL.
 * Click the edit (pencil) icon to edit the file.
 * Make the necessary changes.
