@@ -211,6 +211,12 @@ It's easy to help us keep the website up to date:
 * Make the necessary changes.
 * Provide a commit message, and choose _Create a new branch for this commit and start a pull request_. This will send us a pull request. If the changes you made are acceptable, your commit (and it's changes) will be merged into the code for the website.
 
+## New to Git?
+
+We recommend the short Hello World sample provided by GitHub:
+
+* [Hello World](https://guides.github.com/activities/hello-world/)
+
 ## Want to be on the team?
 
 We're always looking for volunteers. Just send us a message on twitter:
