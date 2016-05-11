@@ -83,3 +83,18 @@
   @media (min-width: $screen-sm-min) {
   }
 }
+
+/**
+* Edit this page
+*/
+#edit {
+  display: block;
+  background-color: $dark-gray;
+  text-align: right;
+  font-size: $font-size-small;
+  padding: $padding-base-vertical $padding-base-horizontal;
+
+  a {
+    color: $white;
+  }
+}

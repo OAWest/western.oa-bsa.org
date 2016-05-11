@@ -29,6 +29,10 @@ highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
 
+# GitHub
+github:
+  repository_url: "https://github.com/OAWest/western.oa-bsa.org"
+
 # Sass
 sass:
   sass_dir: _sass
