@@ -1,8 +1,16 @@
+administration:
+  first_name: "Ken"
+  last_name: "Hayashi"
+  email: "administration@western.oa-bsa.org"
 chairman:
   first_name: "Toby"
   last_name: "Capps"
   email: "chairman@western.oa-bsa.org"
   profile: ""
+communications_and_technology:
+  first_name: "Brian"
+  last_name: "Love"
+  email: "webmaster@western.oa-bsa.org"
 chief:
   first_name: "Joe"
   last_name: "Garcia"
@@ -16,8 +24,54 @@ chief:
     Dramatic Arts Academy or Northern Arizona University this fall. In his
     free time, Joe enjoys doing impressions, performing with his improv group,
     as well as reading and following politics.
+conclave_training:
+  first_name: "Joe"
+  last_name: "Garcia"
+  email: "westernchief2011@gmail.com"
+finance:
+  first_name: "Deanna"
+  last_name: "Westmyr"
+  email: ""
+immediate_past_chief:
+  first_name: "Nathan"
+  last_name: "Lee"
+  email: "2015chief@western.oa-bsa.org"
+nlats_coordinator:
+  first_name: "Steve"
+  last_name: "Davidek"
+  email: "nlats@western.oa-bsa.org"
+nls_coordinator:
+  first_name: "Rob"
+  last_name: "Rosamond"
+  email: "nls@western.oa-bsa.org"
 staff_adviser:
   first_name: "Steve"
   last_name: "Sawyer"
   email: "staffadviser@western.oa-bsa.org"
   profile: ""
+trading_post:
+  first_name: "Jeff"
+  last_name: "Posey"
+  email: "orders@western.oa-bsa.org"
+  profile: ""
+vice_chairman:
+  area_1:
+    first_name: "Mike"
+    last_name: "Johnson"
+    email: ""
+  area_2:
+    first_name: "Bill"
+    last_name: "Topkis"
+    email: ""
+  area_3:
+    first_name: "Bruce"
+    last_name: "Mayfield"
+    email: ""
+  area_4:
+    first_name: "Gary"
+    last_name: "Christiansen"
+    email: ""
+  area_6:
+    first_name: "Tim"
+    last_name: "Malaney"
+    email: ""

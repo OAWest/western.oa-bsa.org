@@ -27,7 +27,7 @@
             {% for key in site.data.sections %}
               {% assign section = key[1] %}
               <li>
-                <a href="{{ section.baseurl }}sections/{{ section.area }}{{ section.section }}">
+                <a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}">
                   W-{{ section.area }}{{ section.section }}
                 </a>
               </li>
@@ -58,6 +58,8 @@
           <ul class="list-unstyled">
             <li><a href="{{ site.baseurl }}about-us">Region Profile</a></li>
             <li><a href="{{ site.baseurl }}about-us/contact-us">Contact Us</a></li>
+            <li><a href="http://www.oa-bsa.org">Order of the Arrow</a></li>
+            <li><a href="http://www.scouting.org">Boy Scouts of America</a></li>
           </ul>
         </nav>
       </div>

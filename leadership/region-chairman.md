@@ -4,7 +4,7 @@ date:   2016-04-29 18:36 -0600
 description: "Meet the Western Region Chairman."
 ---
 
-# {{{ site.time | date: "%Y" }} Western Region Chairman {{site.data.leadership.chairman.first_name}} {{site.data.leadership.chairman.last_name}}
+# Western Region Chairman {{site.data.leadership.chairman.first_name}} {{site.data.leadership.chairman.last_name}}
 
 <div class="text-center">
   <img src="{{ site.baseurl }}images/leadership/chairman.jpg" srcset="/images/leadership/chairman.jpg 2x" style="height: 200px; width: 158px;" class="img-thumbnail">

@@ -14,7 +14,7 @@ The 2016 Western Region Gathering will be held October 21-23, 2016 at the Irvine
 
 We will only be able to provide airport shuttle service at the SNA (John Wayne/Orange County/Santa Ana) airport. Please plan on arriving at the SNA airport no later than 5:00pm on Friday, October 21 in order to check-in no later than 5:30pm. Plan on departing from SNA airport no earlier than 2:00pm on Sunday, October 23.
 
-<a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x58065ac88" class="btn btn-default">Regiser</a>
+<a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x58065ac88" class="btn btn-default">Register</a>
 
 ### 2017 Western Region Gathering
 

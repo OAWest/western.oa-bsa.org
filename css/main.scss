@@ -10,11 +10,9 @@
 -------------------------------------------------------------------------------
 */
 
-/*import fonts*/
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,500,900");
-
 /*import core libraries and sass code */
 @import
+  "core/fonts",
   "core/variables",
   "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap",
   "../bower_components/font-awesome/scss/font-awesome",

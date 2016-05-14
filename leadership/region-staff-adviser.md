@@ -4,7 +4,7 @@ date:   2016-04-29 17:53 -0600
 description: "Meet the Western Region Staff Adviser."
 ---
 
-# {{{ site.time | date: "%Y" }} Western Region Staff Adviser {{site.data.leadership.staff_adviser.first_name}} {{site.data.leadership.staff_adviser.last_name}}
+# Western Region Staff Adviser {{site.data.leadership.staff_adviser.first_name}} {{site.data.leadership.staff_adviser.last_name}}
 
 {% if site.data.leadership.staff_adviser.profile.size > 0 %}
   <h3>About {{site.data.leadership.staff_adviser.first_name}}</h3>
