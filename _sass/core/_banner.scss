@@ -4,25 +4,10 @@
 header.banner {
   position: relative;
   color: white;
-  cursor: default;
-  height: 100%;
   width: 100%;
   padding: ($padding-base-vertical * 8) 0;
   text-align: center;
   overflow: hidden;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-attachment: scroll;
-    background-color: #645862;
-    background: url("/images/banners/overlay.png") repeat top left;
-    z-index: 1;
-  }
 
   &::after {
     content: "";
@@ -31,10 +16,37 @@ header.banner {
     right: 0;
     bottom: 0;
     left: 0;
-    @include retina-image($filename: '/images/banners/mountains', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-    background-attachment: fixed;
-    background-position: center center;
     z-index: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  &.cover {
+    height: 100%;
+    
+    &::after {
+      background-attachment: fixed;
+    }
+  }
+  
+  &.mountains {
+    &::after {
+       @include retina-image($filename: '/images/banners/mountains', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+    }
+  }
+  
+  &.overlay {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #645862;
+      background: url("/images/banners/overlay.png") repeat top left;
+      z-index: 1;
+    }
   }
 
   .inner {
@@ -83,4 +95,9 @@ header.banner {
       margin: 2em 0 0;
     }
   }
+}
+
+a.banner {
+  text-decoration: none;
+  cursor: pointer;
 }
