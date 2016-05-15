@@ -45,8 +45,8 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 
 All participants must register themselves using the online registration form link below. The national OA office will bill councils for all registrations. Participants are responsible for paying their lodge directly for the NLS or NLATS registration fees. Some lodges and sections provide scholarships; check with your local Lodge Chief or Lodge Adviser for details and specific instructions on submitting your payment, if applicable.
 
-## Cancelation Policy:
+## Cancellation Policy:
 
-Cancelation requests must be submitted to the Western Region Training Coordinator via e-mail at [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org). The participant's council will not be billed for the seminar fees if the cancelation request is received at least 21 days prior to the start of the event. Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full. To transfer a registration, e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org) for instructions and the name of the replacement.  NLS participants can be swapped for NLATS/DYLC participants and vice versa, youth or adult.
+Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org). The participant's council will not be billed for the seminar fees if the cancellation request is received at least 21 days prior to the start of the event. Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full. To transfer a registration, e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org) for instructions and the name of the replacement.  NLS participants can be swapped for NLATS/DYLC participants and vice versa, youth or adult.
 
 *Don't Forget: All participants need to bring a sleeping bag and uniform to the event.*
