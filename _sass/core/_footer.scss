@@ -31,7 +31,7 @@
 
   .social {
     text-align: center;
-    margin: ($padding-base-vertical * 4) auto;
+    margin: ($padding-base-vertical * 6) auto;
 
     a {
       display: inline-block;
@@ -54,7 +54,7 @@
           padding-top: 12px;
         }
 
-        &.fa-google-plus {
+        &.fa-instagram {
           padding-top: 12px;
         }
 
@@ -81,6 +81,9 @@
   }
 
   @media (min-width: $screen-sm-min) {
+    .social {
+      margin: ($padding-base-vertical * 8) auto;
+    }
   }
 }
 
