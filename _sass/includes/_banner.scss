@@ -46,3 +46,17 @@ header.banner.nls-steve-jobs-quote {
     @include retina-image($filename: '/images/banners/nls-steve-jobs-quote', $background-size: cover, $extension: 'png', $retina-suffix: '@2x');
   }
 }
+
+
+/**
+* Resources
+*/
+header.banner.resources {
+  height: 300px;
+  
+  &::after {
+    background-color: #000;
+    background-position-y: top;
+    @include retina-image($filename: '/images/banners/resources', $background-size: 600px, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}
