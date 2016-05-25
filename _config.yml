@@ -12,9 +12,7 @@ exclude: [
   "bower.json",
   "package.json",
   "tslint.json",
-  "assets",
-  "bower_components",
-  "node_modules"
+  "assets"
 ]
 keep_files:   [".git"]
 encoding:     "utf-8"
