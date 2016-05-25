@@ -12,18 +12,10 @@ Journey to Excellence (JTE), the new performance recognition program adopted by 
 
 This Calendar provides a recommended backdating time written by the Western Region to help Lodges to help them complete the JTE requirements on time to achieve JTE by the end of the calendar year.
 
-## JTE for Chapters
-
-This file contains all the requirements for the Journey to Excellence Award at the chapter level.
-
-## JTE for Lodges
-
-This file contains all the requirements for the Journey to Excellence Award at the lodge level.
-
-## JTE for Sections
-
-Get the form from the National OA website by clicking the Download button below.
+[Download JTE Calendar]({{ site.baseurl }}resources/assets/jte-calendar.pdf) [PDF]
 
 ## Western Region JTE Guidebook
 
 This guidebook was created specifically by the Western Region as a replacement to the Quality Lodge Guide to assist Lodges in understanding the new Journey to Excellence program and how best to develop a plan to achieve their new JTE goals. All Chapter, Lodge and Section Officers should check it out!
+
+[Download JTE Guidebook]({{ site.baseurl }}resources/assets/jte-guidebook.pdf) [PDF]
