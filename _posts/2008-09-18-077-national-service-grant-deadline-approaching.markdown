@@ -1,7 +1,5 @@
 ---
-layout: post
 title: National Service Grant Deadline Approaching
-joomla_id: 77
 date: 2008-09-18 03:10:47.000000000 -06:00
 ---
 Posted: September 18, 2008 by Kevin Renfrow<br/><br/>

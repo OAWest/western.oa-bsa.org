@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2009 Western Region NOAC Patches Now Available
-joomla_id: 91
 date: 2009-02-21 03:02:53.000000000 -07:00
 ---
 Posted: February 21, 2009 by Kevin Renfrow<br/><br/>

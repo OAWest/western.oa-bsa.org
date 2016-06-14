@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Fred Gross Elected as 2010 Western Region Chief
-joomla_id: 100
 date: 2009-12-29 00:00:00.000000000 -07:00
 ---
 Posted: December 29, 2009 by Rob Rosamond<br/>

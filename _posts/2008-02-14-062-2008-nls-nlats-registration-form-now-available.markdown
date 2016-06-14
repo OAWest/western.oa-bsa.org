@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2008 NLS/NLATS Registration Form Now Available
-joomla_id: 62
 date: 2008-02-14 21:50:20.000000000 -07:00
 ---
 <img src=images/nlsn_lats_form.jpg  style=padding-left: 5px; align=right border=0 height=100 width=133>The following are the dates for the <a href=program/training/nls.php>National Leadership Seminar (NLS)</a> and <a href=program/training/nlats.php>National Lodge Adviser Training Seminar (NLATS)</a> programs in 2008:<br>

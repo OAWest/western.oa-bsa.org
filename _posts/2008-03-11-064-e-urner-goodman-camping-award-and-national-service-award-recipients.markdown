@@ -1,7 +1,5 @@
 ---
-layout: post
 title: E. Urner Goodman Camping Award and National Service Award Recipients
-joomla_id: 64
 date: 2008-03-11 18:12:10.000000000 -06:00
 ---
 The recognitions subcommittee of the National Committee of the Order of the Arrow is pleased to announce the selection of two lodges in the Western Region  for the <a href=program/awards/eugcamping.php>E.&nbsp;Urner Goodman Camping Award</a>.  The award was established as a tribute and testimonial to the Orderâ€™s founder, E. Urner Goodman.  The lodges being recognized for their 2007 accomplishments are:

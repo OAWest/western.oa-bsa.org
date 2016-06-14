@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Download the Updated Field Operations Guide
-joomla_id: 94
 date: 2009-07-03 19:36:57.000000000 -06:00
 ---
 Posted: July 3, 2009 by Kevin Renfrow<br/><br/>

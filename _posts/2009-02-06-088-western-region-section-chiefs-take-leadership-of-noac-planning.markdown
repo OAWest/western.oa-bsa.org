@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Western Region Section Chiefs Take Leadership of NOAC Planning
-joomla_id: 88
 date: 2009-02-06 21:42:32.000000000 -07:00
 ---
 Posted: February 6, 2009 by Mark Hendricks<br/><br/>

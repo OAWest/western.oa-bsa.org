@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Meet the Chief - David Harrell
-joomla_id: 87
 date: 2009-01-04 02:34:53.000000000 -07:00
 ---
 Posted: January 4, 2009 by Kevin Renfrow<br/><br/>

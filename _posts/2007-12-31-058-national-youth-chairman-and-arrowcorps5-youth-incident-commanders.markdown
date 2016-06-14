@@ -1,7 +1,5 @@
 ---
-layout: post
 title: National Youth Chairman and ArrowCorps5 Youth Incident Commanders
-joomla_id: 58
 date: 2007-12-31 08:17:02.000000000 -07:00
 ---
 <a href=http://www.oawest.org/npm07/fri/Ted%20-%20Sam%20-%20Alex.JPG><img src=http://www.oawest.org/npm07/fri/thumbs/Ted%20-%20Sam%20-%20Alex.JPG align=right border=0 height=100 width=133 style=padding-left:5px;></a>Ted Dodson has been elected the 2008 Youth Chairman of the National Events Promotion Committee. Ted Dodson is a two-term W-3C Section chief from Maluhia Lodge in Wailuku, Hawaii.<br>

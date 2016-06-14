@@ -1,7 +1,5 @@
 ---
-layout: post
 title: New Trading Post Items Available for NOAC
-joomla_id: 96
 date: 2009-07-16 23:00:00.000000000 -06:00
 ---
 Posted: July 16, 2009 by Mike Bliss<br/><br/>

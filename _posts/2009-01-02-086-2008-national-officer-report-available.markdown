@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2008 National Officer Report Available
-joomla_id: 86
 date: 2009-01-02 21:46:41.000000000 -07:00
 ---
 Posted: January 2, 2009 by Kevin Renfrow<br/><br/>

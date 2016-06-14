@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2007 National Officer Report
-joomla_id: 59
 date: 2007-12-31 12:07:00.000000000 -07:00
 ---
 <a href=http://www.oawest.org/npm07/fri/CIMG0978.JPG><img src=http://www.oawest.org/npm07/fri/thumbs/CIMG0978.JPG align=left border=0 height=100 width=133 style=padding-right:5px;></a>

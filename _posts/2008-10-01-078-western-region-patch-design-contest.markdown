@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Western Region Patch Design Contest
-joomla_id: 78
 date: 2008-10-01 05:19:01.000000000 -06:00
 ---
 Posted: October 1, 2008 by Kevin Renfrow<br/><br/>

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Wellman, Hendricks, Braden Receive Presidential Volunteer Service Award
-joomla_id: 73
 date: 2008-07-18 20:57:47.000000000 -06:00
 ---
 Posted: July 17, 2008 by Kevin Renfrow<br/><br/>

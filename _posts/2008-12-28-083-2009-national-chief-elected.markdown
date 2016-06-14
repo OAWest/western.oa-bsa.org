@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2009 National Chief Elected
-joomla_id: 83
 date: 2008-12-28 01:15:52.000000000 -07:00
 ---
 <img src=images/JackONeill.jpg width=120 height=150 align=right style=padding-left:5px>

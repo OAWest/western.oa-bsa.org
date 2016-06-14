@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Upcoming National Leadership Seminar Opportunities
-joomla_id: 76
 date: 2008-09-14 02:34:04.000000000 -06:00
 ---
 Posted: September 13, 2008 by Kevin Renfrow<br/>

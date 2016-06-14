@@ -1,7 +1,5 @@
 ---
-layout: post
 title: ArrowCorps5 begins work at Shasta-Trinity
-joomla_id: 72
 date: 2008-07-13 12:36:50.000000000 -06:00
 ---
 Posted: July 13, 2008<br/><br/>

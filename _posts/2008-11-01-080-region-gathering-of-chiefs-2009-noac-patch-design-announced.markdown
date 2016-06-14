@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Region Gathering of Chiefs, 2009 NOAC Patch Design Announced
-joomla_id: 80
 date: 2008-11-01 18:45:22.000000000 -06:00
 ---
 Posted: November 1, 2008 by Mark Hendricks<br/><br/>

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Western Region Realignment Announced
-joomla_id: 74
 date: 2008-08-15 21:25:59.000000000 -06:00
 ---
 <p>Posted: August 14, 2008 by Kevin Renfrow<br/>
