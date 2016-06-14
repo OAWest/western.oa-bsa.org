@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2009 Quality Lodge Planbook and Pocketbook Now Available
-joomla_id: 89
 date: 2009-02-06 22:28:36.000000000 -07:00
 ---
 Posted: February 6, 2009 by Kevin Renfrow<br/><br/>

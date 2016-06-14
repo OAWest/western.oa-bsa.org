@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Region Council of Chiefs
-joomla_id: 79
 date: 2008-10-15 19:22:24.000000000 -06:00
 ---
 Posted: October 15, 2008 by Kevin Renfrow<br/><br/>

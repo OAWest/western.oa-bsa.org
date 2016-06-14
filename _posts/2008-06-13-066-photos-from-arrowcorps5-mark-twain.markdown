@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Photos from ArrowCorps5 - Mark Twain
-joomla_id: 66
 date: 2008-06-13 11:32:17.000000000 -06:00
 ---
 <img src='images/ac5marktwain.jpg' width=133 height=145 align=right>Tomorrow marks the completion of the first 

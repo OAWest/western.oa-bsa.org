@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Updated NLS/NLATS Location and Interactive Registration Form
-joomla_id: 67
 date: 2008-05-18 05:51:42.000000000 -06:00
 ---
 <img src=images/nls_form.jpg  style=padding-left: 5px; align=right border=0 height=100 width=133><p>The location for the <a href="/program/training/nls.php">National Leadership Seminar (NLS)</a> scheduled for November 14-16, 2008 will be held at the Coast Guard Station at Alameda. As Coast Guard Island is an active military base, all staff and participants must be pre-registered and bring some form of photo identification (driver's license, student ID). All drivers are required to provide registration and proof of insurance to enter the base.</p>

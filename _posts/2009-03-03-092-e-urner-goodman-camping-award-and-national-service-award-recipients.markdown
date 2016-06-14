@@ -1,7 +1,5 @@
 ---
-layout: post
 title: E. Urner Goodman Camping Award and National Service Award Recipients
-joomla_id: 92
 date: 2009-03-03 23:00:39.000000000 -07:00
 ---
 Posted: March 3, 2009 by Kevin Renfrow<br/><br/>

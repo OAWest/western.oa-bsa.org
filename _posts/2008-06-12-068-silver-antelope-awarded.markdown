@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Silver Antelope Awarded
-joomla_id: 68
 date: 2008-06-12 21:50:14.000000000 -06:00
 ---
 <img src=images/silver_antelope_award.jpg width=133 height=134 align=left>Arrowmen Judy Kay Wadford, Dennis Downing, and Mike Perkins were awarded the Silver Antelope for unselfish service and dedication to Scouting in May, 2008. They belong to a distinguished group of 11 volunteer Scouters from across the region. 

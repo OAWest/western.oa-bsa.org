@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Loder Honored with Lifetime Acheivement Award
-joomla_id: 90
 date: 2009-02-21 02:55:07.000000000 -07:00
 ---
 Posted: February 20, 2009 by Evan Michael Hess

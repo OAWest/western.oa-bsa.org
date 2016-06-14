@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Spring 2009 Mustang Newsletter Available
-joomla_id: 93
 date: 2009-04-06 03:02:16.000000000 -06:00
 ---
 Posted: April 6, 2009 by Kevin Renfrow<br/><br/>

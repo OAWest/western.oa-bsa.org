@@ -1,7 +1,5 @@
 ---
-layout: post
 title: National Conservation and Leadership Summit
-joomla_id: 50
 date: 2007-03-26 11:12:21.000000000 -06:00
 ---
 The <a href="/program/training/ncls.php">2007 National Conservation and Leadership Summit</a> (NCLS) will take

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Region Committee Chairmen Appointed
-joomla_id: 75
 date: 2008-09-08 22:41:20.000000000 -06:00
 ---
 Posted: September 7, 2008 by Kevin Renfrow<br/>

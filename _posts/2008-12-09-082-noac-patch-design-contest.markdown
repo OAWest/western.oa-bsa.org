@@ -1,7 +1,5 @@
 ---
-layout: post
 title: NOAC Patch Design Contest
-joomla_id: 82
 date: 2008-12-09 22:22:27.000000000 -07:00
 ---
 The OA National Planning Committee is looking for talented graphic artist and patch designers to participate in the first-ever NOAC Patch Design Contest. If you like patches and winning great prizes, this contest is for you! Your patch can become a part of OA history; all it takes is a little time and a great design!

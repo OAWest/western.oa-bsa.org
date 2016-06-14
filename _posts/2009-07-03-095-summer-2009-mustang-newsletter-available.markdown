@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Summer 2009 Mustang Newsletter Available
-joomla_id: 95
 date: 2009-07-03 21:02:53.000000000 -06:00
 ---
 Posted: July 3, 2009 by Kevin Renfrow<br/><br/>

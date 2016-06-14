@@ -1,7 +1,5 @@
 ---
-layout: post
 title: We Need Your Help Getting National News Coverage!
-joomla_id: 71
 date: 2008-07-02 01:50:27.000000000 -06:00
 ---
 Posted: July 2, 2008<br/><br/>

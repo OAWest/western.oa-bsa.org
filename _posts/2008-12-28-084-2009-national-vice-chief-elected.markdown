@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2009 National Vice-Chief Elected
-joomla_id: 84
 date: 2008-12-28 02:30:44.000000000 -07:00
 ---
 <img src=images/DanHigham.jpg width=120 height=122 align=right style=padding-left:5px>

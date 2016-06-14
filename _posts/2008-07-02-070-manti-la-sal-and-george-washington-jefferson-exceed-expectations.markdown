@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Manti-La-Sal and George Washington-Jefferson Exceed Expectations
-joomla_id: 70
 date: 2008-07-02 00:45:23.000000000 -06:00
 ---
 Posted: July 2, 2008<br/><br/>

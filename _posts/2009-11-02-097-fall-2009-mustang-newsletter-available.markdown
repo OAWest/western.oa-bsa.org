@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Fall 2009 Mustang Newsletter Available
-joomla_id: 97
 date: 2009-11-02 00:00:00.000000000 -07:00
 ---
 Posted: November 2, 2009 by Rob Rosamond<br/><br/>

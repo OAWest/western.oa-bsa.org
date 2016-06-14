@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 2007 Western Region Youth Chairmen
-joomla_id: 48
 date: 2007-02-11 00:00:00.000000000 -07:00
 ---
 Part of the region chief's goals is to have various youth chairmen in charge of areas designed to aid in operations of the region. For 2007, the following youth have been appointed to lead their respective committees:<blockquote><b>Region Communications Chairman </b> - <a href="http://western.oa-bsa.org/contact?MailTo=Communications%20Chairman%20%28Joshua%20Bryan%29">Joshua Bryan</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Webmaster</b> - <a href="http://western.oa-bsa.org/contact?MailTo=Webmaster%20%28Alex%20Begg%29">Alex Begg</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><i>Mustang</i> Editor</b> - <a href="http://western.oa-bsa.org/contact?MailTo=Mustang%20Editor%20%28Eric%20Svingen%29">Eric Svingen</a><br /><b>Region High Adventure Chairman</b> - <a href="http://western.oa-bsa.org/contact?MailTo=High%20Adventure%20Chairman%20%28Jake%20Knudsen%29">Jake Knudsen</a><br /><b>Region Training Chairman</b> -   <a href="http://western.oa-bsa.org/contact?MailTo=Training%20Chairman%20%28Case%20Barden%29">Case Barden</a><br /><b>Region Quality Lodge Chairman</b> - <a href="http://western.oa-bsa.org/contact?MailTo=Quality%20Lodge%20Chairman%20%28AJ%20Meyers%29">AJ Meyers</a><br /><b>Region Events Promotion Chairman</b> - <a href="http://western.oa-bsa.org/contact?MailTo=Events%20Promotion%20Chairman%20%28Jake%20Wellman%29">Jake Wellman</a></blockquote>

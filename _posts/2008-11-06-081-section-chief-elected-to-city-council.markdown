@@ -1,7 +1,4 @@
 ---
-layout: post
-title: Section Chief Elected to City Council
-joomla_id: 81
 date: 2008-11-06 11:35:01.000000000 -07:00
 ---
 Posted: November 6, 2008 by Kevin Renfrow<br/><br/>
