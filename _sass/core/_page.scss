@@ -2,8 +2,12 @@
  * A single post
  */
 main.page {
-  margin: ($padding-base-vertical * 8) 0;
-
+  padding: ($padding-base-vertical * 8) 0;
+  
+  &.page-with-banner {
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.075);
+  }
+  
   .container {
     .row {
       .panel.post {

@@ -16,7 +16,7 @@
           background-position: center center;
           background-size: cover;
           background-repeat: no-repeat;
-          height: 200px;
+          height: 300px;
         }
       }
 
@@ -52,8 +52,8 @@
  * Announcements
  */
 .announcement-2016-04-29-NEXT {
-  @include retina-image($filename: '/images/announcements/2016-04-29-NEXT', $background-size: 958px 200px, $extension: 'jpg', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/announcements/2016-04-29-NEXT', $background-size: 200px, $extension: 'jpg', $retina-suffix: '@2x');
 }
 .announcement-2016-04-29-Operation-Arrow {
-  @include retina-image($filename: '/images/announcements/2016-04-29-Operation-Arrow', $background-size: 960px 200px, $extension: 'jpg', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/announcements/2016-04-29-Operation-Arrow', $background-size: 200px, $extension: 'jpg', $retina-suffix: '@2x');
 }

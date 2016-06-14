@@ -12,9 +12,7 @@ exclude: [
   "bower.json",
   "package.json",
   "tslint.json",
-  "assets",
-  "bower_components",
-  "node_modules"
+  "assets"
 ]
 keep_files:   [".git"]
 encoding:     "utf-8"
@@ -108,4 +106,5 @@ email:
 social:
   facebook: https://www.facebook.com/oawest
   google_plus: https://plus.google.com/111522187744944747027#111522187744944747027
+  instagram: https://www.instagram.com/oawest
   twitter: https://twitter.com/oawest

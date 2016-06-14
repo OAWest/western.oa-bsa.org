@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% include banner.html class=page.bannerClass href=page.bannerHref %}
+
+<main class="page page-with-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <article class="panel page">
+          <div class="panel-body">
+            <div class="page-content">
+              {{ content }}
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>

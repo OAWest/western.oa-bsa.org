@@ -186,7 +186,7 @@ Windows users will need to first install bower globally via:
 
 `npm install -g bower`
 
-Once you have bower installed on Windows you can run the following commands to install the necessary dependencies:
+Once you have bower installed on Windows you can run the following commands using the Git Bash shell to install the necessary dependencies. To start Git bash go to Start > All Apps (or All Programs) > Git > Git Bash. Then execute the following commands:
 
     > cd ./western.oa-bsa.org
     > npm install
