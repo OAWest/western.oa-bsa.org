@@ -25,7 +25,7 @@
       text: "Sections"
     },
     {
-      url: "https://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",
+      url: "/www.tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",
       text: "Trading Post"
     }
   ]
