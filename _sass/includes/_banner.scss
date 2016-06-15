@@ -39,6 +39,7 @@ header.banner.nls-2016-alaska {
 */
 header.banner.nls-steve-jobs-quote {
   height: 600px;
+  max-height:100%;
   
   &::after {
     background-color: #2d2a30;
@@ -52,7 +53,8 @@ header.banner.nls-steve-jobs-quote {
 * Resources
 */
 header.banner.resources {
-  height: 300px;
+  height: 600px;
+  max-height:100%;
   
   &::after {
     background-color: #000;
