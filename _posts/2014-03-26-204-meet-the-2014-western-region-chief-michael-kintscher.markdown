@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Meet the Chief
-joomla_id: 204
-joomla_url: meet-the-2014-western-region-chief-michael-kintscher
+title: Meet the 2014 Western Region Chief Michael Kintscher
 date: 2014-03-26 04:00:36.000000000 -06:00
 ---
-<h2>Meet the 2014 Western Region Chief Michael Kintscher</h2>
 <h6>Written by Michael Kintscher, WRC</h6>
 <br />
 <p>Brothers,</p>

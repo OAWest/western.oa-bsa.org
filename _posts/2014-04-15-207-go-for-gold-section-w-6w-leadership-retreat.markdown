@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 'Go For Gold: Section W-6W Leadership Retreat'
-joomla_id: 207
-joomla_url: go-for-gold-section-w-6w-leadership-retreat
 date: 2014-04-15 23:39:28.000000000 -06:00
 ---
-<h2>Go For Gold: Section W-6W Leadership Retreat</h2>
 <h6>Written by Vianney Careaga, Contributor</h6>
 <p>&nbsp;
 </p>

@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Los Angeles NLS
-joomla_id: 208
-joomla_url: los-angeles-nls
+title: Los Angeles NLS a Success
 date: 2014-04-17 18:10:58.000000000 -06:00
 ---
-<h2>Los Angeles NLS a Success</h2>
 <h6>Written by Zach Herzog, Staff Writer</h6>
 <p>&nbsp;</p>
 <p>Last weekend Arrowmen from across California and the Western Region joined together at Forest Lawn Scout Reservation for the first Western Region National Leadership Seminar of 2014!</p>
