@@ -5,7 +5,7 @@ joomla_id: 218
 joomla_url: 2016-double-vigil-golf-classic
 date: 2015-11-04 00:04:53.000000000 -07:00
 ---
-<p><img style="width: 100%;" src="images/DVGC/DVGCBanner.jpg" alt="DVGCBanner" /></p>
+<p><img style="width: 100%;" src="images/posts/2015DVGC/DVGCBanner.jpg" alt="DVGCBanner" /></p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="font-size: 24px; font-family: Arial; color: #ff0000; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">SAVE THE DATE!</span></p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="font-size: 20px; font-family: Arial; color: #ff0000; font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">The Double Vigil Golf Classic, Saturday, January 30th, 2016 at the Arizona Grand Resort &amp; Spa.</span></p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 14.6667px; font-family: Arial; vertical-align: baseline; white-space: pre-wrap;">Brothers,</span></p>
