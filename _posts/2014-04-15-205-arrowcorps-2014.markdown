@@ -1,11 +1,8 @@
 ---
 layout: post
 title: ArrowCorps 2014
-joomla_id: 205
-joomla_url: arrowcorps-2014
 date: 2014-04-15 23:16:49.000000000 -06:00
 ---
-<h2>ArrowCorps 2014</h2>
 <h6>Written by Ian Bellows, Contributor</h6>
 <p>&nbsp;</p>
 <p>In the summer of 2011, nearly 100 Arrowmen, Scouts and volunteers came together for 

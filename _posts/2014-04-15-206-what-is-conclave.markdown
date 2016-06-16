@@ -1,11 +1,8 @@
 ---
 layout: post
 title: What is Conclave?
-joomla_id: 206
-joomla_url: what-is-conclave
 date: 2014-04-15 23:34:04.000000000 -06:00
 ---
-<h2>&nbsp;What is Conclave?</h2>
 <h6>Written by Zach Herzog, Contributor</h6>
 <p>&nbsp;</p>
 <p>Arrowmen all over the Western Region are looking forward to this year’s conclave season— which will take place in various sections during April, May, September, and October—as a chance for section members to reunite and reaffirm their bonds of brotherhood through various activities.</p>
