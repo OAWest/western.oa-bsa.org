@@ -5,7 +5,7 @@ description: "We just updated our website. Learn how we built it and join us!"
 categories: updates
 author: brian_love
 ---
-<img src="{{ site.baseurl }}images/posts/ArrowCorps2016/group-photo.jpg" class="img-thumbnail" alt="A senic group photo in front of a mountain" style="display:block; width: 100%;">
+<img src="{{ site.baseurl }}images/posts/2016ArrowCorps/group-photo.jpg" class="img-thumbnail" alt="A senic group photo in front of a mountain" style="display:block; width: 100%;">
 <p>Wauna La-Montay Lodge will be hosting one of the largest OA Service Projects that Cascade pacific Council has ever promoted: <strong>ArrowCorps 2016</strong>. Spanning multiple Ranger Districts in two National Forest, projects will be varied, challenging, and satisfying. The projects include trail maintenance, fence construction, orphan campsite maintenance, and projects at Ranger Stations.</p>
 
 
@@ -16,7 +16,7 @@ author: brian_love
 <h3>Cost</h3>
 <p>$105.00 per person for a Full Week<br>$75.00 per person for a Half Week (Sun-Wed or Wed-Fri)</p>
 
-<img style="float: right; margin: 20px;" class="img-thumbnail" src="{{ site.baseurl }}images/posts/ArrowCorps2016/hole.jpg" alt="Two scouts take a break in a large hole" width="250px" height="auto">
+<img style="float: right; margin: 20px;" class="img-thumbnail" src="{{ site.baseurl }}images/posts/2016ArrowCorps/hole.jpg" alt="Two scouts take a break in a large hole" width="250px" height="auto">
 
 <h3>Dates and Locations</h3>
 <ul>
@@ -36,5 +36,5 @@ author: brian_love
 <p>The ArrowCorps page on our website is <a href="https://www.cpcbsa.org/arrowcorps" target="_blank">https://www.cpcbsa.org/arrowcorps</a>. Along with the long sleeve shirts and hard hats for attending each participant will receive special patches given only to those who attend ArrowCorps 2016, have the option to receive T-shirts, and additional ArrowCorps items. We are currently working on getting a national officer at the event as well as a congressman and/or senator. Anyone flying in should email ahead of time so coordination is possible to make sure they are picked up and the airport and that they get back in time for their return flight. I am working on getting pictures of previous ArrowCorps and should be able to email them to you in the coming days. ArrowCorps 2016 is a once in a lifetime opportunity for Arrowmen and Scouts to continue the legacy of service that was started so long ago.</p>
 
 <div class="text-center">
-  <img class="img-thumbnail" src="{{ site.baseurl }}images/posts/ArrowCorps2016/trail-crew.jpg" alt="Two scouts take a break in a large hole">
+  <img class="img-thumbnail" src="{{ site.baseurl }}images/posts/2016ArrowCorps/trail-crew.jpg" alt="Two scouts take a break in a large hole">
 </div>
