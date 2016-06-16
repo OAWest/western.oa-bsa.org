@@ -20,3 +20,25 @@
     }
   }
 }
+/**
+ * Region Awards page
+ */
+.page-content {
+  .awards {
+    .row {
+      .dsa, .camping, .JoshSain {
+        text-align: center;
+
+        .visual {
+          margin: $padding-base-vertical auto;
+          display: block;
+          text-align: center;
+
+          .logo-dsa, .logo-camping, .logo-JoshSain {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
