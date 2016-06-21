@@ -47,3 +47,13 @@
   height: 147px;
   width: 125px;
 }
+
+/**
+ * National Service Award
+ */
+.logo-nsa {
+  @include retina-image($filename: '/images/logos/natservice_plaque', $background-size: 129px 186px, $extension: 'jpg', $retina-suffix: '@2x');
+  background-repeat: none;
+  height: 186px;
+  width: 129px;
+}
