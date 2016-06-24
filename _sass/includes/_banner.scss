@@ -62,3 +62,13 @@ header.banner.resources {
     @include retina-image($filename: '/images/banners/resources', $background-size: 600px, $extension: 'jpg', $retina-suffix: '@2x');
   }
 }
+/**
+* Committee Area
+*/
+.committee {
+    iframe {
+        border:0px;
+        width:100%;
+        max-width:100%;
+	}
+}
