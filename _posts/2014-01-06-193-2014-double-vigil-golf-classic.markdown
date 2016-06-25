@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2014 Double Vigil Golf Classic
-joomla_id: 193
-joomla_url: 2014-double-vigil-golf-classic
 date: 2014-01-06 23:55:00.000000000 -07:00
 ---
-<p><strong><img style="float: right;" src="images/DVGClogo.jpg" alt="DVGClogo" width="250" height="229" />What:</strong>&nbsp;An 18-Hole tournament focusing on fellowship in a relaxed atmosphere. The event raises money for the&nbsp;<a href="http://dvgc.org/our-causes/dvgc-legacy-fund" target="_blank">DVGC Legacy Fund: Supporting Our Legacy in Scouting</a>. In our 14 year history we have provided over $18,000 in financial contributions to the Maury Clancy Indian Campership Fund and support the Endowment of the Order of the Arrow and other Scouting Scholarship funds.</p>
-<p><a href="https://dvgc.org/signup" target="_blank"><img style="margin-top: 0px; margin-bottom: 5px; vertical-align: middle;" src="images/register.png" alt="Register Now! " width="175" height="35" /></a><a href="https://dvgc.org/give" target="_blank"><img style="margin-top: 0px; margin-bottom: 5px; vertical-align: middle; float: left;" src="images/donate.png" alt="Donate Now!" width="175" height="35" /></a></p>
+<p><strong><img style="float: right;" src="{{ site.baseurl }}images/posts/2014DVGC/DVGClogo.jpg" alt="DVGClogo" width="250" height="229" />What:</strong>&nbsp;An 18-Hole tournament focusing on fellowship in a relaxed atmosphere. The event raises money for the&nbsp;<a href="http://dvgc.org/our-causes/dvgc-legacy-fund" target="_blank">DVGC Legacy Fund: Supporting Our Legacy in Scouting</a>. In our 14 year history we have provided over $18,000 in financial contributions to the Maury Clancy Indian Campership Fund and support the Endowment of the Order of the Arrow and other Scouting Scholarship funds.</p>
+<p><a href="https://dvgc.org/signup" target="_blank"><img style="margin-top: 0px; margin-bottom: 5px; vertical-align: middle;" src="{{ site.baseurl }}images/posts/2014DVGC/register.png" alt="Register Now! " width="175" height="35" /></a><a href="https://dvgc.org/give" target="_blank"><img style="margin-top: 0px; margin-bottom: 5px; vertical-align: middle; float: left;" src="{{ site.baseurl }}images/posts/2014DVGC/donate.png" alt="Donate Now!" width="175" height="35" /></a></p>
 <p>&nbsp;</p>
 <p><strong>Where:</strong>&nbsp;<a href="http://www.arizonagrandresort.com/arizona-golf-courses.php" target="_blank">Arizona Grand Resort, Phoenix, Arizona</a><a href="http://dvgc.org/tournament/the-course" target="_blank"><br /></a></p>
 <p><strong>When:</strong>&nbsp;Friday, January 24, 2014. The tournament tees off at 12:00pm. All participants must arrive by 11:15pm for tournament registration. Lunch will be served before the event.</p>
