@@ -1,5 +1,7 @@
 # OAWest
 
+[![Join the chat at https://gitter.im/OAWest/western.oa-bsa.org](https://badges.gitter.im/OAWest/western.oa-bsa.org.svg)](https://gitter.im/OAWest/western.oa-bsa.org?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to the public repository for the Western Region, Order of the Arrow. The Western Region consists of 14 sections throughout the Western United States, Hawaii Alaska, and Japan.
 
 ## Requirements
