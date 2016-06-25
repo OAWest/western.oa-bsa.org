@@ -1,120 +1,104 @@
-<div class="row">
-  <div class="col-xs-12">
-    <dl class="dl-horizontal">
-      <dt>Area 1</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.vice_chairman.area_1.first_name }} {{ site.data.leadership.vice_chairman.area_1.last_name }}
-         {% if site.data.leadership.vice_chairman.area_1.email.size > 0 %}
-           <br>
-           <a href="mailto:{{ site.data.leadership.vice_chairman.area_1.email }}">{{ site.data.leadership.vice_chairman.area_1.email }}</a>
-         {% endif %}
-        </p>
-      </dd>
-      
-      <dt>Area 2</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.vice_chairman.area_2.first_name }} {{ site.data.leadership.vice_chairman.area_2.last_name }}
-         {% if site.data.leadership.vice_chairman.area_2.email.size > 0 %}
-           <br>
-           <a href="mailto:{{ site.data.leadership.vice_chairman.area_2.email }}">{{ site.data.leadership.vice_chairman.area_2.email }}</a>
-         {% endif %}
-        </p>
-      </dd>
-      
-      <dt>Area 3</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.vice_chairman.area_3.first_name }} {{ site.data.leadership.vice_chairman.area_3.last_name }}
-         {% if site.data.leadership.vice_chairman.area_3.email.size > 0 %}
-           <br>
-           <a href="mailto:{{ site.data.leadership.vice_chairman.area_3.email }}">{{ site.data.leadership.vice_chairman.area_3.email }}</a>
-         {% endif %}
-        </p>
-      </dd>
-      
-      <dt>Area 4</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.vice_chairman.area_4.first_name }} {{ site.data.leadership.vice_chairman.area_4.last_name }}
-         {% if site.data.leadership.vice_chairman.area_4.email.size > 0 %}
-           <br>
-           <a href="mailto:{{ site.data.leadership.vice_chairman.area_4.email }}">{{ site.data.leadership.vice_chairman.area_4.email }}</a>
-         {% endif %}
-        </p>
-      </dd>
-      
-      <dt>Area 6</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.vice_chairman.area_6.first_name }} {{ site.data.leadership.vice_chairman.area_6.last_name }}
-         {% if site.data.leadership.vice_chairman.area_6.email.size > 0 %}
-           <br>
-           <a href="mailto:{{ site.data.leadership.vice_chairman.area_6.email }}">{{ site.data.leadership.vice_chairman.area_6.email }}</a>
-         {% endif %}
-        </p>
-      </dd>
-      
-    </dl>
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-    <dl class="dl-horizontal">
-      <dt>Administration</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.administration.first_name }} {{ site.data.leadership.administration.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.administration.email }}">{{ site.data.leadership.administration.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Comms &amp; Tech</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.communications_and_technology.first_name }} {{ site.data.leadership.communications_and_technology.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.communications_and_technology.email }}">{{ site.data.leadership.communications_and_technology.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Conclave Training</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.conclave_training.first_name }} {{ site.data.leadership.conclave_training.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.conclave_training.email }}">{{ site.data.leadership.conclave_training.email }}</a>
-        </p>
-      </dd>
-      
-      <dt>Finance</dt>
-      <dd>
-        <p>{{ site.data.leadership.finance.first_name }} {{ site.data.leadership.finance.last_name }}</p>
-      </dd>
-
-      <dt>Trading Post</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.trading_post.first_name }} {{ site.data.leadership.trading_post.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.trading_post.email }}">{{ site.data.leadership.trading_post.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Training: NLS</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.nls_coordinator.first_name }} {{ site.data.leadership.nls_coordinator.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.nls_coordinator.email }}">{{ site.data.leadership.nls_coordinator.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Training: NLATS</dt>
-      <dd>
-        <p>
-         {{ site.data.leadership.nlats_coordinator.first_name }} {{ site.data.leadership.nlats_coordinator.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.nlats_coordinator.email }}">{{ site.data.leadership.nlats_coordinator.email }}</a>
-        </p>
-      </dd>
-
-    </dl>
-  </div>
+<div class="row leadership">
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Area Chairmen
+			</div>
+			<ul class="list-group">
+			  <li class="list-group-item">
+				Area 1
+				{{ site.data.leadership.vice_chairman.area_1.first_name }} {{ site.data.leadership.vice_chairman.area_1.last_name }}
+				{% if site.data.leadership.vice_chairman.area_1.email.size > 0 %}
+				<br>
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_1.email }}">{{ site.data.leadership.vice_chairman.area_1.email }}</a>
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Area 2
+				{{ site.data.leadership.vice_chairman.area_2.first_name }} {{ site.data.leadership.vice_chairman.area_2.last_name }}
+				{% if site.data.leadership.vice_chairman.area_2.email.size > 0 %}
+				<br>
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_2.email }}">{{ site.data.leadership.vice_chairman.area_2.email }}</a>
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Area 3
+				{{ site.data.leadership.vice_chairman.area_3.first_name }} {{ site.data.leadership.vice_chairman.area_3.last_name }}
+				{% if site.data.leadership.vice_chairman.area_3.email.size > 0 %}
+				<br>
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_3.email }}">{{ site.data.leadership.vice_chairman.area_3.email }}</a>
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Area 4
+				{{ site.data.leadership.vice_chairman.area_4.first_name }} {{ site.data.leadership.vice_chairman.area_4.last_name }}
+				{% if site.data.leadership.vice_chairman.area_4.email.size > 0 %}
+				<br>
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_4.email }}">{{ site.data.leadership.vice_chairman.area_4.email }}</a>
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Area 6
+				{{ site.data.leadership.vice_chairman.area_6.first_name }} {{ site.data.leadership.vice_chairman.area_6.last_name }}
+				{% if site.data.leadership.vice_chairman.area_6.email.size > 0 %}
+				<br>
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_6.email }}">{{ site.data.leadership.vice_chairman.area_6.email }}</a>
+				{% endif %}
+			  </li>
+			</ul>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Youth Committees
+			</div>
+			<ul class="list-group">
+			  <li class="list-group-item">Communications: Media Team Lead - Eric Wagstaff</li>
+			  <li class="list-group-item">Communications: Tech Team Lead - Kyle McCaffery</li>
+			  <li class="list-group-item">Lodge Supports Projects: Chairman - Vianney Careaga</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Region Committee
+			</div>
+			<ul class="list-group">
+			  <li class="list-group-item">
+				Administration
+				{{ site.data.leadership.administration.first_name }} {{ site.data.leadership.administration.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.administration.email }}">{{ site.data.leadership.administration.email }}</a>
+			  </li>
+			  <li class="list-group-item">
+				Comms &amp; Tech
+				{{ site.data.leadership.communications_and_technology.first_name }} {{ site.data.leadership.communications_and_technology.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.communications_and_technology.email }}">{{ site.data.leadership.communications_and_technology.email }}</a>
+			  </li>
+			  <li class="list-group-item">
+				Conclave Training
+				{{ site.data.leadership.conclave_training.first_name }} {{ site.data.leadership.conclave_training.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.conclave_training.email }}">{{ site.data.leadership.conclave_training.email }}</a>
+			  </li>
+			  <li class="list-group-item">
+				Finance
+				{{ site.data.leadership.finance.first_name }} {{ site.data.leadership.finance.last_name }}
+			  </li>
+			  <li class="list-group-item">
+				Trading Post
+				{{ site.data.leadership.trading_post.first_name }} {{ site.data.leadership.trading_post.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.trading_post.email }}">{{ site.data.leadership.trading_post.email }}</a>
+			  </li>
+			  <li class="list-group-item">
+				Training: NLS
+				{{ site.data.leadership.nls_coordinator.first_name }} {{ site.data.leadership.nls_coordinator.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.nls_coordinator.email }}">{{ site.data.leadership.nls_coordinator.email }}</a>
+			  </li>
+			  <li class="list-group-item">
+				Training: NLATS
+				{{ site.data.leadership.nlats_coordinator.first_name }} {{ site.data.leadership.nlats_coordinator.last_name }}<br>
+				<a href="mailto:{{ site.data.leadership.nlats_coordinator.email }}">{{ site.data.leadership.nlats_coordinator.email }}</a>
+			  </li>
+			</ul>
+		</div>
+	</div>
 </div>
