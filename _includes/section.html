@@ -79,9 +79,9 @@
         </div>
         <ul class="list-group">
           <div>
-	      {% for SpecificLodge in lodge.lodges %}
+	      {% for lodge in lodges %}
 		  <li class="list-group-item">
-		     <a href="//{{ SpecificLodge.website }}" target="_blank">{{ SpecificLodge.lodge_name }} Lodge #{{ SpecificLodge.lodge_number }}</a>
+		     <a href="//{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
 		  </li>
 	      {% endfor %}
 	</div>
