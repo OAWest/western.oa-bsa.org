@@ -72,6 +72,22 @@
         </ul>
       </div>
     </div>
+	    <div class="col-xs-12 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Section W-{{ section.area }}{{ section.section }} Lodges
+        </div>
+        <ul class="list-group">
+          <div>
+	      {% for SpecificLodge in lodge.lodges %}
+		  <li class="list-group-item">
+		     <a href="//{{ SpecificLodge.website }}" target="_blank">{{ SpecificLodge.lodge_name }} Lodge #{{ SpecificLodge.lodge_number }}</a>
+		  </li>
+	      {% endfor %}
+	</div>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-xs-12">
