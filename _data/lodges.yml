@@ -1,768 +1,768 @@
- # Western Region Sections
+# Western Region Lodges. To update this page, copy & pase the output of http://western.oa-bsa.org/committee_files/database/lodgelist.php into this file.
 1E:
   lodges:
     -
-      lodge_number: 266
-      lodge_name: "Tukarica"
-      council_number: 106
-      council_name: "Ore-Ida"
-      council_address: "8901 W Franklin Road"
-      council_address: "Boise"
-      council_address: "ID"
-      council_zip: "83709-0638"
-      location: "Oregon - Western Idaho"
-      area: 1
-      section: "E"
-      website: "www.oreida-bsa.org/OrderOfArrow/Tukarica.htm"
-    -
-      lodge_number: 336
-      lodge_name: "Wa-La-Moot-Kin 336"
-      council_number: 604
-      council_name: "Blue Mountain"
-      council_address: "8478 W Gage Blvd"
-      council_address: "Kennewick"
-      council_address: "WA"
-      council_zip: "99336-1075"
-      location: "Washington - Oregon"
-      area: 1
-      section: "E"
-      website: "wa-la-moot-kin.weebly.com/"
-    -
-      lodge_number: 614
-      lodge_name: "Tataliya"
-      council_number: 614
-      council_name: "Grand Columbia"
-      council_address: "PO Box 9216"
-      council_address: "Yakima"
-      council_address: "WA"
-      council_zip: "98909-0216"
-      location: "Washington"
-      area: 1
-      section: "E"
-      website: "www.grandcolumbia.org/index.php/programs/orderofarrow"
-    -
-      lodge_number: 311
+      lodge_number: "311"
       lodge_name: "Es Kaielgu"
       council_number: 611
       council_name: "Inland Northwest"
       council_address: "West 411 Boy Scout Way"
-      council_address: "Spokane"
-      council_address: "WA"
+      council_city: "Spokane"
+      council_state: "WA"
       council_zip: "99201-2243"
       location: "Washington - Idaho"
-      area: 1
+      area: "1"
       section: "E"
       website: "www.nwscouts.org/order-of-the-arrow/4710"
+    -
+      lodge_number: "614"
+      lodge_name: "Tataliya"
+      council_number: 614
+      council_name: "Grand Columbia"
+      council_address: "PO Box 9216"
+      council_city: "Yakima"
+      council_state: "WA"
+      council_zip: "98909-0216"
+      location: "Washington"
+      area: "1"
+      section: "E"
+      website: "www.grandcolumbia.org/index.php/programs/orderofarrow"
+    -
+      lodge_number: "266"
+      lodge_name: "Tukarica"
+      council_number: 106
+      council_name: "Ore-Ida"
+      council_address: "8901 W Franklin Road"
+      council_city: "Boise"
+      council_state: "ID"
+      council_zip: "83709-0638"
+      location: "Oregon - Western Idaho"
+      area: "1"
+      section: "E"
+      website: "www.oreida-bsa.org/OrderOfArrow/Tukarica.htm"
+    -
+      lodge_number: "336"
+      lodge_name: "Wa-La-Moot-Kin 336"
+      council_number: 604
+      council_name: "Blue Mountain"
+      council_address: "8478 W Gage Blvd"
+      council_city: "Kennewick"
+      council_state: "WA"
+      council_zip: "99336-1075"
+      location: "Washington - Oregon"
+      area: "1"
+      section: "E"
+      website: "wa-la-moot-kin.weebly.com/"
 1N:
   lodges:
     -
-      lodge_number: 338
-      lodge_name: "Sikhs Mox Lamonti"
-      council_number: 606
-      council_name: "Mount Baker"
-      council_address: "1715 100th Pl SE"
-      council_address: "Everett"
-      council_address: "WA"
-      council_zip: "98208-3827"
-      location: "Northwest Washington"
-      area: 1
-      section: "N"
-      website: "www.mountbakerbsa.org/oa"
-    -
-      lodge_number: 502
-      lodge_name: "T'Kope Kwiskwis"
-      council_number: 609
-      council_name: "Chief Seattle"
-      council_address: "3120 Rainier Ave S, PO Box 440408"
-      council_address: "Seattle"
-      council_address: "WA"
-      council_zip: "98114-9758"
-      location: "Washington"
-      area: 1
-      section: "N"
-      website: "www.tkopekwiskwis.org"
-    -
-      lodge_number: 355
+      lodge_number: "355"
       lodge_name: "Nanuk"
       council_number: 610
       council_name: "Great Alaska"
       council_address: "3117 Patterson St"
-      council_address: "Anchorage"
-      council_address: "AK"
+      council_city: "Anchorage"
+      council_state: "AK"
       council_zip: "99504-4041"
       location: "Alaska"
-      area: 1
+      area: "1"
       section: "N"
       website: "www.nanuk355.org"
     -
-      lodge_number: 155
+      lodge_number: "155"
       lodge_name: "Nisqually"
       council_number: 612
       council_name: "Pacific Harbors"
       council_address: "4802 S 19th St"
-      council_address: "Tacoma"
-      council_address: "WA"
+      council_city: "Tacoma"
+      council_state: "WA"
       council_zip: "98405-1164"
       location: "Southwest Washington"
-      area: 1
+      area: "1"
       section: "N"
       website: "www.nisqually155.org"
     -
-      lodge_number: 549
+      lodge_number: "338"
+      lodge_name: "Sikhs Mox Lamonti"
+      council_number: 606
+      council_name: "Mount Baker"
+      council_address: "1715 100th Pl SE"
+      council_city: "Everett"
+      council_state: "WA"
+      council_zip: "98208-3827"
+      location: "Northwest Washington"
+      area: "1"
+      section: "N"
+      website: "www.mountbakerbsa.org/oa"
+    -
+      lodge_number: "502"
+      lodge_name: "T'Kope Kwiskwis"
+      council_number: 609
+      council_name: "Chief Seattle"
+      council_address: "3120 Rainier Ave S, PO Box 440408"
+      council_city: "Seattle"
+      council_state: "WA"
+      council_zip: "98114-9758"
+      location: "Washington"
+      area: "1"
+      section: "N"
+      website: "www.tkopekwiskwis.org"
+    -
+      lodge_number: "549"
       lodge_name: "Toontuk"
       council_number: 696
       council_name: "Midnight Sun"
       council_address: "1400 Gilliam Way"
-      council_address: "Fairbanks"
-      council_address: "AK"
+      council_city: "Fairbanks"
+      council_state: "AK"
       council_zip: "99701-6044"
       location: "Northern Alaska"
-      area: 1
+      area: "1"
       section: "N"
       website: "www.midnightsunbsa.org/toontuk.html"
 1S:
   lodges:
     -
-      lodge_number: 491
+      lodge_number: "491"
       lodge_name: "Lo La'Qam Geela"
       council_number: 491
       council_name: "Crater Lake"
       council_address: "3039 Hanley Road"
-      council_address: "Central Point"
-      council_address: "OR"
+      council_city: "Central Point"
+      council_state: "OR"
       council_zip: "97502-1474"
       location: "Oregon - California"
-      area: 1
+      area: "1"
       section: "S"
       website: "www.craterlakecouncil.org/oa"
     -
-      lodge_number: 442
-      lodge_name: "Wauna La-Mon'tay"
-      council_number: 492
-      council_name: "Cascade Pacific"
-      council_address: "2145 Naito Parkway"
-      council_address: "Portland"
-      council_address: "OR"
-      council_zip: "97201-5197"
-      location: "Oregon - Washington"
-      area: 1
-      section: "S"
-      website: "www.cpcbsa.org/oa"
-    -
-      lodge_number: 253
+      lodge_number: "253"
       lodge_name: "Tsisqan"
       council_number: 697
       council_name: "Oregon Trail"
       council_address: "2525 Centennial Blvd"
-      council_address: "Eugene"
-      council_address: "OR"
+      council_city: "Eugene"
+      council_state: "OR"
       council_zip: "97401-5899"
       location: "Central Oregon"
-      area: 1
+      area: "1"
       section: "S"
       website: "www.tsisqan.org"
+    -
+      lodge_number: "442"
+      lodge_name: "Wauna La-Mon'tay"
+      council_number: 492
+      council_name: "Cascade Pacific"
+      council_address: "2145 Naito Parkway"
+      council_city: "Portland"
+      council_state: "OR"
+      council_zip: "97201-5197"
+      location: "Oregon - Washington"
+      area: "1"
+      section: "S"
+      website: "www.cpcbsa.org/oa"
 2N:
   lodges:
     -
-      lodge_number: 464
-      lodge_name: "Kola"
-      council_number: 62
-      council_name: "Longs Peak"
-      council_address: "2215 23rd Ave"
-      council_address: "Greeley"
-      council_address: "CO"
-      council_zip: "80632-1166"
-      location: "Colorado - Wyoming - Nebraska"
-      area: 2
-      section: "N"
-      website: "www.longspeakbsa.org/OA/"
-    -
-      lodge_number: 300
+      lodge_number: "300"
       lodge_name: "Apoxky Aio"
       council_number: 315
       council_name: "Montana"
       council_address: "820 17th Ave S"
-      council_address: "Great Falls"
-      council_address: "MT"
+      council_city: "Great Falls"
+      council_state: "MT"
       council_zip: "59405-5999"
       location: "Montana"
-      area: 2
+      area: "2"
       section: "N"
       website: "www.apoxkyaio.com"
     -
-      lodge_number: 356
-      lodge_name: "Tatokainyanka"
-      council_number: 638
-      council_name: "Greater Wyoming"
-      council_address: "3939 Mountain Road"
-      council_address: "Casper"
-      council_address: "WY"
-      council_zip: "82602-1506"
-      location: "Wyoming"
-      area: 2
-      section: "N"
-      website: "none"
-    -
-      lodge_number: 171
+      lodge_number: "171"
       lodge_name: "Crazy Horse"
       council_number: 695
       council_name: "Black Hills Area"
       council_address: "144 North St"
-      council_address: "Rapid City"
-      council_address: "SD"
+      council_city: "Rapid City"
+      council_state: "SD"
       council_zip: "57709-2931"
       location: "South Dakota"
-      area: 2
+      area: "2"
       section: "N"
       website: "www.blackhillsareacouncil.com/orderofthearrow.html"
+    -
+      lodge_number: "464"
+      lodge_name: "Kola"
+      council_number: 62
+      council_name: "Longs Peak"
+      council_address: "2215 23rd Ave"
+      council_city: "Greeley"
+      council_state: "CO"
+      council_zip: "80632-1166"
+      location: "Colorado - Wyoming - Nebraska"
+      area: "2"
+      section: "N"
+      website: "www.longspeakbsa.org/OA/"
+    -
+      lodge_number: "356"
+      lodge_name: "Tatokainyanka"
+      council_number: 638
+      council_name: "Greater Wyoming"
+      council_address: "3939 Mountain Road"
+      council_city: "Casper"
+      council_state: "WY"
+      council_zip: "82602-1506"
+      location: "Wyoming"
+      area: "2"
+      section: "N"
+      website: "none"
 2S:
   lodges:
     -
-      lodge_number: 536
-      lodge_name: "Tupwee Gudas Gov Youchiqudt Sooveep"
-      council_number: 63
-      council_name: "Rocky Mountain"
-      council_address: "411 S Pueblo"
-      council_address: "Pueblo"
-      council_address: "CO"
-      council_zip: "81005-0292"
-      location: "Southern Colorado"
-      area: 2
-      section: "S"
-      website: "www.rmcbsa.org/OA/"
-    -
-      lodge_number: 541
-      lodge_name: "Mic-O-Say"
-      council_number: 64
-      council_name: "Western Colorado"
-      council_address: "839 Grand Ave"
-      council_address: "Grand Junction"
-      council_address: "CO"
-      council_zip: "81501-3424"
-      location: "Western Colorado"
-      area: 2
-      section: "S"
-      website: "www.wccbsa.org/program/oa"
-    -
-      lodge_number: 387
+      lodge_number: "387"
       lodge_name: "Ha-Kin-Skay-A-Ki"
       council_number: 60
       council_name: "Pike's Peak"
       council_address: "525 E Uintah St"
-      council_address: "Colorado Springs"
-      council_address: "CO"
+      council_city: "Colorado Springs"
+      council_state: "CO"
       council_zip: "80903-2514"
       location: "Colorado"
-      area: 2
+      area: "2"
       section: "S"
       website: "hakinskayaki.org/"
     -
-      lodge_number: 383
+      lodge_number: "541"
+      lodge_name: "Mic-O-Say"
+      council_number: 64
+      council_name: "Western Colorado"
+      council_address: "839 Grand Ave"
+      council_city: "Grand Junction"
+      council_state: "CO"
+      council_zip: "81501-3424"
+      location: "Western Colorado"
+      area: "2"
+      section: "S"
+      website: "www.wccbsa.org/program/oa"
+    -
+      lodge_number: "383"
       lodge_name: "Tahosa"
       council_number: 61
       council_name: "Denver Area"
-      council_address: "10455 W 6th Ave, Suite 100\r\n"
-      council_address: "Denver"
-      council_address: "CO"
+      council_address: "10455 W 6th Ave, Suite 100 "
+      council_city: "Denver"
+      council_state: "CO"
       council_zip: "80215-5780"
       location: "Central Colorado"
-      area: 2
+      area: "2"
       section: "S"
       website: "www.tahosalodge.org"
+    -
+      lodge_number: "536"
+      lodge_name: "Tupwee Gudas Gov Youchiqudt Sooveep"
+      council_number: 63
+      council_name: "Rocky Mountain"
+      council_address: "411 S Pueblo"
+      council_city: "Pueblo"
+      council_state: "CO"
+      council_zip: "81005-0292"
+      location: "Southern Colorado"
+      area: "2"
+      section: "S"
+      website: "www.rmcbsa.org/OA/"
 2W:
   lodges:
     -
-      lodge_number: 407
-      lodge_name: "Shunkah Mahneetu"
-      council_number: 107
-      council_name: "Grand Teton"
-      council_address: "574 4th St"
-      council_address: "Idaho Falls"
-      council_address: "ID"
-      council_zip: "83401-3988"
-      location: "Idaho - Wyoming"
-      area: 2
-      section: "W"
-      website: "none"
-    -
-      lodge_number: 363
-      lodge_name: "Ma-I-Shu"
-      council_number: 111
-      council_name: "Snake River"
-      council_address: "2988  Falls Ave E"
-      council_address: "Twin Falls"
-      council_address: "ID"
-      council_zip: "83301-8423"
-      location: "Idaho"
-      area: 2
-      section: "W"
-      website: "www.srcouncil.org/oa"
-    -
-      lodge_number: 535
+      lodge_number: "535"
       lodge_name: "Awaxaawe Awachia"
       council_number: 589
       council_name: "Trapper Trails"
       council_address: "1200 E 5400 S"
-      council_address: "Ogden"
-      council_address: "UT"
+      council_city: "Ogden"
+      council_state: "UT"
       council_zip: "84403-4599"
       location: "Utah - Wyoming - Idaho"
-      area: 2
+      area: "2"
       section: "W"
       website: "535badger.wix.com/oa-lodge535"
     -
-      lodge_number: 520
+      lodge_number: "520"
       lodge_name: "El-Ku-Ta"
       council_number: 590
       council_name: "Great Salt Lake"
       council_address: "525 Foothill Blvd"
-      council_address: "Salt Lake City"
-      council_address: "UT"
+      council_city: "Salt Lake City"
+      council_state: "UT"
       council_zip: "84113-1199"
       location: "Utah"
-      area: 2
+      area: "2"
       section: "W"
       website: "www.elkuta.com"
     -
-      lodge_number: 508
+      lodge_number: "363"
+      lodge_name: "Ma-I-Shu"
+      council_number: 111
+      council_name: "Snake River"
+      council_address: "2988 Falls Ave E"
+      council_city: "Twin Falls"
+      council_state: "ID"
+      council_zip: "83301-8423"
+      location: "Idaho"
+      area: "2"
+      section: "W"
+      website: "www.srcouncil.org/oa"
+    -
+      lodge_number: "407"
+      lodge_name: "Shunkah Mahneetu"
+      council_number: 107
+      council_name: "Grand Teton"
+      council_address: "574 4th St"
+      council_city: "Idaho Falls"
+      council_state: "ID"
+      council_zip: "83401-3988"
+      location: "Idaho - Wyoming"
+      area: "2"
+      section: "W"
+      website: "none"
+    -
+      lodge_number: "508"
       lodge_name: "Tu-Cubin-Noonie"
       council_number: 591
       council_name: "Utah National Parks"
       council_address: "748 N 1340 W"
-      council_address: "Orem"
-      council_address: "UT"
+      council_city: "Orem"
+      council_state: "UT"
       council_zip: "84057-6101"
       location: "Utah"
-      area: 2
+      area: "2"
       section: "W"
       website: "www.utahscouts.org/oa"
 3N:
   lodges:
     -
-      lodge_number: 58
-      lodge_name: "Ut-In Selica"
-      council_number: 23
-      council_name: "Mount Diablo - Silverado"
-      council_address: "800 Ellinwood Way"
-      council_address: "Pleasant Hill"
-      council_address: "CA"
-      council_zip: "94523-0204"
-      location: "California"
-      area: 3
-      section: "N"
-      website: "bsa-mdsc.org/oa"
-    -
-      lodge_number: 533
-      lodge_name: "Talako"
-      council_number: 35
-      council_name: "Marin"
-      council_address: "225 W End Ave"
-      council_address: "San Rafael"
-      council_address: "CA"
-      council_zip: "94901-2645"
-      location: "California"
-      area: 3
-      section: "N"
-      website: "www.talako.org"
-    -
-      lodge_number: 194
-      lodge_name: "Orca"
-      council_number: 41
-      council_name: "Redwood Empire"
-      council_address: "1000 Apollo Way"
-      council_address: "Santa Rosa"
-      council_address: "CA"
-      council_zip: "95407-5462"
-      location: "North Coastal California"
-      area: 3
-      section: "N"
-      website: "www.orca194.org"
-    -
-      lodge_number: 346
-      lodge_name: "Tannu"
-      council_number: 329
-      council_name: "Nevada Area"
-      council_address: "500 Double Eagle Court"
-      council_address: "Reno"
-      council_address: "NV"
-      council_zip: "89521-8991"
-      location: "Nevada - California"
-      area: 3
-      section: "N"
-      website: "www.tannu.org"
-    -
-      lodge_number: 47
+      lodge_number: "47"
       lodge_name: "Amangi Nacha"
       council_number: 47
       council_name: "Golden Empire"
       council_address: "251 Commerce Circle"
-      council_address: "Sacramento"
-      council_address: "CA"
+      council_city: "Sacramento"
+      council_state: "CA"
       council_zip: "95815-4292"
       location: "California"
-      area: 3
+      area: "3"
       section: "N"
       website: "www.amanginacha.org/"
+    -
+      lodge_number: "194"
+      lodge_name: "Orca"
+      council_number: 41
+      council_name: "Redwood Empire"
+      council_address: "1000 Apollo Way"
+      council_city: "Santa Rosa"
+      council_state: "CA"
+      council_zip: "95407-5462"
+      location: "North Coastal California"
+      area: "3"
+      section: "N"
+      website: "www.orca194.org"
+    -
+      lodge_number: "533"
+      lodge_name: "Talako"
+      council_number: 35
+      council_name: "Marin"
+      council_address: "225 W End Ave"
+      council_city: "San Rafael"
+      council_state: "CA"
+      council_zip: "94901-2645"
+      location: "California"
+      area: "3"
+      section: "N"
+      website: "www.talako.org"
+    -
+      lodge_number: "346"
+      lodge_name: "Tannu"
+      council_number: 329
+      council_name: "Nevada Area"
+      council_address: "500 Double Eagle Court"
+      council_city: "Reno"
+      council_state: "NV"
+      council_zip: "89521-8991"
+      location: "Nevada - California"
+      area: "3"
+      section: "N"
+      website: "www.tannu.org"
+    -
+      lodge_number: "58"
+      lodge_name: "Ut-In Selica"
+      council_number: 23
+      council_name: "Mount Diablo - Silverado"
+      council_address: "800 Ellinwood Way"
+      council_city: "Pleasant Hill"
+      council_state: "CA"
+      council_zip: "94523-0204"
+      location: "California"
+      area: "3"
+      section: "N"
+      website: "bsa-mdsc.org/oa"
 3S:
   lodges:
     -
-      lodge_number: 379
-      lodge_name: "Kaweah"
-      council_number: 22
-      council_name: "Alameda"
-      council_address: "1714 Everett St"
-      council_address: "Alameda"
-      council_address: "CA"
-      council_zip: "94501-0222"
-      location: "California"
-      area: 3
-      section: "S"
-      website: "kaweah379.com"
-    -
-      lodge_number: 195
-      lodge_name: "Tah-Heetch"
-      council_number: 27
-      council_name: "Sequoia"
-      council_address: "4539 N Brawley Ave Suite 102"
-      council_address: "Fresno"
-      council_address: "CA"
-      council_zip: "93722-3991"
-      location: "California"
-      area: 3
-      section: "S"
-      website: "www.tah-heetch.com"
-    -
-      lodge_number: 55
-      lodge_name: "Saklan"
-      council_number: 55
-      council_name: "Silicon Valley Monterey Bay"
-      council_address: "970 W Julian St"
-      council_address: "San Jose"
-      council_address: "CA"
-      council_zip: "95159-8547"
-      location: "Silicon Valley, California"
-      area: 3
-      section: "S"
-      website: "www.svmbc.org/oa/"
-    -
-      lodge_number: 282
+      lodge_number: "282"
       lodge_name: "Achewon Nimat"
       council_number: 28
       council_name: "San Francisco Bay Area"
       council_address: "1001 Davis St"
-      council_address: "San Leandro"
-      council_address: "CA"
+      council_city: "San Leandro"
+      council_state: "CA"
       council_zip: "94577-1514"
       location: "California"
-      area: 3
+      area: "3"
       section: "S"
       website: "www.achewonnimat.org/"
     -
-      lodge_number: 63
-      lodge_name: "Ohlone"
-      council_number: 31
-      council_name: "Pacific Skyline"
-      council_address: "1150 Chess Drive"
-      council_address: "Foster City"
-      council_address: "CA"
-      council_zip: "94404-1107"
-      location: "California"
-      area: 3
-      section: "S"
-      website: "www.ohlone63.org"
-    -
-      lodge_number: 466
+      lodge_number: "466"
       lodge_name: "Hungteetsepoppi"
       council_number: 42
       council_name: "Piedmont"
       council_address: "10 Highland Way"
-      council_address: "Piedmont"
-      council_address: "CA"
+      council_city: "Piedmont"
+      council_state: "CA"
       council_zip: "94611-4095"
       location: "California"
-      area: 3
+      area: "3"
       section: "S"
       website: "www.oa466.org"
     -
-      lodge_number: 64
+      lodge_number: "379"
+      lodge_name: "Kaweah"
+      council_number: 22
+      council_name: "Alameda"
+      council_address: "1714 Everett St"
+      council_city: "Alameda"
+      council_state: "CA"
+      council_zip: "94501-0222"
+      location: "California"
+      area: "3"
+      section: "S"
+      website: "kaweah379.com"
+    -
+      lodge_number: "63"
+      lodge_name: "Ohlone"
+      council_number: 31
+      council_name: "Pacific Skyline"
+      council_address: "1150 Chess Drive"
+      council_city: "Foster City"
+      council_state: "CA"
+      council_zip: "94404-1107"
+      location: "California"
+      area: "3"
+      section: "S"
+      website: "www.ohlone63.org"
+    -
+      lodge_number: "55"
+      lodge_name: "Saklan"
+      council_number: 55
+      council_name: "Silicon Valley Monterey Bay"
+      council_address: "970 W Julian St"
+      council_city: "San Jose"
+      council_state: "CA"
+      council_zip: "95159-8547"
+      location: "Silicon Valley, California"
+      area: "3"
+      section: "S"
+      website: "www.svmbc.org/oa/"
+    -
+      lodge_number: "195"
+      lodge_name: "Tah-Heetch"
+      council_number: 27
+      council_name: "Sequoia"
+      council_address: "4539 N Brawley Ave Suite 102"
+      council_city: "Fresno"
+      council_state: "CA"
+      council_zip: "93722-3991"
+      location: "California"
+      area: "3"
+      section: "S"
+      website: "www.tah-heetch.com"
+    -
+      lodge_number: "64"
       lodge_name: "Toloma"
       council_number: 59
       council_name: "Greater Yosemite"
       council_address: "4031 Technology Drive"
-      council_address: "Modesto"
-      council_address: "CA"
+      council_city: "Modesto"
+      council_state: "CA"
       council_zip: "95356-9490"
       location: "California"
-      area: 3
+      area: "3"
       section: "S"
       website: "www.yosemitescouting.org/sections/OrderoftheArrow"
 4N:
   lodges:
     -
-      lodge_number: 303
-      lodge_name: "Yowlumne"
-      council_number: 30
-      council_name: "Southern Sierra"
-      council_address: "2417 M St"
-      council_address: "Bakersfield"
-      council_address: "CA"
-      council_zip: "93301-2341"
-      location: "California"
-      area: 4
-      section: "N"
-      website: "www.yowlumne.org/"
-    -
-      lodge_number: 252
-      lodge_name: "Siwinis"
-      council_number: 33
-      council_name: "Greater Los Angeles Area"
-      council_address: "2333 Scout Way"
-      council_address: "Los Angeles"
-      council_address: "CA"
-      council_zip: "90026-4995"
-      location: "Southern California"
-      area: 4
-      section: "N"
-      website: "www.siwinis.org"
-    -
-      lodge_number: 566
-      lodge_name: "Malibu"
-      council_number: 51
-      council_name: "Western Los Angeles County"
-      council_address: "16525 Sherman Way Suite C-8"
-      council_address: "Van Nuys"
-      council_address: "CA"
-      council_zip: "91406-3753"
-      location: "California"
-      area: 4
-      section: "N"
-      website: "bsa-la.org/index.php?page=order-of-the-arrow"
-    -
-      lodge_number: 90
+      lodge_number: "90"
       lodge_name: "Chumash"
       council_number: 53
       council_name: "Los Padres"
       council_address: "4000 Modoc Road"
-      council_address: "Santa Barbara"
-      council_address: "CA"
+      council_city: "Santa Barbara"
+      council_state: "CA"
       council_zip: "93110-1807"
       location: "California"
-      area: 4
+      area: "4"
       section: "N"
       website: "www.chumashlodge90.org"
     -
-      lodge_number: 291
-      lodge_name: "Topa Topa"
-      council_number: 57
-      council_name: "Ventura County"
-      council_address: "509 E Daily Drive"
-      council_address: "Camarillo"
-      council_address: "CA"
-      council_zip: "93010-5820"
+      lodge_number: "566"
+      lodge_name: "Malibu"
+      council_number: 51
+      council_name: "Western Los Angeles County"
+      council_address: "16525 Sherman Way Suite C-8"
+      council_city: "Van Nuys"
+      council_state: "CA"
+      council_zip: "91406-3753"
       location: "California"
-      area: 4
+      area: "4"
       section: "N"
-      website: "www.topatopa.org"
+      website: "bsa-la.org/index.php?page=order-of-the-arrow"
     -
-      lodge_number: 249
+      lodge_number: "252"
+      lodge_name: "Siwinis"
+      council_number: 33
+      council_name: "Greater Los Angeles Area"
+      council_address: "2333 Scout Way"
+      council_city: "Los Angeles"
+      council_state: "CA"
+      council_zip: "90026-4995"
+      location: "Southern California"
+      area: "4"
+      section: "N"
+      website: "www.siwinis.org"
+    -
+      lodge_number: "249"
       lodge_name: "Spe-Le-Yai"
       council_number: 58
       council_name: "Verdugo Hills"
       council_address: "1325 Grandview Ave"
-      council_address: "Glendale"
-      council_address: "CA"
+      council_city: "Glendale"
+      council_state: "CA"
       council_zip: "91201-2297"
       location: "California"
-      area: 4
+      area: "4"
       section: "N"
       website: "www.spe-le-yai.org"
+    -
+      lodge_number: "291"
+      lodge_name: "Topa Topa"
+      council_number: 57
+      council_name: "Ventura County"
+      council_address: "509 E Daily Drive"
+      council_city: "Camarillo"
+      council_state: "CA"
+      council_zip: "93010-5820"
+      location: "California"
+      area: "4"
+      section: "N"
+      website: "www.topatopa.org"
+    -
+      lodge_number: "303"
+      lodge_name: "Yowlumne"
+      council_number: 30
+      council_name: "Southern Sierra"
+      council_address: "2417 M St"
+      council_city: "Bakersfield"
+      council_state: "CA"
+      council_zip: "93301-2341"
+      location: "California"
+      area: "4"
+      section: "N"
+      website: "www.yowlumne.org/"
 4S:
   lodges:
     -
-      lodge_number: 127
+      lodge_number: "127"
       lodge_name: "Cahuilla"
       council_number: 45
       council_name: "California Inland Empire"
       council_address: "1230 Indiana Court"
-      council_address: "Redlands"
-      council_address: "CA"
+      council_city: "Redlands"
+      council_state: "CA"
       council_zip: "92374-2896"
       location: "Southern California"
-      area: 4
+      area: "4"
       section: "S"
       website: "www.snakepower.org"
     -
-      lodge_number: 32
+      lodge_number: "32"
       lodge_name: "Puvunga"
       council_number: 32
       council_name: "Long Beach Area"
       council_address: "401 E. 37th Street"
-      council_address: "Long Beach"
-      council_address: "CA"
+      council_city: "Long Beach"
+      council_state: "CA"
       council_zip: "90807-0338"
       location: "California"
-      area: 4
+      area: "4"
       section: "S"
       website: "www.longbeachbsa.org"
     -
-      lodge_number: 13
-      lodge_name: "Wiatava"
-      council_number: 39
-      council_name: "Orange County"
-      council_address: "1211 E Dyer Road"
-      council_address: "Santa Ana"
-      council_address: "CA"
-      council_zip: 92707
-      location: "Southern California"
-      area: 4
-      section: "S"
-      website: "www.wiatava.org"
-    -
-      lodge_number: 488
+      lodge_number: "488"
       lodge_name: "Ta Tanka"
       council_number: 40
       council_name: "Greater Los Angeles Area"
       council_address: "2333 Scout Way"
-      council_address: "Los Angeles"
-      council_address: "CA"
-      council_zip: "90026-4995\r\n"
+      council_city: "Los Angeles"
+      council_state: "CA"
+      council_zip: "90026-4995 "
       location: "California"
-      area: 4
+      area: "4"
       section: "S"
       website: "www.tatankalodge.org/"
+    -
+      lodge_number: "13"
+      lodge_name: "Wiatava"
+      council_number: 39
+      council_name: "Orange County"
+      council_address: "1211 E Dyer Road"
+      council_city: "Santa Ana"
+      council_state: "CA"
+      council_zip: "92707"
+      location: "Southern California"
+      area: "4"
+      section: "S"
+      website: "www.wiatava.org"
 6E:
   lodges:
     -
-      lodge_number: 66
-      lodge_name: "Yah-Tah-Hey-Si-Kess"
-      council_number: 412
-      council_name: "Great Southwest"
-      council_address: "5841 Office Blvd NE"
-      council_address: "Albuquerque"
-      council_address: "NM"
-      council_zip: "87109-5820"
-      location: "Arizona - New Mexico - Colorado - Utah"
-      area: 6
-      section: "E"
-      website: "www.lodge66.org"
-    -
-      lodge_number: 78
-      lodge_name: "Kwahadi"
-      council_number: 413
-      council_name: "Conquistador"
-      council_address: "2603 N Aspen Ave"
-      council_address: "Roswell"
-      council_address: "NM"
-      council_zip: "88201-9785"
-      location: "New Mexico"
-      area: 6
-      section: "E"
-      website: ""
-    -
-      lodge_number: 378
+      lodge_number: "378"
       lodge_name: "Gila"
       council_number: 573
       council_name: "Yucca"
       council_address: "7601 Lockheed Drive"
-      council_address: "El Paso"
-      council_address: "TX"
+      council_city: "El Paso"
+      council_state: "TX"
       council_zip: "79997-1056"
       location: "Western Texas - Southern New Mexico"
-      area: 6
+      area: "6"
       section: "E"
       website: "gilalodge.org"
+    -
+      lodge_number: "78"
+      lodge_name: "Kwahadi"
+      council_number: 413
+      council_name: "Conquistador"
+      council_address: "2603 N Aspen Ave"
+      council_city: "Roswell"
+      council_state: "NM"
+      council_zip: "88201-9785"
+      location: "New Mexico"
+      area: "6"
+      section: "E"
+      website: ""
+    -
+      lodge_number: "66"
+      lodge_name: "Yah-Tah-Hey-Si-Kess"
+      council_number: 412
+      council_name: "Great Southwest"
+      council_address: "5841 Office Blvd NE"
+      council_city: "Albuquerque"
+      council_state: "NM"
+      council_zip: "87109-5820"
+      location: "Arizona - New Mexico - Colorado - Utah"
+      area: "6"
+      section: "E"
+      website: "www.lodge66.org"
 6P:
   lodges:
     -
-      lodge_number: 554
-      lodge_name: "Maluhia"
-      council_number: 102
-      council_name: "Maui County"
-      council_address: "200 Liholiho St"
-      council_address: "Wailuku"
-      council_address: "HI"
-      council_zip: "96793-2508"
-      location: "Hawaii"
-      area: 6
-      section: "P"
-      website: "none"
-    -
-      lodge_number: 567
-      lodge_name: "Na Mokupuni 'O Lawelawe"
-      council_number: 104
-      council_name: "Aloha"
-      council_address: "1946 Young St Suite 380"
-      council_address: "Honolulu"
-      council_address: "HI"
-      council_zip: "96826-2150"
-      location: "Hawaii - U.S. Pacific Territories:<br/>\r\n<br/>\r\nGuam,<br/>\r\nNorthern Mariana Islands,<br/>\r\nAmerican Samoa,<br/>\r\nFederated States of Micronesia,<br/>\r\nRepublic of the Marshall Islands,<br/>\r\nRepublic of Palau,<br/>\r\n<br/>\r\nUninhabited - only military or nature preserves:<br/>\r\n<br/>\r\nNW Hawaiian islands,<br/>\r\nMidway Atoll,<br/>\r\nWake Island,<br/>\r\nJohnston Atoll,<br/>\r\nPalmyra Atoll"
-      area: 6
-      section: "P"
-      website: "none"
-    -
-      lodge_number: 803
+      lodge_number: "803"
       lodge_name: "Achpateuny"
       council_number: 803
       council_name: "Far East"
       council_address: "APO"
-      council_address: "Tokyo"
-      council_address: "Japan"
-      council_zip: 96343
-      location: "Asia East/Central: Japan - Okinawa; Asia West: China - Hong Kong - Taiwan - South Korea; Asia South: Australia - Bangladesh - Brunei - Cambodia - India - Indonesia - Laos - Malaysia - New Zealand - Philippines - Singapore - Thailand - Vietnam"
-      area: 6
+      council_city: "Tokyo"
+      council_state: "Japan"
+      council_zip: "96343"
+      location: "Asia East/Central: Japan - Okinawa Asia West: China - Hong Kong - Taiwan - South Korea Asia South: Australia - Bangladesh - Brunei - Cambodia - India - Indonesia - Laos - Malaysia - New Zealand - Philippines - Singapore - Thailand - Vietnam"
+      area: "6"
       section: "P"
       website: "www.oa803.org/home"
+    -
+      lodge_number: "554"
+      lodge_name: "Maluhia"
+      council_number: 102
+      council_name: "Maui County"
+      council_address: "200 Liholiho St"
+      council_city: "Wailuku"
+      council_state: "HI"
+      council_zip: "96793-2508"
+      location: "Hawaii"
+      area: "6"
+      section: "P"
+      website: "none"
+    -
+      lodge_number: "567"
+      lodge_name: "Na Mokupuni 'O Lawelawe"
+      council_number: 104
+      council_name: "Aloha"
+      council_address: "1946 Young St Suite 380"
+      council_city: "Honolulu"
+      council_state: "HI"
+      council_zip: "96826-2150"
+      location: "Hawaii - U.S. Pacific Territories: Guam, Northern Mariana Islands, American Samoa, Federated States of Micronesia, Republic of the Marshall Islands, Republic of Palau, Uninhabited - only military or nature preserves: NW Hawaiian islands, Midway Atoll, Wake Island, Johnston Atoll, Palmyra Atoll"
+      area: "6"
+      section: "P"
+      website: "none"
 6W:
   lodges:
     -
-      lodge_number: 432
-      lodge_name: "Wipala Wiki"
-      council_number: 10
-      council_name: "Grand Canyon"
-      council_address: "2969 N Greedfield Road"
-      council_address: "Phoenix"
-      council_address: "AZ"
-      council_zip: "85016-7715"
-      location: "Arizona"
-      area: 6
-      section: "W"
-      website: "www.wipalawiki.org"
-    -
-      lodge_number: 494
-      lodge_name: "Papago"
-      council_number: 11
-      council_name: "Catalina"
-      council_address: "5049 E Broadway Blvd Suite 200"
-      council_address: "Tucson"
-      council_address: "AZ"
-      council_zip: "85711-3636"
-      location: "Southern Arizona"
-      area: 6
-      section: "W"
-      website: "www.papagolodge.org"
-    -
-      lodge_number: 45
-      lodge_name: "Tiwahe"
-      council_number: 49
-      council_name: "San Diego-Imperial"
-      council_address: "1207 Upas St"
-      council_address: "San Diego"
-      council_address: "CA"
-      council_zip: "92103-5127"
-      location: "California - Arizona"
-      area: 6
-      section: "W"
-      website: "oa.sdicbsa.org/"
-    -
-      lodge_number: 312
+      lodge_number: "312"
       lodge_name: "Nebagamon"
       council_number: 328
       council_name: "Las Vegas Area"
       council_address: "1135 University Road"
-      council_address: "Las Vegas"
-      council_address: "NV"
+      council_city: "Las Vegas"
+      council_state: "NV"
       council_zip: "89119-6605"
       location: "Nevada - Arizona"
-      area: 6
+      area: "6"
       section: "W"
       website: "www.nebagamon.org"
+    -
+      lodge_number: "494"
+      lodge_name: "Papago"
+      council_number: 11
+      council_name: "Catalina"
+      council_address: "5049 E Broadway Blvd Suite 200"
+      council_city: "Tucson"
+      council_state: "AZ"
+      council_zip: "85711-3636"
+      location: "Southern Arizona"
+      area: "6"
+      section: "W"
+      website: "www.papagolodge.org"
+    -
+      lodge_number: "45"
+      lodge_name: "Tiwahe"
+      council_number: 49
+      council_name: "San Diego-Imperial"
+      council_address: "1207 Upas St"
+      council_city: "San Diego"
+      council_state: "CA"
+      council_zip: "92103-5127"
+      location: "California - Arizona"
+      area: "6"
+      section: "W"
+      website: "oa.sdicbsa.org/"
+    -
+      lodge_number: "432"
+      lodge_name: "Wipala Wiki"
+      council_number: 10
+      council_name: "Grand Canyon"
+      council_address: "29*69 N Greedfield Road"
+      council_city: "Phoenix"
+      council_state: "AZ"
+      council_zip: "85016-7715"
+      location: "Arizona"
+      area: "6"
+      section: "W"
+      website: "www.wipalawiki.org"
