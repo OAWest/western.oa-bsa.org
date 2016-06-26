@@ -1,8 +1,8 @@
-# Western Region Sections
+# Western Region Sections. To update this page, copy & pase the output of http://western.oa-bsa.org/committee_files/database/sectionlist.php into this file.
 1E:
   area: 1
   section: "E"
-  website: "http://www.sectionw1e.org"
+  website: "www.sectionw1e.org"
   name: "Japeechen"
   facebook: "https://www.facebook.com/pages/Section-W1E/265325777818"
   twitter: "https://twitter.com/SectionW_1E"
@@ -32,10 +32,10 @@
 1N:
   area: 1
   section: "N"
-  website: "http://www.sectionw1n.org"
+  website: "www.sectionw1n.org"
   name: "Teaquan Wask"
   facebook: "https://www.facebook.com/sectionw1n"
-  twitter: "https://twitter.com/Section_W1N"
+  twitter: "https://twitter.com/Section_W1N "
   leadership:
     chief:
       first_name: "Trip"
@@ -47,25 +47,23 @@
       first_name: "Kyle"
       last_name: "McCaffery"
     adviser:
-      first_name: "Seve"
+      first_name: "Steve"
       last_name: "Johnson"
     staff_adviser:
       first_name: "Evan"
-      last_name: "Hanson"
+      last_name: "Hansen"
     associates:
       -
-        first_name: "Jason"
-        last_name: "Stewart"
+        first_name: "Kenneth R."
+        last_name: "Devero"
       -
         first_name: "Mike"
         last_name: "Gaylord"
-      -
-        first_name: "Kenneth"
-        last_name: "R. Devero"
 1S:
   area: 1
   section: "S"
-  website: "http://www.sectionw1s.org"
+  website: "www.sectionw1s.org"
+  name: ""
   facebook: "https://www.facebook.com/sectionw1s"
   twitter: "https://twitter.com/SectionW1S"
   leadership:
@@ -94,31 +92,33 @@
 2N:
   area: 2
   section: "N"
-  facebook: "https://www.facebook.com/SectionW5N"
+  website: ""
+  name: ""
+  facebook: "https://www.facebook.com/SectionW5N "
+  twitter: ""
   leadership:
     chief:
-      first_name: "William"
-      last_name: "Smith"
+      first_name: "Tanner"
+      last_name: "Dodge"
     vice_chief:
       first_name: "Joseph"
       last_name: "Espinoza"
     secretary:
-      first_name: "Matthew"
-      last_name: "Malcom"
+      first_name: "David"
+      last_name: "James"
     adviser:
       first_name: "Kurt"
       last_name: "Kuhlmann"
     staff_adviser:
-      first_name: "Kyle"
-      last_name: "Smith"
     associates:
       -
-        first_name: "Tony"
-        last_name: "Etherington"
+        first_name: "Don"
+        last_name: "Kellogg"
 2S:
   area: 2
   section: "S"
-  website: "http://www.sectionw2s.org"
+  website: "www.sectionw2s.org"
+  name: ""
   facebook: "https://www.facebook.com/sectionw5s"
   twitter: "https://twitter.com/SectionW5S"
   leadership:
@@ -126,11 +126,11 @@
       first_name: "Collin"
       last_name: "Metscher"
     vice_chief:
-      first_name: "Ashton"
-      last_name: "Albright"
+      first_name: "JC"
+      last_name: "Rogers"
     secretary:
-      first_name: ""
-      last_name: ""
+      first_name: "Cristian"
+      last_name: "Joya"
     adviser:
       first_name: "Roger (Mac)"
       last_name: "McFarland"
@@ -138,22 +138,23 @@
       first_name: "Joey"
       last_name: "Quick"
     associates:
-      -
 2W:
   area: 2
   section: "W"
+  website: ""
+  name: ""
   facebook: "https://www.facebook.com/OAW2W"
   twitter: "https://twitter.com/Section_W2S_OA"
   leadership:
     chief:
-      first_name: "Jason"
-      last_name: "Eisert"
+      first_name: "Sam"
+      last_name: "McMurray"
     vice_chief:
-      first_name: "Logan"
-      last_name: "Kelly"
+      first_name: "James"
+      last_name: "Anderson"
     secretary:
-      first_name: "Jordan"
-      last_name: "Larson"
+      first_name: "Johnathan"
+      last_name: "Bybee"
     adviser:
       first_name: "Tom"
       last_name: "Otterstrom"
@@ -162,20 +163,21 @@
       last_name: "Gowens"
     associates:
       -
+        first_name: "Carey"
+        last_name: "Beckstead"
+      -
         first_name: "Cal"
         last_name: "Condie"
       -
         first_name: "Ken"
         last_name: "Jeppesen"
-      -
-        first_name: "Carey"
-        last_name: "Beckstead"
 3N:
   area: 3
   section: "N"
-  website: "http://www.sectionw3n.org"
-  facebook: "https://www.facebook.com/SectionW3nOrderOfTheArrow"
-  twitter: "https://twitter.com/SectionW3N"
+  website: "www.sectionw3n.org"
+  name: ""
+  facebook: "https://www.facebook.com/SectionW3nOrderOfTheArrow "
+  twitter: "https://twitter.com/SectionW3N "
   leadership:
     chief:
       first_name: "Vincent"
@@ -194,18 +196,19 @@
       last_name: "Dybeck"
     associates:
       -
-        first_name: "Keith"
-        last_name: "Schoenthal"
-      -
         first_name: "Joseph"
         last_name: "Barton"
+      -
+        first_name: "Keith"
+        last_name: "Schoenthal"
       -
         first_name: "Mark"
         last_name: "Woodward"
 3S:
   area: 3
   section: "S"
-  website: "http://www.sectionw3s.org"
+  website: "www.sectionw3s.org"
+  name: ""
   facebook: "https://www.facebook.com/SectionW3S"
   twitter: "https://twitter.com/SectionW3S"
   leadership:
@@ -226,15 +229,16 @@
       last_name: "Lewis"
     associates:
       -
+        first_name: "Kevin C."
+        last_name: "Fischer"
+      -
         first_name: "David"
         last_name: "Miura"
-      -
-        first_name: "Kevin"
-        last_name: "C. Fischer"
 4N:
   area: 4
   section: "N"
-  website: "http://www.sectionw4n.org"
+  website: "www.sectionw4n.org"
+  name: ""
   facebook: "https://www.facebook.com/sectionw4n"
   twitter: "https://twitter.com/SectionW4N"
   leadership:
@@ -248,23 +252,25 @@
       first_name: "Justin"
       last_name: "Engstrom"
     adviser:
-      first_name: "Ross"
-      last_name: "M. Arnold"
+      first_name: "Ross M."
+      last_name: "Arnold"
     staff_adviser:
       first_name: "Scott"
       last_name: "Oldenburg"
     associates:
       -
-        first_name: "George"
-        last_name: "Michaels"
-      -
         first_name: "Jeff"
         last_name: "Frankel"
+      -
+        first_name: "George"
+        last_name: "Michaels"
 4S:
   area: 4
   section: "S"
-  website: "http://www.w4s.org"
+  website: "www.w4s.org"
+  name: ""
   facebook: "https://www.facebook.com/pages/Section-W4S-Order-of-the-Arrow/338859117345"
+  twitter: ""
   leadership:
     chief:
       first_name: "Javier"
@@ -279,19 +285,19 @@
       first_name: "John"
       last_name: "Nelson"
     staff_adviser:
-      first_name: "Jeffrie"
-      last_name: "A. Herrmann"
+      first_name: "Jeffrie A."
+      last_name: "Herrmann"
     associates:
-      -
-        first_name: "Ken"
-        last_name: "Hedrick"
       -
         first_name: "Tracy"
         last_name: "Atherton"
+      -
+        first_name: "Ken"
+        last_name: "Hedrick"
 6E:
   area: 6
   section: "E"
-  website: "http://www.sectionw6e.org"
+  website: "www.sectionw6e.org"
   name: "The High Desert Brotherhood"
   facebook: "https://www.facebook.com/OAW6E"
   twitter: "https://twitter.com/OAW6E"
@@ -315,13 +321,11 @@
       -
         first_name: "Jan"
         last_name: "Hickey"
-      -
-        first_name: "Joey"
-        last_name: "Dworak"
 6P:
   area: 6
   section: "P"
-  website: "http://www.sectionw6p.org"
+  website: "www.sectionw6p.org"
+  name: ""
   facebook: "https://www.facebook.com/sectionw6p"
   twitter: "https://twitter.com/SectionW6P"
   leadership:
@@ -338,33 +342,35 @@
       first_name: "Brian"
       last_name: "Hashiro"
     staff_adviser:
-      first_name: "LeeLan"
+      first_name: "LeeLen"
       last_name: "Park"
     associates:
-      -
-        first_name: "Wesley"
-        last_name: "Ishizu"
       -
         first_name: "Edwin"
         last_name: "Chun"
       -
-        first_name: "Lyle"
-        last_name: "Tabata"
+        first_name: "Wesley"
+        last_name: "Ishizu"
       -
         first_name: "Miles"
         last_name: "Nakastu"
+      -
+        first_name: "Lyle"
+        last_name: "Tabata"
 6W:
   area: 6
   section: "W"
   website: "sectionw6w.org"
+  name: ""
   facebook: "https://www.facebook.com/OAW6W"
+  twitter: ""
   leadership:
     chief:
       first_name: "Tyler"
       last_name: "Ellison"
     vice_chief:
       first_name: "Ajay"
-      last_name: "Kumur"
+      last_name: "Kumar"
     secretary:
       first_name: "Richard"
       last_name: "Ramage"
@@ -376,8 +382,8 @@
       last_name: "Heinemann"
     associates:
       -
-        first_name: "Daniel"
-        last_name: "B. Carman"
+        first_name: "Daniel B."
+        last_name: "Carman"
       -
         first_name: "Michael"
         last_name: "Forrest"
