@@ -201,7 +201,7 @@ Now that you have completed all of the installation steps you are ready to serve
 
 `jekyll serve`
 
-If this is successful you will see that the website is generated and the server is running on http://localhost:4000. Open up your favorite browser and enter this URL.
+If this is successful you will see that the website is generated and the server is running on [http://localhost:4000](http://localhpst:4000). Open up your favorite browser and enter this URL.
 
 ## Want to help?
 
