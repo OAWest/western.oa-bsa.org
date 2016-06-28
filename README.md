@@ -193,13 +193,17 @@ Once you have bower installed on Windows you can run the following commands usin
     > cd ./western.oa-bsa.org
     > npm install
     > grunt
+    
+After a second or two you should see the message "Running "Watch" Task Waiting..." Cicking Ctrl+C to contine or the "Waiting..." will never stop.
+    
     > bower install
 
 ## Serve it
 
 Now that you have completed all of the installation steps you are ready to serve up a local copy of the Western Region OA website using jekyll and the built-in HTTP server. If you made it this far, you'll be happy to know that this last step is very easy. Be sure you are in the 'western.oa-bsa.org' folder and run:
 
-`jekyll serve`
+`jekyll build --incremental`
+`jekyll serve --incremental`
 
 If this is successful you will see that the website is generated and the server is running on [http://localhost:4000](http://localhost:4000). Open up your favorite browser and enter this URL.
 
