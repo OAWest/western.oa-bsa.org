@@ -13,25 +13,28 @@
         </div>
         <ul class="list-group">
           <li class="list-group-item">
-            Section Chief
-            {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 %}
-              {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
+		    {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 %}
+            <a href="{{ site.baseurl }}about-us/contact-us.html?Position=Section%20Chief&fname={{ section.leadership.chief.first_name }}&lname={{ section.leadership.chief.last_name }}&location=Section W-{{ section.area }}{{ section.section }}">
+			Section Chief
+              {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</a>
             {% else %}
               <em>To be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
+		  {% if section.leadership.vice_chief.first_name.size > 0 and section.leadership.vice_chief.last_name.size > 0 %}
+		  <a href="{{ site.baseurl }}about-us/contact-us.html?Position=Section%20Vice%20Chief&fname={{ section.leadership.vice_chief.first_name }}&lname={{ section.leadership.vice_chief.last_name }}&location=Section W-{{ section.area }}{{ section.section }}">
             Section Vice Chief
-            {% if section.leadership.vice_chief.first_name.size > 0 and section.leadership.vice_chief.last_name.size > 0 %}
-              {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}
+              {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}</a>
             {% else %}
               <em>To be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
+		  <a href="{{ site.baseurl }}about-us/contact-us.html?Position=Section%20Secretary&fname={{ section.leadership.secretary.first_name }}&lname={{ section.leadership.secretary.last_name }}&location=Section W-{{ section.area }}{{ section.section }}">
             Section Secretary
             {% if section.leadership.secretary.first_name.size > 0 and section.leadership.secretary.last_name.size > 0 %}
-              {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}
+              {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}</a>
             {% else %}
               <em>To be determined</em>
             {% endif %}

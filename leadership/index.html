@@ -48,7 +48,6 @@ description: "Meet the leadership of the Western Region."
 		 Section Chiefs
 		</div>
 		<ul class="list-group">
-		  <li class="list-group-item">
 		   {% for key in site.data.sections %}
 		   {% assign section = key[1] %}
 		   <a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}" class="list-group-item">
@@ -57,7 +56,6 @@ description: "Meet the leadership of the Western Region."
 			  - led by </span>{{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
 		   </a>
 		   {% endfor %}
-		  </li>
 		</ul>
 	</div>
 </div>
@@ -67,7 +65,6 @@ description: "Meet the leadership of the Western Region."
 		 Section Advisers
 		</div>
 		<ul class="list-group">
-		  <li class="list-group-item">
 		   {% for key in site.data.sections %}
 		   {% assign section = key[1] %}
 		   <a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}" class="list-group-item">
@@ -76,7 +73,6 @@ description: "Meet the leadership of the Western Region."
 			  - advised by </span>{{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
 		   </a>
 		   {% endfor %}
-		  </li>
 		</ul>
 	</div>
 </div>
