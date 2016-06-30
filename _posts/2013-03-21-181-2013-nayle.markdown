@@ -5,5 +5,5 @@ joomla_id: 181
 joomla_url: 2013-nayle
 date: 2013-03-21 21:19:58.000000000 -06:00
 ---
-<p>Hey Arrowmen!<a href="http://www.scouting.org/scoutsource/BoyScouts/Resources/NAYLE.aspx"><img src="images/posts/NAYLE/NAYLELogo.png" alt="" align="right" /></a></p>
+<p>Hey Arrowmen!<a href="http://www.scouting.org/scoutsource/BoyScouts/Resources/NAYLE.aspx"><img src="{{site.baseurl}}images/posts/NAYLE/NAYLELogo.png" alt="" align="right" /></a></p>
 <p>Are you interested in getting some of the best training to be a Chief or Officer? Then you should attend NAYLE! The <a href="http://www.scouting.org/scoutsource/BoyScouts/Resources/NAYLE.aspx">National Advanced Youth Leadership Experience</a> at Philmont Scout Ranch is one of the top leadership programs offered by the Boy Scouts of America and can give you skills to help you in your Troop, Lodge, and everyday life! If you are interested in attending, download the attached application and turn it in ASAP. Space is limited, so if you are interested in participating in this once in a lifetime experience then you better sign up today! Registration is available at myscouting.org under the Event Registration tab.</p>

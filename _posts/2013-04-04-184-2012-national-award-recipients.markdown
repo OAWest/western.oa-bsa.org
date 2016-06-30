@@ -5,7 +5,7 @@ joomla_id: 184
 joomla_url: 2012-national-award-recipients
 date: 2013-04-04 19:14:43.000000000 -06:00
 ---
-<p><img src="images/eugnatservice.jpg" alt="" align="right" />The recognitions subcommittee of the National Order of the Arrow Committee and the Western Region Order of the Arrow are proud to announce the selection of two Lodges from the Western Region to earn the <a href="program/awards/eugcamping">E. Urner Goodman Camping Award</a> and <a href="program/awards/natservice">National Service Award</a>.</p>
+<p><img src="{{site.baseurl}}images/posts/2012NationalAward/eugnatservice.jpg" alt="" align="right" />The recognitions subcommittee of the National Order of the Arrow Committee and the Western Region Order of the Arrow are proud to announce the selection of two Lodges from the Western Region to earn the <a href="program/awards/eugcamping">E. Urner Goodman Camping Award</a> and <a href="program/awards/natservice">National Service Award</a>.</p>
 <p>The E. Urner Goodman Camping Award (shown on the top left of the image) was established in 1969 to encourage and challenge Order of the Arrow members and lodges to increase their effectiveness in promoting and increasing Scout camping in each council. The Award is presented to two Lodges from each region every year that best exemplify the Camping Spirit of the Boy Scouts of America National Honor Society. The 2012 Award winners in the Western Region are:</p>
 <ul>
 <li><a href="sections/?lodge=39">Wiatava Lodge</a>; Orange County Council #39, Costa Mesa, CA</li>
