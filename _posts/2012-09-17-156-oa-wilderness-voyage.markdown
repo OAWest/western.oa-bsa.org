@@ -5,7 +5,7 @@ joomla_id: 156
 joomla_url: oa-wilderness-voyage
 date: 2012-09-17 01:24:41.000000000 -06:00
 ---
-<p><a href="http://adventure.oa-bsa.org/index.php?p=voyage" target="_blank"><img src="images/ntwvoyage.gif" alt="Charles L. Sommers Canoe Base - Click for more info" align="right" border=0></a>The National Order of the Arrow is offering you an opportunity to join Arrowmen 
+<p><a href="http://adventure.oa-bsa.org/index.php?p=voyage" target="_blank"><img src="{{site.baseurl}}images/logos/ntwvoyage.gif" alt="Charles L. Sommers Canoe Base - Click for more info" align="right" border=0></a>The National Order of the Arrow is offering you an opportunity to join Arrowmen 
   from across the country in cheerful service and the formation of lasting brotherhood 
   on the pristine US/Canadian Boundary Waters. Under the direction of the United 
   States Forest Service, experienced Charles L. Sommers staff members with strong 
