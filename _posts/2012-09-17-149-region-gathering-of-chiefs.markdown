@@ -5,7 +5,7 @@ joomla_id: 149
 joomla_url: region-gathering-of-chiefs
 date: 2012-09-17 01:15:16.000000000 -06:00
 ---
-<p><a href="{{site.baseurl}}images/posts/2012RegionGathering/gathering04_large.JPG"><img src="images/gathering04.jpg" alt="2004 Gathering of Chiefs - Click for larger image" width="250" height="150" border="0" align="right"></a><font class="title">Region 
+<p><a href="{{site.baseurl}}images/posts/2012RegionGathering/gathering04.JPG"><img src="images/gathering04.jpg" alt="2004 Gathering of Chiefs - Click for larger image" width="250" height="150" border="0" align="right"></a><font class="title">Region 
   Gathering of Chiefs</font></p>
 <p>Each year the section chiefs of the Western Region gather for a weekend in 
   Phoenix, Arizona. During this time, they have the opportunity to build their 
