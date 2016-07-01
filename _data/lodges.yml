@@ -1,4 +1,4 @@
-# Western Region Lodges. To update this page, copy & pase the output of http://western.oa-bsa.org/committee_files/database/lodgelist.php into this file.
+# Western Region Lodges. To the website, copy & pase the output of http://western.oa-bsa.org/tech-team_files/database/lodgelist.php into _data/lodges.yml
 1E:
   lodges:
     -
