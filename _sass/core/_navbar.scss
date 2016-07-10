@@ -69,11 +69,9 @@
 			transition: 0.3s;
 			border-bottom:0px;
 			white-space:nowrap;
+			&:hover {color:$white;}
 		}
-		
-		a:hover {
-			color:$white;
-		}
+
 	}
 
 
