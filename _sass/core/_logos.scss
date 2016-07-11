@@ -3,7 +3,7 @@
  */
 .logo-nlats {
   @include retina-image($filename: '/images/logos/national-lodge-adviser-training-seminar', $background-size: 90px 85px, $extension: 'png', $retina-suffix: '@2x');
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 85px;
   width: 90px;
 }
@@ -13,7 +13,7 @@
  */
 .logo-nls {
   @include retina-image($filename: '/images/logos/national-leadership-seminar', $background-size: 88px 85px, $extension: 'png', $retina-suffix: '@2x');
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 85px;
   width: 88px;
 }
@@ -22,18 +22,23 @@
  * Western Region
  */
 .logo-western-region-white {
-  @include retina-image($filename: '/images/logos/western-region-white', $background-size: 326px 200px, $extension: 'png', $retina-suffix: '@2x');
-  background-repeat: none;
+  @include retina-image($filename: '/images/logos/western-region-white', $background-size: contain, $extension: 'png', $retina-suffix: '@2x');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center center;
   height: 200px;
   width: 326px;
+  max-width:100%;
 }
+@media screen and (max-width:400px) {.logo-western-region-white {height: 150px;}}
+@media screen and (max-width:320px) {.logo-western-region-white {height: 100px;}}
 
 /**
  * Distinguished Service Award
  */
 .logo-dsa {
   @include retina-image($filename: '/images/logos/dsa_ribbon', $background-size: 120px 156px, $extension: 'jpg', $retina-suffix: '@2x');
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 156px;
   width: 120px;
 }
@@ -43,7 +48,7 @@
  */
 .logo-camping {
   @include retina-image($filename: '/images/logos/eugcamping_plaque', $background-size: 125px 147px, $extension: 'jpg', $retina-suffix: '@2x');
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 147px;
   width: 125px;
 }
@@ -53,7 +58,7 @@
  */
 .logo-nsa {
   @include retina-image($filename: '/images/logos/natservice_plaque', $background-size: 129px 186px, $extension: 'jpg', $retina-suffix: '@2x');
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 186px;
   width: 129px;
 }
