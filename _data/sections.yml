@@ -8,32 +8,34 @@
   twitter: "https://twitter.com/SectionW_1E"
   leadership:
     chief:
-      member_id: "BQCgKXsD5w1EMhzDR%2BtOkQCD8W0j3OiTIF%2BV1pbo0wT2sZunIe%2FO0%2B1QgrrAoi6oRiX84XxiV2PSGjLIZReu7S"
+      member_id: "UsBw%2B6piu95CfqoDt1DBewjjU2%2FgpRlg9g9UKJc0WAlDwywPGSApEWpU1WRwOFIHqY4LKOHz9QqqjOYLtrt5L6"
       first_name: "Hunter"
       last_name: "Scott"
     vice_chief:
-      member_id: "Lh9snIaOvpoXtLY7Cd1DfQWl1vEWLrr5jQSvLhsIgodczsHhuP9CblOs9q8xOovASbkKES3CjNJrsS3e6BtPeZ"
+      member_id: "pRNZKoiwp4MM2MurjlNTIwyiBWLpjUtmKUk3jmOdFxEzWEVclvd96FETfk4tCz7a3B5tZWoS9WUFwyapRyO%2B7L"
       first_name: "Joseph"
       last_name: "McGinnis"
     secretary:
-      member_id: "5sCzabqyx5E3xKgpf3YMugk9efEO%2BWvfwZTsEjqwoQX5f7ZItqhlQT1LwqF1XKDm%2BPbr8Q52R%2Fgmqa2kxTL13H"
+      member_id: "WehaNpWZxJntYt0PH15kHAdn8CXeWcRkZWvNbPW1sG6NYLknKA1vLRfyBTCFkCP8xWwJVfvqYwBXvJYQGQdRyh"
       first_name: "Wyatt"
       last_name: "Platts"
     adviser:
-      member_id: "AzGXRwJ32mXwS6ZWNPCf9woTEP%2BvgruTxuLf5t2%2Bkc15rO4cxIsHSUQ4gkllcPOziUW1eO9KtClNI%2BmcbrbFzd"
+      member_id: "jjsqcpQXGWmNZ8EJW%2Bc9rgbSA1ZPwIyOuKOiLMHKZWl6jF4Xj4UnorBMu6sCvYitKmu3c4FxIy7v%2BLUREyxitk"
       first_name: "Doug"
       last_name: "Rowe"
     staff_adviser:
-      member_id: "ZWJebXqduBHhBUhQzYKnpAEGTfBCbP4XwW%2BOb8SADfsNPXvRoLRpcoy2xiGgpYcQxjGCDBj%2FWmpL0VvGoAxJ2P"
+      member_id: "MWiSgQ6oJ9YSjRF4nq6ajgksPoPUTWKTPvmo2fraO2YseDka5JpEERJ0vmDv5gzDcUSJ9bo8VdyP3ZCvBzUo20"
       first_name: "Kate"
       last_name: "Benson"
     associates:
-      member_id: "%2Bg2WVgpkvcFhRuX7VZlU%2FQTr5Mhmck0HfloxFBcNkvJSvgwy0C4K%2BBYtINem%2Bbjkgyuf6PjVsSf%2BNWHj%2Bk3rKH"
-      first_name: "Taylor"
-      last_name: "Blanc"
-      member_id: "blvIb%2FRmEIfqcs7Yj8iQPgx5UBMXFXDFspOWoVQvj%2F0l2UtLtMA3GE445t7wO3Ebq9oYf7QtL5YJ7MGY4KIHsc"
-      first_name: "Jeff"
-      last_name: "Person"
+      -
+        member_id: "OQ9OqYASfw19aPMT2YxRzw2Tk%2FCEj4ovnl5%2FAFMwkYtfqzpeOVd9CCFmOc8dvs%2FeRBFF3uuODXIp85mKBz1XsU"
+        first_name: "Taylor"
+        last_name: "Blanc"
+      -
+        member_id: "gEEerxC1HY2ndGXPYde96Ax43dgk%2FN0v4W7Eh6yEzG2mWEDEli6mleuPBi6Xg6ZXWrF6%2FcRzsQtzqd4r3E15kW"
+        first_name: "Jeff"
+        last_name: "Person"
 1N:
   area: 1
   section: "N"
@@ -43,32 +45,34 @@
   twitter: "https://twitter.com/Section_W1N "
   leadership:
     chief:
-      member_id: "txu2eCCo4cmefAvcGsP1HgLCSXXVOo84teVOPs2sPr%2Bx9np7nzTrdhMgWk3qfG3K94YWz0hoC2%2FDipTunoweQJ"
+      member_id: "TCZgY%2BxQFELPAcLCg1rNbw7%2Bg77VsFIb1fstbNnaTGb8dvS9Vow1HnPDpvesQZY0V5iqbR%2BfIVPhr%2F7d3WNTMV"
       first_name: "Trip"
       last_name: "Jackson"
     vice_chief:
-      member_id: "W6mNPToyc8o8DbmzIkfkSAPdcsDYOdL4v9y3rJcVLDKcpCpuNOY91WVqAzJSjsYPirdzzlrRLIQgtt015vX2TA"
+      member_id: "3HFEbPACTkHxlyNk7679Hw6oMNp5%2FR%2F2lL899oiCGvslwDJhrY%2FYGQ6yceSiKiBdKGXj%2FOz43mhitxVA%2Fyw15b"
       first_name: "Luke"
       last_name: "Frost"
     secretary:
-      member_id: "qgd%2FYU9jqtZDAfN5YXZuhAaNBRrZUfZRO0a8YRkkD7uv4jquCnqsPAzqOtaxu0Mmx84JXr9%2BBaIeHc%2F%2BhAPuG6"
+      member_id: "dijmV9q%2F9XfSpWOP1GHMEgGrm%2BwDcODrZKH8PkUHlfB77HrOTacDmYuCAJSDYn1lv8Pvhi3fT%2BQ%2B2HZMxs0%2FA6"
       first_name: "Kyle"
       last_name: "McCaffery"
     adviser:
-      member_id: "mue4FosPh03TVdkJGcxPZApLk%2BTS6untKcFIkH%2BYUaMctj7Eqrb4phBjLoWSVAMyK8InjfTI7fjWKqv0qcVmCt"
+      member_id: "lpefg7ktP0w8PP36SmbW5Azd%2F4O%2BbXmz9CEIEU%2Bv%2FY%2BnQMhS2TpisuRak2mxLBXDdFG0lFa4%2Ficl2%2FtoKADmGo"
       first_name: "Steve"
       last_name: "Johnson"
     staff_adviser:
-      member_id: "LbSCyAp6SKcq5PxToPteJwigPSXuDBlnXV5apMd4O%2BwYfcBQGiPxZJQKTGF7lzPnxH1%2FFSGI1BmKuyjlzXJav8"
+      member_id: "XtbYeF%2BwkQjU0BJc%2FWv4bQE9ZZOTAB3dP3nRm9jS2pGLwzifH%2FOprVEYclP219Y5MFxEtrLbaJ5chhJ2mTAkFa"
       first_name: "Evan"
       last_name: "Hansen"
     associates:
-      member_id: "oNYeeDw2vyWqr5xc20eB0gPA8Z%2FRNS%2B9tvqedWoFCl7DMxHmMdoYvoelf0PzPzhIlAW2ZFEAJMELwv5Ef1u%2F8y"
-      first_name: "Kenneth R."
-      last_name: "Devero"
-      member_id: "zWc5%2BjmEd3B5%2ByfQ0ELTfQZal60jmrAEOaqrVpAs8rhGt1hiL1wi53i3PgC%2FRV0Dhj2mlE62%2BAfhNumMA%2FoqP8"
-      first_name: "Mike"
-      last_name: "Gaylord"
+      -
+        member_id: "I0DbtalDFSWJ5%2BU8qqg9rw7DotRw4r7Fmc7U%2BzYS%2B%2BMQYh1xvKU6DlP30wDeHOEr8eaP2E6gczI6gPpOobjPc2"
+        first_name: "Kenneth R."
+        last_name: "Devero"
+      -
+        member_id: "Ql3%2Bkf0ouIXHCPK%2BMiGs1QMHQBO0miWLLE9wNGBxrJxULbHMyG%2BE0R7%2FPFsamHTf%2B0Allsz9DEd4MFcW%2Fn4w0B"
+        first_name: "Mike"
+        last_name: "Gaylord"
 1S:
   area: 1
   section: "S"
@@ -78,32 +82,34 @@
   twitter: "https://twitter.com/SectionW1S"
   leadership:
     chief:
-      member_id: "ljWFGZSt%2BRtxw1tMGaquuw4VgJinQED%2B79O5IlrebxFVwxQW6pBT7Mj0hLtRL3zXIa%2BHrDSJ0VxCqdxW211dQU"
+      member_id: "%2Bcb9JKK8SOsSBNXseu0GPQjbBKEzVPTb7SmcnPhZ2yOO4fCNcAI4Yc6%2BNW4RA2FuKUtZuQchSZyF0lM0JIdd%2FM"
       first_name: "Matthew"
       last_name: "Shumway"
     vice_chief:
-      member_id: "IKewZNhJKtwPpWWeK2h3WQPBbPG9D%2FERjXrujpzhN2df3Ze%2B99th%2BzvEqsLR4CqkkaaTKCaTQvMkDnTAu3iB3S"
+      member_id: "msO9XIFgXO5hMzXbay3nqw8W%2BmgRIxyAtO9FXJVvhgxCY1VTafpHNwse2gr3DImfYydxN3bMTnTmp05N2Tu9U6"
       first_name: "Jeremy"
       last_name: "Linch"
     secretary:
-      member_id: "rKiTUhFezPfJHv2tqzlSXwYR%2BRt2wBGyMmW4aG3XbsvtRLrpp%2BEmyREdbyd1V%2BNC3qoxlTRzstwovn8P1tpX%2BV"
+      member_id: "LIDegIYYgWF1xBmJsRWyxABBhYTE2ZQqXMEZBZkItgWo4G%2FcwAYah9SNo%2Bjw%2FeJ%2Ba%2Fs4Y6iGuVaE8DfX3rH5zU"
       first_name: "Ashton"
       last_name: "Mills"
     adviser:
-      member_id: "FS7VtA0tBKhUun12qtcRDAUzrSL55evYF7BrknfzWCdI6AmsxERHMf6jqgz3L76zk9o%2F4mPS1AsKBq2U%2BtiN7D"
+      member_id: "6SAaJYVVZyjTBsvkpJeuxw0K3ccHqzPCx8bShNV90lx%2BfVr5emChtLwV9eof3kGJ0%2B1tVkaLWq%2Fyd805HngYAC"
       first_name: "Roy"
       last_name: "Walter Jr."
     staff_adviser:
-      member_id: "n6sZk%2F5wAKxeoN5l1sBnKAa0G2eGcfjMfe1kZqzSOM3gmhIZtAUVOEcVt36Z5PDmw3BNwcZo2CBCDLfzGpIdlR"
+      member_id: "jpC4xWQ35eKwzGFOV5s1zQcdqdfSxcc2VDFh6cH%2B4C2PVtkk1RkDv%2Bb5r1MmNVNL6XSEDKzhCvYlaNVDCbtl9w"
       first_name: "Todd"
       last_name: "McDonald"
     associates:
-      member_id: "I9Xm%2BcC4JAur9QcDoUuEKghRVVS8UnXiOgRBN2mlTH0SQgV7Rh5%2FxvoHFyHbtUbpoO1xhIw5OTu6rIQes%2Bez%2FO"
-      first_name: "Vince"
-      last_name: "Bishop"
-      member_id: "ytDQnzAkhZskFZt3tfmXTwlcxJLlzFpOvMde4SNjYiwSxNWtmWtdzGHEpurGLhWxO%2F82PwV5mX3rVdIFsykX5l"
-      first_name: "Tom"
-      last_name: "Brownell"
+      -
+        member_id: "YbHDksejd6EeITr0TTMoZw4zqbSCVJIg7zxucW8L8Hi1XQyvQ208EqKywTFQa5Jw2QhiOlqVG4t0RfsGxzK6ZT"
+        first_name: "Vince"
+        last_name: "Bishop"
+      -
+        member_id: "U8KJ6jP3Mm2T%2BYavSbhO%2BQ%2BWHzPG7zmBBnqYRaOymb%2FRUI9pKE3nUGUiTDUqjuUFurWj%2Bi%2Fhim3dJjfmvW4d5p"
+        first_name: "Tom"
+        last_name: "Brownell"
 2N:
   area: 2
   section: "N"
@@ -113,26 +119,27 @@
   twitter: ""
   leadership:
     chief:
-      member_id: "9KTHpIHwvYcvBGMjWGwcVQtshL6XEweVGas4J3BonAySL4psHQIGhODZdJDlxUOrrZr2UY9SDMnx8Nh3e93ifR"
+      member_id: "KDBOLs6baTvTxcMxp6H2sg15723UN%2BZWYHbSR6fHMnCQpV0fE3ICv61D6JORG8cd4HPAFJlUZCkREGMTziArng"
       first_name: "Tanner"
       last_name: "Dodge"
     vice_chief:
-      member_id: "RrHY8OYIIEbX%2BsA71qqfXwsVdR20lJAgYNyokgJnN9Dtk4thLrr6MxxFt%2FvPmvJUINNrQw9VBdIWZmLoygQf%2FG"
+      member_id: "GN7UZIsS2p%2Fd4WxwTXHonQOSMlaxJD%2FsvLxvgZeCdXkdPcdIaMPvzJVYmiZ9BFlxEyvUklxiSWIh4cUWU%2FW3Nn"
       first_name: "Joseph"
       last_name: "Espinoza"
     secretary:
-      member_id: "YvwyAwiMOmIKSaOBGZ8e9AWswQU4BoS3A3Ob28nAj0uUzwHFsCRCtrlKRPwIQ6iYIVxB1Pg1u1yRpLNAaFiEWc"
+      member_id: "WkiBvB9Qbu%2BA0oZF%2Fb%2BBywjneyMZT3yRWdheLo0IJ86E3sjj0KiwLKHs6d6kjzQl%2FVDZJb2ax5nqGAT1epeNj9"
       first_name: "David"
       last_name: "James"
     adviser:
-      member_id: "vI1Kx0aX7VWw5TVpDjmo0QR4TkrIIcs30wcE1fJXXtBTJABpvCZCLjjK98EmpURbjmcdODtMDnpSKWP6urDsfw"
+      member_id: "b%2BMzostTzGfHuYsn26i6aw86%2BjEmLvJqDwnUnYnlpGtps15BkLRplC4SXmCq7w1MVrwQ%2B%2B2NxnR3z0d3zyQfAm"
       first_name: "Kurt"
       last_name: "Kuhlmann"
     staff_adviser:
     associates:
-      member_id: "h8E6tF88glw09SHR6tYtaAr2VwnBc4loGB3RQ7vbq3Z0sc0PHjvs5V9YzWe9CCg%2BeXfwKtAyeDa6SR7vYUa%2FEV"
-      first_name: "Don"
-      last_name: "Kellogg"
+      -
+        member_id: "uceETmw7y68ce0Ar%2BW2ktAQVeU1mSHMXIsg6Odebpy%2FUwQ%2BELB2dfCY2D%2FOPTtmetfrsEQi5VHMDTKxGRAebge"
+        first_name: "Don"
+        last_name: "Kellogg"
 2S:
   area: 2
   section: "S"
@@ -142,23 +149,23 @@
   twitter: "https://twitter.com/SectionW5S"
   leadership:
     chief:
-      member_id: "Su9d4DLPlmqI%2FXsyTZX74gnKyr6KfH%2Fyakk8b30AssoPJxJS%2Fm7SByraKjk7VvbZ9pICet8oL4ZQBqqcXt60Ne"
+      member_id: "azAXtsAygh5lL1D9Z5ZxPwpD7R2xV69Bhla7KCtrFLCuQEXtcctlRBMk99VQ7IW9WOiigjPVNGMETqjuqXBxxU"
       first_name: "Collin"
       last_name: "Metscher"
     vice_chief:
-      member_id: "7OtnCmSlzq9FkSzoXTbHiw3A6sk4d1%2Fub%2BY32HYhDQb7ZBkHreY2Mh95Vo6ZRV8Wn4GyY7rcC4QwVxDVwQx%2B0m"
+      member_id: "BbbExfz7Qa2OBeDe52Weuw6R8KwqH56fixWOqtRsv%2BE64%2BlvhYm%2FlD%2Bf7HbChvNVUBz6ph4kAPmFcsnlRUg5i8"
       first_name: "JC"
       last_name: "Rogers"
     secretary:
-      member_id: "2fyNTrKc8NBpIDr%2BlzuCZAB7cK8Epv6Xb3H%2FeZCacv4LTBYbdsmncBBR6GFiNrni3U0vZ1nIN51%2BxUqBdViCFs"
+      member_id: "okKu5dZ%2BzSC8m5yeNWxNNwjUWVdE68lyco3jY%2BwYfS7RPMEk7ByHjY15P9qdq1uVS59JtflYRDXeX7jkTBcZL5"
       first_name: "Cristian"
       last_name: "Joya"
     adviser:
-      member_id: "%2BJFik6R1K5oRhcpgPzg0VQc0aG2jPnLo2MmL89csQGsYEjcKet6MDoS1ej83R2N9DfWLNeZSUvUuhf4GJsLicp"
+      member_id: "tpzsfpc2uNA5vI%2BKLYqoTQY0TQyEDt%2B9z3%2B9pPhu4H8VkuxNY39pEfagiwWPUt%2FfB88FclxLNEtA2HGKUSALRB"
       first_name: "Roger (Mac)"
       last_name: "McFarland"
     staff_adviser:
-      member_id: "z8yKevGM66LZT7EI5JDN5QkqzXPulKPZPJYmUzQssSIObip4tMSubiixepx9axC05XakKn95d1nGC6fE0SGOHF"
+      member_id: "E%2BDhxD2eFlfHl4in2ewKOgEK62T038dZrB7Dkwbs5KkQo5wboKrGUFVj6E%2FZO55quBmJA8qUOp1%2F3LUqY7iqlW"
       first_name: "Joey"
       last_name: "Quick"
     associates:
@@ -171,35 +178,38 @@
   twitter: "https://twitter.com/Section_W2S_OA"
   leadership:
     chief:
-      member_id: "8E6hC1UPqMBqMpXPIRAFvw1G7cLz3D%2BphHM2UVIHf4akJBQIRI%2FZHwlsL4xxxnaeWCWdgODAVRxQaX8B%2BOeNFQ"
+      member_id: "rewDcjVlhLbNTvz7FUBrignz8yjhN9WsLtwREPoWTmPsT90LM8PWukkTfc588FCk2VzhniRf3AudnTX0Xtz1DL"
       first_name: "Sam"
       last_name: "McMurray"
     vice_chief:
-      member_id: "K17ya40m3xM0UiaReNbecAZgmIojmd0IFHSszh74xjls9F1vkLf0k5xD7Wu07ksNrAeMrhC36XYTIZm%2Byl8qSl"
+      member_id: "iQ7Z%2Ffr4HDa6fSBitIfZDQDwmjYPloCDl5m88b0chu9KTZ2VDnEvmGCQjNSy5p2Yx1XAbMP7oB9xzqKgwbTF8u"
       first_name: "James"
       last_name: "Anderson"
     secretary:
-      member_id: "VyVq5jMbRCjFNH8EyExu9w4SP7wBytZqJ6MzbTeobXecPX1nXfj6qttb5VmdSKqgm%2FvFJRmTRpzlYfbyP1sy4A"
+      member_id: "h5QmeeY5dnMDEe1MQp9PRg7rop8kTVVmgYLVQsTZ36pyElGC87IUvxEABkQf7KstwCRZZFiRgc4haI3Jovygil"
       first_name: "Johnathan"
       last_name: "Bybee"
     adviser:
-      member_id: "I5wjKnDENgQ2ECMj28%2F7SgkbVtb1Q3b6O34KmlYEcx3XT7z%2BsOPkS1h0TrepFyTslXpHrFrIe7yV5oMdi2%2BmMr"
+      member_id: "OGB%2B8dVvF9dzHro9Yz0dAAZCvukEB1zMOZZL%2B2XWVQjESp6RrNqBfJpY8pr1%2BQ3JJ51zOFNl4qh3sGhcHd1otX"
       first_name: "Tom"
       last_name: "Otterstrom"
     staff_adviser:
-      member_id: "LqTr40zFeWWRXSFpluvpkg7FdqXOL%2FGUXXo5mypS2qyKdN1f407B4TGV2jXVtj4L7IcV9ga6isYldXrIBJ9ba6"
+      member_id: "fQfefX9KVwViHY3uGnsAzQ95FCvPD57D4LiHhykmTztZo5WM%2BIrKc1%2F74kTD0P8%2Bu8oyHKgHDUYqexVbvzp3nB"
       first_name: "Bob"
       last_name: "Gowens"
     associates:
-      member_id: "vZ%2BrK3wPB1KdQhuZCwp15wXjc3BzJWwIuRVKlNPXdi0uOJ%2BMZi5rs1OeMcOT0%2F8mn8FXaUzFVjcIyr9pqW1OiW"
-      first_name: "Carey"
-      last_name: "Beckstead"
-      member_id: "LEAFQxFgVy0TkLKt%2FlWMlQpH3ge2HdcB5fSyUX%2FTPd%2Fk9TNt9N8oc5w4gEHprCRopQa7Nw75HQ1kM6cS1QGHtk"
-      first_name: "Cal"
-      last_name: "Condie"
-      member_id: "BGvVbq01wYK4snpmFDhLegBr%2BnTzx2%2FqYFtf2ux%2BIWTrzAfyzgP%2BrGwzAk7EmkE%2BeK1OxyTV3N4dmp%2FblzgVPN"
-      first_name: "Ken"
-      last_name: "Jeppesen"
+      -
+        member_id: "a0MPnAquHhjXrgAAOuBF%2FAKUmXFPCvRiwO4%2FJo7oT3yGtuduWp4MsBzQeGGTOR8Ldj4VFGzgJAggG%2FB%2FmII2tA"
+        first_name: "Carey"
+        last_name: "Beckstead"
+      -
+        member_id: "ifbZjHnRrPpSYqNN%2FoW%2FEAtR1RFDGkwmiNiaRDNXKcns0Y%2B0hRQ9dkc1LoX4MV%2BWywcph4O7C5b5cLV2F6f7uD"
+        first_name: "Cal"
+        last_name: "Condie"
+      -
+        member_id: "x5tAty%2F8p5Hx93PZH8PYHwGhLI3dpF%2F186TF4%2FH84ZVvLgyj3Juivi10Sm5sgfyw20IDUwBX8XP8msqhpzOgWy"
+        first_name: "Ken"
+        last_name: "Jeppesen"
 3N:
   area: 3
   section: "N"
@@ -209,35 +219,38 @@
   twitter: "https://twitter.com/SectionW3N "
   leadership:
     chief:
-      member_id: "BlzzijCzheyhJJR0EAPAYgZxAV28EzccFmEG8SOY8Xi%2FC9EHqJ6jqnqDrzRnUtwIX%2FjZyn7mM10pAx%2BkvuJ5Sb"
+      member_id: "a%2BwzTGM7ctbBoCrFTsYhAAjk0qKSLT0XXdLsFw7f4WkwrxD4oYtR3eK1cJtpR4wErLcYwFGqe5xwYZX2L0%2B%2BXf"
       first_name: "Vincent"
       last_name: "Despain"
     vice_chief:
-      member_id: "zgSta%2F5BlZCTX84QphuUPwBJAxjIaKB1xelHb3k3osZ%2FAT57Us2QA%2Fd6Vxl%2BJVf6vpaK0OwE0PpwTQQhMt35Mv"
+      member_id: "GauDGOPn1iy32YQl5ouxDQsPozhDMdOxDdoIbQkQIhFiKZr9puyXHlOydmTXxFtH4A3i8rLT6HWOOow6JIRaRn"
       first_name: "Connor"
       last_name: "Marshall"
     secretary:
-      member_id: "bhsYLhW6OomJhQSc494IbwwlhSPlyVx8B%2B1c3Ny4Wu2ZWKBJBVtvFxLcO8pr8SYxioPmdcysVTpqzo%2B%2FxxbzsN"
+      member_id: "qzTGnsfYant1Lgida2dzpQ9SiI8MXs5vHgWlE0pgHiSazQCv0jas6tChCG%2F1ClGtAAhfC1ei0PmHDcU2OZuecv"
       first_name: "Ryan"
       last_name: "Thomure"
     adviser:
-      member_id: "sUebQXeXkwyXUnUGvRU3rQP1CglcziDoTLymrnHG2%2Fe8%2B88DWZsttGzWfr49%2Fnvdu9ap6iW%2F8BfKwPwTCcQkwt"
+      member_id: "ancCw15VQEVxWG5Fn5PAeQq4Uf%2B%2BlKFW2sWAkaNlNfDnHaFJ7EbwG3REtN%2Bg%2FHVStf12xAVJzUrIK9XwwQ5UMG"
       first_name: "Larry"
       last_name: "Frith"
     staff_adviser:
-      member_id: "TfPln4XKhla0yxwrQZUnowa8wqZyJjQZ1pomDo4SvmGza3Le2brnHefma4GkZxgQYaX%2B4jBqZc6i0OddH6JP8g"
+      member_id: "pLphKw8sY29jiQXnFNbedQW7H3%2BNDINau8OYibDsNbURZyEpgaP5u%2Br5FwgmlxD9fiquuZZ6rRHw7QrTTEKVBe"
       first_name: "Michael"
       last_name: "Dybeck"
     associates:
-      member_id: "k%2BVM7zQEU%2FGMu16AJAwKHQRGDkA5TtY3GRMkSMx30DdFobP32%2BxZKkoms2koaOBKIUFYhquvUwUaMoHpg3kmAr"
-      first_name: "Joseph"
-      last_name: "Barton"
-      member_id: "JBZqBsh1HynvVKGYntR8cwet%2BiHR80DdI14qxJBl1F97mtT4PPwWLjfI6BMNfRT1xSkXCOa3YWa9RBilS%2FKF9l"
-      first_name: "Keith"
-      last_name: "Schoenthal"
-      member_id: "R9uP00ioh1hzggSB9UgidQavWbaVUNg29j66ddg6wd9O5%2FlyWn2AJVb1vPDx7jGzrPoS5kFQrXCHk80%2BkRrCeR"
-      first_name: "Mark"
-      last_name: "Woodward"
+      -
+        member_id: "pw7aMaNiL94E2J29Z0VPIgayErsMbaHVmVBZLdz7G3JdkszX0X08N8%2BYdl4ZGDLulOhUQAaDBBuoujkxMcN46T"
+        first_name: "Joseph"
+        last_name: "Barton"
+      -
+        member_id: "uHomldRqNKlbB0bqo7vkugtsdfZ4DWmhcj7Y5u3iUKc9CZe68wXQ5n4ty2g5l25DesXALnNXUgYvb2i7sOc7GM"
+        first_name: "Keith"
+        last_name: "Schoenthal"
+      -
+        member_id: "MgTvd1zgmyo9OPleNCC%2FdQBvg9wGilr8LNR3zbbz%2FlKy4O49JLg0hITMRZpTIc8fROyGk4zxDId%2BmEFXW7Anuz"
+        first_name: "Mark"
+        last_name: "Woodward"
 3S:
   area: 3
   section: "S"
@@ -247,32 +260,34 @@
   twitter: "https://twitter.com/SectionW3S"
   leadership:
     chief:
-      member_id: "7YZceGJGDVt9ljtUpuaxDQONWE9JzkZLXWXSLx6xi5NWig5OsU5zWpDSpWUVrASPKyftIDqbA4%2FLVKnpPlLjiF"
+      member_id: "I2ICrKmHhhOxHN0IwNXA1ALrDUtlBQrSPDo3kRDojqGIB10QSG%2BwTc0LTLWafvfC4Ocf%2FJ00ijtFTJ2s070h22"
       first_name: "Clayton"
       last_name: "Hagy"
     vice_chief:
-      member_id: "vAtSr8N1H%2B4tdWfTAePOfwih%2F84iq7GxACkcVc9%2F%2BbmZWxdemf3VkJSh4v6%2BlUkeeRGlHkkjEGIdpRmuWXJdJW"
+      member_id: "B9YKMqQFQS2oX5B9IleDwgByTv2z2oeVuvcGuVwEmK54L2wOojTm8UaXey%2BY7SkogW4jvj9aXWV5l0r7BwMOgP"
       first_name: "Kyle"
       last_name: "Silligman"
     secretary:
-      member_id: "%2BnB0e4LsHgmK1vovWWPyBQMTZmV5cXdtSwqwY6LnCesmJxYl8fwpcCkjMqmhtX%2BHW9DVzwiMXppdqbPsD9hwZq"
+      member_id: "0z2rEBlIDWueheSL08itywFj94G2MNkAJG1%2B6pmtjX5u%2BKOcF3W7jSCWb5iAgJ70ZW%2BHkH5eN7fsdPZIl7MZbd"
       first_name: "Branden"
       last_name: "Christman"
     adviser:
-      member_id: "FAB9D0Nxu5KsRnO9GPxVRAhO%2B%2BJap6ctZBNlkF7YGrzJV7Wj4bWk8QgcRLB1Z3WJVBPoRDTTf%2Bfq95ZlXr%2B7ZI"
+      member_id: "MtHOZsn3W5dTVlYmrfWULwd1sqNobj4GhzgNYxqp3B%2FEYe3hvNmOLT90T7NMFVRjbefxdLKi2DWfVCRKO1BgxH"
       first_name: "Tom"
       last_name: "Lackovic"
     staff_adviser:
-      member_id: "0dtejd%2FsGWRqK0Zgn25kcAyxI%2F2zEY40KuyWzLJNpTmUaifi9yQH9hV5gdcPqlwnnaslFDMHgJqnqUKOweM1WQ"
+      member_id: "zH5DnaoG8ZnsqIyACQaafQukQqrGfEPkv0jophOdyhYiaXGKLZHMCIoSiio3VIfe%2FkY1Rmv3NjIcyrcoGb0T13"
       first_name: "Jason"
       last_name: "Lewis"
     associates:
-      member_id: "fxIlDvwkkO3gHzFNcerZswTXodszDlFBl6f%2Ff5bHfmaTvEP7iHQ9ecC%2BCBZ%2BSgA1uOl0baVXT3St%2BNvhdfHEVt"
-      first_name: "Kevin C."
-      last_name: "Fischer"
-      member_id: "V8PoovEMRGQsVkvG6x%2BAigCR%2B14xWI7A%2Fq9Yt4hJBvtwlSlARANozo1t20ZeBZGNU3VS8Zo8zpGQiC%2FIQx%2BK%2BY"
-      first_name: "David"
-      last_name: "Miura"
+      -
+        member_id: "mMYBG5QuSy5jUtHL%2Fnp12AF657PEfDQnPVOVrrNZsSLpHCYDc9GUodTLjyPq2QhK6LESULsv7KaMp6Xxuc9a1C"
+        first_name: "Kevin C."
+        last_name: "Fischer"
+      -
+        member_id: "LqgfVdufET30CktaHaLNnAdYwThOWzYtt4%2BANWZle5w8KZUdmWCqZDAKjNlgpn3QdHIegbUgqil4tKTetj%2BwRc"
+        first_name: "David"
+        last_name: "Miura"
 4N:
   area: 4
   section: "N"
@@ -282,32 +297,34 @@
   twitter: "https://twitter.com/SectionW4N"
   leadership:
     chief:
-      member_id: "xwnePInMF3rO8ejgEMivwgTy8I2waLgwZRxS2rZCUAXSX4W7de3VdJjJJM0f6yEND%2F%2FZCR2UcyiZcaBYdS0YvK"
+      member_id: "koGB9ee588wkxIH1YC4klAwZSAkq9U7Ux4tTNt2pFj0B5ZyVFzQ461G1K8fDpRRxs9g6XQySV2rRwDTlf6Flj7"
       first_name: "Matthias"
       last_name: "Leier"
     vice_chief:
-      member_id: "DEqPSfLKYFDYUwt0J7QpXwsAZOyFoVTq7NevHLa2lJod1GH7kWRP3xc1jbDnm2PVoRBtJheZHw42aDVnVoNOa2"
+      member_id: "9VEyYCKJQMytn7tvqrAkTwlipeC6GMXiYa5zXlM2ZNIuhLWeejBVBppPDXSo%2B4lZH5y%2BJDHPAB8hJS%2Fbrnat2R"
       first_name: "Jorge"
       last_name: "Salazar"
     secretary:
-      member_id: "%2FCwMnGMCvSd48BD9IR0UQAEqvGLEGS0CAxm7kvwMZcBWeXBasVdhu6ZnpAIHvRVQWE1Y%2BDCfeURos6IRk6l9hf"
+      member_id: "%2Fpk4rge2LRHNchwBTVd%2FVwcA%2F6XyXpAizv9n8HiLguR%2F0zidXlVnFbVlBtpiqGq936mjHgQ%2Fhas4pm1B51vS11"
       first_name: "Justin"
       last_name: "Engstrom"
     adviser:
-      member_id: "HzF73iQxT9k9g3nsqSXgNQlQllnMgi6cQwhKZ5jGsGTOCNT6Cs2ofIyzDIN4f4%2F%2BZeU%2BhaWpH7HuhlXoD3R%2FeU"
+      member_id: "juJIN%2Bv2BIvTekoHzKlLXAKqKvVwFJUitVYmqBqU8Pymnpgcq%2FCNS8RnaTOm2U4l2o%2BCJQVjE8pjRX4XaPbVCb"
       first_name: "Ross M."
       last_name: "Arnold"
     staff_adviser:
-      member_id: "TIwXF47qCvCGBzJfjkFOkALrQans3Nd618CfOuwg1%2FyOroFTULs7WAjYKENVS4Li3AHWCBikdOVJWxlah%2BOOHU"
+      member_id: "5C0KiC1vT31omFBXydw6xw27xHI2O1vwjz9b0a%2F5GTpE%2FYGb2YOjp%2FwsW1THl1j%2BhFmR2II913OnsrMs%2BqX81M"
       first_name: "Scott"
       last_name: "Oldenburg"
     associates:
-      member_id: "Ycpb0KoqVMoGI3sr5fax9wSGahU4BsjvRjsb3qsszTGRPBz8T%2FqUaQGsy4JgCNzNxJ2NQO4SBxzL8xz91qWjzD"
-      first_name: "Jeff"
-      last_name: "Frankel"
-      member_id: "i2dMkhu%2FewMxkPc%2FCu8MqgOgrW4OMIFjfiRDIobxVxA%2FLPSB71CpJutPAlqPNZEe65KlXNmi0CV7vVpfZSO8eN"
-      first_name: "George"
-      last_name: "Michaels"
+      -
+        member_id: "Ovd%2BcWibKTGuMS0iXLHXVQnhrsU%2B1Ythq2mBAbrED3GdwYaTbuIjI9bllkUEBVGGnJt%2Bm5kF8dnWa28ATX9UjK"
+        first_name: "Jeff"
+        last_name: "Frankel"
+      -
+        member_id: "SVr%2B83XR6OykeZwmEATVuAJu98Cf5S0KWORdgBKqQmc9D8QGAU%2B9gM7toSA%2FdJni28kFQM%2FuYony0GBtrFrKFp"
+        first_name: "George"
+        last_name: "Michaels"
 4S:
   area: 4
   section: "S"
@@ -317,32 +334,34 @@
   twitter: ""
   leadership:
     chief:
-      member_id: "YR4ctrtRWuqmMJXbKnFf%2FgDZRQvvO6JYlWGrdOyHZeldc6BF9BrqUgC7pnP5fnik6v%2FJBVMc6Exqjg3NdB%2Fds%2B"
+      member_id: "fK7Nw3TVRAJsqNg6%2BaYN1gddIcOIjm4UncuTCK7iRYyenxvQun8U3h%2BSUFGaxavnwMTMbOEwFTQE9y4sVhq%2B%2Bs"
       first_name: "Javier"
       last_name: "Venegas"
     vice_chief:
-      member_id: "ppiOpwwmWngLmvwIaGsPKQAw7lZE27Gba9U4hDHbinFfulK5%2FrUYX%2B%2FVzQlYiWfh%2BV9d4PT0WkyCvNTOXuaYUh"
+      member_id: "GC8OQOSyQfA9bwdQyY2zowliow4k3N9tloPqy8Gm2wyk0K%2FB1yBhn45cyGqnH30CUwmb1p6OQp6uir%2Foi%2BgXA6"
       first_name: "Roberto"
       last_name: "Castillo-Davidson"
     secretary:
-      member_id: "CnZn4BVJw16McgOhytEL7gn5PxDbmhJxFiE2jgw8CeNIHK48%2BSSK2tpLVQw9rc%2FWdGBYHEvqaM1sbAu7ASfMYf"
+      member_id: "DELWZ8QnmQGyw7uvVhLWHAtEwjtUisU5rvzHM%2B1d4Q%2B4pyfkA2PJkUIM1UMYqPavU%2BLaiiD9FP7Alnl%2F69wwpV"
       first_name: "Sean"
       last_name: "Sedey"
     adviser:
-      member_id: "Mbj%2BQRFmsWlZig7ffnPidgpsz6ZcKO%2BF74xYkWRYxoErOptf2cPP3COGqFxB%2Bga7vFwwCgrHTnHYdOBXqh2%2FTZ"
+      member_id: "9%2BHe28iuzIfJGUbX2tbQig3ZfgI%2FzZdDr16t5%2FzA9Ar73MaR7rJSZUUWQkDLfXE9pUDBfaY7MNmtcFTZLDygju"
       first_name: "John"
       last_name: "Nelson"
     staff_adviser:
-      member_id: "Yx946xQBgzPrOm6NrPuKCw0JyPWiJG9%2FV8sGqmNKgOlagYM4l%2Bt6b3keMnPfA0%2BrEtonweLkhoUiAS6jevqjfU"
+      member_id: "oyG5GRV2QayxGhOwZk%2FztQD46gfAyQ8c%2FM1W1ePCNitOI1cPFlhlgXEUf%2F%2F97jM0q3QbqqR4OMKKGPVBuVv7V%2B"
       first_name: "Jeffrie A."
       last_name: "Herrmann"
     associates:
-      member_id: "CpLU%2FWEc%2FSALl22hPeKSXA1LokFnCVfFpciQ1CptV4LAz6DIVhX5IIFV9juK9sa3Jv3kXPh%2Bp4lI1Oiy8HRKdb"
-      first_name: "Tracy"
-      last_name: "Atherton"
-      member_id: "ssRnVmFH3HUz2vD%2B7baPYAS6zOxyiXk9VtNTBY4wa6RETz0O35D0o4MNRgQ2C5LM78ywS%2BqKd9han0IypTX6Lx"
-      first_name: "Ken"
-      last_name: "Hedrick"
+      -
+        member_id: "cjtyu0KQ3GbGLZg%2FY3%2F3igz%2BiIPKKynhHFrsbUv35YEMgNUqjCPoSGXJK0epuzAOCNbAlplbq93pttYJAF%2BzhL"
+        first_name: "Tracy"
+        last_name: "Atherton"
+      -
+        member_id: "h%2FKC%2B09gQjZLyvOeGdmKZwKfnr9Vbvx2mgHk62NzmGPdSWPEH7r3GhTXz4NwJ%2F09QfBZ5u9ddp%2BHFa6L6FSTEq"
+        first_name: "Ken"
+        last_name: "Hedrick"
 6E:
   area: 6
   section: "E"
@@ -352,29 +371,30 @@
   twitter: "https://twitter.com/OAW6E"
   leadership:
     chief:
-      member_id: "%2Bo8tmoSZxIY3p4cWnO%2Bn%2BQxfPIZQKrPNAWiZMFUls%2FjEvy6sfCv0H0CP38SeAPzFKSHDYHimQ%2BJpE7fYfrpl7W"
+      member_id: "7iXxhrK2FPVzghkNuupzewhASBj3UZBIiazaxBOU%2FxioIk6he3IEP9lAKT2S6efGxUCxD2WTS7jCDI32aQNRbi"
       first_name: "Adam"
       last_name: "Sommers"
     vice_chief:
-      member_id: "mqvVoPgQOKKu78U4vOlGvAhe38qFcW8UztQy3Lv1jtbczYy9XBMxYqYrRqEemTx0CbdZ%2B8uToRuvAqV8B4Krw7"
+      member_id: "x5tuTBN6yBcqZ9PzHAgAfQFjPmVKjUb994hG0fELxtKe1AipLKf1H7KYeJLrGybIFj2aXoz77B7UQmcZAOh2SH"
       first_name: "Jarod"
       last_name: "Peterman"
     secretary:
-      member_id: "UTvAkz8xZqSrzN8llTecfgqbrYvdK2aVTwqk4dYUxc%2BLGwcBlWImUtvr6hg%2FU5%2Bd84HHENzZZcyosJa1P2YkCm"
+      member_id: "i5FvDqFJGxqWYwag74OG4Qaw1pyRiXxSW34CWzy2AIWSvQ8DwozgEb7HipJ0moLZ71a7FLPp4wgzDk5zjz5Ew%2F"
       first_name: "Tristan"
       last_name: "Howard"
     adviser:
-      member_id: "VnQ01tmHATmO7wDqQQ8lCAdKWcZ6Gc2cLNRxMpPMqO9JkHcbrVLhQZeKLyII2xJxBs%2FwEaTYeF24U2DdxkTpO%2F"
+      member_id: "W%2B02eSWZCtiFjxBuZKeacAVv%2B54TKWmCxJ8oJ0OZA8wuRpL93aHjNljxt71Wk6AkCwXox7CpMSxNb9p460gejN"
       first_name: "Matthew"
       last_name: "Griffis"
     staff_adviser:
-      member_id: "nwetl7Vy1SEyo7mN9uus0Q2oovxLbM9A7PW0Gza54gtCNf6BVxhKJfSg%2BIN4imocbJ8a8x3QAZCdtf1vgRqMTD"
+      member_id: "IGXHr9k1P8uS9LB4XkxxvQo9trHGMiJgGe3ln%2FUuwmOkjUJPGIDDdBXbuMmLLU%2BUKQU3htfM5IEVBDiHBzF%2BpB"
       first_name: "Pete"
       last_name: "Jimenez"
     associates:
-      member_id: "2wGfCqoq1dJQTdEXvuEX0gVyBh2F4AFY0cGueuDsYRQlqO15umU%2FqM8eYaL4LYfTu1c6GqivrFBW2jqKhRrz4j"
-      first_name: "Jan"
-      last_name: "Hickey"
+      -
+        member_id: "5vULKZkd8iD2WBUd0YUNYgQOgV%2BYOMY0R6LNagmd9RcpRIsbz%2BAJDU1zK7b7vZ6OBaugspgYPnvFKSoXsowQJB"
+        first_name: "Jan"
+        last_name: "Hickey"
 6P:
   area: 6
   section: "P"
@@ -384,38 +404,42 @@
   twitter: "https://twitter.com/SectionW6P"
   leadership:
     chief:
-      member_id: "AoWHLuR%2FgE3JDXeo2tPtTQz9baX7wO%2FS%2Fz5hu8QLQal2CCKbsZpzZ0MdMqi%2F52TlfQJjX%2FehFDIDRsSgXNB2ck"
+      member_id: "6kwAhyyZv3u%2FiTvy9UZCfQ8UpoCoPgppN5jr8ZOvIRKVPIFQpta74LEQzqdq9UbC8WdX%2BPKuSBMzny89qn%2Fl0r"
       first_name: "Tyler"
       last_name: "Villegas"
     vice_chief:
-      member_id: "H8u50O64MeQNBw86tcBnngipZPw%2BhKEAFdZhNKMi8%2FQVsBvOYezTRFFxnzAOkXy%2BCfYm%2FyVwl%2F8ZzGBnHW7mlZ"
+      member_id: "yRuZTDOiQAoIIxbnK7zRDQWIV0tfPYCJqIGGA5n6lpKIMLIFJDOevJzD1s0RdW5ExdDRMoslJrVWOPth2eDWrX"
       first_name: "Steffon"
       last_name: "Broussard"
     secretary:
-      member_id: "w7jRJLZLnIhlHAgYUvmfqAXW7Bmdj17ieGuBVi6jgrEP4QA8DwzJgRb03vhqwc12nH55szSZwA4GxvalD92QxB"
+      member_id: "OHyTKpFGKgoaj0qdz8Bi2w14Rtm74jN7A9%2BdYti6m6TlVWGgq3QttWMl5Y84KlBdtKdaX%2FQEt2EqbUZ%2Beexj3Q"
       first_name: "Shaughn"
       last_name: "Broussard"
     adviser:
-      member_id: "nqMq9IReOrJugYGJdHl6OgJJUAJG0WnpFLAK1bdslCpDzO%2FZCNwI2Zy3MMCq5MtQYuA5tNmzFegyVubI2QJdpZ"
+      member_id: "cd%2BrlBWP%2BsdbV4dRTmM6ZgfO98PA%2FtcSiVh5AyBdmWV8cEe9VBwVzSESI2iUTEse%2Bc0FODv5Uy6cNAVc1KYKB5"
       first_name: "Brian"
       last_name: "Hashiro"
     staff_adviser:
-      member_id: "oZKhZ87nlaowSQ6n4vCeygMLr3q6ZG%2FrbPHWtw4Ixr7Izd2TMVNCh6H%2FMa%2FqnoAJaWLuzI1hCuZl68BnZWeTqo"
+      member_id: "CF4FoSaHDvv0xtHqrEGgDgi9b0B%2B2npWPBN7%2FW9vAnL5SvUKNglHemegQUHXNeeG3dhY5H3VIdWHoJYXNXXKYk"
       first_name: "LeeLen"
       last_name: "Park"
     associates:
-      member_id: "amhsnsnHc9NCFZiOpRcNHAwhLpg%2BvrorVFsja48EybUhJ53AmiG0xEYKnkvONnos44MTM8ChPMsmGWyG449ybc"
-      first_name: "Edwin"
-      last_name: "Chun"
-      member_id: "iTh2bZXiyy0T45dosk1aCw84nH%2BwfaeHPOshT4W7TYvS0Tc0%2FhzL5VDmHNOqgS4%2Bg7Biun%2BWyoX9JbaQ7p0%2FQr"
-      first_name: "Wesley"
-      last_name: "Ishizu"
-      member_id: "l8Pvi1mGH7m8VkboFDBPhAy%2F0vkiNLNFjSQ90soxqTOTa0KrT6Ae%2BjZbbGsDXU6ZFqYBo1DhkVDI3SwZaVwtKB"
-      first_name: "Miles"
-      last_name: "Nakastu"
-      member_id: "pfOmIGluqfvXxi%2Bqs0sSSgObER71XWyaiSjh4sR3FwXHyFtDIKuVKU1Qds1Gnp2AozuxKdhcHpAx3NN1Gl4CnD"
-      first_name: "Lyle"
-      last_name: "Tabata"
+      -
+        member_id: "N7EJKT8pfaoT7a9KkVfCQAHD75OlEywtHoQcwORKe2J5oXpDXMPtMqlDSjIxZI1OyQdbATaALxIzMWi%2B8oPsv3"
+        first_name: "Edwin"
+        last_name: "Chun"
+      -
+        member_id: "WWVHGVznE7nBiqvFlePyqQM4nO0nV%2B7NrHK36OHLvheJmtOuwnR6JrvXmyZQUZheWKHTvdPktmhnC6N9Ljp%2BHK"
+        first_name: "Wesley"
+        last_name: "Ishizu"
+      -
+        member_id: "RrgKnIFYk1cYadlsVuu8CwjnBWPO7B5JqPTSWV7ZbB%2Bn1E2oAJj%2Bc%2Foa1GbNEKjuxzyoRkOCUxaK49tzpgWDxb"
+        first_name: "Miles"
+        last_name: "Nakastu"
+      -
+        member_id: "we7FtpRgbnsEhWdJw9ud%2FQUs%2F8Da8BcyCPydEAI6hm%2By87z6o8cAXkgQRtD05P%2FIXQkD6chUg%2BO3KEHamVJdg%2B"
+        first_name: "Lyle"
+        last_name: "Tabata"
 6W:
   area: 6
   section: "W"
@@ -425,29 +449,31 @@
   twitter: ""
   leadership:
     chief:
-      member_id: "X1NEFbt%2FJC8mnBBr3rkl9QmA7Tp%2F9eH%2BuQIwaRjSFjbcNr5uz3tNDnec%2BmUaSg7D3zO45f2KE9dcRxWscivUQA"
+      member_id: "avlJbLKPYRYOCYK18BjagwQILa8V6Di63fz6Izfm45CWGsRcTxH04AoNHFxt0lAOnjQdJ2jMzseMkYz%2F9Zn%2Bi4"
       first_name: "Tyler"
       last_name: "Ellison"
     vice_chief:
-      member_id: "50wp8KY0SoXK2trNAhOeVwBx9p7GsBgel%2FMcQiw7gmlu63VYC%2B3KjNaHu2EzStwFwexKfxd7nvgfMpncMSLEeS"
+      member_id: "4Js%2FXdlQliO6NbM%2FMS7W5wXmighMILG8j3tJZbY5TjhuKbJDiHVaYhw8pF2sQhCicHIqecTmU0smcKWoJIr%2BF0"
       first_name: "Ajay"
       last_name: "Kumar"
     secretary:
-      member_id: "%2Fv5Wpp4CYYlG4GUWuscGTwnNsZxI2PrOlANs5o0skkT4pkWLdKPNKNL6yc3FcL2DSOFnT53c5bGKuG14JJURRA"
+      member_id: "oBX7uKoBbj5N3ts30NG0Gw1XALMP3P93OR9KrA1goQ0uVq24WAJ7NuQaww0v4SCwoXeR1KVYV8y1SwF3A022tR"
       first_name: "Richard"
       last_name: "Ramage"
     adviser:
-      member_id: "PQJm7RkawyhzjtztwwET9A0Rs2bzqRkjB1lppZNqm9gfNF8dHedIgaMlZiYLpw98sMfRGJvciemC%2BK%2FzyJ4I2f"
+      member_id: "ed6RXvz1H58bzQn3E9JD0g9BoFxevL2mHEWZ4XpDGha0iQslwY%2BeRcAa8dXRsXxmVFTY9IpgdhcS5p5jADiKd5"
       first_name: "Tracy"
       last_name: "Schultze"
     staff_adviser:
-      member_id: "GuFYJeJZzTy6ytkwg%2FfKbAKbFEuTqX9Lx8Oss80KNPWxSXrB9NA3ezM2pTikPBxczqqZSRixKPl9n4fVs5d783"
+      member_id: "nfOMyVJ2zZnLyyqMfkuwRgsR5eDOAA66oAB5W35zamqGjkSpzKCUiqvBv%2BQ2QAb6c8w9H0C4xf1qmXToKmg0pW"
       first_name: "Alex"
       last_name: "Heinemann"
     associates:
-      member_id: "vl4GUSEE6TPpzm7BWt7jbA0NzfE54w6Ita8N%2FCoSCWIUg2iys8SWroZBjPbsO%2F%2B345UUpmz43HhqMLW2xZwhZm"
-      first_name: "Daniel B."
-      last_name: "Carman"
-      member_id: "3B00bwJRF9xuvA4yAkJX0Q5rmlAnU4ExU9OVHMteRchEqNIvWpVg7Mt%2Fwg%2BWwASr4uLM2%2Bg2SBAudeJ5MRGsXz"
-      first_name: "Michael"
-      last_name: "Forrest"
+      -
+        member_id: "s3dMbPxt2p5w5H7PyLDGzweYfRKVeE8fA%2BJ%2BA9oy3%2Bsxd1DIVgnaL2DasSwOpidtN5xK99dYglECk8PFCTcH4m"
+        first_name: "Daniel B."
+        last_name: "Carman"
+      -
+        member_id: "KzXOW5fazsyHV%2F7tizLC%2FQ5KnzUn4MJPomSkxpxNxjJT8aQ3kRd56feIgQ1d1n8LXr3Ezos12yjdqtQqEcPzvr"
+        first_name: "Michael"
+        last_name: "Forrest"
