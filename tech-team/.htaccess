@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Western Tech Team Protected Area"
-require valid-user
-AuthUserFile "/home/western/.htpasswds/public_html/tech-team/passwd"
