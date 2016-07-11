@@ -1,0 +1,19 @@
+---
+title:  "404 Error - Western Region, Order of the Arrow, Boy Scouts of America"
+date:   2016-07-03 17:27 -0600
+description: "The page you are looking for could not be located."
+---
+
+<!DOCTYPE html>
+<head>
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/"> 
+    {% endif %}
+</head>
+<body>
+   <center>
+        <h1>404 Error</h1>
+        <img src="{{ site.baseurl }}images/logos/WR_2015_L_SS.png" style="width: 500px; max-width:100%;" />
+        <p>The page you are looking for could not be located. <a href="/">Click here</a> to return to the home page.</p>
+	</center>
+</body>
