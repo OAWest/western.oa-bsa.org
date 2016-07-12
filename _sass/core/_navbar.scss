@@ -83,7 +83,7 @@
 		margin-left: 50px;
 	}
 
-	@media screen and (max-height: 450px) {
+	@media screen and (max-height: $screen-xs) {
 	  .sidenav {
 		  padding-top: 15px;
 	      a {font-size: 18px;}

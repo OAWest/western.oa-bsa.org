@@ -108,7 +108,7 @@
   <div class="row online">
     {% if section.website %}
       <div class="col-xs-12 {% if section.facebook and section.twitter %}col-md-4{% elsif section.facebook or section.twitter %}col-md-6{% endif %}">
-        <a href="//{{ section.website }}" class="btn btn-lg btn-default">
+        <a href="{{ section.website }}" class="btn btn-lg btn-default">
           <i class="fa fa-laptop"></i>
           Visit our Website
         </a>
