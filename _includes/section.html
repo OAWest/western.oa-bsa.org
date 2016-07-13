@@ -110,7 +110,7 @@
   <div class="row online">
     {% if section.website %}
       <div class="col-xs-12 {% if section.facebook and section.twitter %}col-md-4{% elsif section.facebook or section.twitter %}col-md-6{% endif %}">
-        <a href="{{ section.website }}" class="btn btn-lg btn-default">
+        <a href="{{ section.website }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-laptop"></i>
           Visit our Website
         </a>
@@ -118,7 +118,7 @@
     {% endif %}
     {% if section.facebook %}
       <div class="col-xs-12 {% if section.website and section.twitter %}col-md-4{% elsif section.website or section.twitter %}col-md-6{% endif %}">
-        <a href="{{ section.facebook }}" class="btn btn-lg btn-default">
+        <a href="{{ section.facebook }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-facebook"></i>
           Follow us on Facebook
         </a>
@@ -126,7 +126,7 @@
     {% endif %}
     {% if section.twitter %}
       <div class="col-xs-12 {% if section.website and section.facebook %}col-md-4{% elsif section.website or section.facebook %}col-md-6{% endif %}">
-        <a href="{{ section.twitter }}" class="btn btn-lg btn-default">
+        <a href="{{ section.twitter }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-twitter"></i>
           Follow us on Twitter
         </a>
