@@ -402,7 +402,7 @@
       location: "California"
       area: "3"
       section: "N"
-      website: "http://bsa-mdsc.org/oa"
+      website: "http://www.mdscbsa.org/about/council/order-of-the-arrow/"
 3S:
   lodges:
     -
@@ -510,7 +510,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "http://www.chumashlodge90.org"
+      website: "http://www.chumashlodge90.net/www/"
     -
       lodge_number: "566"
       lodge_name: "Malibu"
@@ -575,7 +575,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "http://www.yowlumne.org/"
+      website: "http://www.yowlumne.com/"
 4S:
   lodges:
     -
