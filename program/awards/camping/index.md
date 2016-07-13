@@ -11,6 +11,18 @@ The award was established in 1969 as a tribute and testimonial to the Order's fo
 
 <u>Western Region E. Urner Goodman Camping Award History</u>
 
+### 2015
+Cahuilla Lodge
+Wiatava Lodge
+
+### 2014
+Papago Lodge
+Crazy Horse Lodge
+
+### 2013
+Papago Lodge
+Siwinis Lodge
+
 ### 2012
 Wiatava Lodge
 Papago Lodge
