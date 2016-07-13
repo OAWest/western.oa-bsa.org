@@ -2,7 +2,7 @@
 1E:
   area: 1
   section: "E"
-  website: "www.sectionw1e.org"
+  website: "http://www.sectionw1e.org"
   name: "Japeechen"
   facebook: "https://www.facebook.com/pages/Section-W1E/265325777818"
   twitter: "https://twitter.com/SectionW_1E"
@@ -39,7 +39,7 @@
 1N:
   area: 1
   section: "N"
-  website: "www.sectionw1n.org"
+  website: "http://www.sectionw1n.org"
   name: "Teaquan Wask"
   facebook: "https://www.facebook.com/sectionw1n"
   twitter: "https://twitter.com/Section_W1N "
@@ -76,7 +76,7 @@
 1S:
   area: 1
   section: "S"
-  website: "www.sectionw1s.org"
+  website: "http://www.sectionw1s.org"
   name: ""
   facebook: "https://www.facebook.com/sectionw1s"
   twitter: "https://twitter.com/SectionW1S"
@@ -143,7 +143,7 @@
 2S:
   area: 2
   section: "S"
-  website: "www.sectionw2s.org"
+  website: "http://www.sectionw2s.org"
   name: ""
   facebook: "https://www.facebook.com/sectionw5s"
   twitter: "https://twitter.com/SectionW5S"
@@ -213,7 +213,7 @@
 3N:
   area: 3
   section: "N"
-  website: "www.sectionw3n.org"
+  website: "http://www.sectionw3n.org"
   name: ""
   facebook: "https://www.facebook.com/SectionW3nOrderOfTheArrow "
   twitter: "https://twitter.com/SectionW3N "
@@ -254,7 +254,7 @@
 3S:
   area: 3
   section: "S"
-  website: "www.sectionw3s.org"
+  website: "http://www.sectionw3s.org"
   name: ""
   facebook: "https://www.facebook.com/SectionW3S"
   twitter: "https://twitter.com/SectionW3S"
@@ -291,7 +291,7 @@
 4N:
   area: 4
   section: "N"
-  website: "www.sectionw4n.org"
+  website: "http://www.sectionw4n.org"
   name: ""
   facebook: "https://www.facebook.com/sectionw4n"
   twitter: "https://twitter.com/SectionW4N"
@@ -328,7 +328,7 @@
 4S:
   area: 4
   section: "S"
-  website: "www.w4s.org"
+  website: "http://www.w4s.org"
   name: ""
   facebook: "https://www.facebook.com/pages/Section-W4S-Order-of-the-Arrow/338859117345"
   twitter: ""
@@ -365,7 +365,7 @@
 6E:
   area: 6
   section: "E"
-  website: "www.sectionw6e.org"
+  website: "http://www.sectionw6e.org"
   name: "The High Desert Brotherhood"
   facebook: "https://www.facebook.com/OAW6E"
   twitter: "https://twitter.com/OAW6E"
@@ -398,7 +398,7 @@
 6P:
   area: 6
   section: "P"
-  website: "www.sectionw6p.org"
+  website: "http://www.sectionw6p.org"
   name: ""
   facebook: "https://www.facebook.com/sectionw6p"
   twitter: "https://twitter.com/SectionW6P"
@@ -443,7 +443,7 @@
 6W:
   area: 6
   section: "W"
-  website: "sectionw6w.org"
+  website: "http://www.sectionw6w.org"
   name: ""
   facebook: "https://www.facebook.com/OAW6W"
   twitter: ""

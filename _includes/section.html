@@ -1,6 +1,6 @@
 <h1>
   Section W-{{ section.area }}{{ section.section }}
-  {% if section.name and section.name.size %}
+  {% if section.name.size > 0 %}
     - {{ section.name }}
   {% endif %}
 </h1>
@@ -18,7 +18,7 @@
 			Section Chief
               {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Chief to be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
@@ -27,7 +27,7 @@
             Section Vice Chief
               {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Vice Chief to be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
@@ -36,7 +36,7 @@
             Section Secretary
               {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Secretary to be determined</em>
             {% endif %}
           </li>
         </ul>
@@ -49,27 +49,27 @@
         </div>
         <ul class="list-group">
           <li class="list-group-item">
-            Section Adviser
-            {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 %}
-              {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
-              {% if section.leadership.adviser.email.size > 0 %}
-                <a href="mailto:{{ section.leadership.adviser.email }}" class="btn btn-sm btn-default email">Email Me</a>
-              {% endif %}
+            {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 and section.leadership.adviser.member_id.size > 0 %}
+			<a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.adviser.member_id }}">
+			Section Adviser
+              {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Adviser to be determined</em>
             {% endif %}
           </li>
           {% for associate in section.leadership.associates %}
             <li class="list-group-item">
-              Section Associate Adviser {{ associate.first_name }} {{ associate.last_name }}
+              <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ associate.member_id }}">
+			  Section Associate Adviser {{ associate.first_name }} {{ associate.last_name }}</a>
             </li>
           {% endfor %}
           <li class="list-group-item">
-            Section Staff Adviser
-            {% if section.leadership.staff_adviser.first_name.size > 0 and section.leadership.staff_adviser.last_name.size > 0 %}
-              {{ section.leadership.staff_adviser.first_name }} {{ section.leadership.staff_adviser.last_name }}
+            {% if section.leadership.staff_adviser.first_name.size > 0 and section.leadership.staff_adviser.last_name.size > 0 and section.leadership.staff_adviser.member_id.size > 0 %}
+			<a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.staff_adviser.member_id }}">
+			Section Staff Adviser
+              {{ section.leadership.staff_adviser.first_name }} {{ section.leadership.staff_adviser.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Staff Adviser TDB</em>
             {% endif %}
           </li>
         </ul>
