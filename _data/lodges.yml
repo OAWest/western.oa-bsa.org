@@ -13,7 +13,7 @@
       location: "Washington - Idaho"
       area: "1"
       section: "E"
-      website: "www.nwscouts.org/order-of-the-arrow/4710"
+      website: "http://www.nwscouts.org/order-of-the-arrow/4710"
     -
       lodge_number: "614"
       lodge_name: "Tataliya"
@@ -26,7 +26,7 @@
       location: "Washington"
       area: "1"
       section: "E"
-      website: "www.grandcolumbia.org/index.php/programs/orderofarrow"
+      website: "http://www.grandcolumbia.org/index.php/programs/orderofarrow"
     -
       lodge_number: "266"
       lodge_name: "Tukarica"
@@ -39,7 +39,7 @@
       location: "Oregon - Western Idaho"
       area: "1"
       section: "E"
-      website: "www.oreida-bsa.org/OrderOfArrow/Tukarica.htm"
+      website: "http://www.oreida-bsa.org/OrderOfArrow/Tukarica.htm"
     -
       lodge_number: "336"
       lodge_name: "Wa-La-Moot-Kin 336"
@@ -52,7 +52,7 @@
       location: "Washington - Oregon"
       area: "1"
       section: "E"
-      website: "wa-la-moot-kin.weebly.com/"
+      website: "http://wa-la-moot-kin.weebly.com/"
 1N:
   lodges:
     -
@@ -67,7 +67,7 @@
       location: "Alaska"
       area: "1"
       section: "N"
-      website: "www.nanuk355.org"
+      website: "http://www.nanuk355.org"
     -
       lodge_number: "155"
       lodge_name: "Nisqually"
@@ -80,7 +80,7 @@
       location: "Southwest Washington"
       area: "1"
       section: "N"
-      website: "www.nisqually155.org"
+      website: "http://www.nisqually155.org"
     -
       lodge_number: "338"
       lodge_name: "Sikhs Mox Lamonti"
@@ -93,7 +93,7 @@
       location: "Northwest Washington"
       area: "1"
       section: "N"
-      website: "www.mountbakerbsa.org/oa"
+      website: "http://www.mountbakerbsa.org/oa"
     -
       lodge_number: "502"
       lodge_name: "T'Kope Kwiskwis"
@@ -106,7 +106,7 @@
       location: "Washington"
       area: "1"
       section: "N"
-      website: "www.tkopekwiskwis.org"
+      website: "http://www.tkopekwiskwis.org"
     -
       lodge_number: "549"
       lodge_name: "Toontuk"
@@ -119,7 +119,7 @@
       location: "Northern Alaska"
       area: "1"
       section: "N"
-      website: "www.midnightsunbsa.org/toontuk.html"
+      website: "http://www.midnightsunbsa.org/toontuk.html"
 1S:
   lodges:
     -
@@ -134,7 +134,7 @@
       location: "Oregon - California"
       area: "1"
       section: "S"
-      website: "www.craterlakecouncil.org/oa"
+      website: "http://www.craterlakecouncil.org/oa"
     -
       lodge_number: "253"
       lodge_name: "Tsisqan"
@@ -147,7 +147,7 @@
       location: "Central Oregon"
       area: "1"
       section: "S"
-      website: "www.tsisqan.org"
+      website: "http://www.tsisqan.org"
     -
       lodge_number: "442"
       lodge_name: "Wauna La-Mon'tay"
@@ -160,7 +160,7 @@
       location: "Oregon - Washington"
       area: "1"
       section: "S"
-      website: "www.cpcbsa.org/oa"
+      website: "http://www.cpcbsa.org/oa"
 2N:
   lodges:
     -
@@ -175,7 +175,7 @@
       location: "Montana"
       area: "2"
       section: "N"
-      website: "www.apoxkyaio.com"
+      website: "http://www.apoxkyaio.com"
     -
       lodge_number: "171"
       lodge_name: "Crazy Horse"
@@ -188,7 +188,7 @@
       location: "South Dakota"
       area: "2"
       section: "N"
-      website: "www.blackhillsareacouncil.com/orderofthearrow.html"
+      website: "http://www.blackhillsareacouncil.com/orderofthearrow.html"
     -
       lodge_number: "464"
       lodge_name: "Kola"
@@ -201,7 +201,7 @@
       location: "Colorado - Wyoming - Nebraska"
       area: "2"
       section: "N"
-      website: "www.longspeakbsa.org/OA/"
+      website: "http://www.longspeakbsa.org/OA/"
     -
       lodge_number: "356"
       lodge_name: "Tatokainyanka"
@@ -229,7 +229,7 @@
       location: "Colorado"
       area: "2"
       section: "S"
-      website: "hakinskayaki.org/"
+      website: "http://hakinskayaki.org/"
     -
       lodge_number: "541"
       lodge_name: "Mic-O-Say"
@@ -242,7 +242,7 @@
       location: "Western Colorado"
       area: "2"
       section: "S"
-      website: "www.wccbsa.org/program/oa"
+      website: "http://www.wccbsa.org/program/oa"
     -
       lodge_number: "383"
       lodge_name: "Tahosa"
@@ -255,7 +255,7 @@
       location: "Central Colorado"
       area: "2"
       section: "S"
-      website: "www.tahosalodge.org"
+      website: "http://www.tahosalodge.org"
     -
       lodge_number: "536"
       lodge_name: "Tupwee Gudas Gov Youchiqudt Sooveep"
@@ -268,7 +268,7 @@
       location: "Southern Colorado"
       area: "2"
       section: "S"
-      website: "www.rmcbsa.org/OA/"
+      website: "http://www.rmcbsa.org/OA/"
 2W:
   lodges:
     -
@@ -283,7 +283,7 @@
       location: "Utah - Wyoming - Idaho"
       area: "2"
       section: "W"
-      website: "535badger.wix.com/oa-lodge535"
+      website: "http://535badger.wix.com/oa-lodge535"
     -
       lodge_number: "520"
       lodge_name: "El-Ku-Ta"
@@ -296,7 +296,7 @@
       location: "Utah"
       area: "2"
       section: "W"
-      website: "www.elkuta.com"
+      website: "http://www.elkuta.com"
     -
       lodge_number: "363"
       lodge_name: "Ma-I-Shu"
@@ -309,7 +309,7 @@
       location: "Idaho"
       area: "2"
       section: "W"
-      website: "www.srcouncil.org/oa"
+      website: "http://www.srcouncil.org/oa"
     -
       lodge_number: "407"
       lodge_name: "Shunkah Mahneetu"
@@ -335,7 +335,7 @@
       location: "Utah"
       area: "2"
       section: "W"
-      website: "www.utahscouts.org/oa"
+      website: "http://www.utahscouts.org/oa"
 3N:
   lodges:
     -
@@ -350,7 +350,7 @@
       location: "California"
       area: "3"
       section: "N"
-      website: "www.amanginacha.org/"
+      website: "http://www.amanginacha.org/"
     -
       lodge_number: "194"
       lodge_name: "Orca"
@@ -363,7 +363,7 @@
       location: "North Coastal California"
       area: "3"
       section: "N"
-      website: "www.orca194.org"
+      website: "http://www.orca194.org"
     -
       lodge_number: "533"
       lodge_name: "Talako"
@@ -376,7 +376,7 @@
       location: "California"
       area: "3"
       section: "N"
-      website: "www.talako.org"
+      website: "http://www.talako.org"
     -
       lodge_number: "346"
       lodge_name: "Tannu"
@@ -389,7 +389,7 @@
       location: "Nevada - California"
       area: "3"
       section: "N"
-      website: "www.tannu.org"
+      website: "http://www.tannu.org"
     -
       lodge_number: "58"
       lodge_name: "Ut-In Selica"
@@ -402,7 +402,7 @@
       location: "California"
       area: "3"
       section: "N"
-      website: "bsa-mdsc.org/oa"
+      website: "http://bsa-mdsc.org/oa"
 3S:
   lodges:
     -
@@ -417,7 +417,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "www.achewonnimat.org/"
+      website: "http://www.achewonnimat.org/"
     -
       lodge_number: "466"
       lodge_name: "Hungteetsepoppi"
@@ -430,7 +430,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "www.oa466.org"
+      website: "http://www.oa466.org"
     -
       lodge_number: "379"
       lodge_name: "Kaweah"
@@ -443,7 +443,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "kaweah379.com"
+      website: "http://kaweah379.com"
     -
       lodge_number: "63"
       lodge_name: "Ohlone"
@@ -456,7 +456,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "www.ohlone63.org"
+      website: "http://www.ohlone63.org"
     -
       lodge_number: "55"
       lodge_name: "Saklan"
@@ -469,7 +469,7 @@
       location: "Silicon Valley, California"
       area: "3"
       section: "S"
-      website: "www.svmbc.org/oa/"
+      website: "http://www.svmbc.org/oa/"
     -
       lodge_number: "195"
       lodge_name: "Tah-Heetch"
@@ -482,7 +482,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "www.tah-heetch.com"
+      website: "http://www.tah-heetch.com"
     -
       lodge_number: "64"
       lodge_name: "Toloma"
@@ -495,7 +495,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "www.yosemitescouting.org/sections/OrderoftheArrow"
+      website: "http://www.yosemitescouting.org/sections/OrderoftheArrow"
 4N:
   lodges:
     -
@@ -510,7 +510,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "www.chumashlodge90.org"
+      website: "http://www.chumashlodge90.org"
     -
       lodge_number: "566"
       lodge_name: "Malibu"
@@ -523,7 +523,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "bsa-la.org/index.php?page=order-of-the-arrow"
+      website: "http://bsa-la.org/index.php?page=order-of-the-arrow"
     -
       lodge_number: "252"
       lodge_name: "Siwinis"
@@ -536,7 +536,7 @@
       location: "Southern California"
       area: "4"
       section: "N"
-      website: "www.siwinis.org"
+      website: "http://www.siwinis.org"
     -
       lodge_number: "249"
       lodge_name: "Spe-Le-Yai"
@@ -549,7 +549,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "www.spe-le-yai.org"
+      website: "http://www.spe-le-yai.org"
     -
       lodge_number: "291"
       lodge_name: "Topa Topa"
@@ -562,7 +562,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "www.topatopa.org"
+      website: "http://www.topatopa.org"
     -
       lodge_number: "303"
       lodge_name: "Yowlumne"
@@ -575,7 +575,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "www.yowlumne.org/"
+      website: "http://www.yowlumne.org/"
 4S:
   lodges:
     -
@@ -590,7 +590,7 @@
       location: "Southern California"
       area: "4"
       section: "S"
-      website: "www.snakepower.org"
+      website: "http://www.snakepower.org"
     -
       lodge_number: "32"
       lodge_name: "Puvunga"
@@ -603,7 +603,7 @@
       location: "California"
       area: "4"
       section: "S"
-      website: "www.longbeachbsa.org"
+      website: "http://www.longbeachbsa.org"
     -
       lodge_number: "488"
       lodge_name: "Ta Tanka"
@@ -616,7 +616,7 @@
       location: "California"
       area: "4"
       section: "S"
-      website: "www.tatankalodge.org/"
+      website: "http://www.tatankalodge.org/"
     -
       lodge_number: "13"
       lodge_name: "Wiatava"
@@ -629,7 +629,7 @@
       location: "Southern California"
       area: "4"
       section: "S"
-      website: "www.wiatava.org"
+      website: "http://www.wiatava.org"
 6E:
   lodges:
     -
@@ -644,7 +644,7 @@
       location: "Western Texas - Southern New Mexico"
       area: "6"
       section: "E"
-      website: "gilalodge.org"
+      website: "http://gilalodge.org"
     -
       lodge_number: "78"
       lodge_name: "Kwahadi"
@@ -657,7 +657,7 @@
       location: "New Mexico"
       area: "6"
       section: "E"
-      website: ""
+      website: "http://"
     -
       lodge_number: "66"
       lodge_name: "Yah-Tah-Hey-Si-Kess"
@@ -670,7 +670,7 @@
       location: "Arizona - New Mexico - Colorado - Utah"
       area: "6"
       section: "E"
-      website: "www.lodge66.org"
+      website: "http://www.lodge66.org"
 6P:
   lodges:
     -
@@ -685,7 +685,7 @@
       location: "Asia East/Central: Japan - Okinawa Asia West: China - Hong Kong - Taiwan - South Korea Asia South: Australia - Bangladesh - Brunei - Cambodia - India - Indonesia - Laos - Malaysia - New Zealand - Philippines - Singapore - Thailand - Vietnam"
       area: "6"
       section: "P"
-      website: "www.oa803.org/home"
+      website: "http://www.oa803.org/home"
     -
       lodge_number: "554"
       lodge_name: "Maluhia"
@@ -726,7 +726,7 @@
       location: "Nevada - Arizona"
       area: "6"
       section: "W"
-      website: "www.nebagamon.org"
+      website: "http://www.nebagamon.org"
     -
       lodge_number: "494"
       lodge_name: "Papago"
@@ -739,7 +739,7 @@
       location: "Southern Arizona"
       area: "6"
       section: "W"
-      website: "www.papagolodge.org"
+      website: "http://www.papagolodge.org"
     -
       lodge_number: "45"
       lodge_name: "Tiwahe"
@@ -752,7 +752,7 @@
       location: "California - Arizona"
       area: "6"
       section: "W"
-      website: "oa.sdicbsa.org/"
+      website: "http://oa.sdicbsa.org/"
     -
       lodge_number: "432"
       lodge_name: "Wipala Wiki"
@@ -765,4 +765,4 @@
       location: "Arizona"
       area: "6"
       section: "W"
-      website: "www.wipalawiki.org"
+      website: "http://www.wipalawiki.org"

@@ -15,8 +15,9 @@
           <li class="list-group-item">
 		    {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 and section.leadership.chief.member_id.size > 0 %}
             <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.chief.member_id }}">
-			Section Chief
-              {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</a>
+				<img src="{{ site.baseurl }}images/leadership/profiles/{{ section.leadership.chief.first_name }}%20{{ section.leadership.chief.last_name }}.jpg" onerror="this.src='http://western.oa-bsa.org/images/nophoto.gif'"/>
+				<h2>Section Chief {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</h2>
+			</a>
             {% else %}
               <em>Section Chief to be determined</em>
             {% endif %}
@@ -51,8 +52,9 @@
           <li class="list-group-item">
             {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 and section.leadership.adviser.member_id.size > 0 %}
 			<a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.adviser.member_id }}">
-			Section Adviser
-              {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}</a>
+				<img src="{{ site.baseurl }}images/leadership/profiles/{{ section.leadership.adviser.first_name }}%20{{ section.leadership.adviser.last_name }}.jpg" onerror="this.src='http://western.oa-bsa.org/images/nophoto.gif'"/>
+				<h2>Section Adviser {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}</h2>
+			</a>
             {% else %}
               <em>Section Adviser to be determined</em>
             {% endif %}
@@ -84,7 +86,7 @@
           <div>
 	      {% for lodge in lodges %}
 		  <li class="list-group-item">
-		     <a href="//{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
+		     <a href="{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
 		  </li>
 	      {% endfor %}
 	</div>
