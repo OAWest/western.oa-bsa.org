@@ -5,7 +5,7 @@ joomla_id: 213
 joomla_url: phoenix-nls-registration-is-open
 date: 2015-03-19 05:40:23.000000000 -06:00
 ---
-<img style="width: 100%;" src="images/posts/2015NLS/NLS_2015-small.jpg" alt="" />
+<img style="width: 100%;" src="{{ site.baseurl }}images/posts/2015NLS/NLS_2015-small.jpg" alt="" />
 
 Are you prepared to further your leadership skills and #TakeTheLead? Join us on April 10th in Phoenix, Arizona for a weekend of fun activities, great people, and lessons in all things leadership! If you are interested in perfecting your own leadreship skills, this training is for you! Sign up today at <a href="program/training/nls">http://western.oa-bsa.org/program/training/nls</a> and get the best training available to Arrowmen!
 
