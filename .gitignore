@@ -1,5 +1,6 @@
 .baseDir.js
 .sass-cache
+.htaccess
 .tscache
 .jekyll-metadata
 _site

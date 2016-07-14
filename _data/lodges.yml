@@ -443,7 +443,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "http://kaweah379.com"
+      website: "http://www.bsa-alameda.org/oa"
     -
       lodge_number: "63"
       lodge_name: "Ohlone"
@@ -495,7 +495,7 @@
       location: "California"
       area: "3"
       section: "S"
-      website: "http://www.yosemitescouting.org/sections/OrderoftheArrow"
+      website: "http://www.yosemitescouting.org/programactivities/order-of-the-arrow/"
 4N:
   lodges:
     -
@@ -657,7 +657,7 @@
       location: "New Mexico"
       area: "6"
       section: "E"
-      website: "http://"
+      website: ""
     -
       lodge_number: "66"
       lodge_name: "Yah-Tah-Hey-Si-Kess"

@@ -86,10 +86,14 @@
           <div>
 	      {% for lodge in lodges %}
 		  <li class="list-group-item">
+		   {% if lodge.website.size > 0 %}
 		     <a href="{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
+		   {% else %}
+		     {{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}
+		   {% endif %}
 		  </li>
 	      {% endfor %}
-	</div>
+		  </div>
         </ul>
       </div>
     </div>
@@ -108,29 +112,35 @@
     </div>
   </div>
   <div class="row online">
-    {% if section.website %}
       <div class="col-xs-12 {% if section.facebook and section.twitter %}col-md-4{% elsif section.facebook or section.twitter %}col-md-6{% endif %}">
+	  {% if section.website.size > 0 %}
         <a href="{{ section.website }}" target="_blank" class="btn btn-lg btn-default">
+		{% else %}
+		<a href="#" class="btn btn-lg btn-default">
+	  {% endif %}
           <i class="fa fa-laptop"></i>
           Visit our Website
         </a>
       </div>
-    {% endif %}
-    {% if section.facebook %}
       <div class="col-xs-12 {% if section.website and section.twitter %}col-md-4{% elsif section.website or section.twitter %}col-md-6{% endif %}">
+	  {% if section.facebook.size > 0 %}
         <a href="{{ section.facebook }}" target="_blank" class="btn btn-lg btn-default">
+		{% else %}
+        <a href="#" class="btn btn-lg btn-default">
+	  {% endif %}
           <i class="fa fa-facebook"></i>
           Follow us on Facebook
         </a>
       </div>
-    {% endif %}
-    {% if section.twitter %}
       <div class="col-xs-12 {% if section.website and section.facebook %}col-md-4{% elsif section.website or section.facebook %}col-md-6{% endif %}">
+	  {% if section.twitter.size > 0 %}
         <a href="{{ section.twitter }}" target="_blank" class="btn btn-lg btn-default">
+		{% else %}
+        <a href="#" class="btn btn-lg btn-default">
+	  {% endif %}
           <i class="fa fa-twitter"></i>
           Follow us on Twitter
         </a>
       </div>
-    {% endif %}
   </div>
 </div>
