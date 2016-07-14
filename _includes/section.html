@@ -112,35 +112,29 @@
     </div>
   </div>
   <div class="row online">
-      <div class="col-xs-12 {% if section.facebook and section.twitter %}col-md-4{% elsif section.facebook or section.twitter %}col-md-6{% endif %}">
-	  {% if section.website.size > 0 %}
+      {% if section.website.size > 0 %}
+      <div class="col-xs-12 {% if section.facebook.size > 0 and section.twitter.size > 0 %}col-md-4{% elsif section.facebook.size > 0 or section.twitter.size > 0 %}col-md-6{% endif %}">
         <a href="{{ section.website }}" target="_blank" class="btn btn-lg btn-default">
-		{% else %}
-		<a href="#" class="btn btn-lg btn-default">
-	  {% endif %}
           <i class="fa fa-laptop"></i>
           Visit our Website
         </a>
       </div>
-      <div class="col-xs-12 {% if section.website and section.twitter %}col-md-4{% elsif section.website or section.twitter %}col-md-6{% endif %}">
-	  {% if section.facebook.size > 0 %}
-        <a href="{{ section.facebook }}" target="_blank" class="btn btn-lg btn-default">
-		{% else %}
-        <a href="#" class="btn btn-lg btn-default">
 	  {% endif %}
+	  {% if section.facebook.size > 0 %}
+      <div class="col-xs-12 {% if section.website.size > 0 and section.twitter.size > 0 %}col-md-4{% elsif section.website.size > 0 or section.twitter.size > 0 %}col-md-6{% endif %}">
+        <a href="{{ section.facebook }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-facebook"></i>
           Follow us on Facebook
         </a>
       </div>
-      <div class="col-xs-12 {% if section.website and section.facebook %}col-md-4{% elsif section.website or section.facebook %}col-md-6{% endif %}">
-	  {% if section.twitter.size > 0 %}
-        <a href="{{ section.twitter }}" target="_blank" class="btn btn-lg btn-default">
-		{% else %}
-        <a href="#" class="btn btn-lg btn-default">
 	  {% endif %}
+	  {% if section.twitter.size > 0 %}
+      <div class="col-xs-12 {% if section.website.size > 0 and section.facebook.size > 0 %}col-md-4{% elsif section.website.size > 0 or section.facebook.size > 0 %}col-md-6{% endif %}">
+        <a href="{{ section.twitter }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-twitter"></i>
           Follow us on Twitter
         </a>
       </div>
+	  {% endif %}
   </div>
 </div>
