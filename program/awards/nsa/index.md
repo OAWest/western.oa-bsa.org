@@ -10,31 +10,57 @@ The National Service Award was established in 1999 to recognize lodges in each r
 
 The National Service Award petition requires lodges to submit information on current lodge membership (the size of a lodge is a factor when considering the magnitude of the service it has provided), a detailed description of the largest and most meaningful service project the lodge has completed for its council, and a record of all service performed by the lodge for the council since the last recharter process. Service for this award is defined as any project that has directly benefited the Scouting program in the council. <a href="http://www.oa-bsa.org/pages/content/printable-forms" target="_blank">View petition form</a>.
 
-<p><strong>Western Region National Service Award History</strong></p>
-<table style="width: 576px;" border="0">
+<strong>Western Region National Service Award History</strong>
+<table style="width:100%; max-width:100%;" border="0">
 <tbody>
+<tr>
+<td>2015</td>
+<td>Cahuilla Lodge, California Inland Empire Council #45</td>
+<td>Redlands, CA</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>Wiatava Lodge, Orange County Council #39</td>
+<td>Santa Ana, CA</td>
+</tr>
+<tr>
+<td>2014</td>
+<td>Papago Lodge, Catalina Council #11</td>
+<td>Tucson, AZ</td>
+</tr>
+<tr>
+<td>2014</td>
+<td>Wiatava Lodge, Orange County Council #39</td>
+<td>Santa Ana, CA</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Papago Lodge, Catalina Council #11</td>
+<td>Tucson, AZ</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Wiatava Lodge, Orange County Council #39</td>
+<td>Santa Ana, CA</td>
+</tr>
 <tr>
 <td>2012</td>
 <td>T'Kope Kwiskwis, Chief Seattle Council #609</td>
 <td>Seattle, WA</td>
 </tr>
 <tr>
-<td>
-<p>2012</p>
-</td>
-<td><span style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Wiatava Lodge, Orange County Council #39</span></span></td>
-<td><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Costa Mesa, CA</span></td>
+<td>2012</td>
+<td>Wiatava Lodge, Orange County Council #39</td>
+<td>Costa Mesa, CA</td>
 </tr>
 <tr>
-<td>
-<p>2011</p>
-</td>
-<td><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Cahuilla Lodge, California Inland Empire Council #45</span></td>
+<td>2011</td>
+<td>Cahuilla Lodge, California Inland Empire Council #45</td>
 <td>Redland, CA</td>
 </tr>
 <tr>
 <td>2011</td>
-<td><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Wiatava Lodge, Orange County Council #39</span></td>
+<td>Wiatava Lodge, Orange County Council #39</td>
 <td>Costa Mesa, CA</td>
 </tr>
 <tr>
@@ -44,7 +70,7 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2010</td>
-<td><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Wiatava Lodge, Orange County Council #39</span></td>
+<td>Wiatava Lodge, Orange County Council #39</td>
 <td>Costa Mesa, CA</td>
 </tr>
 <tr>
@@ -54,7 +80,7 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2009</td>
-<td>Wiatava Lodge, Orange County Council #39<span style="font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #3399ff;">&nbsp;</span></td>
+<td>Wiatava Lodge, Orange County Council #39</td>
 <td>Costa Mesa, CA</td>
 </tr>
 <tr>
@@ -79,11 +105,13 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2006</td>
-<td>Maluhia Lodge</td>
+<td>Maluhia Lodge, Maui County Council #102</td>
+<td>Wailuku, Maui, Hawaii</td>
 </tr>
 <tr>
 <td>2006</td>
-<td>Tiwahe Lodge</td>
+<td>Tiwahe Lodge, San Diego-Imperial Council #49</td>
+<td>San Diego, CA</td>
 </tr>
 <tr>
 <td>2005</td>
@@ -92,17 +120,17 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2005</td>
-<td>Tataliya Lodge, Grand Columbia Council</td>
+<td>Tataliya Lodge, Grand Columbia Council #614</td>
 <td>Yakima, Washington</td>
 </tr>
 <tr>
 <td>2004</td>
-<td>Tataliya Lodge, Grand Columbia Council</td>
+<td>Tataliya Lodge, Grand Columbia Council #614</td>
 <td>Yakima, Washington</td>
 </tr>
 <tr>
 <td>2004</td>
-<td>Wipala Wiki Lodge, Grand Canyon Council</td>
+<td>Wipala Wiki Lodge, Grand Canyon Council #10</td>
 <td>Phoenix, Arizona</td>
 </tr>
 <tr>
@@ -117,7 +145,7 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2002</td>
-<td>Wipala Wiki Lodge, Grand Canyon Council</td>
+<td>Wipala Wiki Lodge, Grand Canyon Council #10</td>
 <td>Phoenix, Arizona</td>
 </tr>
 <tr>
@@ -127,7 +155,7 @@ The National Service Award petition requires lodges to submit information on cur
 </tr>
 <tr>
 <td>2001</td>
-<td>Wipala Wiki Lodge, Grand Canyon Council</td>
+<td>Wipala Wiki Lodge, Grand Canyon Council #10</td>
 <td>Phoenix, Arizona</td>
 </tr>
 <tr>

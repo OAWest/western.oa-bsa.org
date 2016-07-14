@@ -16,8 +16,23 @@ For the past several years, the National Order of the Arrow Committee has provid
 </ul>
 <p>The National Order of the Arrow Committee expresses its appreciation to many lodges who applied for the 2014 service grants. To learn more <a href="http://www.oa-bsa.org/misc/anr/servicegrant.htm">visit the National Page about the Service Grants.</a></p>
 <p><strong>Western Region National Service Grant History</strong></p>
-<table style="width: 500px;" border="0">
+<table style="width:100%; max-width:100%" border="0">
 <tbody>
+<tr>
+<td>2015</td>
+<td>Lo La'Qam Geela Lodge</td>
+<td>Central Point, OR</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>Wiatava Lodge</td>
+<td>Sanata Ana, CA</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>Malibu Lodge</td>
+<td>Van Nuys, CA</td>
+</tr>
 <tr>
 <td>2014</td>
 <td>Papago Lodge</td>
