@@ -26,4 +26,4 @@ Embassy Suites by Hilton Phoenix Tempe<br>
 4400 South Rural Road<br>
 Tempe, Arizona 85282<br>
 
-Registration for the event will be coming online shortly. Up to date information is located on <a href="http://www.dvgc.org" target="_blank" style="text-decoration: none;"></a><a href="www.dvgc.org">www.dvgc.org</a>
+Registration for the event will be coming online shortly. Up to date information is located on <a href="http://www.dvgc.org">www.dvgc.org</a>
