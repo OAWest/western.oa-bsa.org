@@ -20,7 +20,7 @@ Yamaguchi earned his Eagle Scout award in 2006 and was chosen in 2007 as the Cal
 Veterans of Foreign Wars. In 2008, he served as the Lodge Chief and a board member for the Orange County Council. 
 As Lodge Chief, he led Boy Scouts throughout the county to garner in excess of 20,000 community service hours.  
 He continues to volunteer in the scouting program as an Assistant Scoutmaster for his troop in Placentia and  as the 
-Associate Lodge Advisor in Wiatava Lodge. <p>
+Associate Lodge Adviser in Wiatava Lodge. <p>
 Yamaguchi graduated from Placentia's El Dorado High School in 2007 with numerous honors and distinctions, 
 including a historic record of 3,000 community service hours. He is currently a senior at California State University 
 Fullerton majoring in political science with a minor in music. His last final is on Friday.  On campus, Yamaguchi is 

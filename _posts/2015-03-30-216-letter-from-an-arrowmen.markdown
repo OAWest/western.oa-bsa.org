@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Letter from an Arrowmen
+title: Letter from an Arrowman
 joomla_id: 216
 joomla_url: letter-from-an-arrowmen
 date: 2015-03-30 18:59:43.000000000 -06:00
