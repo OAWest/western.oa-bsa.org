@@ -11,7 +11,7 @@ The requirements for the award are few, but arduous. A nominee must be a Vigil H
 <br/><br/>
 ---
 <br/><br/>
-Del Loder™s Scouting career and OA history are lengthy and distinguished.
+Del Loder's Scouting career and OA history are lengthy and distinguished.
 <br/><br/>
 In May 1948, Del Loder met E. Urner Goodman. A teenager at the time, Loder™s Scouting career would begin to flourish when the young Scouter came to Seattle. Del decided that he wanted to meet Goodman to learn how the man went about organizing the first Jamboree. After 19 year-old Loder received the answers he sought, Goodman asked him a life-changing question. Goodman inquired about Loder™s knowledge regarding the Order of the Arrow. Goodman walked Del through the Ordeal and Brotherhood process including his Vigil on the Devil™s Tea Table. That was my beginning, said Loder.
 <br/><br/>
