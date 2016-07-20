@@ -6,7 +6,7 @@ joomla_url: world-scout-jamboree
 date: 2012-09-17 01:18:18.000000000 -06:00
 ---
 <p>
-<a href="http://www.scouting.org/worldjamboree.aspx" target="_blank"><img src="images/2011wsj.jpg" align="right" border="0"></a>
+<a href="http://www.scouting.org/worldjamboree.aspx" target="_blank"><img src="{{site.baseurl}}images/posts/2011WorldJambo/2011wsj.jpg" align="right" border="0"></a>
 <b>Overview</b></p>
 
 <p>The World Scout Jamboree (WSJ) is held every four years and this will be the first WSJ with an OA contingent.  The event will bring 40,000 Scouts from 114 countries together to share international friendship and provide adventure for personal growth and development.  Imagine camping next to a Scout unit from Poland, eating lunch with Scouts from Chile, trading uniforms and insignia with Scouts from Greece, and playing games with Scouts from Thailand.  The possibilities are endless and the memories are forever!</p>

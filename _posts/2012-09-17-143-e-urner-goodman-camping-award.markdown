@@ -5,7 +5,7 @@ joomla_id: 143
 joomla_url: e-urner-goodman-camping-award
 date: 2012-09-17 01:01:15.000000000 -06:00
 ---
-<p><img src="images/eugcamping_plaque.jpg" alt="E. Urner Goodman Camping Award Plaque" align="right" /></p>
+<p><img src="{{site.baseurl}}images/logos/eugcamping_plaque@2x.jpg" alt="E. Urner Goodman Camping Award Plaque" align="right" /></p>
 <p>The award was established in 1969 as a tribute and testimonial to the Order's founder, E. Urner Goodman. Its purpose is to encourage and challenge Order of the Arrow members and lodges to increase their effectiveness in promoting and increasing Scout camping in each council. Awards are presented to two outstanding lodges in each region annually. For a lodge to be eligible for consideration, the E. Urner Goodman Camping Award petition should be completed and forwarded with the lodge's charter renewal application. <a href="http://www.oa-bsa.org/resources/forms/" target="_blank">View petition form</a>.</p>
 <p><strong>Western Region E. Urner Goodman Camping Award History</strong></p>
 <p><strong>2012</strong> <br />Wiatava Lodge <br />Papago Lodge</p>

@@ -1,8 +1,0 @@
----
-layout: post
-title: OAWV
-joomla_id: 34
-joomla_url: oawv
-date: 2012-07-16 23:48:35.000000000 -06:00
----
-<p>OAWV</p>

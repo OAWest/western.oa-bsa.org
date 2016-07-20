@@ -5,7 +5,7 @@ joomla_id: 155
 joomla_url: oa-trail-crew
 date: 2012-09-17 01:24:02.000000000 -06:00
 ---
-<p><a href="http://adventure.oa-bsa.org/index.php?p=trailcrew" target="_blank"><img src="images/philmont.gif" border="0" align="right" alt="Philmont Logo - Click for more info on OA Trail Crew"></a>The Order of the Arrow is offering you an opportunity to join other Arrowmen 
+<p><a href="http://adventure.oa-bsa.org/index.php?p=trailcrew" target="_blank"><img src="{{site.baseurl}}images/logos/philmont.gif" border="0" align="right" alt="Philmont Logo - Click for more info on OA Trail Crew"></a>The Order of the Arrow is offering you an opportunity to join other Arrowmen 
   in cheerful service and the formation of lasting brotherhood on the trails of 
   Philmont Scout Ranch. Under the direction of the Philmont Conservation Department, 
   experienced Philmont staff members with strong Order of the Arrow backgrounds 
