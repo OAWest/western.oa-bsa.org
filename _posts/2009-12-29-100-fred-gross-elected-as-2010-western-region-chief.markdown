@@ -4,7 +4,6 @@ date: 2009-12-29 00:00:00.000000000 -07:00
 ---
 Posted: December 29, 2009 by Rob Rosamond<br/>
 <p>
-<a href="leadership/chief/profile.php"><img src="images/fred_gross.png" border="0" align="right" style="padding-left:3px;padding-bottom:3px;"></a>
 DALLAS&#8212;<a href="leadership/chief/profile.php">Fred Gross</a> has just been elected as the 2010 Western Region Chief at the Order of the Arrow National Planning Meeting in Dallas, Texas.</p>
 <p>Fred comes from <a href="sections/?lodge=412">Yah-Tah-Hey-Si-Kess Lodge</a>, Great Southwest Council #412.  He is a Vigil Honor member of Comanche Chapter and Eagle Scout of Troop 57 in Santa Fe, New Mexico.  Fred was previously the Section Chief of <a href="sections/?section=W-6E">Section W-6E</a>.</p>
 <p>Congratulations, Fred, from all the Arrowmen of the Western Region.  WEST IS BEST!</p>

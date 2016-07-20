@@ -1,8 +1,0 @@
----
-layout: post
-title: DVGC
-joomla_id: 171
-joomla_url: 2013-dvgc
-date: 2012-11-12 07:54:43.000000000 -07:00
----
-<p>&nbsp;&nbsp;</p>

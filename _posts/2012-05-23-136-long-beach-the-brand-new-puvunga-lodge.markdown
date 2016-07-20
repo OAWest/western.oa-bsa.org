@@ -24,8 +24,8 @@ Below, are the captions that their staff adviser sent along with the photos as I
 Ray Capp
 <p>
 <center>
-<img src="images/IMG_3933a.JPG"><br>
+<img src="{{site.baseurl}}images/posts/2012puvungalodge/IMG_3933a.JPG"><br>
 Ray Capp presents the first charter to council president Jim Jeffrey (far R) and scout executive John Fullerton (second on R). Also pictured are assistant scout executive Scott Oldenburg (far L) and vice chief Justin Mun (center)
 <p>
-<img src="images/IMG_3945b.JPG"><br>
+<img src="{{site.baseurl}}images/posts/2012puvungalodge/IMG_3945b.JPG"><br>
 The first class of arrowmen in the Puvunga Lodge, Long Beach Area Council</center>

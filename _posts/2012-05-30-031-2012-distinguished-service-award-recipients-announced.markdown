@@ -5,7 +5,7 @@ joomla_id: 31
 joomla_url: 2012-distinguished-service-award-recipients-announced
 date: 2012-05-30 00:53:19.000000000 -06:00
 ---
-<p><img src="images/dsa-small.jpeg" width="100" height="130" alt="dsa-small" style="float: right;" />On May 30, 2012, the National Order of the Arrow Committee approved 69 persons to receive its Distinguished Service Award (DSA) for outstanding service to the Order on a Sectional, Regional, and/or National basis.&nbsp; Prior to 2012, only <a href="http://en.wikipedia.org/wiki/Distinguished_Service_Award_%28OA%29" target="_blank">839 Distinguished Service Awards have been presented</a>.&nbsp; These 69 newly approved DSA honorees will be recognized during the 2012 National Order of the Arrow Conference (NOAC) at Michigan State University.</p>
+<p><img src="{{site.baseurl}}images/logos/dsa-ribbon.jpeg" width="100" height="130" alt="dsa-small" style="float: right;" />On May 30, 2012, the National Order of the Arrow Committee approved 69 persons to receive its Distinguished Service Award (DSA) for outstanding service to the Order on a Sectional, Regional, and/or National basis.&nbsp; Prior to 2012, only <a href="http://en.wikipedia.org/wiki/Distinguished_Service_Award_%28OA%29" target="_blank">839 Distinguished Service Awards have been presented</a>.&nbsp; These 69 newly approved DSA honorees will be recognized during the 2012 National Order of the Arrow Conference (NOAC) at Michigan State University.</p>
 
 <p><strong>2012 WESTERN REGION DSA RECIPIENTS</strong></p>
 <ul>

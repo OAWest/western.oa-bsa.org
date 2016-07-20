@@ -24,7 +24,7 @@ date: 2012-09-17 01:17:47.000000000 -06:00
 <p>&nbsp;</p>
 <p>The 2015 NOAC, which will celebrate the hundredth anniversary of our order, has yet to be announced so look for the announcement in January of 2013.</p>
 <center>2012 National Officers at NOAC:</center>
-<p>&nbsp;<img src="images/NOAC.jpg" width="587" height="440" alt="NOAC" /></p>
+<p>&nbsp;<img src="{{site.baseurl}}images/posts/2012NOAC/NOAC.jpg" width="587" height="440" alt="NOAC" /></p>
 <p>&nbsp;
 <table style="width: 587px; height: 87px;">
 <tbody>

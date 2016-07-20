@@ -1,8 +1,0 @@
----
-layout: post
-title: OATC
-joomla_id: 33
-joomla_url: oatc
-date: 2012-07-16 22:36:29.000000000 -06:00
----
-<p>OATC</p>

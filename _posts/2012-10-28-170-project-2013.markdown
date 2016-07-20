@@ -5,7 +5,7 @@ joomla_id: 170
 joomla_url: project-2013
 date: 2012-10-28 17:39:10.000000000 -06:00
 ---
-<p>Have you signed up for <a href="http://event.oa-bsa.org/events/jambo2013/index.html" target="_blank">Project 2013</a> yet!?!?!?<img src="images/project2013/Go Big Go Wild.jpg" alt="Jamboree Poster" align="right" width="136" height="238" /></p>
+<p>Have you signed up for <a href="http://event.oa-bsa.org/events/jambo2013/index.html" target="_blank">Project 2013</a> yet!?!?!?</p>
 <p>Project 2013 is the Order of the Arrow Staff for National Jamboree 2013, and promises to be the largest set of staff the Order has provided for a Jamboree in it's history! With a predicted 700 people attending the Jamboree on OA staff, it is going to be a BIG deal.&nbsp;</p>
 <p>So why should you sign up for Project 2013? It's Simple! The Project 2013 Corps offers several opportunities to arrowmen, including Jamboree Trek Guide, The OA Service Corps, and the Day of Service Guides. In addition to providing cheerful service at these staff positions, Project 2013 Corps members will be able to participate in evening recreation, visit jamboree program areas, staff the jamboree arena shows, and meet Arrowmen from around the country!</p>
 

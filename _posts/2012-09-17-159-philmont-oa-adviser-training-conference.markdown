@@ -5,7 +5,7 @@ joomla_id: 159
 joomla_url: philmont-oa-adviser-training-conference
 date: 2012-09-17 01:31:48.000000000 -06:00
 ---
-<p><img src="images/philmont.jpg" alt="Philmont Logo" align="right" /></p>
+<p><img src="{{site.baseurl}}images/logos/philmonttraining.jpg" alt="Philmont Logo" align="right" /></p>
 <p><strong>Philmont Training Center <br />Cimarron, New Mexico <br />June 16-22, 2013</strong></p>
 <p><strong>Who can attend?</strong></p>
 <p>Any currently registered adult member of the OA, including professional Scouters, can attend the Conference and enjoy the many benefits of Philmont.</p>
