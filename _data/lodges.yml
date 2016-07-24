@@ -188,7 +188,7 @@
       location: "South Dakota"
       area: "2"
       section: "N"
-      website: "http://www.blackhillsareacouncil.com/orderofthearrow.html"
+      website: "http://oacrazyhorselodge171.weebly.com/"
     -
       lodge_number: "464"
       lodge_name: "Kola"
@@ -201,7 +201,7 @@
       location: "Colorado - Wyoming - Nebraska"
       area: "2"
       section: "N"
-      website: "http://www.longspeakbsa.org/OA/"
+      website: "http://longspeakbsa.org/programs/order-of-the-arrow/"
     -
       lodge_number: "356"
       lodge_name: "Tatokainyanka"
@@ -214,7 +214,7 @@
       location: "Wyoming"
       area: "2"
       section: "N"
-      website: "none"
+      website: "http://www.wyoscouts.org/council/order-of-the-arrow"
 2S:
   lodges:
     -
@@ -296,7 +296,7 @@
       location: "Utah"
       area: "2"
       section: "W"
-      website: "http://www.elkuta.com"
+      website: "http://www.elkutalodge.com/"
     -
       lodge_number: "363"
       lodge_name: "Ma-I-Shu"
@@ -322,7 +322,7 @@
       location: "Idaho - Wyoming"
       area: "2"
       section: "W"
-      website: "none"
+      website: "http://www.tetonscouts.org/parentsyouth/order-of-the-arrow/59563"
     -
       lodge_number: "508"
       lodge_name: "Tu-Cubin-Noonie"
@@ -376,7 +376,7 @@
       location: "California"
       area: "3"
       section: "N"
-      website: "http://www.talako.org"
+      website: "http://www.boyscouts-marin.org/non-menu-pages/talako-lodge/"
     -
       lodge_number: "346"
       lodge_name: "Tannu"
@@ -523,7 +523,7 @@
       location: "California"
       area: "4"
       section: "N"
-      website: "http://bsa-la.org/index.php?page=order-of-the-arrow"
+      website: "http://www.malibulodge.org/"
     -
       lodge_number: "252"
       lodge_name: "Siwinis"
@@ -603,7 +603,7 @@
       location: "California"
       area: "4"
       section: "S"
-      website: "http://www.longbeachbsa.org"
+      website: "http://www.longbeachbsa.org/youth-programs/order-of-the-arrow"
     -
       lodge_number: "488"
       lodge_name: "Ta Tanka"
@@ -698,7 +698,7 @@
       location: "Hawaii"
       area: "6"
       section: "P"
-      website: "none"
+      website: ""
     -
       lodge_number: "567"
       lodge_name: "Na Mokupuni 'O Lawelawe"
@@ -711,7 +711,7 @@
       location: "Hawaii - U.S. Pacific Territories: Guam, Northern Mariana Islands, American Samoa, Federated States of Micronesia, Republic of the Marshall Islands, Republic of Palau, Uninhabited - only military or nature preserves: NW Hawaiian islands, Midway Atoll, Wake Island, Johnston Atoll, Palmyra Atoll"
       area: "6"
       section: "P"
-      website: "none"
+      website: "http://namokupuni.org/"
 6W:
   lodges:
     -
@@ -752,7 +752,7 @@
       location: "California - Arizona"
       area: "6"
       section: "W"
-      website: "http://oa.sdicbsa.org/"
+      website: "http://hawkpower.weebly.com/"
     -
       lodge_number: "432"
       lodge_name: "Wipala Wiki"
