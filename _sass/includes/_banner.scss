@@ -43,7 +43,7 @@ header.banner.nls-steve-jobs-quote {
   
   &::after {
     background-color: #2d2a30;
-    background-size: 600px !important;
+    background-size: contain !important;
     @include retina-image($filename: '/images/banners/nls-steve-jobs-quote', $background-size: cover, $extension: 'png', $retina-suffix: '@2x');
   }
 }
@@ -59,6 +59,6 @@ header.banner.resources {
   &::after {
     background-color: #000;
     background-position-y: top;
-    @include retina-image($filename: '/images/banners/resources', $background-size: 600px, $extension: 'jpg', $retina-suffix: '@2x');
+    @include retina-image($filename: '/images/banners/resources', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   }
 }
