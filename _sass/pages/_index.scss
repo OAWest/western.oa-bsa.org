@@ -44,6 +44,15 @@ main.index {
 
             h2 {
               margin-top: 0;
+              margin-bottom: 0;
+            }
+
+            .post-date {
+              text-transform: uppercase;
+              color: $gray;
+              font-weight: 400;
+              font-size: floor($font-size-base * 0.8);
+              margin: ($padding-base-vertical * 2) 0;
             }
           }
         }

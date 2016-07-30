@@ -8587,8 +8587,6 @@ main.post {
       main.post .container .row .panel.post .panel-footer a {
         color: #999;
         border-color: transparent; }
-      main.post .container .row .panel.post .panel-footer .post-reading-time {
-        display: block; }
 
 /*import includes */
 /**
@@ -8715,7 +8713,14 @@ main.index section.posts {
     main.index section.posts .container .row .panel.post .panel-body {
       padding: 12px 24px; }
       main.index section.posts .container .row .panel.post .panel-body h2 {
-        margin-top: 0; }
+        margin-top: 0;
+        margin-bottom: 0; }
+      main.index section.posts .container .row .panel.post .panel-body .post-date {
+        text-transform: uppercase;
+        color: #999;
+        font-weight: 400;
+        font-size: 11px;
+        margin: 12px 0; }
 @media (min-width: 768px) {
   main.index section.highlights {
     margin: 72px 0; }

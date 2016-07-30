@@ -58,9 +58,13 @@ module.exports = function(grunt) {
       options: {
         livereload: true
       },
-      build: {
+      typescript: {
         files: ["_typescript/src/**/*.ts"],
         tasks: ["tslint", "webpack"]
+      },
+      sass: {
+        files: ["_sass/**/*.scss"],
+        tasks: ["sass"]
       }
     },
     "webpack": {

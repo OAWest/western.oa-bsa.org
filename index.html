@@ -72,6 +72,11 @@ layout: default
                 <h2>
                   <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
+                <div class="post-date date">
+                  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ post.date | date: "%B %d, %Y" }}
+                  </time>
+                </div>
                 {{ post.excerpt }}
                 <div class="read-more">
                   <a href="{{ post.url }}" class="btn btn-block btn-default">Read More</a>
