@@ -4,6 +4,6 @@
 .tscache
 .jekyll-metadata
 _site
-bower_components
-js/lib
+js/build
+js/release
 node_modules

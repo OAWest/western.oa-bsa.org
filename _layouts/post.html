@@ -6,7 +6,13 @@ layout: default
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1">
         <article class="panel post" itemscope itemtype="http://schema.org/BlogPosting">
-          <div class="panel-heading">
+          <div class="panel-body">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <div class="post-content" itemprop="articleBody">
+              {{ content }}
+            </div>
+          </div>
+          <div class="panel-footer">
             <span class="post-date date">
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 <a href="{{ site.url }}{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a>
@@ -32,12 +38,6 @@ layout: default
                 {% include read-time.html %}
               </span>
             {% endif %}
-          </div>
-          <div class="panel-body">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-            <div class="post-content" itemprop="articleBody">
-              {{ content }}
-            </div>
           </div>
         </article>
       </div>

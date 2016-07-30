@@ -39,37 +39,12 @@ main.index {
         .panel.post {
           background: $white;
 
-          .panel-heading {
-            padding: ($padding-base-vertical * 4) ($padding-base-horizontal * 4) 0;
-            text-transform: uppercase;
-            color: $gray;
-            font-weight: 400;
-            font-size: floor($font-size-base * 0.8);
-
-            a {
-              color: $gray;
-              border-color: transparent;
-            }
-
-            .post-date {
-
-            }
-
-            .post-author {
-
-            }
-
-            .post-reading-time {
-              float: right;
-            }
-          }
-
           .panel-body {
-            padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
-          }
+            padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 2);
 
-          .panel-footer {
-            padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
+            h2 {
+              margin-top: 0;
+            }
           }
         }
       }

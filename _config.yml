@@ -9,9 +9,12 @@ data_dir: ./_data
 safe: false
 include: [".htaccess"]
 exclude: [
-  "bower.json",
+  "gruntfile.js",
   "package.json",
+  "tsconfig.json",
   "tslint.json",
+  "webpack.config.js",
+  "_typescript",
   "assets"
 ]
 keep_files:   [".git"]

@@ -9,8 +9,13 @@ main.post {
       .panel.post {
         background: $white;
 
-        .panel-heading {
-          padding: ($padding-base-vertical * 4) ($padding-base-horizontal * 4) 0;
+        .panel-body {
+          padding: $padding-base-vertical ($padding-base-horizontal * 2);
+        }
+
+        .panel-footer {
+          background: $white;
+          padding: $padding-base-vertical ($padding-base-horizontal * 2);
           text-transform: uppercase;
           color: $gray;
           font-weight: 400;
@@ -33,14 +38,6 @@ main.post {
             display: block;
           }
         }
-
-        .panel-body {
-          padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
-        }
-
-        .panel-footer {
-          padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 4);
-        }
       }
     }
   }
@@ -49,11 +46,7 @@ main.post {
     .container {
       .row {
         .panel.post {
-          .panel-heading {
-            .post-reading-time {
-              float: right;
-            }
-          }
+
         }
       }
     }

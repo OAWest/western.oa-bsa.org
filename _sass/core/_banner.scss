@@ -21,26 +21,27 @@ header.banner {
     background-position: center center;
     background-repeat: no-repeat;
   }
-  
+
   &.cover {
     height: 100%;
-    
+
     &::after {
       background-attachment: fixed;
     }
   }
-  
+
   &.mountains {
-	min-height:500px;
+	  min-height:500px;
+
     &::after {
-       @include retina-image($filename: '/images/banners/mountains', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+      @include retina-image($filename: '/images/banners/mountains', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
   }
-  
+
   &.overlay {
     &::before {
       content: "";
@@ -56,7 +57,6 @@ header.banner {
   }
 
   .inner {
-    position: relative;
     background: rgba(45, 42, 48, 0.5);
     color: white;
     display: inline-block;
@@ -64,12 +64,12 @@ header.banner {
     margin: ($padding-base-vertical * 2) ($padding-base-horizontal * 2);
     text-align: center;
     z-index: 2;
-	max-width: calc(100% - 48px);
-	position:relative;
-	top:50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform:translateY(-50%);
+    max-width: calc(100% - 48px);
+    position:relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform:translateY(-50%);
 
     header {
       display: inline-block;
@@ -77,7 +77,7 @@ header.banner {
       border-top: solid 2px;
       margin: 0 0 2em;
       padding: 3px 0;
-	  max-width:100%;
+	    max-width:100%;
 
       h2 {
         border-bottom: solid 2px;

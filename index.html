@@ -6,7 +6,7 @@ layout: default
     <header>
       <h2><div class="logo-western-region-white"></div></h2>
     </header>
-    <p>Welcome to the Western Region, Order of the Arrow.</p>
+    <p>Welcome to the Western Region, Order of the Arrow</p>
     <footer>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
@@ -64,45 +64,25 @@ layout: default
   </section>
   <section class="posts">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-          {% for post in paginator.posts %}
+      <div class="row grid" isotope-grid>
+        {% for post in paginator.posts %}
+          <div class="col-xs-12 col-sm-6 col-lg-4 grid-item">
             <div class="panel post">
-              <div class="panel-heading">
-                <span class="post-date date">
-                  <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
-                  </time>
-                </span>
-                {% assign author = site.data.authors[post.author] %}
-                {% if author %}
-                  <span class="post-author">by
-                    {% if author.url %}
-                      <a href="{{author.url}}" target="_blank">
-                    {% endif %}
-                    {{ author.name }}
-                    {% if author.url %}
-                      </a>
-                    {% endif %}
-                  </span>
-                {% endif %}
-                {% if site.reading_time %}
-                  <span class="post-reading-time">
-                    <i class="fa fa-clock-o"></i>
-                    {% include read-time-index.html %}
-                  </span>
-                {% endif %}
-              </div>
               <div class="panel-body">
                 <h2>
                   <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
                 {{ post.excerpt }}
-				<a href="{{ post.url }}" class="btn btn-sm btn-default">Read More</a>
+                <div class="read-more">
+                  <a href="{{ post.url }}" class="btn btn-block btn-default">Read More</a>
+                </div>
               </div>
             </div>
-          {% endfor %}
-
+          </div>
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
           {% include pagination.html %}
         </div>
       </div>

@@ -1,0 +1,15 @@
+{% assign main_css_path = "css/" %}
+
+{% if jekyll.environment == "production" %}
+  {% assign main_css_path = main_css_path | append: "release/main.css" %}
+{% else %}
+  {% assign main_css_path = main_css_path | append: "build/main.css" %}
+{% endif %}
+
+{% if site.baseurl.size > 0 %}
+  {% assign main_css_path = main_css_path | prepend: site.baseurl %}
+{% else %}
+   {% assign main_css_path = main_css_path | prepend: "/" %}
+{% endif %}
+
+<link rel="stylesheet" href="{{ main_css_path }}">
