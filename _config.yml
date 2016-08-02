@@ -35,7 +35,7 @@ gems: [jekyll-paginate]
 markdown:    kramdown
 highlighter: pygments
 lsi:         false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 
 # GitHub
 github:

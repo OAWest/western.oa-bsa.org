@@ -5,7 +5,10 @@ joomla_id: 219
 joomla_url: 2016-western-region-service-grant-recipients
 date: 2016-01-18 19:20:55.000000000 -07:00
 ---
+
 The 2016 OA Service Grant recipients have been announced. Here are the councils from the Western Region that will receive grant money towards camp or service center projects:
+
+<!--more-->
 
 <b>Redwood Empire Council</b> - Santa Rosa, California
 <br>$2,100 to acquire a 3D printer for the council&rsquo;s STEM MakerLab<br>

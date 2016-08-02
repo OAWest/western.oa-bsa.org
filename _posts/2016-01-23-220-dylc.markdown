@@ -5,7 +5,12 @@ joomla_id: 220
 joomla_url: dylc
 date: 2016-01-23 04:37:45.000000000 -07:00
 ---
-<p>The 2016 Developing Youth Leaders Conference (DYLC) will be like nothing before it. This conference focuses on the tools every adult needs to mentor and develop our outstanding youth leaders. It is built on the concepts our members learn at the National Leadership Seminar, and it uses the NLS terminology as participants learn new tools and techniques of how to mentor and develop our outstanding youth leaders. Prior attendance at a NLS is encouraged, but it is not required for the DYLC. Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail training@western.oa-bsa.org.  <a href="{{ site.baseurl }}program/training/nls">Click here for more information on upcoming NLS courses.</a></p>
+
+The 2016 Developing Youth Leaders Conference (DYLC) will be like nothing before it. This conference focuses on the tools every adult needs to mentor and develop our outstanding youth leaders.
+
+<!--more-->
+
+It is built on the concepts our members learn at the National Leadership Seminar, and it uses the NLS terminology as participants learn new tools and techniques of how to mentor and develop our outstanding youth leaders. Prior attendance at a NLS is encouraged, but it is not required for the DYLC. Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail training@western.oa-bsa.org. <a href="{{ site.baseurl }}program/training/nls">Click here for more information on upcoming NLS courses.</a>
 
 <p>Developing Youth Leaders Conference was first presented as an alpha test to guests at NOAC 2015. The beta version was offered to section advisers who attended the 2015 National Planning Meeting in Dallas.</p>
 

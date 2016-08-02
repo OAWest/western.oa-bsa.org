@@ -5,11 +5,13 @@ joomla_id: 218
 joomla_url: 2016-double-vigil-golf-classic
 date: 2015-11-04 00:04:53.000000000 -07:00
 ---
-<img style="width: 100%;" src="{{ site.baseurl }}images/posts/2015DVGC/DVGCBanner.jpg" alt="DVGCBanner" />
-<center><h2 style="color:red;">SAVE THE DATE!<br>
-The Double Vigil Golf Classic, Saturday, January 30th, 2016 at the Arizona Grand Resort &amp; Spa.</h2></center>
 
-Brothers,<br>
+<img style="width: 100%;" src="{{ site.baseurl }}images/posts/2015DVGC/DVGCBanner.jpg" alt="DVGCBanner" />
+The Double Vigil Golf Classic, Saturday, January 30th, 2016 at the Arizona Grand Resort &amp; Spa.
+
+<!--more-->
+
+Brothers,
 The 16<sup>th</sup> annual Double Vigil Golf Tournament is right around the corner. Yes you read this correct. We will now be hosting this tournament on a Saturday. Our hope is this new format will enable all of our brothers from around the nation to participate. You&rsquo;ve spent the last few years working on this AMAZING Centennial year for the Order of the Arrow! Now it&rsquo;s time to take a load off, relax with your fellow brothers, family, and friends.&nbsp; With this change of days we are also hoping to increase participation. With this in mind we are asking all of past participants to help us recruit either one more player and or one more sponsor. Overall this weekend will be the best way to kick off the Second Century of the Order of the Arrow! Hope to see you in Phoenix!
 
 

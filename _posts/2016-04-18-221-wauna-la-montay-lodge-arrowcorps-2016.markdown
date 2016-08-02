@@ -5,9 +5,11 @@ description: "We just updated our website. Learn how we built it and join us!"
 categories: updates
 author: brian_love
 ---
+
 <img src="{{ site.baseurl }}images/posts/2016ArrowCorps/group-photo.jpg" class="img-thumbnail" alt="A senic group photo in front of a mountain" style="display:block; width: 100%;">
 <p>Wauna La-Montay Lodge will be hosting one of the largest OA Service Projects that Cascade pacific Council has ever promoted: <strong>ArrowCorps 2016</strong>. Spanning multiple Ranger Districts in two National Forest, projects will be varied, challenging, and satisfying. The projects include trail maintenance, fence construction, orphan campsite maintenance, and projects at Ranger Stations.</p>
 
+<!--more-->
 
 <p>An enrichment program, enhanced by the natural classroom environment, will be a part of the week long experience so you can learn many new skills while you give meaningful, visible, and long lasting service to the mt. Hood and Willamette national Forests. The event commences on August 14th, 2016 and will conclude on August 19th. Participants will be placed in different work crews, assigned specific projects, and over several days give cheerful service with logistical support from the ArrowCorps staff. On the 19th we will enjoy a day of fun at mt. Hood Ski Bowl, playing mini golf, using an Alpine Slide, and exploring the Terrain Park on two wheels.</p>
 
