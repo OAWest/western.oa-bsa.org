@@ -8127,7 +8127,7 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
   font-weight: 300;
   line-height: 1.25em;
-  margin-bottom: 1em;
+  margin: 1em 0;
   text-transform: uppercase; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
@@ -8136,6 +8136,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 1.75em; }
+
+h2 {
+  margin: 1.25em 0 1em; }
 
 /**
  * Images
@@ -8218,11 +8221,10 @@ header.banner {
     left: 0;
     z-index: 0;
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    max-height: 100%; }
   header.banner.cover {
     height: 100%; }
-    header.banner.cover::after {
-      background-attachment: fixed; }
   header.banner.mountains {
     min-height: 500px; }
     header.banner.mountains::after {
@@ -8442,39 +8444,39 @@ a.banner {
  * Distinguished Service Award
  */
 .logo-dsa {
-  background-image: url("/images/logos/dsa_ribbon.jpg");
+  background-image: url("/images/logos/dsa-ribbon.jpg");
   background-repeat: no-repeat;
   height: 156px;
   width: 120px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-dsa {
-      background-image: url("/images/logos/dsa_ribbon@2x.jpg");
+      background-image: url("/images/logos/dsa-ribbon@2x.jpg");
       background-size: 120px 156px; } }
 
 /**
  * E. Urner Goodman Camping Award
  */
 .logo-camping {
-  background-image: url("/images/logos/eugcamping_plaque.jpg");
+  background-image: url("/images/logos/eugcamping-plaque.jpg");
   background-repeat: no-repeat;
   height: 147px;
   width: 125px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-camping {
-      background-image: url("/images/logos/eugcamping_plaque@2x.jpg");
+      background-image: url("/images/logos/eugcamping-plaque@2x.jpg");
       background-size: 125px 147px; } }
 
 /**
  * National Service Award
  */
 .logo-nsa {
-  background-image: url("/images/logos/natservice_plaque.jpg");
+  background-image: url("/images/logos/natservice-plaque.jpg");
   background-repeat: no-repeat;
   height: 186px;
   width: 129px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-nsa {
-      background-image: url("/images/logos/natservice_plaque@2x.jpg");
+      background-image: url("/images/logos/natservice-plaque@2x.jpg");
       background-size: 129px 186px; } }
 
 /**
@@ -8484,10 +8486,10 @@ a.banner {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); }
   .navbar-fixed-top .container .navbar-header .navbar-brand {
     background-image: url("/images/logos/western-region.png");
-    background-size: contain;
     background-repeat: no-repeat;
+    background-position-y: center;
     height: 40px;
-    width: 240px;
+    width: 200px;
     padding: 0;
     margin-top: 10px;
     border: none;
@@ -8497,9 +8499,9 @@ a.banner {
       .navbar-fixed-top .container .navbar-header .navbar-brand {
         background-image: url("/images/logos/western-region@2x.png");
         background-size: contain; } }
-  @media screen and (max-width: 316px) {
+  @media (min-width: 768px) {
     .navbar-fixed-top .container .navbar-header .navbar-brand {
-      width: 200px; } }
+      width: 240px; } }
   .navbar-fixed-top .container ul.navbar-nav > li > a {
     border: none;
     color: inherit;
@@ -8583,7 +8585,8 @@ main.post {
       text-transform: uppercase;
       color: #999;
       font-weight: 400;
-      font-size: 11px; }
+      font-size: 11px;
+      margin-top: 24px; }
       main.post .container .row .panel.post .panel-footer a {
         color: #999;
         border-color: transparent; }
@@ -8593,24 +8596,32 @@ main.post {
 * 2016 NLS @ Philmont Banner
 */
 header.banner.nls-2016-philmont {
-  height: 300px; }
-  header.banner.nls-2016-philmont::after {
-    background-position-y: top;
-    background-image: url("/images/banners/nls-2016-tahoe.jpg"); }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  display: none; }
+  @media (min-width: 768px) {
+    header.banner.nls-2016-philmont {
+      display: block;
+      height: 400px; }
       header.banner.nls-2016-philmont::after {
-        background-image: url("/images/banners/nls-2016-tahoe@2x.jpg");
+        background-image: url("/images/banners/nls-2016-philmont.jpg");
+        background-position-y: top; } }
+    @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
+      header.banner.nls-2016-philmont::after {
+        background-image: url("/images/banners/nls-2016-philmont@2x.jpg");
         background-size: cover; } }
 
 /**
 * 2016 NLS @ Tahoe Banner
 */
 header.banner.nls-2016-tahoe {
-  height: 300px; }
-  header.banner.nls-2016-tahoe::after {
-    background-position-y: top;
-    background-image: url("/images/banners/nls-2016-tahoe.jpg"); }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  display: none; }
+  @media (min-width: 768px) {
+    header.banner.nls-2016-tahoe {
+      display: block;
+      height: 400px; }
+      header.banner.nls-2016-tahoe::after {
+        background-image: url("/images/banners/nls-2016-tahoe.jpg");
+        background-position-y: top; } }
+    @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.nls-2016-tahoe::after {
         background-image: url("/images/banners/nls-2016-tahoe@2x.jpg");
         background-size: cover; } }
@@ -8619,11 +8630,13 @@ header.banner.nls-2016-tahoe {
 * 2016 NLS @ Alaska Banner
 */
 header.banner.nls-2016-alaska {
-  height: 300px; }
-  header.banner.nls-2016-alaska::after {
-    background-position-y: top;
-    background-image: url("/images/banners/nls-2016-alaska.jpg"); }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  display: none; }
+  @media (min-width: 768px) {
+    header.banner.nls-2016-alaska {
+      display: block; }
+      header.banner.nls-2016-alaska::after {
+        background-image: url("/images/banners/nls-2016-alaska.jpg"); } }
+    @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.nls-2016-alaska::after {
         background-image: url("/images/banners/nls-2016-alaska@2x.jpg");
         background-size: cover; } }
@@ -8632,31 +8645,27 @@ header.banner.nls-2016-alaska {
 * NLS Banner with Steve Jobs Quote
 */
 header.banner.nls-steve-jobs-quote {
-  height: 600px;
-  max-height: 100%; }
+  height: 300px; }
   header.banner.nls-steve-jobs-quote::after {
     background-color: #2d2a30;
-    background-size: contain !important;
     background-image: url("/images/banners/nls-steve-jobs-quote.png"); }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.nls-steve-jobs-quote::after {
         background-image: url("/images/banners/nls-steve-jobs-quote@2x.png");
-        background-size: cover; } }
+        background-size: contain; } }
 
 /**
 * Resources
 */
 header.banner.resources {
-  height: 600px;
-  max-height: 100%; }
+  height: 300px; }
   header.banner.resources::after {
     background-color: #000;
-    background-position-y: top;
     background-image: url("/images/banners/resources.jpg"); }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.resources::after {
         background-image: url("/images/banners/resources@2x.jpg");
-        background-size: cover; } }
+        background-size: contain; } }
 
 /**
  * A section page
@@ -8735,7 +8744,8 @@ main.index section.posts {
   .page-content .training .row .nls .visual, .page-content .training .row .nlats .visual, .page-content .training .row .dylc .visual {
     margin: 6px auto;
     display: block;
-    text-align: center; }
+    text-align: center;
+    height: 85px; }
     .page-content .training .row .nls .visual .logo-nls, .page-content .training .row .nls .visual .logo-nlats, .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-nls, .page-content .training .row .nlats .visual .logo-nlats, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-nls, .page-content .training .row .dylc .visual .logo-nlats, .page-content .training .row .dylc .visual .logo-dylc {
       margin: 0 auto; }
 

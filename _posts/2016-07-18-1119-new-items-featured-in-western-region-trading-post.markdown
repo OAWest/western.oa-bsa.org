@@ -36,3 +36,5 @@ arrow and the words Western Region below it.  This is a great way for
 Arrowmen to represent the Western Region at any Scouting event
 
 Be sure to check these items and more <a href="http://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58" target="_blank">here</a> to find the item that best suits you to represent the Western Region!
+
+<a href="http://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58" target="_blank" class="btn btn-default btn-block">Western Region Trading Post</a>

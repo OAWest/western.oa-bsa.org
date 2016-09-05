@@ -9,11 +9,14 @@ layout: default
     <p>Welcome to the Western Region, Order of the Arrow</p>
     <footer>
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.social.twitter }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
           <a href="{{ site.social.facebook }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-facebook"></i> Like Us</a>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <a href="{{ site.social.twitter }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.social.instagram }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-instagram"></i> Follow Us</a>
         </div>
       </div>
     </footer>
@@ -66,7 +69,7 @@ layout: default
     <div class="container">
       <div class="row grid" isotope-grid>
         {% for post in paginator.posts %}
-          <div class="col-xs-12 col-sm-6 col-lg-4 grid-item">
+          <div class="col-xs-12 col-sm-6 grid-item">
             <div class="panel post">
               <div class="panel-body">
                 <h2>

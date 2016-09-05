@@ -2,10 +2,12 @@
 layout: post
 title: What is Conclave?
 date: 2014-04-15 23:34:04.000000000 -06:00
+author: zach_herzog
 ---
-<h6>Written by Zach Herzog, Contributor</h6>
-<p>&nbsp;</p>
 <p>Arrowmen all over the Western Region are looking forward to this year’s conclave season— which will take place in various sections during April, May, September, and October—as a chance for section members to reunite and reaffirm their bonds of brotherhood through various activities.</p>
+
+<!--more-->
+
 <p>Conclave is an event put on by the leadership of the section for all of the lodges in the area to enjoy. With a set theme for the year, the section chief, vice chief, and secretary work with the conclave vice chiefs (CVCs) that are nominated by each lodge to produce an outstanding program of leadership, service, and training.</p>
 <p>Each section has some of its own conclave traditions, but all conclaves share the same elements that make conclave one of the best experiences in the Order of the Arrow:</p>
 <ol>

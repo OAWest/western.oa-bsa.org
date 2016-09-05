@@ -12,4 +12,4 @@ date: 2012-10-28 17:39:10.000000000 -06:00
 <p>To participate, all you need is to be between the ages of 16 and 21 at the time of the Jamboree, be physically fit, and get the approval of your Lodge Adviser.</p>
 <p>If you are interested in participating in this amazing event with all of the Arrowmen from around the nation, visit the <a href="http://event.oa-bsa.org/events/jambo2013/index.html" target="_blank">Project 2013 Website</a>&nbsp;and sign up today! Space is limited and the registration is almost closed. Don't miss out on this once in a lifetime opportunity to serve as the first staff of the Bechtel Summit!&nbsp;</p>
 <p>And remember, WEST IS BEST!</p>
-<p><br /><img src="images/project2013/project2013 Totem.jpg" alt="" width="110" height="146" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><br /><img src="{{site.baseurl}}images/project2013/project2013 Totem.jpg" alt="" width="110" height="146" style="display: block; margin-left: auto; margin-right: auto;" /></p>

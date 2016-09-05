@@ -6,10 +6,11 @@ description: "E. Urner Goodman Camping Award was established in 1969 as a tribut
 
 #  E. Urner Goodman Camping Award
 
-<img src="/images/logos/eugcamping_plaque.jpg" alt="E. Urner Goodman Camping Award Plaque" align="right" />
-The award was established in 1969 as a tribute and testimonial to the Order's founder, E. Urner Goodman. Its purpose is to encourage and challenge Order of the Arrow members and lodges to increase their effectiveness in promoting and increasing Scout camping in each council. Awards are presented to two outstanding lodges in each region annually. For a lodge to be eligible for consideration, the E. Urner Goodman Camping Award petition should be completed and forwarded with the lodge's charter renewal application. <a href="http://www.oa-bsa.org/pages/content/printable-forms" target="_blank">View petition form</a>.
+The award was established in 1969 as a tribute and testimonial to the Order's founder, E. Urner Goodman. Its purpose is to encourage and challenge Order of the Arrow members and lodges to increase their effectiveness in promoting and increasing Scout camping in each council. Awards are presented to two outstanding lodges in each region annually. For a lodge to be eligible for consideration, the E. Urner Goodman Camping Award petition should be completed and forwarded with the lodge's charter renewal application.
 
-<u>Western Region E. Urner Goodman Camping Award History</u>
+<a href="http://www.oa-bsa.org/pages/content/printable-forms" target="_blank" class="btn btn-default btn-block"><i class="fa fa-external-link"></i> View petition form</a>
+
+## Western Region E. Urner Goodman Camping Award History
 
 ### 2015
 Cahuilla Lodge
@@ -32,11 +33,11 @@ Yowlumne Lodge
 Toloma Lodge
 
 ### 2010
-Wa-La-Moot-Kin Lodge 
+Wa-La-Moot-Kin Lodge
 Cahuilla Lodge
 
 ### 2009
-Orca Lodge 
+Orca Lodge
 Cahuilla Lodge
 
 ### 2008
@@ -108,7 +109,7 @@ Moskwa Lodge
 ### 1991
 Skyloo Lodge
 
-### 1989 
+### 1989
 Tatanka Lodge
 
 ### 1988

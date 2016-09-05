@@ -1,6 +1,7 @@
 {
   main: [
     {
+      class: "hidden-sm hidden-md",
       url: "",
       text: "Home"
     },
@@ -21,8 +22,14 @@
       text: "Resources"
     },
     {
+      class: "hidden-sm",
       url: "sections",
       text: "Sections"
+    },
+    {
+      class: "hidden-sm",
+      url: "https://sites.google.com/site/oasurge/",
+      text: "Surge"
     },
     {
       url: "/www.tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",

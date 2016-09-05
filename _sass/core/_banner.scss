@@ -5,7 +5,7 @@ header.banner {
   position: relative;
   color: white;
   width: 100%;
-  max-width:100%;
+  max-width: 100%;
   padding: ($padding-base-vertical * 8) 0;
   text-align: center;
   overflow: hidden;
@@ -20,14 +20,11 @@ header.banner {
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
+    max-height: 100%;
   }
 
   &.cover {
     height: 100%;
-
-    &::after {
-      background-attachment: fixed;
-    }
   }
 
   &.mountains {

@@ -10,20 +10,32 @@ The 2016 OA Service Grant recipients have been announced. Here are the councils 
 
 <!--more-->
 
-<b>Redwood Empire Council</b> - Santa Rosa, California
-<br>$2,100 to acquire a 3D printer for the council&rsquo;s STEM MakerLab<br>
+#### Redwood Empire Council
+Santa Rosa, California
 
-<b>Golden Empire Council</b> - Sacramento, California
-<br>$2,300 for the replacement of sleeping tent platforms at Camp Winton<br>
+$2,100 to acquire a 3D printer for the council's STEM MakerLab
 
-<b>Mount Baker Council</b> - Everett, Washington
-<br>$1,300 to complete the initial ground work needed for the new Aquatics Center at Fire Mountain Scout Camp<br>
+#### Golden Empire Council
+Sacramento, California
 
-<b>Great Alaska Council</b> - Anchorage, Alaska
-<br>$1,100 for the new campfire bowl at Denali High Adventure Base<br>
+$2,300 for the replacement of sleeping tent platforms at Camp Winton
 
-<b>Greater Wyoming Council</b> - Casper, Wyoming
-<br>$1,800 to support a new aquatics area building for changing, instruction, and equipment storage at Camp Buffalo Bill<br>
+#### Mount Baker Council
+Everett, Washington
 
-<b>Oregon Trail Council</b> - Eugene, Oregon
-<br>$1,020 for the construction of a waterfront boathouse and instructional facility at Camp Baker<br>
+$1,300 to complete the initial ground work needed for the new Aquatics Center at Fire Mountain Scout Camp
+
+#### Great Alaska Council
+Anchorage, Alaska
+
+$1,100 for the new campfire bowl at Denali High Adventure Base
+
+#### Greater Wyoming Council
+Casper, Wyoming
+
+$1,800 to support a new aquatics area building for changing, instruction, and equipment storage at Camp Buffalo Bill
+
+#### Oregon Trail Council
+Eugene, Oregon
+
+$1,020 for the construction of a waterfront boathouse and instructional facility at Camp Baker

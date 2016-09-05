@@ -37,7 +37,7 @@
  * Distinguished Service Award
  */
 .logo-dsa {
-  @include retina-image($filename: '/images/logos/dsa_ribbon', $background-size: 120px 156px, $extension: 'jpg', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/logos/dsa-ribbon', $background-size: 120px 156px, $extension: 'jpg', $retina-suffix: '@2x');
   background-repeat: no-repeat;
   height: 156px;
   width: 120px;
@@ -47,7 +47,7 @@
  * E. Urner Goodman Camping Award
  */
 .logo-camping {
-  @include retina-image($filename: '/images/logos/eugcamping_plaque', $background-size: 125px 147px, $extension: 'jpg', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/logos/eugcamping-plaque', $background-size: 125px 147px, $extension: 'jpg', $retina-suffix: '@2x');
   background-repeat: no-repeat;
   height: 147px;
   width: 125px;
@@ -57,7 +57,7 @@
  * National Service Award
  */
 .logo-nsa {
-  @include retina-image($filename: '/images/logos/natservice_plaque', $background-size: 129px 186px, $extension: 'jpg', $retina-suffix: '@2x');
+  @include retina-image($filename: '/images/logos/natservice-plaque', $background-size: 129px 186px, $extension: 'jpg', $retina-suffix: '@2x');
   background-repeat: no-repeat;
   height: 186px;
   width: 129px;

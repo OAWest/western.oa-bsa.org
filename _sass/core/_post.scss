@@ -20,6 +20,7 @@ main.post {
           color: $gray;
           font-weight: 400;
           font-size: floor($font-size-base * 0.8);
+          margin-top: ($padding-base-vertical * 4);
 
           a {
             color: $gray;

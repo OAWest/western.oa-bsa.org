@@ -6,7 +6,7 @@ joomla_url: phoenix-nls-registration-is-open
 date: 2015-03-19 05:40:23.000000000 -06:00
 ---
 
-<img src="{{ site.baseurl }}images/posts/2015NLS/NLS_2015-small.jpg" alt="" />
+<img src="{{ site.baseurl }}images/posts/2015NLS/NLS_2015-small.jpg" alt="" class="img-responsive center-block"/>
 
 Are you prepared to further your leadership skills and #TakeTheLead? Join us on April 10th in Phoenix, Arizona for a weekend of fun activities, great people, and lessons in all things leadership!
 
