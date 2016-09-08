@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Next - an experiencce of two centuries colliding
+title: Next - An Experience of Two Centuries Colliding
 date: 2016-09-06 16:06 -0800
-description: "Overview of how NEXT whent."
+description: "Overview of how NEXT went."
 categories: updates
 author: tyler_grey
 ---
