@@ -5,29 +5,8 @@ joomla_id: 168
 joomla_url: social-pulse
 date: 2012-10-10 05:25:51.000000000 -06:00
 ---
-<!-- ChangeDetection.com detection="off" -->
-<table border="0" style: "align:center;">
-    <tr>
-        <td width=50%>
-            [facebook-box page=oawest width=292][/facebook-box]
-        </td>
-        <td width=50%>
-            [twitter-box][/twitter-box]
-        </td>
-    </tr>
-</table>
-<br>
-<div style="text-align:center;">
-    [twitter-button][/twitter-button]
-    <!-- Google Plus: Place this tag where you want the badge to render. -->
-    <div class="g-plus" data-height="69" data-width="270" data-href="https://plus.google.com/111522187744944747027" data-rel="publisher"></div>
-    <!-- Google Plus: Place this tag after the last badge tag. -->
-    <script type="text/javascript">
-        (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-    </script>
+<div>
+<a href="{{ site.social.twitter }}" class="btn btn-default btn-block"><i class="fa fa-4x fa-twitter"></i>Twitter</a>
+<a href="{{ site.social.facebook }}" class="btn btn-default btn-block"><i class="fa fa-4x fa-facebook"></i>Facebook</a>
+<a href="{{ site.social.instagram }}" class="btn btn-default btn-block"><i class="fa fa-4x fa-instagram"></i>Instagram</a>
 </div>
-<!-- ChangeDetection.com detection="on" -->
