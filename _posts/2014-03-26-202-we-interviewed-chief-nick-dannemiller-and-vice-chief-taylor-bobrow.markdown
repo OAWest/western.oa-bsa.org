@@ -5,8 +5,11 @@ joomla_id: 202
 joomla_url: we-interviewed-chief-nick-dannemiller-and-vice-chief-taylor-bobrow
 date: 2014-03-26 03:51:46.000000000 -06:00
 ---
-<br />
-<h2>We interviewed Chief Nick Dannemiller and Vice Chief Taylor Bobrow</h2>
+
+We interviewed Chief Nick Dannemiller and Vice Chief Taylor Bobrow
+
+<!--more-->
+
 <h3>2014 National Vice Chief Taylor Bobrow:</h3>
 <h4>1) What do you hope to be doing in 10 years?</h4>
 <p>"I hope to be an electrical engineer designing solutions that improve the lives of people around the world."</p>

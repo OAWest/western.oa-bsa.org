@@ -2,39 +2,23 @@ module.exports = function(grunt) {
   "use strict";
 
   grunt.initConfig({
-    copy: {
-      bootstrap: {
-        files: [
-          {
-            expand: true,
-            cwd: "bower_components/bootstrap/dist/js",
-            src: "bootstrap.min.js",
-            dest: "js/lib"
-          }
-        ]
-      },
-      jquery: {
-        files: [
-          {
-            expand: true,
-            cwd: "bower_components/jquery/dist",
-            src: "jquery.min.js",
-            dest: "js/lib"
-          }
-        ]
+    clean: {
+			build: ["css/build", "css/release", "js/build", "js/release"]
+    },
+    cssmin: {
+			release: {
+				files: [{
+					expand: true,
+					cwd: "css/build",
+					src: ["**/*.css"],
+					dest: "css/release"
+        }]
       }
     },
-    ts: {
-      app: {
-        files: [{
-          src: ["_typescript/src/**/*.ts", "!_typescript/src/.baseDir.ts", "!_typescript/src/_all.d.ts"],
-          dest: "js/build"
-        }],
-        options: {
-          module: "commonjs",
-          noLib: true,
-          target: "es6",
-          sourceMap: false
+    sass: {
+			build: {
+				files: {
+					"css/build/main.css": "_sass/main.scss"
         }
       }
     },
@@ -46,33 +30,70 @@ module.exports = function(grunt) {
         src: ["_typescript/src/**/*.ts"]
       }
     },
+    uglify: {
+			options: {
+				banner: "/**" +
+					"* Copyright (c) Western Region, Order of the Arrow, Boys Scouts of America, Inc. <%= grunt.template.today('yyyy') %>" +
+					"*/"
+      },
+			release: {
+				options: {
+					compress: {
+						drop_console: true,
+						unused: true
+          },
+					mangle: true,
+					preserveComments: false,
+					sourceMap: true
+        },
+				files:[{
+					expand: true,
+					cwd: "./js/build/",
+					src: ["**/*.js"],
+					dest: "./js/release"
+				}]
+      }
+    },
     watch: {
       options: {
         livereload: true
       },
-      ts: {
+      typescript: {
         files: ["_typescript/src/**/*.ts"],
-        tasks: ["ts", "tslint"]
+        tasks: ["tslint", "webpack"]
+      },
+      sass: {
+        files: ["_sass/**/*.scss"],
+        tasks: ["sass"]
       }
+    },
+    "webpack": {
+      build: require("./webpack.config.js")
     }
   });
 
-  grunt.loadNpmTasks("grunt-contrib-copy");
+  grunt.loadNpmTasks("grunt-contrib-clean");
+  grunt.loadNpmTasks("grunt-contrib-cssmin");
+  grunt.loadNpmTasks("grunt-contrib-sass");
+  grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  //grunt.loadNpmTasks("grunt-exec");
-  grunt.loadNpmTasks("grunt-ts");
   grunt.loadNpmTasks("grunt-tslint");
-
-  /*grunt.registerTask("build", [
-    "copy",
-    "exec:jekyll"
-  ]);*/
+  grunt.loadNpmTasks("grunt-webpack");
 
   grunt.registerTask("default", [
-    "copy",
-    "ts",
+    "clean",
+    "sass",
     "tslint",
-    "watch"
+    "webpack"
+  ]);
+
+  grunt.registerTask("release", [
+    "clean",
+    "sass",
+    "cssmin",
+    "tslint",
+    "webpack",
+    "uglify"
   ]);
 
 };

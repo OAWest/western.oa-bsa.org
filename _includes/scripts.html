@@ -1,0 +1,21 @@
+{% assign main_js_path = "js/" %}
+{% assign vendor_js_path = "js/" %}
+
+{% if jekyll.environment == "production" %}
+  {% assign main_js_path = main_js_path | append: "release/main.bundle.js" %}
+  {% assign vendor_js_path = vendor_js_path | append: "release/vendor.bundle.js" %}
+{% else %}
+  {% assign main_js_path = main_js_path | append: "build/main.bundle.js" %}
+  {% assign vendor_js_path = vendor_js_path | append: "build/vendor.bundle.js" %}
+{% endif %}
+
+{% if site.baseurl.size > 0 %}
+  {% assign main_js_path = main_js_path | prepend: site.baseurl %}
+  {% assign vendor_js_path = vendor_js_path | prepend: site.baseurl %}
+{% else %}
+   {% assign main_js_path = main_js_path | prepend: "/" %}
+   {% assign vendor_js_path = vendor_js_path | prepend: "/" %}
+{% endif %}
+
+<script src="{{ vendor_js_path }}"></script>
+<script src="{{ main_js_path }}"></script>

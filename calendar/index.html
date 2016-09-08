@@ -6,14 +6,32 @@ description: "Upcoming events hosted by the Western Region, Order of the Arrow, 
 
 <h1>Western Region Calendar</h1>
 
-<div class="contentpane">
-<iframe id="blockrandom"
-	name="iframe"
-	src="https://calendar.google.com/calendar/embed?src=pfqqgeqcfmsq4c187jgsdapij0%40group.calendar.google.com&amp;ctz=America/Los_Angeles"
-	width="100%"
-	height="500"
-	scrolling="auto"
-	frameborder="1"
-	class="wrapper">
-	This option will not work correctly. Unfortunately, your browser does not support inline frames.</iframe>
+<div class="calender">
+	<div class="row">
+		<div class="col-xs-12">
+			<iframe id="blockrandom"
+				name="iframe"
+				src="https://calendar.google.com/calendar/embed?src=pfqqgeqcfmsq4c187jgsdapij0%40group.calendar.google.com&amp;ctz=America/Los_Angeles"
+				width="100%"
+				height="500"
+				scrolling="auto"
+				frameborder="0"
+				class="wrapper">
+					This option will not work correctly. Unfortunately, your browser does not support inline frames.
+			</iframe>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+			<a href="{{ site.baseurl }}progam/training/" class="btn btn-lg btn-primary btn-block">Training Opportunities</a>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<a href="{{ site.baseurl }}program/events" class="btn btn-lg btn-primary btn-block">Region Gathering</a>
+		</div>
+	</div>
 </div>

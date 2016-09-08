@@ -5,5 +5,7 @@ joomla_id: 140
 joomla_url: trading-post
 date: 2012-09-17 00:24:56.000000000 -06:00
 ---
-<p>The Western Region is proud to announce its online <b>OAWest Trading Post</b>!  Follow the link below to enter our online trading post, and order your 2015 NOAC merchandise!</p>
-<h2><a href="https://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58" target="_blank"><b>Enter the OAWest Trading Post...</b></a></h2>
+
+The Western Region is proud to announce its online <b>OAWest Trading Post</b>! Follow the link below to enter our online trading post, and order your 2015 NOAC merchandise!
+
+<a href="https://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58" target="_blank" class="btn btn-default btn-block">Western Region Trading Post</a>

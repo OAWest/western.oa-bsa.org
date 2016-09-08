@@ -5,46 +5,9 @@ description: "Contact the leadership of the Western Region."
 ---
 
 <h1>Contact Us</h1>
-
-<div class="row">
-  <div class="col-xs-12">
-    <dl class="dl-horizontal">
-      <dt>Region Chief</dt>
-      <dd>
-        <p>
-          {{ site.time | date: "%Y" }} Western Region Chief {{site.data.leadership.chief.first_name}} {{site.data.leadership.chief.last_name}}<br>
-          <a href="mailto:{{site.data.leadership.chief.email}}">{{site.data.leadership.chief.email}}</a>
-        </p>
-      </dd>
-
-      <dt>2015 Region Chief</dt>
-      <dd>
-        <p>
-          2015 Western Region Chief {{ site.data.leadership.immediate_past_chief.first_name }} {{ site.data.leadership.immediate_past_chief.last_name}}<br>
-          <a href="mailto:{{site.data.leadership.immediate_past_chief.email}}">{{ site.data.leadership.immediate_past_chief.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Region Chairman</dt>
-      <dd>
-        <p>
-          Region Chairman {{ site.data.leadership.chairman.first_name }} {{ site.data.leadership.chairman.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.chairman.email }}">{{ site.data.leadership.chairman.email }}</a>
-        </p>
-      </dd>
-
-      <dt>Region Staff Adviser</dt>
-      <dd>
-        <p>
-          Region Staff Adviser {{ site.data.leadership.staff_adviser.first_name }} {{ site.data.leadership.staff_adviser.last_name }}<br>
-          <a href="mailto:{{ site.data.leadership.staff_adviser.email }}">{{ site.data.leadership.staff_adviser.email }}</a>
-        </p>
-      </dd>
-    </dl>
-
-    <hr>
-  </div>
-</div>
-
-<h3>Western Region Committee</h3>
-{% include region-committee.html %}
+<section class="committee">
+<script type="text/javascript">
+	var x = window.location.search;
+	document.write('<iframe src="http://western.oa-bsa.org/PHPMailer/contact.php',x,'" scrolling="auto" class="wrapper" frameborder="0" height="1000px" width="100%" seamless>This option will not work correctly. Unfortunately, your browser does not support inline frames.</iframe>'); //Returns the form's input
+</script>
+</section>

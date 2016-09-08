@@ -17,15 +17,6 @@ Participants are on their own for their Friday evening meal (with the exception 
 
 Adults age 21 and older are eligible to attend the [National Lodge Adviser Training Seminar]({{ site.baseurl }}program/training/nlats) (NLATS) and do not necessarily need to have previously attended NLS. Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend NLATS to receive program-specific training. The NLS training is open to anyone seeking to hone their leadership skills applicable to Scouting as well as daily life. Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
-## June 3-5, 2016
-
-* **NLS only, no NLATS**
-* $199
-* [Camp Gorsuch, Anchorage, AK](https://www.google.com/maps/d/u/0/viewer?ll=61.430692%2C-149.399815&spn=0.01258%2C0.026264&hl=en&t=h&msa=0&source=embed&ie=UTF8&mid=zvaL5-Tu4404.k0umm9jD0IM4)
-* [Online Registration](https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79)
-* [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
-* [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
-
 ## Oct 7-9, 2016
 
 * **NLS and NLATS**

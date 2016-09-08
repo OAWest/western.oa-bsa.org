@@ -1,6 +1,6 @@
 <h1>
   Section W-{{ section.area }}{{ section.section }}
-  {% if section.name and section.name.size %}
+  {% if section.name.size > 0 %}
     - {{ section.name }}
   {% endif %}
 </h1>
@@ -13,27 +13,31 @@
         </div>
         <ul class="list-group">
           <li class="list-group-item">
-            Section Chief
-            {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 %}
-              {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
+		    {% if section.leadership.chief.first_name.size > 0 and section.leadership.chief.last_name.size > 0 and section.leadership.chief.member_id.size > 0 %}
+            <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.chief.member_id }}">
+				<img src="{{ site.baseurl }}images/leadership/profiles/{{ section.leadership.chief.first_name }}%20{{ section.leadership.chief.last_name }}.jpg" onerror="this.src='http://western.oa-bsa.org/images/nophoto.gif'"/>
+				<h2>Section Chief {{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}</h2>
+			</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Chief to be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
+		  {% if section.leadership.vice_chief.first_name.size > 0 and section.leadership.vice_chief.last_name.size > 0 and section.leadership.vice_chief.member_id.size > 0 %}
+		  <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.vice_chief.member_id }}">
             Section Vice Chief
-            {% if section.leadership.vice_chief.first_name.size > 0 and section.leadership.vice_chief.last_name.size > 0 %}
-              {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}
+              {{ section.leadership.vice_chief.first_name }} {{ section.leadership.vice_chief.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Vice Chief to be determined</em>
             {% endif %}
           </li>
           <li class="list-group-item">
+		    {% if section.leadership.secretary.first_name.size > 0 and section.leadership.secretary.last_name.size > 0 and section.leadership.secretary.member_id.size > 0 %}
+		    <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.secretary.member_id }}">
             Section Secretary
-            {% if section.leadership.secretary.first_name.size > 0 and section.leadership.secretary.last_name.size > 0 %}
-              {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}
+              {{ section.leadership.secretary.first_name }} {{ section.leadership.secretary.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Secretary to be determined</em>
             {% endif %}
           </li>
         </ul>
@@ -46,27 +50,28 @@
         </div>
         <ul class="list-group">
           <li class="list-group-item">
-            Section Adviser
-            {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 %}
-              {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
-              {% if section.leadership.adviser.email.size > 0 %}
-                <a href="mailto:{{ section.leadership.adviser.email }}" class="btn btn-sm btn-default email">Email Me</a>
-              {% endif %}
+            {% if section.leadership.adviser.first_name.size > 0 and section.leadership.adviser.last_name.size > 0 and section.leadership.adviser.member_id.size > 0 %}
+			<a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.adviser.member_id }}">
+				<img src="{{ site.baseurl }}images/leadership/profiles/{{ section.leadership.adviser.first_name }}%20{{ section.leadership.adviser.last_name }}.jpg" onerror="this.src='http://western.oa-bsa.org/images/nophoto.gif'"/>
+				<h2>Section Adviser {{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}</h2>
+			</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Adviser to be determined</em>
             {% endif %}
           </li>
           {% for associate in section.leadership.associates %}
             <li class="list-group-item">
-              Section Associate Adviser {{ associate.first_name }} {{ associate.last_name }}
+              <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ associate.member_id }}">
+			  Section Associate Adviser {{ associate.first_name }} {{ associate.last_name }}</a>
             </li>
           {% endfor %}
           <li class="list-group-item">
-            Section Staff Adviser
-            {% if section.leadership.staff_adviser.first_name.size > 0 and section.leadership.staff_adviser.last_name.size > 0 %}
-              {{ section.leadership.staff_adviser.first_name }} {{ section.leadership.staff_adviser.last_name }}
+            {% if section.leadership.staff_adviser.first_name.size > 0 and section.leadership.staff_adviser.last_name.size > 0 and section.leadership.staff_adviser.member_id.size > 0 %}
+			<a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.staff_adviser.member_id }}">
+			Section Staff Adviser
+              {{ section.leadership.staff_adviser.first_name }} {{ section.leadership.staff_adviser.last_name }}</a>
             {% else %}
-              <em>To be determined</em>
+              <em>Section Staff Adviser TDB</em>
             {% endif %}
           </li>
         </ul>
@@ -81,10 +86,14 @@
           <div>
 	      {% for lodge in lodges %}
 		  <li class="list-group-item">
-		     <a href="//{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
+		   {% if lodge.website.size > 0 %}
+		     <a href="{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}</a>
+		   {% else %}
+		     {{ lodge.lodge_name }} Lodge #{{ lodge.lodge_number }}
+		   {% endif %}
 		  </li>
 	      {% endfor %}
-	</div>
+		  </div>
         </ul>
       </div>
     </div>
@@ -103,29 +112,29 @@
     </div>
   </div>
   <div class="row online">
-    {% if section.website %}
-      <div class="col-xs-12 {% if section.facebook and section.twitter %}col-md-4{% elsif section.facebook or section.twitter %}col-md-6{% endif %}">
-        <a href="{{ section.website }}" class="btn btn-lg btn-default">
+      {% if section.website.size > 0 %}
+      <div class="col-xs-12 {% if section.facebook.size > 0 and section.twitter.size > 0 %}col-md-4{% elsif section.facebook.size > 0 or section.twitter.size > 0 %}col-md-6{% endif %}">
+        <a href="{{ section.website }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-laptop"></i>
           Visit our Website
         </a>
       </div>
-    {% endif %}
-    {% if section.facebook %}
-      <div class="col-xs-12 {% if section.website and section.twitter %}col-md-4{% elsif section.website or section.twitter %}col-md-6{% endif %}">
-        <a href="{{ section.facebook }}" class="btn btn-lg btn-default">
+	  {% endif %}
+	  {% if section.facebook.size > 0 %}
+      <div class="col-xs-12 {% if section.website.size > 0 and section.twitter.size > 0 %}col-md-4{% elsif section.website.size > 0 or section.twitter.size > 0 %}col-md-6{% endif %}">
+        <a href="{{ section.facebook }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-facebook"></i>
           Follow us on Facebook
         </a>
       </div>
-    {% endif %}
-    {% if section.twitter %}
-      <div class="col-xs-12 {% if section.website and section.facebook %}col-md-4{% elsif section.website or section.facebook %}col-md-6{% endif %}">
-        <a href="{{ section.twitter }}" class="btn btn-lg btn-default">
+	  {% endif %}
+	  {% if section.twitter.size > 0 %}
+      <div class="col-xs-12 {% if section.website.size > 0 and section.facebook.size > 0 %}col-md-4{% elsif section.website.size > 0 or section.facebook.size > 0 %}col-md-6{% endif %}">
+        <a href="{{ section.twitter }}" target="_blank" class="btn btn-lg btn-default">
           <i class="fa fa-twitter"></i>
           Follow us on Twitter
         </a>
       </div>
-    {% endif %}
+	  {% endif %}
   </div>
 </div>

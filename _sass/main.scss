@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------                DO NOT EDIT              -------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+*/
+
+/*import core libraries and sass code */
+@import
+  "core/fonts",
+  "core/variables",
+  "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap",
+  "../node_modules/font-awesome/scss/font-awesome",
+  "../node_modules/bourbon/app/assets/stylesheets/bourbon",
+  "core/mixins",
+  "core/announcements",
+  "core/base",
+  "core/banner",
+  "core/buttons",
+  "core/footer",
+  "core/forms",
+  "core/logos",
+  "core/navbar",
+  "core/page",
+  "core/post"
+;
+
+/*import includes */
+@import
+  "includes/banners",
+  "includes/section"
+;
+
+/*
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------                EDIT BELOW               -------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Note: Sass files for specific pages are included to match the relative path to the page.
+
+*/
+
+/* import pages */
+@import
+  "pages/index",
+  "pages/program/training/index",
+  "pages/program/awards/index",
+  "pages/program/index",
+  "pages/committee/index",
+  "pages/tech-team/index",
+  "pages/sections/index",
+  "pages/leadership/index"
+;

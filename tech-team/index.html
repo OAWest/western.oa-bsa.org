@@ -1,50 +1,11 @@
 ---
 title:  "Tech Team Area - Western Region, Order of the Arrow, Boy Scouts of America"
-date:   2016-06-24 16:07 -0600
+date:   2016-06-23 16:07 -0600
 description: "Tech Team Area - Western Region, Order of the Arrow, Boy Scouts of America"
 ---
 
-<h1><a href="{{ site.baseurl }}TechTeam">Tech Team Area</a></h1>
-<h4><a href="https://github.com/OAWest/western.oa-bsa.org/" target="_blank">GitHub</a></h4>
-<div class="TechTeam">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript">
-    //<![CDATA[
-    $(function(){
-    var title = $('#title')[0],
-        desc = $('#desc')[0],
-        author = $('#author')[0],
-        story = $('#story')[0],
-        file = $('#file')[0];
-        display = $('#display')[0];
-        
-        var dateObj = new Date();
-                var month = dateObj.getUTCMonth() + 1; //months from 1-12
-                    if(month <= 9) month = '0'+month;
-                var day = dateObj.getUTCDate();
-                var year = dateObj.getUTCFullYear();
-                var hour = dateObj.getHours();
-                var minute = dateObj.getMinutes();
-                var date = year+'-'+month+'-'+day+' '+hour+':'+minute;
-
-    $("#title, #desc, #author, #story").keyup(function() {
-        display.value = '---\nlayout: post\ntitle: "'+title.value.replace(/[^a-z0-9_ -]/gi, '')+'"\ndate: '+date+'\ndescription: "'+desc.value.replace(/[^a-z0-9_ -]/gi, '')+'"\ncategories: updates\nauthor: '+author.value.split(" ").join("_").replace(/[^a-z0-9_-]/gi, '_')+'\n---\n'+story.value; 
-        file.value = year+'-'+month+'-'+day+'-'+hour+minute+'-'+title.value.split(" ").join("-").replace(/[^a-z0-9._-]/gi, '').toLowerCase()+'.markdown'; 
-    });
-    });//]]> 
-    </script>
-
-    <div class="left">
-        <h3>Inputs</h3>
-        <input type="text" id="title" value="Title" autofocus /><br>
-        <input type="text" id="desc" value="Description" /><br>
-        <input type="text" id="author" value="Author" /><br>
-        <textarea id="story">Story</textarea>
-    </div>
-    <div class="right">
-        <h3>Result</h3>
-        <input type="text" id="file" value="year-month-day-ID-title.markdown" /><br>
-        <textarea id="display"></textarea>
-    </div>
-
-</div>
+<h1><a href="{{ site.baseurl }}tech-team">Western Region Tech Team Area</a></h1>
+<section class="tech-team">
+<iframe src="http://western.oa-bsa.org/tech-team_files" scrolling="auto" class="wrapper" frameborder="0" height="800" width="100%">
+	This option will not work correctly. Unfortunately, your browser does not support inline frames.</iframe>
+</section>

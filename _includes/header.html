@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <button type="button" class="navbar-toggle" onclick="openNav()" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -9,14 +9,34 @@
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}"></a>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
+    <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         {% for item in site.data.nav.main %}
-          <li>
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.text }}</a>
+          <li class="{{item.class}}">
+            {% assign prefix = item.url | truncate: 1, '' %}
+            {% assign protocol = item.url | truncate: 4, '' %}
+            {% if prefix == '/' or protocol == 'http' %}
+              <a href="{{ item.url }}">{{ item.text }}</a>
+            {% else %}
+              <a href="{{ item.url | prepend: site.baseurl }}">{{ item.text }}</a>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
     </div>
+    <div id="navbar" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+      {% for item in site.data.nav.main %}
+        <a href="{{ item.url | prepend: site.baseurl }}">{{ item.text }}</a>
+      {% endfor %}
+    </div>
+    <script>
+      function openNav() {
+	    document.getElementById("navbar").style.width = "250px";
+	  }
+      function closeNav() {
+        document.getElementById("navbar").style.width = "0";
+      }
+    </script>
   </div>
 </nav>

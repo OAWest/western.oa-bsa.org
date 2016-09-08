@@ -6,14 +6,17 @@ layout: default
     <header>
       <h2><div class="logo-western-region-white"></div></h2>
     </header>
-    <p>Welcome to the Western Region, Order of the Arrow.</p>
+    <p>Welcome to the Western Region, Order of the Arrow</p>
     <footer>
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <a href="{{ site.social.facebook }}" class="btn btn-default btn-block"><i class="fa fa-facebook"></i> Like Us</a>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.social.twitter }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <a href="{{ site.social.twitter }}" class="btn btn-default btn-block"><i class="fa fa-twitter"></i> Follow Us</a>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.social.facebook }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-facebook"></i> Like Us</a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.social.instagram }}" class="btn btn-default btn-block" target="_blank"><i class="fa fa-instagram"></i> Follow Us</a>
         </div>
       </div>
     </footer>
@@ -32,7 +35,6 @@ layout: default
             </div>
             <p>The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development.</p>
             <a href="{{ site.baseurl }}program/training/nls" class="btn btn-block btn-default">Learn about NLS</a>
-            <a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79" class="btn btn-block btn-default">June 3-5</a>
             <a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79" class="btn btn-block btn-default">Oct 7-9</a>
             <a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79" class="btn btn-block btn-default">Nov 18-20</a>
           </div>
@@ -44,7 +46,7 @@ layout: default
               <img src="{{ site.baseurl }}images/leadership/chief.jpg" srcset="{{ site.baseurl }}images/leadership/chief.jpg 2x" class="chief">
             </div>
             <p>Joe is from the Grand Canyon Council in Phoenix, AZ. He is an Eagle Scout and Vigil Honor member of Wipala Wiki Lodge.</p>
-            <a href="{{ site.baseurl }}leadership/chief" class="btn btn-block btn-default">Meet {{site.data.leadership.chief.first_name}}</a>
+            <a href="{{ site.baseurl }}leadership/chief.html" class="btn btn-block btn-default">Meet {{site.data.leadership.chief.first_name}}</a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4">
@@ -65,44 +67,30 @@ layout: default
   </section>
   <section class="posts">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-          {% for post in paginator.posts %}
+      <div class="row grid" isotope-grid>
+        {% for post in paginator.posts %}
+          <div class="col-xs-12 col-sm-6 grid-item">
             <div class="panel post">
-              <div class="panel-heading">
-                <span class="post-date date">
-                  <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
-                  </time>
-                </span>
-                {% assign author = site.data.authors[post.author] %}
-                {% if author %}
-                  <span class="post-author">by
-                    {% if author.url %}
-                      <a href="{{author.url}}" target="_blank">
-                    {% endif %}
-                    {{ author.name }}
-                    {% if author.url %}
-                      </a>
-                    {% endif %}
-                  </span>
-                {% endif %}
-                {% if site.reading_time %}
-                  <span class="post-reading-time">
-                    <i class="fa fa-clock-o"></i>
-                    {% include read-time-index.html %}
-                  </span>
-                {% endif %}
-              </div>
               <div class="panel-body">
                 <h2>
                   <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
+                <div class="post-date date">
+                  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ post.date | date: "%B %d, %Y" }}
+                  </time>
+                </div>
                 {{ post.excerpt }}
+                <div class="read-more">
+                  <a href="{{ post.url }}" class="btn btn-block btn-default">Read More</a>
+                </div>
               </div>
             </div>
-          {% endfor %}
-
+          </div>
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
           {% include pagination.html %}
         </div>
       </div>
@@ -110,20 +98,6 @@ layout: default
   </section>
   <section class="announcements">
     <div class="container-fluid">
-      <div class="row announcement-visual">
-        <div class="col-xs-12">
-          <a href="http://www.oa-bsa.org/pages/category/category/next-2016" target="_blank">
-            <div class="announcement announcement-2016-04-29-NEXT"></div>
-          </a>
-        </div>
-      </div>
-      <div class="row announcement-text">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <h2>NEXT: 2016</h2>
-          <p class="lead">This summer, OA youth leaders and key adults from across the nation will gather at Indiana University for the 2016 national event, <strong>NEXT: A New Century</strong>.</p>
-          <a href="http://www.oa-bsa.org/pages/category/category/next-2016" class="btn btn-lg btn-default">Learn More</a>
-        </div>
-      </div>
       <div class="row announcement-visual">
         <div class="col-xs-12">
           <a href="//event.oa-bsa.org/events/jambo2017/" target="_blank">

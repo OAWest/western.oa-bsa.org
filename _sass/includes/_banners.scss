@@ -1,0 +1,73 @@
+/**
+* 2016 NLS @ Philmont Banner
+*/
+header.banner.nls-2016-philmont {
+  display: none;
+
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    height: 400px;
+
+    &::after {
+      @include retina-image($filename: '/images/banners/nls-2016-philmont', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      background-position-y: top;
+    }
+  }
+}
+
+/**
+* 2016 NLS @ Tahoe Banner
+*/
+header.banner.nls-2016-tahoe {
+  display: none;
+
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    height: 400px;
+
+    &::after {
+      @include retina-image($filename: '/images/banners/nls-2016-tahoe', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      background-position-y: top;
+    }
+  }
+}
+
+/**
+* 2016 NLS @ Alaska Banner
+*/
+header.banner.nls-2016-alaska {
+  display: none;
+
+  @media (min-width: $screen-sm-min) {
+    display: block;
+
+    &::after {
+      @include retina-image($filename: '/images/banners/nls-2016-alaska', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+    }
+  }
+}
+
+/**
+* NLS Banner with Steve Jobs Quote
+*/
+header.banner.nls-steve-jobs-quote {
+  height: 300px;
+
+  &::after {
+    background-color: #2d2a30;
+    @include retina-image($filename: '/images/banners/nls-steve-jobs-quote', $background-size: contain, $extension: 'png', $retina-suffix: '@2x');
+  }
+}
+
+
+/**
+* Resources
+*/
+header.banner.resources {
+  height: 300px;
+
+  &::after {
+    background-color: #000;
+    @include retina-image($filename: '/images/banners/resources', $background-size: contain, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}

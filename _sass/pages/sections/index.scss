@@ -1,0 +1,24 @@
+/**
+* Sections List Page
+*/
+
+.text-center {
+	@media screen and (max-width:$screen-sm) {
+		#map {display:none;}
+	}
+}
+
+.section {
+	.row {
+		.list-group {
+			.list-group-item {
+				img {
+					float:left;
+					margin-right:10px;
+					max-height:200px;
+					max-width:300px;
+				}
+			}
+		}
+	}
+}

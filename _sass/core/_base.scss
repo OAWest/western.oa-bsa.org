@@ -3,6 +3,7 @@
  */
 html, body {
  height:100%;
+ overflow-x:hidden;
 }
 body {
   padding-top: $navbar-height;
@@ -69,8 +70,8 @@ body, input, select, textarea {
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   font-weight: 300;
-  line-height: 1.75em;
-  margin-bottom: 1em;
+  line-height: 1.25em;
+  margin: 1em 0;
   text-transform: uppercase;
 
   a {
@@ -78,6 +79,14 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     border: 0;
   }
+}
+
+h1 {
+  line-height: 1.75em;
+}
+
+h2 {
+  margin: 1.25em 0 1em;
 }
 
 
@@ -142,7 +151,7 @@ section.loading {
  * Paragraphs
  */
 strong, b {
-  font-weight: 400;
+  font-weight: bold;
 }
 
 p, ul, ol, dl, table, blockquote {
