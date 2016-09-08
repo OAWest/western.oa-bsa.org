@@ -9,7 +9,9 @@ author: chance_sloan
 
 <img src="{{ site.baseurl }}images/posts/2016ArrowCorps/arrowcorps-2016-group-photo-at-white-river.jpg" class="img-thumbnail img-responsive center-block" alt="ArrowCoprs Group Piture">
 
-This past August almost 100 scouts, scouters, and venturers from Cascade Pacific Council and Wauna La-Mon'tay Lodge converged on the Mt. Hood and Willamette National Forests for a week of service. <!--more-->Special guests in attendance of this event include Central Region Chief Logan Greene and National Vice Chief Tyler Inberg.
+This past August almost 100 scouts, scouters, and venturers from Cascade Pacific Council and Wauna La-Mon'tay Lodge converged on the Mt. Hood and Willamette National Forests for a week of service. Special guests in attendance of this event include Central Region Chief Logan Greene and National Vice Chief Tyler Inberg.
+
+<!--more-->
 
 Starting on August 14th, participants and staff met at council-owned Aubrey Watzek Lodge on Mt. Hood to complete their sign in process, receive their uniform and equipment, and be placed in work crews. The staff received their final briefings about their jobs, projects, and the week to come. A large dinner and group photo was taken before everybody drove to their various base camps at Camp Pioneer (Willamette National Forest) and Mt. Hood Kiwanis Camp (Mt. Hood National Forest). Once the crews arrived at their respective sites, sleeping arrangements were made and participants were briefed on the camp procedures.
 
