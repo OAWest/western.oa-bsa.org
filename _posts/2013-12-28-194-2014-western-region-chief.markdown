@@ -6,6 +6,10 @@ joomla_url: 2014-western-region-chief
 date: 2013-12-28 16:23:49.000000000 -07:00
 ---
 
+Introducing the new Western Region leadership for 2014!
+
+<!--more-->
+
 <div class="row">
   <div class="col">
     <div class="col-xs-12 col-sm-6">
