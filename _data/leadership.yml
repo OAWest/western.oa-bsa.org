@@ -75,3 +75,43 @@ vice_chairman:
     first_name: "Tim"
     last_name: "Malaney"
     email: ""
+national_committee:
+  -
+    first_name: "Glenn"
+    last_name: "Ault"
+  -
+    first_name: "Mike"
+    last_name: "Bliss"
+  -
+    first_name: "Steve"
+    last_name: "Bradley"
+  -
+    first_name: "Toby"
+    last_name: "Capps"
+  -
+    first_name: "Don"
+    last_name: "Diaz"
+  -
+    first_name: "Steve"
+    last_name: "Gaines"
+  -
+    first_name: "Jack"
+    last_name: "Hess"
+  -
+    first_name: "Mike"
+    last_name: "Hoffman"
+  -
+    first_name: "Del"
+    last_name: "Loder"
+  -
+    first_name: "Terrel"
+    last_name: "Miller"
+  -
+    first_name: "Steve"
+    last_name: "Silbiger"
+  -
+    first_name: "Clint"
+    last_name: "Takeshita"
+  -
+    first_name: "Bill"
+    last_name: "Topkis"
