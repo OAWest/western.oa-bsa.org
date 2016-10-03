@@ -85,6 +85,26 @@ description: "Meet the leadership of the Western Region."
 
 <hr>
 
+<h2>National Committee</h2>
+<div class="row leadership">
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Committee Members
+			</div>
+			<ul class="list-group">
+			   {% for committee_member in site.data.leadership.national_committee %}
+			   <li class="list-group-item">
+				 {{ committee_member.first_name }} {{ committee_member.last_name }}
+			   </li>
+			   {% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<hr>
+
 <h2>Officer History</h2>
 <p>The Western Region has a long history of exceptional youth and adult leaders.</p>
 <a href="history"class="btn btn-default">View Officer History</a>
