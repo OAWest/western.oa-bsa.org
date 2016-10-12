@@ -22,10 +22,13 @@ Participants are on their own for their Friday evening meal (with the exception 
 
 ## Nov 18-20, 2016
 
+<div class="alert alert-info">
+  Registration for DYLC is now full, though registration is still open for NLS until October 16. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on the DYLC waiting list in case of cancellations.
+</div>
+
 * **NLS and DYLC**
 * $249
 * [Granlibakken Resort, Lake Tahoe, CA](http://www.granlibakken.com/)
-* [Online Registration](https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 * [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
 

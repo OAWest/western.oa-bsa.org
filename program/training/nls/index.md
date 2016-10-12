@@ -3,7 +3,7 @@ title: "National Leadership Seminar (NLS) - Western Region, Order of the Arrow, 
 date:   2016-04-29 17:27 -0600
 description: "The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development."
 layout: page-with-banner
-bannerClass: "nls-2016-philmont cover"
+bannerClass: "nls-2016-tahoe cover"
 bannerHref: "program/training/nls"
 ---
 
@@ -17,16 +17,11 @@ Participants are on their own for their Friday evening meal (with the exception 
 
 Adults age 21 and older are eligible to attend the [National Lodge Adviser Training Seminar]({{ site.baseurl }}program/training/nlats) (NLATS) and do not necessarily need to have previously attended NLS. Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend NLATS to receive program-specific training. The NLS training is open to anyone seeking to hone their leadership skills applicable to Scouting as well as daily life. Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
-## Oct 7-9, 2016
-
-* **NLS and NLATS**
-* $199
-* [Philmont Training Center, Cimarron, NM](http://www.philmontscoutranch.org/ptc.aspx)
-* [Online Registration](https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79)
-* [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
-* [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
-
 ## Nov 18-20, 2016
+
+<div class="alert alert-info">
+  Registration is still open for NLS until October 16, 2016 but registration for the DYLC is now full. If you are interested in DYLC instead of NLS, please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on the DYLC waiting list in case of cancellations.
+</div>
 
 * **NLS and DYLC**
 * $249
