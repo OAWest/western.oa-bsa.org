@@ -20,7 +20,7 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 ## Nov 18-20, 2016
 
 <div class="alert alert-info">
-  Registration is still open for NLS until October 16, 2016 but registration for the DYLC is now full. If you are interested in DYLC instead of NLS, please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on the DYLC waiting list in case of cancellations.
+  Registration is now closed for both NLS and DYLC. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on either the NLS or DYLC waiting list. We will do our best to accommodate on a space-available basis or as cancellations are received.
 </div>
 
 * **NLS and DYLC**

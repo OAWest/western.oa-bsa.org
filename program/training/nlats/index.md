@@ -34,15 +34,6 @@ Participants are on their own for their Friday evening meal (with the exception 
 
 Adults age 21 and older are eligible to attend the National Lodge Adviser Training Seminar (NLATS) and do not necessarily need to have previously attended NLS. Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend NLATS to receive program-specific training. Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
-## Oct 7-9, 2016
-
-* **NLS and NLATS**
-* $199
-* [Philmont Training Center, Cimarron, NM](http://www.philmontscoutranch.org/ptc.aspx)
-* [Online Registration](https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79)
-* [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
-* [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
-
 ## Registration &amp; Payment Instructions
 
 All participants must register themselves using the online registration form link below.  The National OA office will bill councils for all registrations.  Participants are responsible for paying their lodge directly for the NLS or NLATS registration fees.  Some lodges and sections provide scholarships; check with your local Lodge Chief or Lodge Adviser for details and specific instructions on submitting your payment, if applicable.
