@@ -26,7 +26,6 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 * **NLS and DYLC**
 * $249
 * [Granlibakken Resort, Lake Tahoe, CA](http://www.granlibakken.com/)
-* [Online Registration](https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x502186a79)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 * [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
 
