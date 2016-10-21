@@ -4,6 +4,7 @@
 .tscache
 .jekyll-metadata
 _site
+css
 js/build
 js/release
 node_modules
