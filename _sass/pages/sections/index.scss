@@ -2,22 +2,41 @@
 * Sections List Page
 */
 
-.text-center {
-	@media screen and (max-width:$screen-sm) {
-		#map {display:none;}
+.key-three, .leadership, .section-lodges {
+	margin-bottom: 48px;
+
+	.row {
+		.chief, .adviser, .staff-adviser {
+			text-align: center;
+
+			img {
+				max-height:200px;
+			}
+		}
+
+		.panel {
+			.list-group {
+				.list-group-item {
+					.contact {
+						float: right;
+					}
+				}
+			}
+		}
 	}
 }
 
-.section {
+.online {
+	margin-bottom: 24px;
+
 	.row {
-		.list-group {
-			.list-group-item {
-				img {
-					float:left;
-					margin-right:10px;
-					max-height:200px;
-					max-width:300px;
-				}
+		.btn {
+			display: block;
+
+			.fa {
+				font-size: 30px;
+				display: block;
+				margin: 12px auto;
 			}
 		}
 	}

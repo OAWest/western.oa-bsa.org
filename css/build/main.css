@@ -8802,15 +8802,23 @@ main.index section.posts {
 /**
 * Sections List Page
 */
-@media screen and (max-width: 768px) {
-  .text-center #map {
-    display: none; } }
+.key-three, .leadership, .section-lodges {
+  margin-bottom: 48px; }
+  .key-three .row .chief, .key-three .row .adviser, .key-three .row .staff-adviser, .leadership .row .chief, .leadership .row .adviser, .leadership .row .staff-adviser, .section-lodges .row .chief, .section-lodges .row .adviser, .section-lodges .row .staff-adviser {
+    text-align: center; }
+    .key-three .row .chief img, .key-three .row .adviser img, .key-three .row .staff-adviser img, .leadership .row .chief img, .leadership .row .adviser img, .leadership .row .staff-adviser img, .section-lodges .row .chief img, .section-lodges .row .adviser img, .section-lodges .row .staff-adviser img {
+      max-height: 200px; }
+  .key-three .row .panel .list-group .list-group-item .contact, .leadership .row .panel .list-group .list-group-item .contact, .section-lodges .row .panel .list-group .list-group-item .contact {
+    float: right; }
 
-.section .row .list-group .list-group-item img {
-  float: left;
-  margin-right: 10px;
-  max-height: 200px;
-  max-width: 300px; }
+.online {
+  margin-bottom: 24px; }
+  .online .row .btn {
+    display: block; }
+    .online .row .btn .fa {
+      font-size: 30px;
+      display: block;
+      margin: 12px auto; }
 
 /**
 * Leadership Page
