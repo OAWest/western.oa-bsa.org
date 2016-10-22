@@ -141,6 +141,8 @@
               <li class="list-group-item">
                 {% if lodge.website.size > 0 %}
                   <a href="{{ lodge.website }}" target="_blank">{{ lodge.lodge_name }} Lodge</a>
+                {% else %}
+                  {{ lodge.lodge_name }} Lodge
                 {% endif %}
               </li>
             {% endfor %}
