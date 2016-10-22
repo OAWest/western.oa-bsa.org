@@ -8,13 +8,13 @@ description: "Meet the leadership of the Western Region."
   <div class="row">
     <div class="col-xs-12 col-sm-4">
       <h2 class="text-center">{{site.data.leadership.chief.first_name}} {{site.data.leadership.chief.last_name}}</h2>
-	  <h3 class="text-center">{{ site.time | date: "%Y" }} Region Chief</h3>
+	  	<h3 class="text-center">{{ site.time | date: "%Y" }} Region Chief</h3>
       <p class="text-center">The region chief is the youth leader of the region elected by the section chiefs from that region at the national planning meeting. He must be under 21 years of age during the entire term of office and will serve until a successor is elected. The election is held following the election of the national chief and national vice chief.</p>
       <a href="chief" class="btn btn-default btn-block visible-xs-block">Meet the Chief</a>
     </div>
     <div class="col-xs-12 col-sm-4">
       <h2 class="text-center">{{site.data.leadership.chairman.first_name}} {{site.data.leadership.chairman.last_name}}</h2>
-	  <h3 class="text-center">Region Chairman</h3>
+	  	<h3 class="text-center">Region Chairman</h3>
       <p class="text-center">The volunteer leader in the region is the region Order of the Arrow chairman. Appointed annually by the region director, he is responsible for administering and monitoring the program regionally, with a special emphasis placed on his role as adviser to the region chief.</p>
       <a href="region-chairman" class="btn btn-default btn-block visible-xs-block">Meet the Chairman</a>
     </div>
@@ -48,14 +48,14 @@ description: "Meet the leadership of the Western Region."
 			 Section Chiefs
 			</div>
 			<ul class="list-group">
-			   {% for key in site.data.sections %}
-			   {% assign section = key[1] %}
-			   <a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}.html" class="list-group-item">
-				 <i class="fa fa-chevron-right"></i>
-				 <span class="hidden-xs">Section W-{{ section.area }}{{ section.section }}
-				  - led by </span>{{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
-			   </a>
-			   {% endfor %}
+			  {% for key in site.data.sections %}
+					{% assign section = key[1] %}
+					<a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}.html" class="list-group-item">
+					<i class="fa fa-chevron-right"></i>
+					<span class="hidden-xs">Section W-{{ section.area }}{{ section.section }}
+						- led by </span>{{ section.leadership.chief.first_name }} {{ section.leadership.chief.last_name }}
+					</a>
+			  {% endfor %}
 			</ul>
 		</div>
 	</div>
@@ -65,14 +65,14 @@ description: "Meet the leadership of the Western Region."
 			 Section Advisers
 			</div>
 			<ul class="list-group">
-			   {% for key in site.data.sections %}
-			   {% assign section = key[1] %}
-			   <a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}.html" class="list-group-item">
-				 <i class="fa fa-chevron-right"></i>
-				 <span class="hidden-xs">Section W-{{ section.area }}{{ section.section }}
-				  - advised by </span>{{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
-			   </a>
-			   {% endfor %}
+			  {% for key in site.data.sections %}
+					{% assign section = key[1] %}
+					<a href="{{ site.baseurl }}sections/{{ section.area }}{{ section.section }}.html" class="list-group-item">
+					<i class="fa fa-chevron-right"></i>
+					<span class="hidden-xs">Section W-{{ section.area }}{{ section.section }}
+						- advised by </span>{{ section.leadership.adviser.first_name }} {{ section.leadership.adviser.last_name }}
+					</a>
+			  {% endfor %}
 			</ul>
 		</div>
 	</div>
@@ -93,11 +93,11 @@ description: "Meet the leadership of the Western Region."
 			 Committee Members
 			</div>
 			<ul class="list-group">
-			   {% for committee_member in site.data.leadership.national_committee %}
-			   <li class="list-group-item">
-				 {{ committee_member.first_name }} {{ committee_member.last_name }}
-			   </li>
-			   {% endfor %}
+			  {% for committee_member in site.data.leadership.national_committee %}
+					<li class="list-group-item">
+					{{ committee_member.first_name }} {{ committee_member.last_name }}
+					</li>
+			  {% endfor %}
 			</ul>
 		</div>
 	</div>
