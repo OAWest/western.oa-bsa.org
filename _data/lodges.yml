@@ -525,19 +525,6 @@
       section: "N"
       website: "http://www.malibulodge.org/"
     -
-      lodge_number: "252"
-      lodge_name: "Siwinis"
-      council_number: 33
-      council_name: "Greater Los Angeles Area"
-      council_address: "2333 Scout Way"
-      council_city: "Los Angeles"
-      council_state: "CA"
-      council_zip: "90026-4995"
-      location: "Southern California"
-      area: "4"
-      section: "N"
-      website: "http://www.siwinis.org"
-    -
       lodge_number: "249"
       lodge_name: "Spe-Le-Yai"
       council_number: 58
@@ -563,6 +550,19 @@
       area: "4"
       section: "N"
       website: "http://www.topatopa.org"
+    -
+      lodge_number: "252"
+      lodge_name: "Tuku'ut"
+      council_number: 33
+      council_name: "Greater Los Angeles Area"
+      council_address: "2333 Scout Way"
+      council_city: "Los Angeles"
+      council_state: "CA"
+      council_zip: "90026-4995"
+      location: "Southern California"
+      area: "4"
+      section: "N"
+      website: ""
     -
       lodge_number: "303"
       lodge_name: "Yowlumne"
@@ -604,19 +604,6 @@
       area: "4"
       section: "S"
       website: "http://www.longbeachbsa.org/youth-programs/order-of-the-arrow"
-    -
-      lodge_number: "488"
-      lodge_name: "Ta Tanka"
-      council_number: 40
-      council_name: "Greater Los Angeles Area"
-      council_address: "2333 Scout Way"
-      council_city: "Los Angeles"
-      council_state: "CA"
-      council_zip: "90026-4995 "
-      location: "California"
-      area: "4"
-      section: "S"
-      website: "http://www.tatankalodge.org/"
     -
       lodge_number: "13"
       lodge_name: "Wiatava"
