@@ -2,8 +2,9 @@
  * Body
  */
 html, body {
- height:100%;
- overflow-x:hidden;
+ height: 100%;
+ overflow-x: hidden;
+ -webkit-overflow-scrolling: touch;
 }
 body {
   padding-top: $navbar-height;

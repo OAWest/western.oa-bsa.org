@@ -8070,7 +8070,8 @@ button.close {
  */
 html, body {
   height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 body {
   padding-top: 60px; }

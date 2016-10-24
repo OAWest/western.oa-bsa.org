@@ -8,6 +8,7 @@ declare var $: JQueryStatic;
 export class GridDirective implements ng.IDirective {
 
   public restrict: string = "A";
+  private grid: JQuery;
 
   /**
    * The link function is responsible for registering DOM listeners as well as updating the DOM.
@@ -24,6 +25,12 @@ export class GridDirective implements ng.IDirective {
     element: ng.IAugmentedJQuery,
     attributes: ng.IAttributes
   ) => {
+    //verify we are not on an extra small screen
+    if (this.isDeviceXs()) {
+      console.log("[GridDirective:link] Not using isotope grid on extra small device.");
+      return;
+    }
+
     //set the options for the grid
     var options: IIsotopeOptions = {
       itemSelector: ".grid-item",
@@ -31,7 +38,7 @@ export class GridDirective implements ng.IDirective {
     };
 
     //load the isotope package
-    $(element).isotope(options);
+    this.grid = $(element).isotope(options);
   };
 
   /**
@@ -44,5 +51,16 @@ export class GridDirective implements ng.IDirective {
    */
   public static Factory(): ng.IDirectiveFactory {
     return () => new GridDirective();
+  }
+
+  /**
+   * Returns true if the view is extra small.
+   *
+   * @class GridDirective
+   * @method isDeviceXs
+   * @return {boolean}
+   */
+  private isDeviceXs(): boolean {
+    return $(".device-xs").is(":visible");
   }
 }

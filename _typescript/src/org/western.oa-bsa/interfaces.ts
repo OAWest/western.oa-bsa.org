@@ -63,6 +63,7 @@ interface IIsotope {
 interface IIsotopeOptions {
   filter?: Function;
   getSortData?: { [key: string]: any };
+  initLayout?: boolean;
   itemSelector?: string;
   layoutMode?: string;
   percentPosition?: boolean;

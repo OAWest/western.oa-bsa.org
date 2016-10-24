@@ -4,7 +4,8 @@
   "description": "Western Region, Order of the Arrow, Boy Scouts of America",
   "scripts": {
     "grunt": "grunt",
-    "release": "grunt release"
+    "release": "grunt release",
+    "start": "grunt && grunt watch"
   },
   "license": "UNLICENSED",
   "private": true,
