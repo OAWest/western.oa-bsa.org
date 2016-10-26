@@ -8673,6 +8673,43 @@ header.banner.nls-2016-alaska {
         background-size: cover; } }
 
 /**
+* Fire with logo
+*/
+header.banner.fire-with-logo {
+  height: 300px; }
+  header.banner.fire-with-logo::after {
+    background-image: url("/images/banners/fire-with-logo.jpg"); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      header.banner.fire-with-logo::after {
+        background-image: url("/images/banners/fire-with-logo@2x.jpg");
+        background-size: cover; } }
+
+/**
+* Firm bound in brotherhood
+*/
+header.banner.firm-bound-in-brotherhood {
+  height: 300px; }
+  header.banner.firm-bound-in-brotherhood::after {
+    background-color: #2e2930;
+    background-image: url("/images/banners/firm-bound-in-brotherhood.jpg"); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      header.banner.firm-bound-in-brotherhood::after {
+        background-image: url("/images/banners/firm-bound-in-brotherhood@2x.jpg");
+        background-size: contain; } }
+
+/**
+* Mountains with logo
+*/
+header.banner.mountains-with-logo {
+  height: 300px; }
+  header.banner.mountains-with-logo::after {
+    background-image: url("/images/banners/mountains-with-logo.jpg"); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      header.banner.mountains-with-logo::after {
+        background-image: url("/images/banners/mountains-with-logo@2x.jpg");
+        background-size: cover; } }
+
+/**
 * NLS Banner with Steve Jobs Quote
 */
 header.banner.nls-steve-jobs-quote {
@@ -8697,6 +8734,18 @@ header.banner.resources {
       header.banner.resources::after {
         background-image: url("/images/banners/resources@2x.jpg");
         background-size: contain; } }
+
+/**
+* Trees
+*/
+header.banner.trees {
+  height: 300px; }
+  header.banner.trees::after {
+    background-image: url("/images/banners/trees.jpg"); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      header.banner.trees::after {
+        background-image: url("/images/banners/trees@2x.jpg");
+        background-size: cover; } }
 
 /**
  * A section page
@@ -8854,9 +8903,17 @@ main.index section.posts {
 /**
 * Leadership Page
 */
-.page .container .row .leadership h2 {
-  margin-bottom: 0px; }
-.page .container .row .leadership h3 {
-  margin-top: 0px; }
+.page .container .row .leadership {
+  margin: -15px -15px 0;
+  padding: 15px;
+  background-color: #DBB780; }
+  .page .container .row .leadership h2, .page .container .row .leadership h3 {
+    color: #fff; }
+  .page .container .row .leadership h2 {
+    margin-bottom: 0px; }
+  .page .container .row .leadership h3 {
+    margin-top: 0px; }
+  .page .container .row .leadership .btn {
+    border-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
