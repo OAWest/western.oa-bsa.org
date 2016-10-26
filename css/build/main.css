@@ -8070,7 +8070,8 @@ button.close {
  */
 html, body {
   height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 body {
   padding-top: 60px; }
@@ -8139,6 +8140,36 @@ h1 {
 
 h2 {
   margin: 1.25em 0 1em; }
+
+header.divider {
+  text-align: center; }
+  header.divider h3 {
+    margin-bottom: 24px;
+    font-size: 2rem;
+    letter-spacing: 1.33px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+    color: rgba(104, 110, 120, 0.5); }
+    header.divider h3 span {
+      display: inline-block;
+      position: relative; }
+      header.divider h3 span::before, header.divider h3 span::after {
+        display: block;
+        position: absolute;
+        width: 150%;
+        height: 1px;
+        top: 50%;
+        background-color: rgba(175, 178, 183, 0.5);
+        content: "";
+        margin-top: -1px; }
+      header.divider h3 span::before {
+        right: 100%;
+        margin-right: 25px; }
+      header.divider h3 span::after {
+        left: 100%;
+        margin-left: 25px; }
 
 /**
  * Images
