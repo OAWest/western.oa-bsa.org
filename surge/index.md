@@ -30,7 +30,8 @@ Growth in the Order of the Arrow is possible if we develop really great relation
 
 <img src="{{ site.baseurl }}images/surge/8.jpg" alt="Section Meeting" class="img-thumbnail thumbnail"/>
 
-<hr>
+___
+
 <div class="sites-embed-align-left-wrapping-off">
 	<div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;">
 		<h4 class="sites-embed-title">LDS Unit Election Video Request</h4>
