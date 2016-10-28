@@ -48,6 +48,40 @@ header.banner.nls-2016-alaska {
 }
 
 /**
+* Fire with logo
+*/
+header.banner.fire-with-logo {
+  height: 300px;
+
+  &::after {
+    @include retina-image($filename: '/images/banners/fire-with-logo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}
+
+/**
+* Firm bound in brotherhood
+*/
+header.banner.firm-bound-in-brotherhood {
+  height: 300px;
+
+  &::after {
+    background-color: $deep-purple;
+    @include retina-image($filename: '/images/banners/firm-bound-in-brotherhood', $background-size: contain, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}
+
+/**
+* Mountains with logo
+*/
+header.banner.mountains-with-logo {
+  height: 300px;
+
+  &::after {
+    @include retina-image($filename: '/images/banners/mountains-with-logo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}
+
+/**
 * NLS Banner with Steve Jobs Quote
 */
 header.banner.nls-steve-jobs-quote {
@@ -59,7 +93,6 @@ header.banner.nls-steve-jobs-quote {
   }
 }
 
-
 /**
 * Resources
 */
@@ -69,5 +102,16 @@ header.banner.resources {
   &::after {
     background-color: #000;
     @include retina-image($filename: '/images/banners/resources', $background-size: contain, $extension: 'jpg', $retina-suffix: '@2x');
+  }
+}
+
+/**
+* Trees
+*/
+header.banner.trees {
+  height: 300px;
+
+  &::after {
+    @include retina-image($filename: '/images/banners/trees', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   }
 }

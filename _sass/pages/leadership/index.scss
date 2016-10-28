@@ -5,8 +5,25 @@
 	.container {
 		.row {
 			.leadership {
-				h2 {margin-bottom: 0px;}
-				h3 {margin-top: 0px;}
+				margin: -15px -15px 0;
+				padding: 15px;
+				background-color: $brand-primary;
+
+				h2, h3 {
+					color: $white;
+				}
+
+				h2 {
+					margin-bottom: 0px;
+				}
+
+				h3 {
+					margin-top: 0px;
+				}
+
+				.btn {
+					border-color: $white;
+				}
 			}
 		}
 	}
