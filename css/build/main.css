@@ -8906,11 +8906,11 @@ main.index section.posts {
 .page .container .row .key-three {
   margin: -15px -15px 0;
   padding: 15px;
-  background-color: #005799; }
+  background-color: #005596; }
   .page .container .row .key-three a, .page .container .row .key-three p {
     color: #fff; }
   .page .container .row .key-three h2, .page .container .row .key-three h3 {
-    color: #ca9544;
+    color: #fff;
     font-weight: bold; }
   .page .container .row .key-three h2 {
     margin-bottom: 0px; }
@@ -8920,6 +8920,6 @@ main.index section.posts {
     border-color: #fff;
     color: #fff; }
   .page .container .row .key-three .btn:hover {
-    background-color: #0074cc; }
+    background-color: #0072c9; }
 
 /*# sourceMappingURL=main.css.map */

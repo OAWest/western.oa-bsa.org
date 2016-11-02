@@ -7,14 +7,14 @@
 			.key-three {
 				margin: -15px -15px 0;
 				padding: 15px;
-				background-color: #005799;
+				background-color: $oa-blue;
 				
 				a, p {
 					color: $white;
 				}
 
 				h2, h3 {
-					color: darken($brand-primary, 15%);
+					color: $white;
 					font-weight: bold;
 				}
 
@@ -31,7 +31,7 @@
 					color: $white;
 				}
 				.btn:hover {
-					background-color: lighten(#005799, 10%);
+					background-color: lighten($oa-blue, 10%);
 				}
 			}
 		}
