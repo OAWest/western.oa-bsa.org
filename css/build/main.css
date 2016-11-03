@@ -8906,7 +8906,7 @@ main.index section.posts {
 .page .container .row .key-three {
   margin: -15px -15px 0;
   padding: 15px;
-  background-color: #005596; }
+  background-color: #cc3c2f; }
   .page .container .row .key-three a, .page .container .row .key-three p {
     color: #fff; }
   .page .container .row .key-three h2, .page .container .row .key-three h3 {
@@ -8920,6 +8920,6 @@ main.index section.posts {
     border-color: #fff;
     color: #fff; }
   .page .container .row .key-three .btn:hover {
-    background-color: #0072c9; }
+    background-color: #d86156; }
 
 /*# sourceMappingURL=main.css.map */

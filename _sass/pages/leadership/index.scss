@@ -7,7 +7,7 @@
 			.key-three {
 				margin: -15px -15px 0;
 				padding: 15px;
-				background-color: $oa-blue;
+				background-color: $red;
 				
 				a, p {
 					color: $white;
@@ -31,7 +31,7 @@
 					color: $white;
 				}
 				.btn:hover {
-					background-color: lighten($oa-blue, 10%);
+					background-color: lighten($red, 10%);
 				}
 			}
 		}
