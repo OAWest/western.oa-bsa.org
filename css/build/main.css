@@ -8903,17 +8903,23 @@ main.index section.posts {
 /**
 * Leadership Page
 */
-.page .container .row .leadership {
+.page .container .row .key-three {
   margin: -15px -15px 0;
   padding: 15px;
-  background-color: #DBB780; }
-  .page .container .row .leadership h2, .page .container .row .leadership h3 {
+  background-color: #cc3c2f; }
+  .page .container .row .key-three a, .page .container .row .key-three p {
     color: #fff; }
-  .page .container .row .leadership h2 {
+  .page .container .row .key-three h2, .page .container .row .key-three h3 {
+    color: #fff;
+    font-weight: bold; }
+  .page .container .row .key-three h2 {
     margin-bottom: 0px; }
-  .page .container .row .leadership h3 {
+  .page .container .row .key-three h3 {
     margin-top: 0px; }
-  .page .container .row .leadership .btn {
-    border-color: #fff; }
+  .page .container .row .key-three .btn {
+    border-color: #fff;
+    color: #fff; }
+  .page .container .row .key-three .btn:hover {
+    background-color: #d86156; }
 
 /*# sourceMappingURL=main.css.map */

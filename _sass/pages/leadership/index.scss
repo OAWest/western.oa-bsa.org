@@ -4,13 +4,18 @@
 .page {
 	.container {
 		.row {
-			.leadership {
+			.key-three {
 				margin: -15px -15px 0;
 				padding: 15px;
-				background-color: $brand-primary;
+				background-color: $red;
+				
+				a, p {
+					color: $white;
+				}
 
 				h2, h3 {
 					color: $white;
+					font-weight: bold;
 				}
 
 				h2 {
@@ -23,6 +28,10 @@
 
 				.btn {
 					border-color: $white;
+					color: $white;
+				}
+				.btn:hover {
+					background-color: lighten($red, 10%);
 				}
 			}
 		}
