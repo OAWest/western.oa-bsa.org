@@ -22,7 +22,7 @@
  * DYLC
  */
 .logo-dylc {
-  @include retina-image($filename: '/images/logos/developing-youth-leadership-conference', $background-size: 68px 274px, $extension: 'png');
+  @include retina-image($filename: '/images/logos/developing-youth-leadership-conference', $background-size: contain, $extension: 'png', $retina-suffix: '@2x');
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
