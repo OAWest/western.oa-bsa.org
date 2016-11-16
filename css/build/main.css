@@ -8460,8 +8460,8 @@ a.banner {
   width: 100%; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-dylc {
-      background-image: url("/images/logos/developing-youth-leadership-conference_2x.png");
-      background-size: 68px 274px; } }
+      background-image: url("/images/logos/developing-youth-leadership-conference@2x.png");
+      background-size: contain; } }
 
 /**
  * Western Region
