@@ -8,14 +8,8 @@ description: "Learn about the many programs of the Western Region, including awa
 
 The primary events for the Western Region are the training opportunities to attend a National Leadership Seminar (NLS), National Lodge Adviser Training Seminar (NLATS) or a Developing Youth Leaders Conference (DYLC). These events are held throughout the region, and throughout the year. We also hold special gatherings and events, as well as participating heavily in national Order of the Arrow events.
 
-### 2016 Western Region Gathering
-
-The 2016 Western Region Gathering will be held October 21-23, 2016 at the Irvine Ranch Outdoor Education Center in Orange, CA. The cost for all attendees will be $140. This event is open to the Section Key 3 (Section Chiefs, Advisers & Staff Advisers).
-
-We will only be able to provide airport shuttle service at the SNA (John Wayne/Orange County/Santa Ana) airport. Please plan on arriving at the SNA airport no later than 5:00pm on Friday, October 21 in order to check-in no later than 5:30pm. Plan on departing from SNA airport no earlier than 2:00pm on Sunday, October 23.
-
-<a href="https://reservations.scouting.org/profile/form/index.cfm?PKformID=0x58065ac88" class="btn btn-default">Register</a>
-
 ### 2017 Western Region Gathering
 
-The 2017 Western Region Gathering will be held October 20-22, 2017. The location and details are yet to be confirmed. All Section Chiefs, Vice Chiefs, Secretaries, Advisers, Associate Advisers, and Staff Advisers are invited to attend.
+The 2017 Western Region Gathering will be held October 20-22, 2017 at the Ponderosa Retreat & Conference Center in Larkspur, CO. The registration fee is $175 for Section Chiefs, Section Advisers, Associates, Staff Advisers, and Region committee/staff.  To assist sections with the added expense this year, the region is covering the full registration fee for Section Vice Chiefs and Secretaries.
+
+We will only be able to provide airport shuttle service at the Denver airport (DEN). Please plan on arriving at the DEN airport than 5:00pm on Friday, October 27 in order to check-in no later than 5:30pm. Plan on departing from DEN airport no earlier than 2:00pm on Sunday, October 29. Transportation will ONLY be provided to and from the DEN airport. It will NOT be provided for flights through the Colorado Springs airport.
