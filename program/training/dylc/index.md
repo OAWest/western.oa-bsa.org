@@ -37,7 +37,7 @@ Participants are on their own for their Friday evening meal (with the exception 
 ## Registration &amp; Payment Instructions
 
 <div class="alert alert-info">
-  Registration is now closed for both NLS and DYLC. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on either the NLS or DYLC waiting list. We will do our best to accommodate on a space-available basis or as cancellations are received.
+  Registration is closed for both NLS and DYLC for now. The registration links will be available closer to the event dates. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> with any questions.
 </div>
 
 All participants must register themselves using the online registration form link below. The national OA office will bill councils for all registrations. Participants are responsible for paying their lodge directly for the NLS or NLATS registration fees. Some lodges and sections provide scholarships; check with your local Lodge Chief or Lodge Adviser for details and specific instructions on submitting your payment, if applicable.
