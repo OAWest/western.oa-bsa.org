@@ -6,6 +6,10 @@ description: "The National Lodge Adviser Training Seminar (NLATS) is a weekend c
 
 # National Lodge Adviser Training Seminar
 
+<div class="alert alert-info">
+  The NLATS program has been replaced by DYLC please refer to the <a href="{{ site.baseurl }}program/training/dylc">DYLC page</a> for more information, or send any questions to <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a>.
+</div>
+
 The National Lodge Adviser Training Seminar (NLATS) is a weekend conference focusing on the skills and attributes of effective lodge advisers. It is intended primarily to enhance an adviser's knowledge of and connectivity with the OA's strategic plan, program and resources, while emphasizing personal skills that are essential to the development of effective youth leadership and ultimately the OA's service to the council.
 
 It is recommended that participants be lodge advisers or staff advisers and those with lodge adviser potential, as approved by the local council Scout executive. Prior completion of a Lodge Leadership Development program and the National Leadership Seminar are desirable. The NLATS is an intensive experience in learning about the nature of lodge program, delivery of service to the council, and development of youth leadership necessary to both. While it is designed to be fun, the course is mentally challenging as well. Participants should be open to learning and prepared to actively engage in an invigorating weekend.

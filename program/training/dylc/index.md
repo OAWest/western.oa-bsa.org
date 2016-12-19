@@ -20,19 +20,25 @@ Registration will begin at 6 p.m. Friday evening. First session will start promp
 
 Participants are on their own for their Friday evening meal (with the exception of Granlibakken - Lake Tahoe). The first meal for the participants will be breakfast on Saturday morning.
 
-## Nov 18-20, 2016
-
-<div class="alert alert-info">
-  Registration is now closed for both NLS and DYLC. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> to be placed on either the NLS or DYLC waiting list. We will do our best to accommodate on a space-available basis or as cancellations are received.
-</div>
+## May 5-7, 2017
 
 * **NLS and DYLC**
-* $249
-* [Granlibakken Resort, Lake Tahoe, CA](http://www.granlibakken.com/)
+* [Camp Tracy, Salt Lake City, UT](https://www.saltlakescouts.org/new-scout-camp)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
-* [Payments, Refunds &amp; What to Bring](https://reservations.scouting.org/accounts/register123/scouting/nationalevents1/WR_2016_NLS-NLATS-SOS_What_to_Bring.pdf)
+
+
+## October 6-8, 2017
+
+* **NLS and DYLC**
+* [Camp Kuratli at Trestle Glen, Portland, OR](http://www.campkuratli.com/)
+* [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
+
 
 ## Registration &amp; Payment Instructions
+
+<div class="alert alert-info">
+  Registration is closed for both NLS and DYLC for now. The registration links will be available closer to the event dates. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> with any questions.
+</div>
 
 All participants must register themselves using the online registration form link below. The national OA office will bill councils for all registrations. Participants are responsible for paying their lodge directly for the NLS or NLATS registration fees. Some lodges and sections provide scholarships; check with your local Lodge Chief or Lodge Adviser for details and specific instructions on submitting your payment, if applicable.
 
