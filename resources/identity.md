@@ -20,11 +20,4 @@ The handmade horse graphic attains personal identity in its use of negative spac
 * [Logos](https://github.com/OAWest/identity/tree/master/Logos)
 * [Color Palette and Typography](https://github.com/OAWest/identity/tree/master/Specifications)
 * [Context & Sample Images](https://github.com/OAWest/identity/tree/master/Context)
-
-
-## [OAWest GitHub](https://github.com/OAWest/western.oa-bsa.org)
-
-The Western Region website uses a static content creator called jekyll. Jekyll is free, open-source, and built upon Ruby. It compiles our html and markdown templates into a static website that can be served via HTTP.
-
-* [View Repository on GitHub](https://github.com/OAWest/western.oa-bsa.org)
-* [Download Github Repository](https://github.com/OAWest/identity/archive/master.zip)
+* [Github Repository](https://github.com/OAWest/identity/archive/master.zip)
