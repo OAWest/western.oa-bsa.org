@@ -23,8 +23,10 @@ main.index {
           }
 
           .chief {
-            height: 200px;
-            width: 138px;
+            height: 100%;
+            width: 100%;
+            max-height: 250px;
+            max-width: 250px;
           }
         }
       }
