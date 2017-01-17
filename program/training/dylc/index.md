@@ -6,6 +6,10 @@ description: "The National Leadership Seminar (DYLC) is a weekend training progr
 
 # Developing Youth Leaders Conference
 
+<div class="center-block">
+  <div class="logo-dylc"></div>
+</div>
+
 The 2016 Developing Youth Leaders Conference (DYLC) will be like nothing before it. This conference focuses on the tools every adult needs to mentor and develop our outstanding youth leaders. It is built on the concepts our members learn at the National Leadership Seminar, and it uses the NLS terminology as participants learn new tools and techniques of how to mentor and develop our outstanding youth leaders. Prior attendance at a NLS is encouraged, but it is not required for the DYLC. Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
 Developing Youth Leaders Conference was first presented as an alpha test to guests at NOAC 2015. The beta version was offered to section advisers who attended the 2015 National Planning Meeting in Dallas.

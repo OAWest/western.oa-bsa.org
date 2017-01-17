@@ -7,7 +7,7 @@ description: "Meet the Western Region Chairman."
 # Western Region Chairman {{site.data.leadership.chairman.first_name}} {{site.data.leadership.chairman.last_name}}
 
 <div class="text-center">
-  <img src="{{ site.baseurl }}images/leadership/chairman.jpg" srcset="/images/leadership/chairman.jpg 2x" style="height: 200px; width: 158px;" class="img-thumbnail">
+  <img src="{{ site.baseurl }}images/leadership/chairman.jpg" srcset="/images/leadership/chairman.jpg 2x" style="height: 288px; width: 360px;" class="img-thumbnail">
 </div>
 
 {% if site.data.leadership.chairman.profile.size > 0 %}

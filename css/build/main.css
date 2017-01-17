@@ -8455,9 +8455,8 @@ a.banner {
 .logo-dylc {
   background-image: url("/images/logos/developing-youth-leadership-conference.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 100%; }
+  height: 100px;
+  width: 403px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-dylc {
       background-image: url("/images/logos/developing-youth-leadership-conference@2x.png");
@@ -8804,8 +8803,12 @@ main.index section.highlights {
     margin: 6px auto;
     display: block;
     text-align: center; }
-    main.index section.highlights .container .row .visual .logo-nls, main.index section.highlights .container .row .visual .logo-nlats {
+    main.index section.highlights .container .row .visual .logo-nls, main.index section.highlights .container .row .visual .logo-dylc {
       margin: 0 auto; }
+    main.index section.highlights .container .row .visual .logo-dylc {
+      height: 60px;
+      width: 242px;
+      padding-bottom: 15px; }
     main.index section.highlights .container .row .visual .chief {
       height: 100%;
       width: 100%;
@@ -8844,6 +8847,9 @@ main.index section.posts {
     height: 85px; }
     .page-content .training .row .nls .visual .logo-nls, .page-content .training .row .nls .visual .logo-nlats, .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-nls, .page-content .training .row .nlats .visual .logo-nlats, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-nls, .page-content .training .row .dylc .visual .logo-nlats, .page-content .training .row .dylc .visual .logo-dylc {
       margin: 0 auto; }
+    .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-dylc {
+      height: 60px;
+      width: 242px; }
 
 /**
  * Region Awards page
