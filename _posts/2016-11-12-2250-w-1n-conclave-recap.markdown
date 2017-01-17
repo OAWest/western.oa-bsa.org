@@ -3,7 +3,6 @@ layout: post
 title: "W-1N Conclave Recap"
 date: 2016-11-12 22:50
 description: "Youve been to Conclave before but have you ever been to one outside the continental US?"
-categories: updates
 author: mac_richards
 ---
 

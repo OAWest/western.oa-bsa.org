@@ -3,7 +3,6 @@ layout: post
 title: "Western Region Communications and Technology Committee"
 date: 2016-10-30 20:0
 description: "The newly formed Communications and Technology Committee is a group of youth volunteers and adult advisers, along with section secretaries that choose to join the team."
-categories: updates
 author: eric_wagstaff
 ---
 The newly formed Communications and Technology Committee is a group of youth volunteers and adult advisers, along with section secretaries that choose to join the team. The goal of the committee is to engage arrowmen in the Western Region using social media and to create and deliver valuable content that is delivered on the Western Region's website, which is in turn promoted on social media platforms to keep arrowmen informed of region events, leadership, training opportunities, and more.

@@ -3,7 +3,6 @@ layout: post
 title: 2016 ArrowCorps
 date: 2016-09-06 16:14 -0800
 description: "Overview of the 2016 ArrowCorps."
-categories: updates
 author: chance_sloan
 ---
 

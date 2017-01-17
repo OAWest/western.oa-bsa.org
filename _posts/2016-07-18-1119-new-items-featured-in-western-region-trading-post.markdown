@@ -3,7 +3,6 @@ layout: post
 title: "New Items Featured In Western Region Trading Post"
 date: 2016-07-18 11:29
 description: "The Western Region Trading Post is back - and with new items too!"
-categories: updates
 author: elisha_valladares-cormier
 ---
 
