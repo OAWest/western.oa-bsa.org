@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2017 Western Region Service Grant Recipients"
-date: 2016-12-15 13:41
+date: 2017-01-16 14:00
 description: "The 2017 Western Region Service Grant Recipients."
 author: eric_wagstaff
 ---

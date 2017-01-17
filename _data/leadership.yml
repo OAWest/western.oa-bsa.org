@@ -7,7 +7,7 @@ awards_and_recognition:
   adviser:
     first_name: "James"
     last_name: "Arriola"
-    email: ""
+    email: "awards@western.oa-bsa.org"
   coordinator:
     first_name: ""
     last_name: ""
@@ -27,8 +27,8 @@ chief:
 communications:
   media_team:
     adviser:
-      first_name: ""
-      last_name: ""
+      first_name: "Mark"
+      last_name: "Smith"
       email: ""
     lead:
       first_name: "Eric"
@@ -85,7 +85,7 @@ cub_scout_camping:
   adviser:
     first_name: "Joe"
     last_name: "Garcia"
-    email: ""
+    email: "cubscouts@western.oa-bsa.org"
   coordinator:
     first_name: ""
     last_name: ""
@@ -93,12 +93,12 @@ cub_scout_camping:
 immediate_past_chief:
   first_name: "Joe"
   last_name: "Garcia"
-  email: "2015chief@western.oa-bsa.org"
+  email: "2016chief@western.oa-bsa.org"
 marketing_and_trading_post:
   adviser:
     first_name: "Michael"
     last_name: "Minnis"
-    email: ""
+    email: "marketing@western.oa-bsa.org"
 national_committee:
   -
     first_name: "Glenn"
@@ -140,7 +140,7 @@ oa_high_adventure:
   adviser:
     first_name: "Mike"
     last_name: "Johnson"
-    email: ""
+    email: "highadventure@western.oa-bsa.org"
   coordinator:
     first_name: ""
     last_name: ""
@@ -162,11 +162,11 @@ training:
       -
         first_name: "Steve"
         last_name: "Davidek"
-        email: "nlats@western.oa-bsa.org"
+        email: "dylc@western.oa-bsa.org"
       -
         first_name: "Bruce"
         last_name: "Mayfield"
-        email: "nlats@western.oa-bsa.org"
+        email: "dylc@western.oa-bsa.org"
 vice_chairman:
   area_1:
     first_name: "Dan"
