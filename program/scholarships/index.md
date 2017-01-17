@@ -6,7 +6,7 @@ description: "Learn about the Western Region's OA High Adventure Scholarship."
 
 # OA High Adventure Scholarship
 
-The Western Region Order of the Arrow Committee feels so strongly that the OA High Adventure program leaves a lasting impression and energizes the arrowmen that participate they would like to offer each and every Lodge in the Western Region a $300 scholarship that can be used to cover participation fees for any one of the following four Order of the Arrow High Adventure programs in the summer of 2017:
+The Western Region Order of the Arrow Committee feels so strongly that the OA High Adventure program leaves a lasting impression and energizes the arrowmen that participate they would like to offer each and every lodge in the Western Region a $300 scholarship that can be used to cover participation fees for any one of the following four Order of the Arrow High Adventure programs in the summer of 2017:
 
 1.	OA Trail Crew at Philmont Scout Ranch
 2.	Wilderness Voyage at the Charles L Sommers Canoe Base
