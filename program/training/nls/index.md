@@ -6,6 +6,8 @@ layout: page-with-banner
 bannerClass: "nls-2017-salt-lake-city"
 ---
 
+<div class="logo-nls center-block"></div>
+
 # National Leadership Seminar
 
 The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development. Run by the Region Chief and his Advisers, it provides an in-depth look at leadership skills and techniques. An NLS discusses how these skills can be applied in your role in the OA and in other aspects of your life. The National Leadership Seminar is a weekend conference on the skills and attributes of leadership. It is intended primarily to enhance the leadership skills of the Order of the Arrow's key youth and adult members as they seek to improve their services to the Boy Scouts of America and the greater community. The weekend format is designed to complement the longer, more detailed Wood Badge and Junior Leadership Training Programs. Near the end of the seminar, participants make a contract with themselves to apply the skills studied in the seminar on projects in their lodge, council, and community.
@@ -14,7 +16,7 @@ Registration will begin at 6 p.m. Friday evening. First session will start promp
 
 Participants are on their own for their Friday evening meal (with the exception of Granlibakken - Lake Tahoe). The first meal for the participants will be breakfast on Saturday morning.
 
-Adults age 21 and older are eligible to attend the [National Lodge Adviser Training Seminar]({{ site.baseurl }}program/training/nlats) (NLATS) and do not necessarily need to have previously attended NLS. Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend NLATS to receive program-specific training. The NLS training is open to anyone seeking to hone their leadership skills applicable to Scouting as well as daily life. Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
+Adults age 21 and older are eligible to attend the [National Lodge Adviser Training Seminar]({{ site.baseurl }}program/training/nlats) (NLATS) and do not necessarily need to have previously attended NLS. Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend NLATS to receive program-specific training. The NLS training is open to anyone seeking to hone their leadership skills applicable to Scouting as well as daily life. Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [nls@western.oa-bsa.org](mailto:nls@western.oa-bsa.org).
 
 ## May 5-7, 2017
 
@@ -43,13 +45,13 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 ## Registration &amp; Payment Instructions
 
 <div class="alert alert-info">
-  Registration is closed for both NLS and DYLC for now. The registration links will be available closer to the event dates. Please e-mail <a href="mailto:training@western.oa-bsa.org">training@western.oa-bsa.org</a> with any questions.
+  Registration is closed for both NLS and DYLC for now. The registration links will be available closer to the event dates. Please e-mail <a href="mailto:nls@western.oa-bsa.org">nls@western.oa-bsa.org</a> with any questions.
 </div>
 
 All participants must register themselves using the online registration form link below. The national OA office will bill councils for all registrations. Participants are responsible for paying their lodge directly for the NLS or NLATS registration fees. Some lodges and sections provide scholarships; check with your local Lodge Chief or Lodge Adviser for details and specific instructions on submitting your payment, if applicable.
 
 ## Cancellation Policy:
 
-Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org). The participant's council will not be billed for the seminar fees if the cancellation request is received at least 21 days prior to the start of the event. Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full. To transfer a registration, e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org) for instructions and the name of the replacement.  NLS participants can be swapped for NLATS/DYLC participants and vice versa, youth or adult.
+Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [nls@western.oa-bsa.org](mailto:nls@western.oa-bsa.org). The participant's council will not be billed for the seminar fees if the cancellation request is received at least 21 days prior to the start of the event. Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full. To transfer a registration, e-mail [nls@western.oa-bsa.org](mailto:nls@western.oa-bsa.org) for instructions and the name of the replacement.  NLS participants can be swapped for NLATS/DYLC participants and vice versa, youth or adult.
 
 *Don't Forget: All participants need to bring a sleeping bag and uniform to the event.*
