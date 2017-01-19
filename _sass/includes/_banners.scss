@@ -1,7 +1,7 @@
 /**
-* 2016 NLS @ Philmont Banner
+* 2017 NLS and DYLC @ Salt Lake City Banner
 */
-header.banner.nls-2016-philmont {
+header.banner.nls-2017-salt-lake-city {
   display: none;
 
   @media (min-width: $screen-sm-min) {
@@ -9,16 +9,12 @@ header.banner.nls-2016-philmont {
     height: 400px;
 
     &::after {
-      @include retina-image($filename: '/images/banners/nls-2016-philmont', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-      background-position-y: top;
+      @include retina-image($filename: '/images/banners/nls-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      background-position-y: center;
     }
   }
 }
-
-/**
-* 2016 NLS @ Tahoe Banner
-*/
-header.banner.nls-2016-tahoe {
+header.banner.dylc-2017-salt-lake-city {
   display: none;
 
   @media (min-width: $screen-sm-min) {
@@ -26,23 +22,40 @@ header.banner.nls-2016-tahoe {
     height: 400px;
 
     &::after {
-      @include retina-image($filename: '/images/banners/nls-2016-tahoe', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      @include retina-image($filename: '/images/banners/dylc-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      background-position-y: center;
+    }
+  }
+}
+
+/**
+* 2017 NLS and DYLC @ Portland Banner
+*/
+header.banner.nls-2017-portland {
+  display: none;
+
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    height: 400px;
+
+    &::after {
+      @include retina-image($filename: '/images/banners/nls-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
       background-position-y: top;
     }
   }
 }
 
 /**
-* 2016 NLS @ Alaska Banner
+* 2017 NLS @ Tokyo Banner
 */
-header.banner.nls-2016-alaska {
+header.banner.nls-2017-tokyo {
   display: none;
 
   @media (min-width: $screen-sm-min) {
     display: block;
 
     &::after {
-      @include retina-image($filename: '/images/banners/nls-2016-alaska', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      @include retina-image($filename: '/images/banners/nls-2017-tokyo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
     }
   }
 }

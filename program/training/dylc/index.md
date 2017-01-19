@@ -2,13 +2,13 @@
 title: "Developing Youth Leaders Conference (DYLC) - Western Region, Order of the Arrow, Boy Scouts of America"
 date:   2016-04-29 17:27 -0600
 description: "The National Leadership Seminar (DYLC) is a weekend training program focusing on leadership development."
+layout: page-with-banner
+bannerClass: "dylc-2017-salt-lake-city"
 ---
 
-# Developing Youth Leaders Conference
+<div class="logo-dylc center-block"></div>
 
-<div class="center-block">
-  <div class="logo-dylc"></div>
-</div>
+# Developing Youth Leaders Conference
 
 The 2016 Developing Youth Leaders Conference (DYLC) will be like nothing before it. This conference focuses on the tools every adult needs to mentor and develop our outstanding youth leaders. It is built on the concepts our members learn at the National Leadership Seminar, and it uses the NLS terminology as participants learn new tools and techniques of how to mentor and develop our outstanding youth leaders. Prior attendance at a NLS is encouraged, but it is not required for the DYLC. Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
@@ -27,6 +27,7 @@ Participants are on their own for their Friday evening meal (with the exception 
 ## May 5-7, 2017
 
 * **NLS and DYLC**
+* Price: $150
 * [Camp Tracy, Salt Lake City, UT](https://www.saltlakescouts.org/new-scout-camp)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 
@@ -34,6 +35,7 @@ Participants are on their own for their Friday evening meal (with the exception 
 ## October 6-8, 2017
 
 * **NLS and DYLC**
+* Price: $175
 * [Camp Kuratli at Trestle Glen, Portland, OR](http://www.campkuratli.com/)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 

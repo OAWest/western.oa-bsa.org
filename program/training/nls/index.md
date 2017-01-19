@@ -3,8 +3,7 @@ title: "National Leadership Seminar (NLS) - Western Region, Order of the Arrow, 
 date:   2016-04-29 17:27 -0600
 description: "The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development."
 layout: page-with-banner
-bannerClass: "nls-2016-tahoe cover"
-bannerHref: "program/training/nls"
+bannerClass: "nls-2017-salt-lake-city"
 ---
 
 # National Leadership Seminar
@@ -20,6 +19,7 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 ## May 5-7, 2017
 
 * **NLS and DYLC**
+* Price: $150
 * [Camp Tracy, Salt Lake City, UT](https://www.saltlakescouts.org/new-scout-camp)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 
@@ -27,6 +27,7 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 ## October 6-8, 2017
 
 * **NLS and DYLC**
+* Price: $175
 * [Camp Kuratli at Trestle Glen, Portland, OR](http://www.campkuratli.com/)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 
@@ -34,6 +35,7 @@ Adults age 21 and older are eligible to attend the [National Lodge Adviser Train
 ## November 10-12, 2017
 
 * **NLS only**
+* Price: $150
 * [Tama Hills Recreation Area, Tokyo, Japan](http://www.yokotasupport.com/tama-hills/)
 * [Required: Medical Form Part A &amp; B](http://www.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf)
 
