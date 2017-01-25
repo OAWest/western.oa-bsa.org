@@ -13,7 +13,7 @@ bannerClass: "dylc-2017-salt-lake-city"
 The Developing Youth Leadership Conference (DYLC) focuses on the tools every adult needs to mentor and develop our outstanding youth leaders.
 It is built on the concepts our members learn at the [National Leadership Seminar]({{ site.baseurl }}program/training/nls), and it uses the NLS terminology as participants learn new tools and techniques of how to mentor and develop our outstanding youth leaders.
 Prior attendance at a NLS is encouraged, but it is not required for the DYLC.
-Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail [dylc@western.oa-bsa.org](mailto:dylc@western.oa-bsa.org).
+Adults who are unsure whether NLS or DYLC might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
 This is the most unique and rewarding adviser training offered in years.
 Consider encouraging another adviser in your lodge to come with you and make it even more special.
@@ -55,7 +55,7 @@ Some lodges and sections provide scholarships; check with your local lodge chief
 
 ## Cancellation Policy:
 
-Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [dylc@western.oa-bsa.org](mailto:dylc@western.oa-bsa.org).
+Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 The participant's council will not be billed for the seminar fees if the cancellation request is received at least 21 days prior to the start of the event.
 Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full.
 To transfer a registration, e-mail [registration@western.oa-bsa.org](mailto:registration@western.oa-bsa.org) for instructions and the name of the replacement.

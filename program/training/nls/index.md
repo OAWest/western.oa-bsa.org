@@ -28,7 +28,7 @@ The first meal for the participants will be breakfast on Saturday morning.
 Adults age 21 and older are eligible to attend the [Developing Youth Leadership Conference]({{ site.baseurl }}program/training/dylc) (DYLC) and do not necessarily need to have previously attended NLS but it is recommended.
 Adults who are currently or will soon hold a lodge-level or chapter-level adviser position are encouraged to attend DYLC.
 The NLS training is open to anyone seeking to hone their leadership skills applicable to Scouting as well as daily life.
-Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [nls@western.oa-bsa.org](mailto:nls@western.oa-bsa.org).
+Adults who are unsure which might be best for them should talk to their lodge adviser for guidance or e-mail [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 
 ## May 5-7, 2017
 
@@ -66,7 +66,7 @@ Some lodges and sections provide scholarships; check with your local lodge chief
 
 ## Cancellation Policy:
 
-Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [nls@western.oa-bsa.org](mailto:nls@western.oa-bsa.org).
+Cancellation requests must be submitted to the Western Region Training Coordinator via e-mail at [training@western.oa-bsa.org](mailto:training@western.oa-bsa.org).
 The participant’s council will not be billed for the seminar fees if the cancellation request is received at least 21 days prior to the start of the event.
 Within 21 days of the event, registrations are transferable to others who are not already registered, but fees will still be billed in full.
 To transfer a registration, e-mail [registration@western.oa-bsa.org](mailto:registration@western.oa-bsa.org) for instructions and the name of the replacement.
