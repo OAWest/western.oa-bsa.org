@@ -77,24 +77,6 @@ Next, we need to install the Ruby Dev Kit for Windows. The same folks who provid
 
 Download the appropriate installer. You are likely using the latest version of Ruby (greater than 2.0.0), so be sure to grab the installer that indicates 'For use with Ruby 2.0 and above', and choose the x64 option if you are running Windows with 64-bit.
 
-The Ruby Dev Kit installer is just a simple 7-zip self-extractor. We recommend that you extract this to a simple folder (with no spaces) on your C: drive. For example:
-
-* Choose to extract the Ruby Development Kit to: C:\RubyDevKit\
-* Then, click 'Extract'
-
-Now, we need to initialize the Ruby Development Kit. To do this, open up the Windows Command Prompt application. The easiest way to do this is to search for 'cmd' using Windows 10, or Start > Run > cmd for older versions. At the command line we will need to change directory (using the cd command) to the folder where we extracted the Ruby Development Kit. As noted previously, we recommend the folder C:\RubyDevKit\. Once in the folder, we will execute the command to initialize it.
-
-    > cd C:\RubyDevKit
-    > ruby dk.rb init
-
-Running the init command should only take a second, and you should see the message 'Initialization complete!'
-
-Next, we need to install the Development Kit for our Ruby installation. To do this we will run the following command, again in the folder where we installed the Development Kit. If you are following along with these instructions then you should already be there.
-
-`> ruby dk.rb install`
-
-Running the install command should result in a couple of '[INFO]' statements, ending with '[INFO] Installing ...'
-
 ### Jekyll
 
 Once you have Ruby installed you can install the Jekyll gem. Again, we will run this command from the Command Prompt. If you run into an error with this command, it is likely because you did not choose the 'Add Ruby executable to PATH' option when you installed Ruby.
