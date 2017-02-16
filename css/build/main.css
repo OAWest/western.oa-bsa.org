@@ -8051,12 +8051,21 @@ button.close {
 /**
  * Announcements
  */
-.announcement-2016-04-29-NEXT {
-  background-image: url("/images/announcements/2016-04-29-NEXT.jpg"); }
+.announcement-2017-nls-salt-lake-city {
+  background-image: url("/images/banners/nls-2017-salt-lake-city.jpg");
+  background-position-y: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .announcement-2016-04-29-NEXT {
-      background-image: url("/images/announcements/2016-04-29-NEXT@2x.jpg");
-      background-size: 200px; } }
+    .announcement-2017-nls-salt-lake-city {
+      background-image: url("/images/banners/nls-2017-salt-lake-city@2x.jpg");
+      background-size: cover; } }
+
+.announcement-2017-dylc-salt-lake-city {
+  background-image: url("/images/banners/dylc-2017-salt-lake-city.jpg");
+  background-position-y: center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .announcement-2017-dylc-salt-lake-city {
+      background-image: url("/images/banners/dylc-2017-salt-lake-city@2x.jpg");
+      background-size: cover; } }
 
 .announcement-2016-04-29-Operation-Arrow {
   background-image: url("/images/announcements/2016-04-29-Operation-Arrow.jpg"); }
@@ -8455,9 +8464,8 @@ a.banner {
 .logo-dylc {
   background-image: url("/images/logos/developing-youth-leadership-conference.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 100%; }
+  height: 100px;
+  width: 403px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .logo-dylc {
       background-image: url("/images/logos/developing-youth-leadership-conference@2x.png");
@@ -8638,52 +8646,66 @@ main.post {
 
 /*import includes */
 /**
-* 2016 NLS @ Philmont Banner
+* 2017 NLS and DYLC @ Salt Lake City Banner
 */
-header.banner.nls-2016-philmont {
+header.banner.nls-2017-salt-lake-city {
   display: none; }
   @media (min-width: 768px) {
-    header.banner.nls-2016-philmont {
+    header.banner.nls-2017-salt-lake-city {
       display: block;
       height: 400px; }
-      header.banner.nls-2016-philmont::after {
-        background-image: url("/images/banners/nls-2016-philmont.jpg");
-        background-position-y: top; } }
+      header.banner.nls-2017-salt-lake-city::after {
+        background-image: url("/images/banners/nls-2017-salt-lake-city.jpg");
+        background-position-y: center; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
-      header.banner.nls-2016-philmont::after {
-        background-image: url("/images/banners/nls-2016-philmont@2x.jpg");
+      header.banner.nls-2017-salt-lake-city::after {
+        background-image: url("/images/banners/nls-2017-salt-lake-city@2x.jpg");
+        background-size: cover; } }
+
+header.banner.dylc-2017-salt-lake-city {
+  display: none; }
+  @media (min-width: 768px) {
+    header.banner.dylc-2017-salt-lake-city {
+      display: block;
+      height: 400px; }
+      header.banner.dylc-2017-salt-lake-city::after {
+        background-image: url("/images/banners/dylc-2017-salt-lake-city.jpg");
+        background-position-y: center; } }
+    @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
+      header.banner.dylc-2017-salt-lake-city::after {
+        background-image: url("/images/banners/dylc-2017-salt-lake-city@2x.jpg");
         background-size: cover; } }
 
 /**
-* 2016 NLS @ Tahoe Banner
+* 2017 NLS and DYLC @ Portland Banner
 */
-header.banner.nls-2016-tahoe {
+header.banner.nls-2017-portland {
   display: none; }
   @media (min-width: 768px) {
-    header.banner.nls-2016-tahoe {
+    header.banner.nls-2017-portland {
       display: block;
       height: 400px; }
-      header.banner.nls-2016-tahoe::after {
-        background-image: url("/images/banners/nls-2016-tahoe.jpg");
+      header.banner.nls-2017-portland::after {
+        background-image: url("/images/banners/nls-2017-portland.jpg");
         background-position-y: top; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
-      header.banner.nls-2016-tahoe::after {
-        background-image: url("/images/banners/nls-2016-tahoe@2x.jpg");
+      header.banner.nls-2017-portland::after {
+        background-image: url("/images/banners/nls-2017-portland@2x.jpg");
         background-size: cover; } }
 
 /**
-* 2016 NLS @ Alaska Banner
+* 2017 NLS @ Tokyo Banner
 */
-header.banner.nls-2016-alaska {
+header.banner.nls-2017-tokyo {
   display: none; }
   @media (min-width: 768px) {
-    header.banner.nls-2016-alaska {
+    header.banner.nls-2017-tokyo {
       display: block; }
-      header.banner.nls-2016-alaska::after {
-        background-image: url("/images/banners/nls-2016-alaska.jpg"); } }
+      header.banner.nls-2017-tokyo::after {
+        background-image: url("/images/banners/nls-2017-tokyo.jpg"); } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
-      header.banner.nls-2016-alaska::after {
-        background-image: url("/images/banners/nls-2016-alaska@2x.jpg");
+      header.banner.nls-2017-tokyo::after {
+        background-image: url("/images/banners/nls-2017-tokyo@2x.jpg");
         background-size: cover; } }
 
 /**
@@ -8804,8 +8826,12 @@ main.index section.highlights {
     margin: 6px auto;
     display: block;
     text-align: center; }
-    main.index section.highlights .container .row .visual .logo-nls, main.index section.highlights .container .row .visual .logo-nlats {
+    main.index section.highlights .container .row .visual .logo-nls, main.index section.highlights .container .row .visual .logo-dylc {
       margin: 0 auto; }
+    main.index section.highlights .container .row .visual .logo-dylc {
+      height: 60px;
+      width: 242px;
+      padding-bottom: 15px; }
     main.index section.highlights .container .row .visual .chief {
       height: 100%;
       width: 100%;
@@ -8844,6 +8870,9 @@ main.index section.posts {
     height: 85px; }
     .page-content .training .row .nls .visual .logo-nls, .page-content .training .row .nls .visual .logo-nlats, .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-nls, .page-content .training .row .nlats .visual .logo-nlats, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-nls, .page-content .training .row .dylc .visual .logo-nlats, .page-content .training .row .dylc .visual .logo-dylc {
       margin: 0 auto; }
+    .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-dylc {
+      height: 60px;
+      width: 242px; }
 
 /**
  * Region Awards page

@@ -3,7 +3,6 @@ layout: post
 title: The Western Region Comes Together for Annual Gathering
 date: 2016-10-22 10:17 -0800
 description: "The 2016 Western Region Gathering is being held October 21-23 at the Irvine Ranch Outdoor Education Center."
-categories: updates
 author: elisha_valladares-cormier
 ---
 

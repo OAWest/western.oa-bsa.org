@@ -2,7 +2,6 @@
 layout: post
 title: Wauna La-Montay Lodge ArrowCorps 2016
 description: "ArrowCorps 2016"
-categories: updates
 author: brian_love
 ---
 

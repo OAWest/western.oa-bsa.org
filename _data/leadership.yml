@@ -1,73 +1,104 @@
 administration:
-  first_name: "Ken"
-  last_name: "Hayashi"
-  email: "administration@western.oa-bsa.org"
+  adviser:
+    first_name: "Ken"
+    last_name: "Hayashi"
+    email: "administration@western.oa-bsa.org"
+awards_and_recognition:
+  adviser:
+    first_name: "James"
+    last_name: "Arriola"
+    email: "awards@western.oa-bsa.org"
+  coordinator:
+    first_name: ""
+    last_name: ""
+    email: ""
 chairman:
-  first_name: "Toby"
-  last_name: "Capps"
+  first_name: "Gary"
+  last_name: "Christiansen"
   email: "chairman@western.oa-bsa.org"
-  profile: ""
-communications_and_technology:
-  first_name: "Brian"
-  last_name: "Love"
-  email: "webmaster@western.oa-bsa.org"
+  profile: >
+    Gary hails from Saugus, CA and is an Eagle Scout and Vigil Honor member of the Malibu Lodge of the Western Los Angeles County Council. He currently serves as the Vice President of Program for Area 4 which covers Southern California. Gary has served; as a Chapter, Lodge &amp; Section Chief; as well as a Chapter, Lodge and Section Adviser and most recently was the WR Vice Chairman for Area 4. He is a recipient of the Founders Award, the Distinguished Service Award and was selected by his Lodge to receive the Centurion Award in 2015. In his spare time he enjoys spending time with his family. His grandson will continue the Scouting tradition in the fall. He loves to collect and document local Boy Scout history and is an avid baseball card collector.
 chief:
   first_name: "Manué"
   last_name: "Lopez"
   email: "chief@western.oa-bsa.org"
   profile: >
     Manué’s hometown is Aliso Viejo, CA, and is an Eagle Scout and Vigil Honor member of Wiatava Lodge and is an assistant Scoutmaster with Troop 774 of the Orange County Council. Manny was previously the section chief of W-4S and is a James E. West Fellow. Manny studies political science at Irvine Valley College. In his spare time, he enjoys cooking, singing, poetry and participating in the Model United Nations club. Manny is a huge Disney fan and music aficionado has conducted choirs in concerts.
-conclave_training:
+communications:
+  media_team:
+    adviser:
+      first_name: "Mark"
+      last_name: "Smith"
+      email: ""
+    lead:
+      first_name: "Eric"
+      last_name: "Wagstaff"
+      email: ""
+    members:
+      -
+        first_name: "Zack"
+        last_name: "Demars"
+        email: ""
+      -
+        first_name: "Tristan"
+        last_name: "Howard"
+        email: ""
+      -
+        first_name: "David"
+        last_name: "James"
+        email: ""
+      -
+        first_name: "Cristian"
+        last_name: "Joya"
+        email: ""
+      -
+        first_name: "Matthias"
+        last_name: "Leier"
+        email: ""
+      -
+        first_name: "Ashton"
+        last_name: "Mills"
+        email: ""
+      -
+        first_name: "Wyatt"
+        last_name: "Platts"
+        email: ""
+      -
+        first_name: "Ryan"
+        last_name: "Thomure"
+        email: ""
+  tech_team:
+    adviser:
+      first_name: "Brian"
+      last_name: "Love"
+      email: "webmaster@western.oa-bsa.org"
+    lead:
+      first_name: "Kyle"
+      last_name: "McCaffery"
+      email: ""
+    members:
+      -
+        first_name: "Mac"
+        last_name: "Richards"
+        email: ""
+cub_scout_camping:
+  adviser:
+    first_name: "Joe"
+    last_name: "Garcia"
+    email: "cubscouts@western.oa-bsa.org"
+  coordinator:
+    first_name: ""
+    last_name: ""
+    email: ""
+immediate_past_chief:
   first_name: "Joe"
   last_name: "Garcia"
-  email: "westernchief2011@gmail.com"
-finance:
-  first_name: "Deanna"
-  last_name: "Westmyer"
-  email: ""
-immediate_past_chief:
-  first_name: "Nathan"
-  last_name: "Lee"
-  email: "2015chief@western.oa-bsa.org"
-nlats_coordinator:
-  first_name: "Steve"
-  last_name: "Davidek"
-  email: "nlats@western.oa-bsa.org"
-nls_coordinator:
-  first_name: "Rob"
-  last_name: "Rosamond"
-  email: "nls@western.oa-bsa.org"
-staff_adviser:
-  first_name: "Wendy"
-  last_name: "Kurten"
-  email: "staffadviser@western.oa-bsa.org"
-  profile: ""
-trading_post:
-  first_name: "Jeff"
-  last_name: "Posey"
-  email: "orders@western.oa-bsa.org"
-  profile: ""
-vice_chairman:
-  area_1:
-    first_name: "Mike"
-    last_name: "Johnson"
-    email: ""
-  area_2:
-    first_name: "Bill"
-    last_name: "Topkis"
-    email: ""
-  area_3:
-    first_name: "Bruce"
-    last_name: "Mayfield"
-    email: ""
-  area_4:
-    first_name: "Gary"
-    last_name: "Christiansen"
-    email: ""
-  area_6:
-    first_name: "Tim"
-    last_name: "Malaney"
-    email: ""
+  email: "2016chief@western.oa-bsa.org"
+marketing_and_trading_post:
+  adviser:
+    first_name: "Michael"
+    last_name: "Minnis"
+    email: "marketing@western.oa-bsa.org"
 national_committee:
   -
     first_name: "Glenn"
@@ -105,3 +136,60 @@ national_committee:
   -
     first_name: "Bill"
     last_name: "Topkis"
+oa_high_adventure:
+  adviser:
+    first_name: "Mike"
+    last_name: "Johnson"
+    email: "highadventure@western.oa-bsa.org"
+  coordinator:
+    first_name: ""
+    last_name: ""
+    email: ""
+staff_adviser:
+  first_name: "Wendy"
+  last_name: "Kurten"
+  email: "staffadviser@western.oa-bsa.org"
+  profile: ""
+training:
+  nls:
+    coordinators:
+      -
+        first_name: "Rob"
+        last_name: "Rosamond"
+        email: "nls@western.oa-bsa.org"
+  dylc:
+    coordinators:
+      -
+        first_name: "Steve"
+        last_name: "Davidek"
+        email: "dylc@western.oa-bsa.org"
+      -
+        first_name: "Bruce"
+        last_name: "Mayfield"
+        email: "dylc@western.oa-bsa.org"
+vice_chairman:
+  area_1:
+    first_name: "Dan"
+    last_name: "Hunker"
+    email: ""
+    focus: "Council Lodge Relations"
+  area_2:
+    first_name: "Bill"
+    last_name: "Topkis"
+    email: ""
+    focus: "SURGE"
+  area_3:
+    first_name: "Larry"
+    last_name: "Frith"
+    email: ""
+    focus: "JTE"
+  area_4:
+    first_name: "Ed"
+    last_name: "Cadena"
+    email: ""
+    focus: "Camp Promotions"
+  area_6:
+    first_name: "Tim"
+    last_name: "Malaney"
+    email: ""
+    focus: "NOAC"

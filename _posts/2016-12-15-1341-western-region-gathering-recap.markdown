@@ -3,7 +3,6 @@ layout: post
 title: "Western Region Gathering Recap"
 date: 2016-12-15 13:41
 description: "The Gathering is an annual event that usually takes place at the end of October. The other three Regions also host similar Section Officer Seminar weekends where they prepare their Section Chiefs for the upcoming year."
-categories: updates
 author: eric_wagstaff
 ---
 “I’m a section chief. Now what?”
