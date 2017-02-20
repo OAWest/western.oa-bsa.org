@@ -8679,6 +8679,7 @@ a.banner {
     background-image: url("/images/logos/western-region.png");
     background-repeat: no-repeat;
     background-position-y: center;
+    background-size: contain;
     height: 40px;
     width: 200px;
     padding: 0;
