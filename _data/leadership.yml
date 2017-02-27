@@ -156,17 +156,17 @@ training:
       -
         first_name: "Rob"
         last_name: "Rosamond"
-        email: "nls@western.oa-bsa.org"
+        email: "training@western.oa-bsa.org"
   dylc:
     coordinators:
       -
         first_name: "Steve"
         last_name: "Davidek"
-        email: "dylc@western.oa-bsa.org"
+        email: "training@western.oa-bsa.org"
       -
         first_name: "Bruce"
         last_name: "Mayfield"
-        email: "dylc@western.oa-bsa.org"
+        email: "training@western.oa-bsa.org"
 vice_chairman:
   area_1:
     first_name: "Dan"
