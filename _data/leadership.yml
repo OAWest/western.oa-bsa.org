@@ -12,6 +12,24 @@ awards_and_recognition:
     first_name: ""
     last_name: ""
     email: ""
+camping_promotions:
+  adviser:
+    first_name: "Joe"
+    last_name: "Garcia"
+    email: "cubscouts@western.oa-bsa.org"
+  coordinator:
+    first_name: "Jeremy"
+    last_name: "Linch"
+    email: ""
+  members:
+    -
+      first_name: "Elijah"
+      last_name: "Martin"
+      email: ""
+    -
+      first_name: "Carl"
+      last_name: "Saxer"
+      email: ""
 chairman:
   first_name: "Gary"
   last_name: "Christiansen"
@@ -25,7 +43,11 @@ chief:
   profile: >
     Manué’s hometown is Aliso Viejo, CA, and is an Eagle Scout and Vigil Honor member of Wiatava Lodge and is an assistant Scoutmaster with Troop 774 of the Orange County Council. Manny was previously the section chief of W-4S and is a James E. West Fellow. Manny studies political science at Irvine Valley College. In his spare time, he enjoys cooking, singing, poetry and participating in the Model United Nations club. Manny is a huge Disney fan and music aficionado has conducted choirs in concerts.
 communications:
-  media_team:
+  coordinator:
+    first_name: "Kyle"
+    last_name: "McCaffery"
+    email: ""
+  media_creation_team:
     adviser:
       first_name: "Mark"
       last_name: "Smith"
@@ -67,19 +89,47 @@ communications:
         first_name: "Ryan"
         last_name: "Thomure"
         email: ""
-  tech_team:
+  editor_team:
+    adviser:
+      first_name: ""
+      last_name: ""
+      email: ""
+    lead:
+      first_name: ""
+      last_name: ""
+      email: ""
+    members:
+      -
+        first_name: ""
+        last_name: ""
+        email: ""
+  publications_team:
     adviser:
       first_name: "Brian"
       last_name: "Love"
       email: "webmaster@western.oa-bsa.org"
     lead:
-      first_name: "Kyle"
-      last_name: "McCaffery"
+      first_name: ""
+      last_name: ""
       email: ""
     members:
       -
         first_name: "Mac"
         last_name: "Richards"
+        email: ""
+  special_projects_team:
+    adviser:
+      first_name: ""
+      last_name: ""
+      email: ""
+    lead:
+      first_name: ""
+      last_name: ""
+      email: ""
+    members:
+      -
+        first_name: ""
+        last_name: ""
         email: ""
 cub_scout_camping:
   adviser:
@@ -90,6 +140,24 @@ cub_scout_camping:
     first_name: ""
     last_name: ""
     email: ""
+finance:
+  adviser:
+    first_name: "Michael"
+    last_name: "Minnis"
+    email: "marketing@western.oa-bsa.org"
+  coordinator:
+    first_name: "Jarod"
+    last_name: "Peterman"
+    email: ""
+  members:
+    -
+      first_name: "Matthew"
+      last_name: "McMahan"
+      email: ""
+    -
+      first_name: "Alex"
+      last_name: "Gluszczak"
+      email: ""
 immediate_past_chief:
   first_name: "Joe"
   last_name: "Garcia"
@@ -151,6 +219,19 @@ staff_adviser:
   email: "staffadviser@western.oa-bsa.org"
   profile: ""
 training:
+  coordinator:
+    first_name: "Collin"
+    last_name: "Metscher"
+    email: ""
+  members:
+    -
+      first_name: "Ryan"
+      last_name: "Thomure"
+      email: ""
+    -
+      first_name: "Joseph"
+      last_name: "McGinnis"
+      email: ""
   nls:
     coordinators:
       -
