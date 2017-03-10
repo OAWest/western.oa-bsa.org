@@ -6,7 +6,7 @@ description: "Communication Committee in the Western Region."
 
 # Communication Committee
 
-The communications committee is separated into two teams that work closely together to provide the technology, communication and marketing needs of the Western Region.
+The communications committee is separated into four teams that work closely together to provide the technology, communication and marketing needs of the Western Region.
 
 ### Leadership
 
@@ -18,27 +18,61 @@ The communications committee is separated into two teams that work closely toget
 			</div>
 			<ul class="list-group">
 			  <li class="list-group-item">
-          Media Team Lead -
-          {% if site.data.leadership.communications.media_team.lead.first_name.size > 0 %}
-            {{ site.data.leadership.communications.media_team.lead.first_name }} {{ site.data.leadership.communications.media_team.lead.last_name }}
-						{% if site.data.leadership.communications.media_team.lead.email.size > 0 %}
-							<br><a href="mailto:{{ site.data.leadership.communications.media_team.lead.email }}">{{ site.data.leadership.communications.media_team.lead.email }}</a>
-						{% endif %}
-					{% else %}
-						TBD
-          {% endif %}
-        </li>
-        <li class="list-group-item">
-          Media Team Lead -
-          {% if site.data.leadership.communications.tech_team.lead.first_name.size > 0 %}
-            {{ site.data.leadership.communications.tech_team.lead.first_name }} {{ site.data.leadership.communications.tech_team.lead.last_name }}
-						{% if site.data.leadership.communications.tech_team.lead.email.size > 0 %}
-							<br><a href="mailto:{{ site.data.leadership.communications.tech_team.lead.email }}">{{ site.data.leadership.communications.tech_team.lead.email }}</a>
-						{% endif %}
-					{% else %}
-						TBD
-          {% endif %}
-        </li>
+			  Committee Lead -
+			  {% if site.data.leadership.communications.coordinator.first_name.size > 0 %}
+				{{ site.data.leadership.communications.coordinator.first_name }} {{ site.data.leadership.communications.coordinator.last_name }}
+							{% if site.data.leadership.communications.coordinator.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.coordinator.email }}">{{ site.data.leadership.communications.coordinator.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+			<li class="list-group-item">
+			  Media Creation Team Lead -
+			  {% if site.data.leadership.communications.media_creation_team.lead.first_name.size > 0 %}
+				{{ site.data.leadership.communications.media_creation_team.lead.first_name }} {{ site.data.leadership.communications.media_creation_team.lead.last_name }}
+							{% if site.data.leadership.communications.media_creation_team.lead.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.media_creation_team.lead.email }}">{{ site.data.leadership.communications.media_creation_team.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+			<li class="list-group-item">
+			  Editors / Brand & Identity Team Lead -
+			  {% if site.data.leadership.communications.editor_team.lead.first_name.size > 0 %}
+				{{ site.data.leadership.communications.editor_team.lead.first_name }} {{ site.data.leadership.communications.editor_team.lead.last_name }}
+							{% if site.data.leadership.communications.editor_team.lead.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.editor_team.lead.email }}">{{ site.data.leadership.communications.editor_team.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+			<li class="list-group-item">
+			  Publications Team Lead -
+			  {% if site.data.leadership.communications.publications_team.lead.first_name.size > 0 %}
+				{{ site.data.leadership.communications.publications_team.lead.first_name }} {{ site.data.leadership.communications.publications_team.lead.last_name }}
+							{% if site.data.leadership.communications.publications_team.lead.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.publications_team.lead.email }}">{{ site.data.leadership.communications.publications_team.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+			<li class="list-group-item">
+			  Special Projects Team Lead -
+			  {% if site.data.leadership.communications.special_projects_team.lead.first_name.size > 0 %}
+				{{ site.data.leadership.communications.special_projects_team.lead.first_name }} {{ site.data.leadership.communications.special_projects_team.lead.last_name }}
+							{% if site.data.leadership.communications.special_projects_team.lead.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.special_projects_team.lead.email }}">{{ site.data.leadership.communications.special_projects_team.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+
 			</ul>
 		</div>
 	</div>
@@ -49,27 +83,49 @@ The communications committee is separated into two teams that work closely toget
 			</div>
 			<ul class="list-group">
 			  <li class="list-group-item">
-          Media Team Advisor -
-          {% if site.data.leadership.communications.media_team.adviser.first_name.size > 0 %}
-            {{ site.data.leadership.communications.media_team.adviser.first_name }} {{ site.data.leadership.communications.media_team.adviser.last_name }}
-						{% if site.data.leadership.communications.media_team.adviser.email.size > 0 %}
-							<br><a href="mailto:{{ site.data.leadership.communications.media_team.adviser.email }}">{{ site.data.leadership.communications.media_team.adviser.email }}</a>
-						{% endif %}
-					{% else %}
-						TBD
-          {% endif %}
-        </li>
-        <li class="list-group-item">
-          Tech Team Lead -
-          {% if site.data.leadership.communications.tech_team.adviser.first_name.size > 0 %}
-            {{ site.data.leadership.communications.tech_team.adviser.first_name }} {{ site.data.leadership.communications.tech_team.adviser.last_name }}
-						{% if site.data.leadership.communications.tech_team.adviser.email.size > 0 %}
-							<br><a href="mailto:{{ site.data.leadership.communications.tech_team.adviser.email }}">{{ site.data.leadership.communications.tech_team.adviser.email }}</a>
-						{% endif %}
-					{% else %}
-						TBD
-          {% endif %}
-        </li>
+				  Media Team Advisor -
+				  {% if site.data.leadership.communications.media_creation_team.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.media_creation_team.adviser.first_name }} {{ site.data.leadership.communications.media_creation_team.adviser.last_name }}
+								{% if site.data.leadership.communications.media_creation_team.adviser.email.size > 0 %}
+									<br><a href="mailto:{{ site.data.leadership.communications.media_creation_team.adviser.email }}">{{ site.data.leadership.communications.media_creation_team.adviser.email }}</a>
+								{% endif %}
+							{% else %}
+								TBD
+				  {% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Editors / Brand & Identity Team Adviser -
+				{% if site.data.leadership.communications.editor_team.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.editor_team.adviser.first_name }} {{ site.data.leadership.communications.editor_team.adviser.last_name }}
+					{% if site.data.leadership.communications.editor_team.adviser.email.size > 0 %}
+						<br><a href="mailto:{{ site.data.leadership.communications.editor_team.adviser.email }}">{{ site.data.leadership.communications.editor_team.adviser.email }}</a>
+					{% endif %}
+				{% else %}
+					TBD
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Publications Team Adviser -
+				{% if site.data.leadership.communications.publications_team.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.publications_team.adviser.first_name }} {{ site.data.leadership.communications.publications_team.adviser.last_name }}
+					{% if site.data.leadership.communications.publications_team.adviser.email.size > 0 %}
+						<br><a href="mailto:{{ site.data.leadership.communications.publications_team.adviser.email }}">{{ site.data.leadership.communications.publications_team.adviser.email }}</a>
+					{% endif %}
+				{% else %}
+					TBD
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
+				Special Projects Team Adviser -
+				{% if site.data.leadership.communications.special_projects_team.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.special_projects_team.adviser.first_name }} {{ site.data.leadership.communications.special_projects_team.adviser.last_name }}
+					{% if site.data.leadership.communications.special_projects_team.adviser.email.size > 0 %}
+						<br><a href="mailto:{{ site.data.leadership.communications.special_projects_team.adviser.email }}">{{ site.data.leadership.communications.special_projects_team.adviser.email }}</a>
+					{% endif %}
+				{% else %}
+					TBD
+				{% endif %}
+			  </li>
 			</ul>
 		</div>
 	</div>
@@ -84,7 +140,7 @@ The communications committee is separated into two teams that work closely toget
 			 Media Team
 			</div>
 			<ul class="list-group">
-			  {% for member in site.data.leadership.communications.media_team.members %}
+			  {% for member in site.data.leadership.communications.media_creation_team.members %}
           <li class="list-group-item">{{ member.first_name }} {{ member.last_name }} </li>
         {% endfor %}
 			</ul>
@@ -93,10 +149,34 @@ The communications committee is separated into two teams that work closely toget
 	<div class="col-xs-12 col-sm-6">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			 Tech Team
+			 Publications Team
 			</div>
 			<ul class="list-group">
-			  {% for member in site.data.leadership.communications.tech_team.members %}
+			  {% for member in site.data.leadership.communications.publications_team.members %}
+          <li class="list-group-item">{{ member.first_name }} {{ member.last_name }} </li>
+        {% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Editors / Brand & Identity Team
+			</div>
+			<ul class="list-group">
+			  {% for member in site.data.leadership.communications.editor_team.members %}
+          <li class="list-group-item">{{ member.first_name }} {{ member.last_name }} </li>
+        {% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			 Special Projects Team
+			</div>
+			<ul class="list-group">
+			  {% for member in site.data.leadership.communications.special_projects_team.members %}
           <li class="list-group-item">{{ member.first_name }} {{ member.last_name }} </li>
         {% endfor %}
 			</ul>

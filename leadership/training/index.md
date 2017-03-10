@@ -16,6 +16,29 @@ They build trained teams that travel to put on the programs based on input from 
 	<div class="col-xs-12 col-sm-6">
 		<div class="panel panel-default">
 			<div class="panel-heading">
+			 Youth Leadership
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item">
+					Committee Lead -
+					{% if site.data.leadership.training.coordinator.first_name.size > 0 %}
+						{{ site.data.leadership.training.coordinator.first_name }} {{ site.data.leadership.training.coordinator.last_name }}
+						{% if site.data.leadership.training.coordinator.email.size > 0 %}
+							<br><a href="mailto:{{ site.data.leadership.training.coordinator.email }}">{{ site.data.leadership.training.coordinator.email }}</a>
+						{% endif %}
+					{% else %}
+						TBD
+					{% endif %}
+				</li>
+				{% for member in site.data.leadership.training.members %}
+				<li class="list-group-item">{{ member.first_name }} {{ member.last_name }} </li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
 			 NLS
 			</div>
 			<ul class="list-group">
