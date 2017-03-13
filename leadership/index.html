@@ -85,9 +85,82 @@ layout: page-with-banner
 </div>
 
 <hr>
-
 <h2>Region Committees</h2>
-{% include region-committee.html %}
+<div class="panel panel-default">
+	<ul class="list-group">
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/administration/"><i class="fa fa-chevron-right"></i> Administration</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/awards-and-recognition/"><i class="fa fa-chevron-right"></i> Awards &amp; Recognition</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/camping-promotions/"><i class="fa fa-chevron-right"></i> Camping Promotions</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/communications/"><i class="fa fa-chevron-right"></i> Communications</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/cub-scout-camping/"><i class="fa fa-chevron-right"></i> Cub Scout Camping</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/finance/"><i class="fa fa-chevron-right"></i> Finance</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/marketing-and-trading-post/"><i class="fa fa-chevron-right"></i> Marketing &amp; Trading Post</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/oa-high-adventure/"><i class="fa fa-chevron-right"></i> OA High Adventure</a>
+		<a class="list-group-item" href="{{ site.baseurl }}leadership/training/"><i class="fa fa-chevron-right"></i> Training</a>
+	</ul>
+</div>
+
+<hr>
+<h2>Area Chairmen</h2>
+<div class="panel panel-default">
+	<ul class="list-group">
+		<li class="list-group-item">
+			Area 1:
+			{% if site.data.leadership.vice_chairman.area_1.email.size > 0 %}
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_1.email }}">{{ site.data.leadership.vice_chairman.area_1.first_name }} {{ site.data.leadership.vice_chairman.area_1.last_name }}</a>
+			{% else %}
+				{{ site.data.leadership.vice_chairman.area_1.first_name }} {{ site.data.leadership.vice_chairman.area_1.last_name }}
+			{% endif %}
+			{% if site.data.leadership.vice_chairman.area_1.focus.size > 0 %}
+				<br>{{ site.data.leadership.vice_chairman.area_1.focus }}
+			{% endif %}
+		</li>
+		<li class="list-group-item">
+			Area 2:
+			{% if site.data.leadership.vice_chairman.area_2.email.size > 0 %}
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_2.email }}">{{ site.data.leadership.vice_chairman.area_2.first_name }} {{ site.data.leadership.vice_chairman.area_2.last_name }}</a>
+			{% else %}
+				{{ site.data.leadership.vice_chairman.area_2.first_name }} {{ site.data.leadership.vice_chairman.area_2.last_name }}
+			{% endif %}
+			{% if site.data.leadership.vice_chairman.area_2.focus.size > 0 %}
+				<br>{{ site.data.leadership.vice_chairman.area_2.focus }}
+			{% endif %}
+		</li>
+		<li class="list-group-item">
+			Area 3:
+			{% if site.data.leadership.vice_chairman.area_3.email.size > 0 %}
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_3.email }}">{{ site.data.leadership.vice_chairman.area_3.first_name }} {{ site.data.leadership.vice_chairman.area_3.last_name }}</a>
+			{% else %}
+				{{ site.data.leadership.vice_chairman.area_3.first_name }} {{ site.data.leadership.vice_chairman.area_3.last_name }}
+			{% endif %}
+			{% if site.data.leadership.vice_chairman.area_3.focus.size > 0 %}
+				<br>{{ site.data.leadership.vice_chairman.area_3.focus }}
+			{% endif %}
+		</li>
+		<li class="list-group-item">
+			Area 4:
+			{% if site.data.leadership.vice_chairman.area_4.email.size > 0 %}
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_4.email }}">{{ site.data.leadership.vice_chairman.area_4.first_name }} {{ site.data.leadership.vice_chairman.area_4.last_name }}</a>
+			{% else %}
+				{{ site.data.leadership.vice_chairman.area_4.first_name }} {{ site.data.leadership.vice_chairman.area_4.last_name }}
+			{% endif %}
+			{% if site.data.leadership.vice_chairman.area_4.focus.size > 0 %}
+				<br>{{ site.data.leadership.vice_chairman.area_4.focus }}
+			{% endif %}
+		</li>
+		<li class="list-group-item">
+			Area 6:
+			{% if site.data.leadership.vice_chairman.area_6.email.size > 0 %}
+				<a href="mailto:{{ site.data.leadership.vice_chairman.area_6.email }}">{{ site.data.leadership.vice_chairman.area_6.first_name }} {{ site.data.leadership.vice_chairman.area_6.last_name }}</a>
+			{% else %}
+				{{ site.data.leadership.vice_chairman.area_6.first_name }} {{ site.data.leadership.vice_chairman.area_6.last_name }}
+			{% endif %}
+			{% if site.data.leadership.vice_chairman.area_6.focus.size > 0 %}
+				<br>{{ site.data.leadership.vice_chairman.area_6.focus }}
+			{% endif %}
+		</li>
+	</ul>
+</div>
 
 <hr>
 
@@ -95,9 +168,6 @@ layout: page-with-banner
 <div class="row national-committee">
 	<div class="col-xs-12 col-sm-6">
 		<div class="panel panel-default">
-			<div class="panel-heading">
-			 Committee Members
-			</div>
 			<ul class="list-group">
 			  {% for committee_member in site.data.leadership.national_committee %}
 					<li class="list-group-item">

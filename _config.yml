@@ -15,7 +15,8 @@ exclude: [
   "tslint.json",
   "webpack.config.js",
   "_typescript",
-  "assets"
+  "assets",
+  "node_modules"
 ]
 keep_files:   [".git"]
 encoding:     "utf-8"

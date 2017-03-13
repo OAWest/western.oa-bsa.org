@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Developing Youth Leaders Conference
-joomla_id: 220
-joomla_url: dylc
-date: 2016-01-23 04:37:45.000000000 -07:00
 ---
 
 The 2016 Developing Youth Leaders Conference (DYLC) will be like nothing before it. This conference focuses on the tools every adult needs to mentor and develop our outstanding youth leaders.

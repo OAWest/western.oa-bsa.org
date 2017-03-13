@@ -96,7 +96,7 @@
           </li>
           <li class="secretary list-group-item">
             {% if section.leadership.secretary.first_name.size > 0 and section.leadership.secretary.last_name.size > 0 %}
-              Section Vice Chief {{section.leadership.secretary.first_name}} {{section.leadership.secretary.last_name}}
+              Section Secretary {{section.leadership.secretary.first_name}} {{section.leadership.secretary.last_name}}
               {% if section.leadership.secretary.member_id.size > 0 %}
                 <a href="{{ site.baseurl }}about-us/contact-us.html?member_id={{ section.leadership.secretary.member_id }}" class="contact"><i class="fa fa-envelope"></i></a>
               {% endif %}

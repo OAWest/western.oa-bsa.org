@@ -18,8 +18,15 @@ main.index {
           display: block;
           text-align: center;
 
-          .logo-nls, .logo-nlats {
+          .logo-nls, .logo-dylc {
             margin: 0 auto;
+			background-size: contain;
+          }
+
+          .logo-dylc {
+            height: 60px;
+            width: 242px;
+            padding-bottom: 15px;
           }
 
           .chief {
