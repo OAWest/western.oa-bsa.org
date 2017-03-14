@@ -6,18 +6,13 @@ description: "Supporting Units through Really Great Elections"
 categories: updates
 ---
 
-
-SURGE Update
-
 Supporting Units through Really Great Elections
-
-We hope the SURGE resources you requested on the Western Region web page have been useful and that you are successfully developing relationships with your LDS units that have or will result in elections.
 
 The SURGE team has created a new training syllabus with additional resources we hope you will find helpful.
 
-<!--more-->
-
 This new material is available at:
+
+<!--more-->
 
 [Conducting Unit Elections for Units chartered by The Church of Jesus Christ of Latter-day Saints.pdf]({{ site.baseurl }}surge/documents/1_SURGE_syllabus_2.17.pdf)
 
@@ -38,5 +33,7 @@ Please take a few minutes to read and understand all the SURGE resources. If you
 Thank you so much for your time and effort. We will be asking for your experiences, good and bad, and for your input. Please take notes as you contact Church leaders and Scoutmasters, conduct your unit elections, and induct new LDS members into your Lodge. We are depending on your help to make improvements in SURGE so it will be successful in the Western Region and someday soon, in all Lodges.
 
 Growth in the Order of the Arrow is possible if we develop really great relationships with our LDS units and support them with really great elections, Induction Weekends, Lodge program and events.
+
+We hope the SURGE resources you requested on the Western Region web page have been useful and that you are successfully developing relationships with your LDS units that have or will result in elections.
 
 The SURGE team
