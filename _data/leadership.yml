@@ -95,8 +95,8 @@ communications:
       last_name: ""
       email: ""
     lead:
-      first_name: ""
-      last_name: ""
+      first_name: "Matthias"
+      last_name: "Leier"
       email: ""
     members:
       -
@@ -109,13 +109,13 @@ communications:
       last_name: "Love"
       email: "webmaster@western.oa-bsa.org"
     lead:
-      first_name: ""
-      last_name: ""
+      first_name: "Mac"
+      last_name: "Richards"
       email: ""
     members:
       -
-        first_name: "Mac"
-        last_name: "Richards"
+        first_name: ""
+        last_name: ""
         email: ""
   special_projects_team:
     adviser:
