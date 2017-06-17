@@ -8051,20 +8051,20 @@ button.close {
 /**
  * Announcements
  */
-.announcement-2017-nls-salt-lake-city {
-  background-image: url("/images/banners/nls-2017-salt-lake-city.jpg");
+.announcement-2017-nls-portland {
+  background-image: url("/images/banners/nls-2017-portland.jpg");
   background-position-y: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .announcement-2017-nls-salt-lake-city {
-      background-image: url("/images/banners/nls-2017-salt-lake-city@2x.jpg");
+    .announcement-2017-nls-portland {
+      background-image: url("/images/banners/nls-2017-portland@2x.jpg");
       background-size: cover; } }
 
-.announcement-2017-dylc-salt-lake-city {
-  background-image: url("/images/banners/dylc-2017-salt-lake-city.jpg");
+.announcement-2017-dylc-portland {
+  background-image: url("/images/banners/dylc-2017-portland.jpg");
   background-position-y: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .announcement-2017-dylc-salt-lake-city {
-      background-image: url("/images/banners/dylc-2017-salt-lake-city@2x.jpg");
+    .announcement-2017-dylc-portland {
+      background-image: url("/images/banners/dylc-2017-portland@2x.jpg");
       background-size: cover; } }
 
 .announcement-2016-04-29-Operation-Arrow {
@@ -8695,6 +8695,20 @@ header.banner.nls-2017-portland {
         background-image: url("/images/banners/nls-2017-portland@2x.jpg");
         background-size: cover; } }
 
+header.banner.dylc-2017-portland {
+  display: none; }
+  @media (min-width: 768px) {
+    header.banner.dylc-2017-portland {
+      display: block;
+      height: 400px; }
+      header.banner.dylc-2017-portland::after {
+        background-image: url("/images/banners/dylc-2017-portland.jpg");
+        background-position-y: top; } }
+    @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
+      header.banner.dylc-2017-portland::after {
+        background-image: url("/images/banners/dylc-2017-portland@2x.jpg");
+        background-size: cover; } }
+
 /**
 * 2017 NLS @ Tokyo Banner
 */
@@ -8829,7 +8843,8 @@ main.index section.highlights {
     display: block;
     text-align: center; }
     main.index section.highlights .container .row .visual .logo-nls, main.index section.highlights .container .row .visual .logo-dylc {
-      margin: 0 auto; }
+      margin: 0 auto;
+      background-size: contain; }
     main.index section.highlights .container .row .visual .logo-dylc {
       height: 60px;
       width: 242px;
@@ -8871,7 +8886,8 @@ main.index section.posts {
     text-align: center;
     height: 85px; }
     .page-content .training .row .nls .visual .logo-nls, .page-content .training .row .nls .visual .logo-nlats, .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-nls, .page-content .training .row .nlats .visual .logo-nlats, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-nls, .page-content .training .row .dylc .visual .logo-nlats, .page-content .training .row .dylc .visual .logo-dylc {
-      margin: 0 auto; }
+      margin: 0 auto;
+      background-size: contain; }
     .page-content .training .row .nls .visual .logo-dylc, .page-content .training .row .nlats .visual .logo-dylc, .page-content .training .row .dylc .visual .logo-dylc {
       height: 60px;
       width: 242px; }
