@@ -51,12 +51,12 @@
 /**
  * Announcements
  */
-.announcement-2017-nls-salt-lake-city {
-  @include retina-image($filename: '/images/banners/nls-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+.announcement-2017-nls-portland {
+  @include retina-image($filename: '/images/banners/nls-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   background-position-y: center;
 }
-.announcement-2017-dylc-salt-lake-city {
-  @include retina-image($filename: '/images/banners/dylc-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+.announcement-2017-dylc-portland {
+  @include retina-image($filename: '/images/banners/dylc-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   background-position-y: center;
 }
 .announcement-2016-04-29-Operation-Arrow {

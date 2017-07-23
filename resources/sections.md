@@ -14,4 +14,4 @@ The transmittal paperwork for the annual Section Conclave's insurance payment. T
 
 A document describing the Insurance Procedures for the Annual Section Conclave.
 
-<a href="{{ site.baseurl }}resources/assets/2017-OA-Insurance-Procedures.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> Download Conclave Insurance Procedures</a>
+<a href="{{ site.baseurl }}resources/assets/2017-insurance-procedures.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> Download Conclave Insurance Procedures</a>

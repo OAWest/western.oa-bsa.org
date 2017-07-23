@@ -44,6 +44,19 @@ header.banner.nls-2017-portland {
     }
   }
 }
+header.banner.dylc-2017-portland {
+  display: none;
+
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    height: 400px;
+
+    &::after {
+      @include retina-image($filename: '/images/banners/dylc-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+      background-position-y: top;
+    }
+  }
+}
 
 /**
 * 2017 NLS @ Tokyo Banner
