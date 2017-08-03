@@ -58,4 +58,4 @@ It also administers the Region Scholarship Program for High Adventure.
 
 The Western Region offers an OA High Adventure Scholarship for each lodge to award.
 
-<a href="{% link program/scholarships/index.md %}" class="btn btn-default">Learn more about the OA High Adventure Scholarship</a>
+<a href="{{ link program/scholarships/index.md }}" class="btn btn-default">Learn more about the OA High Adventure Scholarship</a>
