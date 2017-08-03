@@ -21,4 +21,4 @@ Please Note:
 *	Scholarship money cannot be used for OA Ocean Adventure.
 *	The Western Region will not register on your behalf. You must follow the normal application process.
 
-<a href="{% link program/scholarships/index.md %}" class="btn btn-primary btn-block btn-lg">Learn more about the OA High Adventure Scholarship</a>
+<a href="{{ link program/scholarships/index.md }}" class="btn btn-primary btn-block btn-lg">Learn more about the OA High Adventure Scholarship</a>
