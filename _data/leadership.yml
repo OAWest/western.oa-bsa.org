@@ -268,8 +268,8 @@ oa_high_adventure:
     last_name: "Johnson"
     email: "highadventure@western.oa-bsa.org"
   coordinator:
-    first_name: ""
-    last_name: ""
+    first_name: "Shane"
+    last_name: "Sommers"
     email: ""
 staff_adviser:
   first_name: "Wendy"
