@@ -46,6 +46,10 @@ communications:
   coordinator:
     first_name: "Kyle"
     last_name: "McCaffery"
+    email: "kyle@western.oa-bsa.org"
+  adviser:
+    first_name: "Mark"
+    last_name: "Smith"
     email: ""
   media_creation_team:
     adviser:
@@ -53,8 +57,8 @@ communications:
       last_name: "Smith"
       email: ""
     lead:
-      first_name: "Eric"
-      last_name: "Wagstaff"
+      first_name: "Matthias"
+      last_name: "Leier"
       email: ""
     members:
       -
@@ -74,10 +78,6 @@ communications:
         last_name: "Joya"
         email: ""
       -
-        first_name: "Matthias"
-        last_name: "Leier"
-        email: ""
-      -
         first_name: "Ashton"
         last_name: "Mills"
         email: ""
@@ -86,8 +86,36 @@ communications:
         last_name: "Platts"
         email: ""
       -
-        first_name: "Ryan"
-        last_name: "Thomure"
+        first_name: "Eric"
+        last_name: "Wagstaff"
+        email: ""
+      -
+        first_name: "Elisha"
+        last_name: "Valladares-Cormier"
+        email: ""
+      -
+        first_name: "Tyler"
+        last_name: "Grey"
+        email: ""
+      -
+        first_name: "Jordan"
+        last_name: "Jefferis"
+        email: ""
+      -
+        first_name: "Ruben"
+        last_name: "Villanueva"
+        email: ""
+      -
+        first_name: "Jacen"
+        last_name: "Kimura"
+        email: ""
+      -
+        first_name: "Tegan"
+        last_name: "Yuasa"
+        email: ""
+      -
+        first_name: "David"
+        last_name: "Mudd"
         email: ""
   editor_team:
     adviser:
@@ -95,13 +123,25 @@ communications:
       last_name: ""
       email: ""
     lead:
-      first_name: "Matthias"
-      last_name: "Leier"
+      first_name: "Andrew"
+      last_name: "Zucker"
       email: ""
     members:
       -
-        first_name: ""
-        last_name: ""
+        first_name: "Tyler"
+        last_name: "Grey"
+        email: ""
+      -
+        first_name: "Conner"
+        last_name: "Huey"
+        email: ""
+      -
+        first_name: "Nathaniel"
+        last_name: "Rodgers"
+        email: ""
+      -
+        first_name: "Kyle"
+        last_name: "Silligman"
         email: ""
   publications_team:
     adviser:
@@ -114,13 +154,31 @@ communications:
       email: ""
     members:
       -
+        first_name: "Thomas"
+        last_name: "Wessel"
+        email: ""
+      -
+        first_name: "Walter"
+        last_name: "Hicks"
+        email: ""
+  social_media_team:
+    adviser:
+      first_name: "Michael"
+      last_name: "Kintscher"
+      email: ""
+    lead:
+      first_name: "Jorge"
+      last_name: "Salazar"
+      email: ""
+    members:
+      -
         first_name: ""
         last_name: ""
         email: ""
   special_projects_team:
     adviser:
-      first_name: ""
-      last_name: ""
+      first_name: "Brian"
+      last_name: "Osterhout"
       email: ""
     lead:
       first_name: ""
