@@ -22,7 +22,7 @@ The communications committee is separated into four teams that work closely toge
 			  {% if site.data.leadership.communications.coordinator.first_name.size > 0 %}
 				{{ site.data.leadership.communications.coordinator.first_name }} {{ site.data.leadership.communications.coordinator.last_name }}
 							{% if site.data.leadership.communications.coordinator.email.size > 0 %}
-								<br><a href="mailto:{{ site.data.leadership.communications.coordinator.email }}">{{ site.data.leadership.communications.coordinator.lead.email }}</a>
+								<br><a href="mailto:{{ site.data.leadership.communications.coordinator.email }}">{{ site.data.leadership.communications.coordinator.email }}</a>
 							{% endif %}
 						{% else %}
 							TBD
@@ -62,6 +62,17 @@ The communications committee is separated into four teams that work closely toge
 			  {% endif %}
 			</li>
 			<li class="list-group-item">
+			  Social Media Team Lead -
+			  {% if site.data.leadership.communications.social_media_team.lead.first_name.size > 0 %}
+				{{ site.data.leadership.communications.social_media_team.lead.first_name }} {{ site.data.leadership.communications.social_media_team.lead.last_name }}
+							{% if site.data.leadership.communications.social_media_team.lead.email.size > 0 %}
+								<br><a href="mailto:{{ site.data.leadership.communications.social_media_team.lead.email }}">{{ site.data.leadership.communications.social_media_team.lead.email }}</a>
+							{% endif %}
+						{% else %}
+							TBD
+			  {% endif %}
+			</li>
+			<li class="list-group-item">
 			  Special Projects Team Lead -
 			  {% if site.data.leadership.communications.special_projects_team.lead.first_name.size > 0 %}
 				{{ site.data.leadership.communications.special_projects_team.lead.first_name }} {{ site.data.leadership.communications.special_projects_team.lead.last_name }}
@@ -83,8 +94,19 @@ The communications committee is separated into four teams that work closely toge
 			</div>
 			<ul class="list-group">
 			  <li class="list-group-item">
-				  Media Team Advisor -
-				  {% if site.data.leadership.communications.media_creation_team.adviser.first_name.size > 0 %}
+				  Committee Advisor -
+				  {% if site.data.leadership.communications.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.adviser.first_name }} {{ site.data.leadership.communications.adviser.last_name }}
+								{% if site.data.leadership.communications.adviser.email.size > 0 %}
+									<br><a href="mailto:{{ site.data.leadership.communications.adviser.email }}">{{ site.data.leadership.communications.adviser.email }}</a>
+								{% endif %}
+							{% else %}
+								TBD
+				  {% endif %}
+			  </li>
+			  <li class="list-group-item">
+				  Media Creation Team Advisor -
+				  {% if site.data.leadership.communications.adviser.first_name.size > 0 %}
 					{{ site.data.leadership.communications.media_creation_team.adviser.first_name }} {{ site.data.leadership.communications.media_creation_team.adviser.last_name }}
 								{% if site.data.leadership.communications.media_creation_team.adviser.email.size > 0 %}
 									<br><a href="mailto:{{ site.data.leadership.communications.media_creation_team.adviser.email }}">{{ site.data.leadership.communications.media_creation_team.adviser.email }}</a>
@@ -116,6 +138,17 @@ The communications committee is separated into four teams that work closely toge
 				{% endif %}
 			  </li>
 			  <li class="list-group-item">
+				Social Media Team Adviser -
+				{% if site.data.leadership.communications.social_media_team.adviser.first_name.size > 0 %}
+					{{ site.data.leadership.communications.social_media_team.adviser.first_name }} {{ site.data.leadership.communications.social_media_team.adviser.last_name }}
+					{% if site.data.leadership.communications.social_media_team.adviser.email.size > 0 %}
+						<br><a href="mailto:{{ site.data.leadership.communications.social_media_team.adviser.email }}">{{ site.data.leadership.communications.social_media_team.adviser.email }}</a>
+					{% endif %}
+				{% else %}
+					TBD
+				{% endif %}
+			  </li>
+			  <li class="list-group-item">
 				Special Projects Team Adviser -
 				{% if site.data.leadership.communications.special_projects_team.adviser.first_name.size > 0 %}
 					{{ site.data.leadership.communications.special_projects_team.adviser.first_name }} {{ site.data.leadership.communications.special_projects_team.adviser.last_name }}
@@ -137,7 +170,7 @@ The communications committee is separated into four teams that work closely toge
 	<div class="col-xs-12 col-sm-6">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			 Media Team
+			 Media Creation Team
 			</div>
 			<ul class="list-group">
 			  {% for member in site.data.leadership.communications.media_creation_team.members %}
