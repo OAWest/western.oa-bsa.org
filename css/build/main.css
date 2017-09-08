@@ -5834,15 +5834,15 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*!
- *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.6.3");
-  src: url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  src: url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -7655,6 +7655,7 @@ button.close {
   content: ""; }
 
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: ""; }
 
@@ -8000,6 +8001,143 @@ button.close {
 .fa-fa:before,
 .fa-font-awesome:before {
   content: ""; }
+
+.fa-handshake-o:before {
+  content: ""; }
+
+.fa-envelope-open:before {
+  content: ""; }
+
+.fa-envelope-open-o:before {
+  content: ""; }
+
+.fa-linode:before {
+  content: ""; }
+
+.fa-address-book:before {
+  content: ""; }
+
+.fa-address-book-o:before {
+  content: ""; }
+
+.fa-vcard:before,
+.fa-address-card:before {
+  content: ""; }
+
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: ""; }
+
+.fa-user-circle:before {
+  content: ""; }
+
+.fa-user-circle-o:before {
+  content: ""; }
+
+.fa-user-o:before {
+  content: ""; }
+
+.fa-id-badge:before {
+  content: ""; }
+
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: ""; }
+
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: ""; }
+
+.fa-quora:before {
+  content: ""; }
+
+.fa-free-code-camp:before {
+  content: ""; }
+
+.fa-telegram:before {
+  content: ""; }
+
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: ""; }
+
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: ""; }
+
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: ""; }
+
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: ""; }
+
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: ""; }
+
+.fa-shower:before {
+  content: ""; }
+
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: ""; }
+
+.fa-podcast:before {
+  content: ""; }
+
+.fa-window-maximize:before {
+  content: ""; }
+
+.fa-window-minimize:before {
+  content: ""; }
+
+.fa-window-restore:before {
+  content: ""; }
+
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: ""; }
+
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: ""; }
+
+.fa-bandcamp:before {
+  content: ""; }
+
+.fa-grav:before {
+  content: ""; }
+
+.fa-etsy:before {
+  content: ""; }
+
+.fa-imdb:before {
+  content: ""; }
+
+.fa-ravelry:before {
+  content: ""; }
+
+.fa-eercast:before {
+  content: ""; }
+
+.fa-microchip:before {
+  content: ""; }
+
+.fa-snowflake-o:before {
+  content: ""; }
+
+.fa-superpowers:before {
+  content: ""; }
+
+.fa-wpexplorer:before {
+  content: ""; }
+
+.fa-meetup:before {
+  content: ""; }
 
 .sr-only {
   position: absolute;
@@ -8658,7 +8796,8 @@ header.banner.nls-2017-salt-lake-city {
       height: 400px; }
       header.banner.nls-2017-salt-lake-city::after {
         background-image: url("/images/banners/nls-2017-salt-lake-city.jpg");
-        background-position-y: center; } }
+        background-position: center center;
+        background-size: cover; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.nls-2017-salt-lake-city::after {
         background-image: url("/images/banners/nls-2017-salt-lake-city@2x.jpg");
@@ -8672,7 +8811,8 @@ header.banner.dylc-2017-salt-lake-city {
       height: 400px; }
       header.banner.dylc-2017-salt-lake-city::after {
         background-image: url("/images/banners/dylc-2017-salt-lake-city.jpg");
-        background-position-y: center; } }
+        background-position: center center;
+        background-size: cover; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.dylc-2017-salt-lake-city::after {
         background-image: url("/images/banners/dylc-2017-salt-lake-city@2x.jpg");
@@ -8689,7 +8829,8 @@ header.banner.nls-2017-portland {
       height: 400px; }
       header.banner.nls-2017-portland::after {
         background-image: url("/images/banners/nls-2017-portland.jpg");
-        background-position-y: top; } }
+        background-position: center center;
+        background-size: cover; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.nls-2017-portland::after {
         background-image: url("/images/banners/nls-2017-portland@2x.jpg");
@@ -8703,7 +8844,8 @@ header.banner.dylc-2017-portland {
       height: 400px; }
       header.banner.dylc-2017-portland::after {
         background-image: url("/images/banners/dylc-2017-portland.jpg");
-        background-position-y: top; } }
+        background-position: top center;
+        background-size: cover; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.dylc-2017-portland::after {
         background-image: url("/images/banners/dylc-2017-portland@2x.jpg");
@@ -8718,7 +8860,9 @@ header.banner.nls-2017-tokyo {
     header.banner.nls-2017-tokyo {
       display: block; }
       header.banner.nls-2017-tokyo::after {
-        background-image: url("/images/banners/nls-2017-tokyo.jpg"); } }
+        background-image: url("/images/banners/nls-2017-tokyo.jpg");
+        background-position: center center;
+        background-size: cover; } }
     @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 768px) and (min-resolution: 125dpi), only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
       header.banner.nls-2017-tokyo::after {
         background-image: url("/images/banners/nls-2017-tokyo@2x.jpg");
@@ -8730,7 +8874,12 @@ header.banner.nls-2017-tokyo {
 header.banner.fire-with-logo {
   height: 300px; }
   header.banner.fire-with-logo::after {
+    background-position: center center;
+    background-size: cover;
     background-image: url("/images/banners/fire-with-logo.jpg"); }
+    @media screen and (min-width: 1420px) {
+      header.banner.fire-with-logo::after {
+        background-image: url(/images/banners/fire-with-logo@2x.jpg); } }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.fire-with-logo::after {
         background-image: url("/images/banners/fire-with-logo@2x.jpg");
@@ -8743,7 +8892,8 @@ header.banner.firm-bound-in-brotherhood {
   height: 300px; }
   header.banner.firm-bound-in-brotherhood::after {
     background-color: #2e2930;
-    background-image: url("/images/banners/firm-bound-in-brotherhood.jpg"); }
+    background-image: url("/images/banners/firm-bound-in-brotherhood.jpg");
+    background-size: contain; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.firm-bound-in-brotherhood::after {
         background-image: url("/images/banners/firm-bound-in-brotherhood@2x.jpg");
@@ -8755,7 +8905,12 @@ header.banner.firm-bound-in-brotherhood {
 header.banner.mountains-with-logo {
   height: 300px; }
   header.banner.mountains-with-logo::after {
+    background-position: center center;
+    background-size: cover;
     background-image: url("/images/banners/mountains-with-logo.jpg"); }
+    @media screen and (min-width: 1420px) {
+      header.banner.mountains-with-logo::after {
+        background-image: url(/images/banners/mountains-with-logo@2x.jpg); } }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.mountains-with-logo::after {
         background-image: url("/images/banners/mountains-with-logo@2x.jpg");
@@ -8768,7 +8923,9 @@ header.banner.nls-steve-jobs-quote {
   height: 300px; }
   header.banner.nls-steve-jobs-quote::after {
     background-color: #2d2a30;
-    background-image: url("/images/banners/nls-steve-jobs-quote.png"); }
+    background-image: url("/images/banners/nls-steve-jobs-quote.png");
+    background-position: top center;
+    background-size: contain; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.nls-steve-jobs-quote::after {
         background-image: url("/images/banners/nls-steve-jobs-quote@2x.png");
@@ -8781,7 +8938,9 @@ header.banner.resources {
   height: 300px; }
   header.banner.resources::after {
     background-color: #000;
-    background-image: url("/images/banners/resources.jpg"); }
+    background-image: url("/images/banners/resources.jpg");
+    background-position: center center;
+    background-size: contain; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.resources::after {
         background-image: url("/images/banners/resources@2x.jpg");
@@ -8793,7 +8952,9 @@ header.banner.resources {
 header.banner.trees {
   height: 300px; }
   header.banner.trees::after {
-    background-image: url("/images/banners/trees.jpg"); }
+    background-image: url("/images/banners/trees.jpg");
+    background-position: center center;
+    background-size: cover; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header.banner.trees::after {
         background-image: url("/images/banners/trees@2x.jpg");

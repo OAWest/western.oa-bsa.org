@@ -10,7 +10,8 @@ header.banner.nls-2017-salt-lake-city {
 
     &::after {
       @include retina-image($filename: '/images/banners/nls-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-      background-position-y: center;
+      background-position: center center;
+	  background-size: cover;
     }
   }
 }
@@ -23,7 +24,8 @@ header.banner.dylc-2017-salt-lake-city {
 
     &::after {
       @include retina-image($filename: '/images/banners/dylc-2017-salt-lake-city', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-      background-position-y: center;
+      background-position: center center;
+	  background-size: cover;
     }
   }
 }
@@ -40,7 +42,8 @@ header.banner.nls-2017-portland {
 
     &::after {
       @include retina-image($filename: '/images/banners/nls-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-      background-position-y: top;
+      background-position: center center;
+	  background-size: cover;
     }
   }
 }
@@ -53,7 +56,8 @@ header.banner.dylc-2017-portland {
 
     &::after {
       @include retina-image($filename: '/images/banners/dylc-2017-portland', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-      background-position-y: top;
+      background-position: top center;
+	  background-size: cover;
     }
   }
 }
@@ -69,6 +73,8 @@ header.banner.nls-2017-tokyo {
 
     &::after {
       @include retina-image($filename: '/images/banners/nls-2017-tokyo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+	  background-position: center center;
+	  background-size: cover;
     }
   }
 }
@@ -80,6 +86,9 @@ header.banner.fire-with-logo {
   height: 300px;
 
   &::after {
+	background-position: center center;
+    background-size: cover;
+	@media screen and (min-width: 1420px){ background-image: url(/images/banners/fire-with-logo@2x.jpg); }
     @include retina-image($filename: '/images/banners/fire-with-logo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   }
 }
@@ -93,6 +102,7 @@ header.banner.firm-bound-in-brotherhood {
   &::after {
     background-color: $deep-purple;
     @include retina-image($filename: '/images/banners/firm-bound-in-brotherhood', $background-size: contain, $extension: 'jpg', $retina-suffix: '@2x');
+	background-size: contain;
   }
 }
 
@@ -103,6 +113,9 @@ header.banner.mountains-with-logo {
   height: 300px;
 
   &::after {
+	background-position: center center;
+	background-size: cover;
+	@media screen and (min-width: 1420px){ background-image: url(/images/banners/mountains-with-logo@2x.jpg); }
     @include retina-image($filename: '/images/banners/mountains-with-logo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
   }
 }
@@ -116,6 +129,8 @@ header.banner.nls-steve-jobs-quote {
   &::after {
     background-color: #2d2a30;
     @include retina-image($filename: '/images/banners/nls-steve-jobs-quote', $background-size: contain, $extension: 'png', $retina-suffix: '@2x');
+	background-position: top center;
+	background-size:contain;
   }
 }
 
@@ -128,6 +143,8 @@ header.banner.resources {
   &::after {
     background-color: #000;
     @include retina-image($filename: '/images/banners/resources', $background-size: contain, $extension: 'jpg', $retina-suffix: '@2x');
+	background-position: center center;
+	background-size: contain;
   }
 }
 
@@ -139,5 +156,7 @@ header.banner.trees {
 
   &::after {
     @include retina-image($filename: '/images/banners/trees', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+	background-position: center center;
+	background-size: cover;
   }
 }
