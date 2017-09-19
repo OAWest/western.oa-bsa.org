@@ -16,7 +16,7 @@ the Order of the Arrow has to offer and what it does for scouting a special
 commemorative patch was made for the occasion. Only a limited amount of patches
 were made and supply is running out fast.
 
-<!--More-->
+<!--more-->
 
 The patch was designed with the show in mind. From the giant
 globes to the excited crowd, you’ll want to take home this one of a kind
