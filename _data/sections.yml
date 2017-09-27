@@ -46,16 +46,16 @@
   leadership:
     chief:
       member_id: "fwtkuKi%2BWl8VBxiYtPlEZgrjWKQ3ln%2BfO4F6k4EVfxqreer1B1nJ3R%2FVpuDrgZH2EISwYMECPj%2FV0CR0SYHt68"
-      first_name: "Kyle"
-      last_name: "McCaffery"
+      first_name: "Antonyo"
+      last_name: "Mitchell"
     vice_chief:
       member_id: "Ll4Hx8tXNX3VA8cIcBwT8wSQAv6DZGjBHsHDQH7212PPqQw3%2BIIxA1Wo%2F1StW5S7CUbABpsgvoQmEtb05TgLgj"
-      first_name: "Levi"
-      last_name: "Casto"
-    secretary:
-      member_id: "E3%2BFH%2F56ukbR%2Bupx5ONZTAUHkBs7ewDIANa535twNdqxGZz3YV8t1L%2Fo8Ts09e%2FLpcgGKT8%2FfVQsFQ7XmhUYo0"
       first_name: "Mac"
       last_name: "Richards"
+    secretary:
+      member_id: "E3%2BFH%2F56ukbR%2Bupx5ONZTAUHkBs7ewDIANa535twNdqxGZz3YV8t1L%2Fo8Ts09e%2FLpcgGKT8%2FfVQsFQ7XmhUYo0"
+      first_name: "Adam"
+      last_name: "Kipust"
     adviser:
       member_id: "JbQO14Wu0L3heIdkooSbmQ55WT7OWHY%2BSq4538VH9KPh%2FlRVVIPjZ%2FTHk1%2BHVJ60c9%2Budl1CR3wxxN%2BSaVozs0"
       first_name: "Steve"
