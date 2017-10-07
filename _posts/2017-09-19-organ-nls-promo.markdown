@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Oregon NLS Promo"
+title: "Oregon NLS Promotional Interview"
 date: 2017-09-19 7:4
-description: "Promo Article for the 2017 Oregon NLS"
+description: "Q&A about NLS with Western Region Chief, Manué Lopez"
 categories: updates
 author: matthias_leier
 ---
@@ -10,6 +10,8 @@ author: matthias_leier
 <img src="{{ site.baseurl }}images/posts/2017NLS/nls-desktop-01.jpg" class="img-thumbnail img-responsive center-block">
 
 Q&A about NLS with Western Region Chief, Manué Lopez
+
+<!--more-->
 
 Q: What does NLS stand for and what does that mean?
 
