@@ -70,10 +70,11 @@ header.banner.nls-2017-tokyo {
 
   @media (min-width: $screen-sm-min) {
     display: block;
+    height: 400px;
 
     &::after {
       @include retina-image($filename: '/images/banners/nls-2017-tokyo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
-	  background-position: center center;
+      background-position: center center;
 	  background-size: cover;
     }
   }

@@ -8866,7 +8866,8 @@ header.banner.nls-2017-tokyo {
   display: none; }
   @media (min-width: 768px) {
     header.banner.nls-2017-tokyo {
-      display: block; }
+      display: block;
+      height: 400px; }
       header.banner.nls-2017-tokyo::after {
         background-image: url("/images/banners/nls-2017-tokyo.jpg");
         background-position: center center;
