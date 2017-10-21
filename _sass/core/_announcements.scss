@@ -62,3 +62,7 @@
 .announcement-2016-04-29-Operation-Arrow {
   @include retina-image($filename: '/images/announcements/2016-04-29-Operation-Arrow', $background-size: 200px, $extension: 'jpg', $retina-suffix: '@2x');
 }
+.announcement-2017-nls-tokyo {
+  @include retina-image($filename: '/images/banners/nls-2017-tokyo', $background-size: cover, $extension: 'jpg', $retina-suffix: '@2x');
+  background-position-y: center;
+}

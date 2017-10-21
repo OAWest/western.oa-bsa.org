@@ -8212,6 +8212,14 @@ button.close {
       background-image: url("/images/announcements/2016-04-29-Operation-Arrow@2x.jpg");
       background-size: 200px; } }
 
+.announcement-2017-nls-tokyo {
+  background-image: url("/images/banners/nls-2017-tokyo.jpg");
+  background-position-y: center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .announcement-2017-nls-tokyo {
+      background-image: url("/images/banners/nls-2017-tokyo@2x.jpg");
+      background-size: cover; } }
+
 /**
  * Body
  */

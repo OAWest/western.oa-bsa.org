@@ -3,7 +3,7 @@ title: "National Leadership Seminar (NLS) - Western Region, Order of the Arrow, 
 date:   2016-04-29 17:27 -0600
 description: "The National Leadership Seminar (NLS) is a weekend training program focusing on leadership development."
 layout: page-with-banner
-bannerClass: "nls-2017-portland"
+bannerClass: "nls-2017-tokyo"
 ---
 
 <div class="logo-nls center-block"></div>

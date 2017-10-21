@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Area 4 Concalve Spotlight"
-date: 2017-10-7 22:6
-description: "Spotlight of the Area 4 Concalve"
+title: "Area 4 Conclave Spotlight"
+date: 2017-10-7 08:19 -08:00
+description: "Spotlight of the Area 4 Conclave"
 categories: updates
 author: matthias_leier
 ---
@@ -11,7 +11,11 @@ author: matthias_leier
 
 Area 4 Teams Up for the 2017 Area 4 Area-Conclave
 
-“What’s better than two section conclaves?” <!--More-->This is the question that was asked at one W-4N Council of Chiefs (COC) meeting in the fall of 2015. The answer that they came up with; “One amazing combined conclave… An Area-clave.”  This September, two years of planning will finally come together for the leadership of Section W-4S and Section W-4N.
+“What’s better than two section conclaves?” This is the question that was asked at one W-4N Council of Chiefs (COC) meeting in the fall of 2015.
+
+<!--more-->
+
+The answer that they came up with; “One amazing combined conclave… An Area-clave.”  This September, two years of planning will finally come together for the leadership of Section W-4S and Section W-4N.
 
 Both Sections decided to team up to put the best they had to offer together and create something that is going to be a one of a kind event that celebrates the Order of the Arrow in all of Southern California. Nine lodges will come together to celebrate, compete and bond in brotherhood at the beautiful Irvine Ranch Outdoor Education Center (IROEC) at what they are calling an Area-clave. Participants will not just be from sunny Southern California though, Arrowmen from around the region as well as the country will be there. Special guests include the National Vice Chief of the Order of the Arrow Talon Parker, the Western Region Chief Manué Lopez and the Western Region Chairman Gary Christianson.
 
