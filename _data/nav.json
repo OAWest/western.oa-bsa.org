@@ -32,7 +32,7 @@
       text: "SURGE"
     },
     {
-      url: "https://tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",
+      url: "//tradingpost.oa-bsa.org/SearchResults.asp?Cat=58",
       text: "Trading Post"
     }
   ]
