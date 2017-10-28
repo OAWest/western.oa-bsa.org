@@ -48,7 +48,9 @@ ___
 
 <a href="{{ site.baseurl }}surge/documents/1_SURGE_syllabus_2.17.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> Conducting Unit Elections for Units chartered by The Church of Jesus Christ of Latter-day Saints</a>
 
-<a href="{{ site.baseurl }}surge/documents/3_SURGE_How_To_Guide_2.17.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> LDS Unit Election Video How-to Guide</a>
+<a href="{{ site.baseurl }}surge/documents/2_SURGE_PPT_2.17.ppt" class="btn btn-default"><i class="fa fa-file-powerpoint-o"></i> Powerpoint for Unit Visits </a>
+
+<a href="{{ site.baseurl }}surge/documents/3_SURGE_How_To_Guide_10.17.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> LDS Unit Election Video How-to Guide</a>
 
 <a href="{{ site.baseurl }}surge/documents/4_SURGE_Sample_Scoutmaster_Letter_2.17.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> Sample Scoutmaster Letter</a>
 
@@ -59,3 +61,7 @@ ___
 <a href="{{ site.baseurl }}surge/documents/7_SURGE_Myths_2.17.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> Myths – LDS Scouting & The Order of the Arrow</a>
 
 <a href="{{ site.baseurl }}surge/documents/8_SURGE.RESOURCE_2.17.docx" class="btn btn-default"><i class="fa fa-file-word-o"></i> Customizable Resources</a>
+
+<a href="{{ site.baseurl }}surge/documents/9_How_To_Get_The_Video.pdf" class="btn btn-default"><i class="fa fa-file-pdf-o"></i> How to Get the Video</a>
+
+<a href="{{ site.baseurl }}surge/documents/10_NEXT_SURGE_email_3.17.pdf" class="btn btn-default"><i class="fa fa-file-word-o"></i> SUREGE Email</a>
