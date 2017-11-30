@@ -17,6 +17,8 @@ Area Director Jim Hans recently visited Puerto Rico to <!--More-->survey the dam
 “In many towns and villages, Scouting units were among the first organized groups to respond after the storm. ‘To help other people at all times’ took on a life of its own as Scout groups cleared debris, distributed food and water, cooked meals, and helped those who needed it. It was a privilege to witness Scouting values on display island-wide.
 “Puerto Rico can survive this, but they need the help of us States-side. Fundraising on the island has been put on hold for an undetermined time; our support will be needed during this time to both rebuild what Maria destroyed as well as to allow the council to continue serving the youth that are, as we speak, serving their communities.”
 
+<!--more-->
+
 **The original post follows. Patches are still for sale.**
 
 Scouts help other people at all times, and the Puerto Rico Council needs our help at this time.
