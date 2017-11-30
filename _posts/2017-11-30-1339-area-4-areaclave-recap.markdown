@@ -1,13 +1,16 @@
-﻿---
+---
 layout: post
 title: "Area 4 Areaclave Recap"
-date: 2017-11-18 14:00 -07:00
+date: 2017-11-30 13:39
 description: "Recap of the Area 4 Area Conclave"
 categories: updates
 author: matthias_leier
 ---
-<img src="{{ site.baseurl }}images/posts/2017Area4/areaclave-recap-image-01" class="img-thumbnail img-responsive center-block">
+
+<img src="{{ site.baseurl }}images/posts/2017Area4/areaclave-recap-image-01.jpg" class="img-thumbnail img-responsive center-block">
+
 Starting around 5:00pm on Friday, September 15, 530 Arrowmen from all around Area 4 gathered at the Irvine Outdoor Education Center in Irvine, California for a weekend filled with fun and fellowship. Starting back in 2016, Section W-4N and W-4S began brainstorming a potential Area Conclave - the first one in nearly 27 years. The two Section Chiefs, Matthias L. and Javier V., eventually agreed and began meeting to construct a solid base for the Area Conclave.
+
 <!--more-->
 
 This following year, in 2017, joint Area Council of Chiefs Meetings, or COCs, began being held. Jorge Salazar and Matthew McMahan, the new leadership, headed the COCs in the year leading up to the Area Conclave, which was eventually dubbed the ‘Areaclave’. At Areaclave, trainings, patch trading, auctions, sports, museums, shows, and lodge fairs were amongst the many activities offered to the Arrowmen in attendance. On Friday, the evening started off with some fun as lodge chiefs from the nine lodges in Area 4 were called up to have a dance off before cracker barrel. The festivities began early the next morning starting with Meet the Man, where National Vice Chief Talon Parker and Western Region Chief Manué Lopez fielded questions from their W4 brothers. Later in the morning, training sessions were held by several special guests from in and out of the Area. Just before lunch, the traditional Lodge Fair took place alongside the Camp Promotions competition. Amongst the lodge’s booths were large Jenga, finger football, branding, and even an official Skippy approval booth (he’s wicked important).
